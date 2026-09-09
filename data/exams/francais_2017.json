@@ -1,0 +1,244 @@
+{
+  "questions": [
+    {
+      "id": "f2017_q1",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Les recrues que nous avons aperçus montaient la garde",
+        "b": "Les recrues que nous avons aperçu montaient la garde",
+        "c": "Les recrues que nous avons aperçues montaient la garde",
+        "d": "Les recrues que nous avons aperçue montaient la garde"
+      },
+      "correct": "c",
+      "explication": "« Apercevoir » : le COD « que » (les recrues, féminin pluriel) placé avant entraîne l'accord (« aperçues »)."
+    },
+    {
+      "id": "f2017_q2",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Les lettres qu'ils se sont adressé leur sont parvenu",
+        "b": "Les lettres qu'ils se sont adressées leur sont parvenues",
+        "c": "Les lettres qu'ils se sont adressées leurs sont parvenues",
+        "d": "Les lettres qu'ils se sont adressés leur sont parvenus"
+      },
+      "correct": "b",
+      "explication": "« Que » (les lettres, féminin pluriel) est le vrai COD d'« adresser » : accord « adressées ». « Parvenir » (intransitif) s'accorde avec son sujet « lettres »."
+    },
+    {
+      "id": "f2017_q3",
+      "text": "Quelle est la fonction de la subordonnée soulignée ? « Il a longtemps couru si bien qu'il s'est essoufflé »",
+      "choices": {
+        "a": "Complément circonstanciel de conséquence",
+        "b": "Complément circonstanciel d'opposition",
+        "c": "Complément circonstanciel de cause",
+        "d": "Complément circonstanciel de condition"
+      },
+      "correct": "a",
+      "explication": "« Si bien que » introduit une conséquence."
+    },
+    {
+      "id": "f2017_q4",
+      "text": "Lequel de ces écrivains est un poète célèbre ?",
+      "choices": {
+        "a": "Sembène Ousmane",
+        "b": "Honoré de Balzac",
+        "c": "Albert Camus",
+        "d": "Charles Baudelaire"
+      },
+      "correct": "d",
+      "explication": "Charles Baudelaire (Les Fleurs du Mal) est poète ; les autres sont romanciers."
+    },
+    {
+      "id": "f2017_q5",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Deux pauses-café sont prévues lors de la réunion",
+        "b": "Deux pauses-cafés sont prévues lors de la réunion",
+        "c": "Deux pose-café sont prévus lors de la réunion",
+        "d": "Deux poses-café sont prévues lors de la réunion"
+      },
+      "correct": "a",
+      "explication": "« Pause-café » : seul « pause » prend la marque du pluriel, « café » (complément) reste invariable."
+    },
+    {
+      "id": "f2017_q6",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Les affaires dont vous faites allusion sont classées sans suite",
+        "b": "Les affaires desquelles vous faites allusion sont classées sans suite",
+        "c": "Les affaires auxquelles vous faites allusion sont classées sans suite",
+        "d": "Les affaires où vous faites allusion sont classées sans suite"
+      },
+      "correct": "c",
+      "explication": "« Faire allusion À quelque chose » : le relatif adapté est « auxquelles »."
+    },
+    {
+      "id": "f2017_q7",
+      "text": "« Être à couteaux tirés avec quelqu'un » signifie :",
+      "choices": {
+        "a": "Être d'accord avec quelqu'un",
+        "b": "Jouer avec quelqu'un aux cartes",
+        "c": "Partager une épreuve avec quelqu'un",
+        "d": "Être en conflit avec quelqu'un"
+      },
+      "correct": "d",
+      "explication": "Cette expression signifie être en conflit ouvert avec quelqu'un."
+    },
+    {
+      "id": "f2017_q8",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Les vacances qu'ils ont passées à la campagne les ont beaucoup plues",
+        "b": "Les vacances qu'ils ont passées à la campagne leur ont beaucoup plu",
+        "c": "Les vacances qu'ils ont passés à la campagne leurs ont beaucoup plu",
+        "d": "Les vacances qu'ils ont passé à la campagne leur ont beaucoup plus"
+      },
+      "correct": "b",
+      "explication": "« Passer des vacances » (transitif direct) : accord avec « que » (vacances, féminin pluriel) → « passées ». Le participe de « plaire » est toujours invariable (« plu »)."
+    },
+    {
+      "id": "f2017_q9",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Les factures que nous avons reçus n'ont pas subis de baisse",
+        "b": "Les factures que nous avons reçues n'ont pas subi de baisse",
+        "c": "Les factures que nous avons reçu n'ont pas subi de baisse",
+        "d": "Les factures que nous avons reçues n'ont pas subies de baisse"
+      },
+      "correct": "b",
+      "explication": "« Recevoir » : accord avec « que » (factures, féminin pluriel) → « reçues ». « Subir » a son propre COD (« de baisse ») placé après : il reste invariable."
+    },
+    {
+      "id": "f2017_q10",
+      "text": "Quelle est la fonction de l'expression soulignée ? « Du fond des souterrains montaient des voix »",
+      "choices": {
+        "a": "Complément d'objet direct",
+        "b": "Complément du nom",
+        "c": "Complément d'objet indirect",
+        "d": "Sujet"
+      },
+      "correct": "d",
+      "explication": "Phrase inversée : « des voix » est le sujet réel de « montaient »."
+    },
+    {
+      "id": "f2017_q11",
+      "text": "Quelle figure de style avons-nous dans la phrase suivante ? « Une obscure clarté tombe des étoiles »",
+      "choices": {
+        "a": "Une anaphore",
+        "b": "Une redondance",
+        "c": "Un oxymore",
+        "d": "Une litote"
+      },
+      "correct": "c",
+      "explication": "« Obscure clarté » associe deux termes contradictoires : un oxymore (Corneille, Le Cid)."
+    },
+    {
+      "id": "f2017_q12",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Bien qu'il soit malade, il est venu à l'école",
+        "b": "Bien qu'il a été malade, il est venu à l'école",
+        "c": "Bien qu'il est malade, il est venu à l'école",
+        "d": "Bien qu'il fut malade, il est venu à l'école"
+      },
+      "correct": "a",
+      "explication": "« Bien que » se construit avec le subjonctif (« soit »)."
+    },
+    {
+      "id": "f2017_q13",
+      "text": "Comment appelle-t-on ce type de vers ? « Et leur chanson se mêle au clair de lune »",
+      "choices": {
+        "a": "Un décasyllabe",
+        "b": "Un alexandrin",
+        "c": "Un ennéasyllabe",
+        "d": "Un octosyllabe"
+      },
+      "correct": "d",
+      "explication": "Ce vers de Verlaine (Clair de lune) compte huit syllabes : un octosyllabe."
+    },
+    {
+      "id": "f2017_q14",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Les pièces que nous avons vues représenter sont de Molière",
+        "b": "Les pièces que nous avons vus représenter sont de Molière",
+        "c": "Les pièces que nous avons vu représentés sont de Molière",
+        "d": "Les pièces que nous avons vu représenter sont de Molière"
+      },
+      "correct": "d",
+      "explication": "Les pièces ne représentent pas, elles sont représentées : elles sont patientes de l'infinitif, donc le participe reste invariable (« vu »)."
+    },
+    {
+      "id": "f2017_q15",
+      "text": "Qui est l'auteur de Madame Bovary ?",
+      "choices": {
+        "a": "Victor Hugo",
+        "b": "Stendhal",
+        "c": "Gustave Flaubert",
+        "d": "Honoré de Balzac"
+      },
+      "correct": "c",
+      "explication": "Madame Bovary (1857) est un roman de Gustave Flaubert."
+    },
+    {
+      "id": "f2017_q16",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Les garçons portaient des chemises vertes claires et des casquettes oranges",
+        "b": "Les garçons portaient des chemises vert clair et des casquettes orange",
+        "c": "Les garçons portaient des chemises vert claires et des casquettes oranges",
+        "d": "Les garçons portaient des chemises verts clairs et des casquettes orange"
+      },
+      "correct": "b",
+      "explication": "« Vert clair » (couleur composée) et « orange » (couleur issue d'un nom) sont invariables."
+    },
+    {
+      "id": "f2017_q17",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Elles se sont heurté et se sont évanoui",
+        "b": "Elles se sont heurtées et se sont évanouies",
+        "c": "Elles se sont heurté et se sont évanouies",
+        "d": "Elles se sont heurtées et se sont évanoui"
+      },
+      "correct": "b",
+      "explication": "« Se heurter » (direct, se=COD) s'accorde. « S'évanouir » (essentiellement pronominal) s'accorde toujours avec le sujet."
+    },
+    {
+      "id": "f2017_q18",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Des symphonies, nous en avons écoutées de délicieuses",
+        "b": "Des symphonies, nous en avons écoutés de délicieuses",
+        "c": "Des symphonies, nous en avons écouté de délicieux",
+        "d": "Des symphonies, nous en avons écouté de délicieuses"
+      },
+      "correct": "d",
+      "explication": "Le pronom « en » (COD partitif) n'entraîne jamais l'accord du participe (« écouté » invariable). L'adjectif « délicieuses » s'accorde normalement avec « symphonies »."
+    },
+    {
+      "id": "f2017_q19",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Elles sont restées pieds nus pendant deux heures et demie",
+        "b": "Elles sont restées pieds nu pendant deux heures et demie",
+        "c": "Elles sont restées pieds nus pendant deux heures et demies",
+        "d": "Elles sont restées pieds nu pendant deux heures et demi"
+      },
+      "correct": "a",
+      "explication": "« Nu » placé après le nom s'accorde (« pieds nus »). « Demie » placé après « heures » s'accorde aussi (féminin)."
+    },
+    {
+      "id": "f2017_q20",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Les laisser-passer n'étaient pas signés",
+        "b": "Les laissers-passer n'étaient pas signés",
+        "c": "Les laissez-passer n'étaient pas signés",
+        "d": "Les laissers-passers n'étaient pas signés"
+      },
+      "correct": "c",
+      "explication": "« Laissez-passer » (impératif + infinitif) est un nom composé invariable, toujours écrit avec « laissez »."
+    }
+  ]
+}

@@ -1,0 +1,244 @@
+{
+  "questions": [
+    {
+      "id": "a2016_q1",
+      "text": "We ________ vitamins for good health.",
+      "choices": {
+        "a": "are needing",
+        "b": "need have",
+        "c": "have need",
+        "d": "need"
+      },
+      "correct": "d",
+      "explication": "Vérité générale : présent simple."
+    },
+    {
+      "id": "a2016_q2",
+      "text": "When ________ breakfast?",
+      "choices": {
+        "a": "you usually",
+        "b": "usually have you",
+        "c": "do you usually have",
+        "d": "you are usually having"
+      },
+      "correct": "c",
+      "explication": "Question au présent simple : auxiliaire « do » + sujet + verbe."
+    },
+    {
+      "id": "a2016_q3",
+      "text": "The students were taking the test when they ________ the noise.",
+      "choices": {
+        "a": "were hearing",
+        "b": "were heard",
+        "c": "hear",
+        "d": "heard"
+      },
+      "correct": "d",
+      "explication": "Action ponctuelle interrompant une action en cours (« were taking ») : prétérit simple."
+    },
+    {
+      "id": "a2016_q4",
+      "text": "What ________ last night?",
+      "choices": {
+        "a": "you did",
+        "b": "you did do",
+        "c": "did you do",
+        "d": "you do"
+      },
+      "correct": "c",
+      "explication": "Question au prétérit simple avec « did »."
+    },
+    {
+      "id": "a2016_q5",
+      "text": "Nobody came, ________?",
+      "choices": {
+        "a": "did they",
+        "b": "doesn't he",
+        "c": "weren't they",
+        "d": "didn't he"
+      },
+      "correct": "a",
+      "explication": "« Nobody » (sens négatif, verbe à la forme positive) appelle un tag positif avec « they »."
+    },
+    {
+      "id": "a2016_q6",
+      "text": "The bank ________ at ten o'clock.",
+      "choices": {
+        "a": "will to open",
+        "b": "open",
+        "c": "going to open",
+        "d": "opens"
+      },
+      "correct": "d",
+      "explication": "Horaire programmé : présent simple."
+    },
+    {
+      "id": "a2016_q7",
+      "text": "I have ________ on me.",
+      "choices": {
+        "a": "a money",
+        "b": "few money",
+        "c": "a little money",
+        "d": "a few money"
+      },
+      "correct": "c",
+      "explication": "« Money » est indénombrable : « a little » convient (« a few » s'utilise avec un dénombrable)."
+    },
+    {
+      "id": "a2016_q8",
+      "text": "These are ________ books.",
+      "choices": {
+        "a": "the children's",
+        "b": "the children",
+        "c": "the childrens'",
+        "d": "the childrens"
+      },
+      "correct": "a",
+      "explication": "« Children » est déjà pluriel : le génitif ajoute simplement 's."
+    },
+    {
+      "id": "a2016_q9",
+      "text": "Is this ________ dress?",
+      "choices": {
+        "a": "hers",
+        "b": "her",
+        "c": "her's",
+        "d": "she's"
+      },
+      "correct": "b",
+      "explication": "Adjectif possessif devant un nom : « her dress » (« hers » s'utilise sans nom après)."
+    },
+    {
+      "id": "a2016_q10",
+      "text": "There ________ to park on this street.",
+      "choices": {
+        "a": "nowhere",
+        "b": "isn't somewhere",
+        "c": "isn't nowhere",
+        "d": "isn't anywhere"
+      },
+      "correct": "d",
+      "explication": "« There isn't anywhere to park » (négation + « anywhere », pas de double négation)."
+    },
+    {
+      "id": "a2016_q11",
+      "text": "Khady ________ computer last week.",
+      "choices": {
+        "a": "bought",
+        "b": "had bought",
+        "c": "was buying",
+        "d": "had been bought"
+      },
+      "correct": "a",
+      "explication": "Moment précis dans le passé (« last week ») : prétérit simple."
+    },
+    {
+      "id": "a2016_q12",
+      "text": "I ________ you since January.",
+      "choices": {
+        "a": "haven't saw",
+        "b": "haven't seen",
+        "c": "didn't see",
+        "d": "not see"
+      },
+      "correct": "b",
+      "explication": "« Since » + present perfect."
+    },
+    {
+      "id": "a2016_q13",
+      "text": "She ________ her homework.",
+      "choices": {
+        "a": "has done already",
+        "b": "did already",
+        "c": "has done since",
+        "d": "has already done"
+      },
+      "correct": "d",
+      "explication": "« Already » se place entre l'auxiliaire et le participe passé."
+    },
+    {
+      "id": "a2016_q14",
+      "text": "You haven't seen my keys, ________?",
+      "choices": {
+        "a": "did you",
+        "b": "you have",
+        "c": "don't you",
+        "d": "have you"
+      },
+      "correct": "d",
+      "explication": "Tag question après une forme négative au present perfect : tag positif avec « have »."
+    },
+    {
+      "id": "a2016_q15",
+      "text": "The ________ was fast.",
+      "choices": {
+        "a": "that painted our house",
+        "b": "painted",
+        "c": "who painted our house",
+        "d": "whom painted"
+      },
+      "correct": "c",
+      "explication": "« Who » introduit une relative dont l'antécédent est une personne."
+    },
+    {
+      "id": "a2016_q16",
+      "text": "I like ________ e-mails from my friends.",
+      "choices": {
+        "a": "sending",
+        "b": "to send",
+        "c": "send",
+        "d": "sent"
+      },
+      "correct": "a",
+      "explication": "« Like + gérondif » pour un goût général."
+    },
+    {
+      "id": "a2016_q17",
+      "text": "I ________.",
+      "choices": {
+        "a": "didn't finished yet",
+        "b": "haven't finished yet",
+        "c": "haven't yet finished",
+        "d": "didn't yet finish"
+      },
+      "correct": "b",
+      "explication": "Present perfect négatif, « yet » se place en fin de phrase."
+    },
+    {
+      "id": "a2016_q18",
+      "text": "She ________.",
+      "choices": {
+        "a": "has just arrived",
+        "b": "just arrive",
+        "c": "has just arrive",
+        "d": "arrived just"
+      },
+      "correct": "a",
+      "explication": "« Just » se place entre l'auxiliaire et le participe passé au present perfect."
+    },
+    {
+      "id": "a2016_q19",
+      "text": "Sam has lived in Senegal ________ three years.",
+      "choices": {
+        "a": "since",
+        "b": "for",
+        "c": "already",
+        "d": "yet"
+      },
+      "correct": "b",
+      "explication": "« For » + une durée."
+    },
+    {
+      "id": "a2016_q20",
+      "text": "She ________ speak until she was six.",
+      "choices": {
+        "a": "can't",
+        "b": "shouldn't",
+        "c": "couldn't",
+        "d": "mustn't"
+      },
+      "correct": "c",
+      "explication": "Incapacité passée : « couldn't » (prétérit de « can't »)."
+    }
+  ]
+}

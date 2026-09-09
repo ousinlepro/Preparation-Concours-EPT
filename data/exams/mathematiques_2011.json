@@ -1,0 +1,244 @@
+{
+  "questions": [
+    {
+      "id": "m2011_q1",
+      "text": "En quel point la tangente à la courbe $y=\\ln x$ est-elle parallèle à la corde sous-tendant les points $M_1(1,0)$ et $M_2(e,1)$ ?",
+      "choices": {
+        "a": "au point d'abscisse $x_0=e$",
+        "b": "au point d'abscisse $x_0=e+1$",
+        "c": "au point d'abscisse $x_0=e-1$",
+        "d": "au point d'abscisse $x_0=1$"
+      },
+      "correct": "c",
+      "explication": "La pente de la corde est $\\dfrac{1-0}{e-1}=\\dfrac{1}{e-1}$. Comme $f'(x)=1/x$, on résout $1/x_0=1/(e-1)\\Rightarrow x_0=e-1$."
+    },
+    {
+      "id": "m2011_q2",
+      "text": "$\\displaystyle\\lim_{x\\to1}\\dfrac{x-1}{x^n-1}=s$",
+      "choices": {
+        "a": "$s=1$",
+        "b": "$s=\\dfrac{1}{n-1}$",
+        "c": "$s=\\dfrac{1}{n+1}$",
+        "d": "$s=\\dfrac{1}{n}$"
+      },
+      "correct": "d",
+      "explication": "$x^n-1=(x-1)(x^{n-1}+\\cdots+1)$, et cette somme de $n$ termes vaut $n$ en $x=1$ : $s=1/n$."
+    },
+    {
+      "id": "m2011_q3",
+      "text": "$\\displaystyle\\lim_{x\\to0}\\dfrac{tgx-x}{x-\\sin x}=t$",
+      "choices": {
+        "a": "$t=2$",
+        "b": "$t=\\dfrac12$",
+        "c": "$t=0$",
+        "d": "$t=1$"
+      },
+      "correct": "a",
+      "explication": "Développements limités : $tgx-x\\approx x^3/3$ et $x-\\sin x\\approx x^3/6$, d'où $t\\to2$."
+    },
+    {
+      "id": "m2011_q4",
+      "text": "$\\displaystyle\\lim_{x\\to\\infty}\\dfrac{\\ln x}{x^n}=u$, ($n>0$)",
+      "choices": {
+        "a": "$u=1$",
+        "b": "$u=0$",
+        "c": "$u=e$",
+        "d": "$u=\\dfrac1e$"
+      },
+      "correct": "b",
+      "explication": "Croissances comparées : toute puissance positive de $x$ l'emporte sur $\\ln x$."
+    },
+    {
+      "id": "m2011_q5",
+      "text": "$\\displaystyle\\lim_{x\\to0}\\dfrac{e^x\\sin x-x}{3x^2+x^5}=v$",
+      "choices": {
+        "a": "$v=\\dfrac12$",
+        "b": "$v=3$",
+        "c": "$v=\\dfrac13$",
+        "d": "$v=2$"
+      },
+      "correct": "c",
+      "explication": "$e^x\\sin x-x\\approx x^2$ et $3x^2+x^5\\approx3x^2$ au voisinage de 0, d'où $v\\to1/3$."
+    },
+    {
+      "id": "m2011_q6",
+      "text": "$\\displaystyle\\lim_{x\\to0}\\dfrac{e^{x^2}-1}{\\cos x-1}=\\omega$",
+      "choices": {
+        "a": "$\\omega=-1$",
+        "b": "$\\omega=\\dfrac12$",
+        "c": "$\\omega=1$",
+        "d": "$\\omega=-2$"
+      },
+      "correct": "d",
+      "explication": "$e^{x^2}-1\\approx x^2$ et $\\cos x-1\\approx-x^2/2$, d'où $\\omega\\to-2$."
+    },
+    {
+      "id": "m2011_q7",
+      "text": "$\\displaystyle\\lim_{x\\to\\infty}\\dfrac{e^x+e^{-x}}{e^x-e^{-x}}=r$",
+      "choices": {
+        "a": "$r=1$",
+        "b": "$r=e$",
+        "c": "$r=\\dfrac12$",
+        "d": "$r=2$"
+      },
+      "correct": "a",
+      "explication": "Quand $x\\to+\\infty$, $e^{-x}\\to0$, donc le rapport tend vers $e^x/e^x=1$."
+    },
+    {
+      "id": "m2011_q8",
+      "text": "On pose $A=\\displaystyle\\int_e^{e^2}\\dfrac{dx}{x(\\ln x)^3}$.",
+      "choices": {
+        "a": "$A=\\dfrac58$",
+        "b": "$A=\\dfrac38$",
+        "c": "$A=\\dfrac18$",
+        "d": "$A=\\dfrac1e$"
+      },
+      "correct": "b",
+      "explication": "Avec $u=\\ln x$ : $A=\\int_1^2u^{-3}du=\\left[-\\frac{1}{2u^2}\\right]_1^2=-\\frac18+\\frac12=\\frac38$."
+    },
+    {
+      "id": "m2011_q9",
+      "text": "On pose $B=\\displaystyle\\int_0^1 x\\ln(x+3)\\,dx$.",
+      "choices": {
+        "a": "$B=e$",
+        "b": "$B=\\dfrac54-4\\ln4-\\dfrac92\\ln3$",
+        "c": "$B=\\dfrac54-4\\ln4+\\dfrac92\\ln3$",
+        "d": "$B=\\dfrac54+4\\ln4+\\dfrac92\\ln3$"
+      },
+      "correct": "c",
+      "explication": "Intégration par parties ($u=\\ln(x+3)$, $dv=x\\,dx$) puis division polynomiale de $x^2/(x+3)$ conduit à $B=\\dfrac54-4\\ln4+\\dfrac92\\ln3$."
+    },
+    {
+      "id": "m2011_q10",
+      "text": "On pose $E=\\displaystyle\\int_{-2}^{2}\\dfrac{dx}{16-x^2}$.",
+      "choices": {
+        "a": "$E=\\dfrac12\\ln3$",
+        "b": "$E=\\dfrac13\\ln3$",
+        "c": "$E=\\dfrac15\\ln3$",
+        "d": "$E=\\dfrac14\\ln3$"
+      },
+      "correct": "d",
+      "explication": "$\\dfrac{1}{16-x^2}=\\dfrac18\\left(\\dfrac{1}{4-x}+\\dfrac{1}{4+x}\\right)$ ; primitive $\\dfrac18\\ln\\left|\\dfrac{4+x}{4-x}\\right|$, évaluée entre $-2$ et $2$ donne $\\dfrac14\\ln3$."
+    },
+    {
+      "id": "m2011_q11",
+      "text": "Soit $f$ définie sur $[\\frac12;4]$ par $f(x)=x+\\dfrac1x$. L'image de $[\\frac12;4]$ est :",
+      "choices": {
+        "a": "$[f(\\frac12);f(4)]$",
+        "b": "$[2;\\frac{17}{4}]$",
+        "c": "$[f(4);f(\\frac12)]$",
+        "d": "$[\\frac52;\\frac{17}{4}]$"
+      },
+      "correct": "b",
+      "explication": "$f$ décroît sur $[\\frac12,1]$ puis croît sur $[1,4]$, avec un minimum $f(1)=2$ et un maximum $f(4)=17/4$ (supérieur à $f(1/2)=5/2$)."
+    },
+    {
+      "id": "m2011_q12",
+      "text": "Soit $f(x)=\\sqrt{4x^2+4x+3}$ définie sur $\\mathbb{R}$. La courbe $(C)$ est asymptote à la droite $(D)$ d'équation :",
+      "choices": {
+        "a": "$y=2x+2$",
+        "b": "$y=2x$",
+        "c": "$y=2x+1$",
+        "d": "$y=-2x-1$"
+      },
+      "correct": "c",
+      "explication": "Au voisinage de $+\\infty$ : $f(x)=2x\\sqrt{1+\\frac1x+\\frac{3}{4x^2}}\\approx2x+1$."
+    },
+    {
+      "id": "m2011_q13",
+      "text": "Pour $x$ réel positif, $n$ entier naturel, on a :",
+      "choices": {
+        "a": "$(1+x)^n<1+nx$",
+        "b": "$(1+x)^n<nx$",
+        "c": "$nx<(1+x)^n<1+nx$",
+        "d": "$(1+x)^n\\geq1+nx$"
+      },
+      "correct": "d",
+      "explication": "C'est l'inégalité de Bernoulli."
+    },
+    {
+      "id": "m2011_q14",
+      "text": "Soit la suite $U_n=\\cos\\dfrac{n\\pi}{3}$, alors :",
+      "choices": {
+        "a": "$U_{n+3}=U_n$",
+        "b": "$U_{2000}=\\dfrac12$",
+        "c": "$U_n$ est périodique",
+        "d": "$U_n$ est croissante"
+      },
+      "correct": "c",
+      "explication": "$U_n$ a pour période $6$ (donc $U_{n+3}=-U_n\\neq U_n$ en général) ; $U_{2000}=\\cos(2\\pi/3)=-1/2$ (et non $1/2$) ; une suite qui oscille n'est pas croissante. Seule c) est vraie."
+    },
+    {
+      "id": "m2011_q15",
+      "text": "$\\forall x\\neq0$, on a :",
+      "choices": {
+        "a": "$e^x\\geq1+x$",
+        "b": "$e^x\\leq1+x$",
+        "c": "$e^x>1+x$",
+        "d": "$e^x<1+x$"
+      },
+      "correct": "c",
+      "explication": "L'inégalité classique $e^x\\geq1+x$ est stricte dès que $x\\neq0$ (l'égalité n'a lieu qu'en $x=0$)."
+    },
+    {
+      "id": "m2011_q16",
+      "text": "Calculer $\\left(\\dfrac{1}{\\sqrt2}+i\\dfrac{1}{\\sqrt2}\\right)^{1999}$.",
+      "choices": {
+        "a": "$\\sqrt2+i\\dfrac{1}{\\sqrt2}$",
+        "b": "$\\dfrac{1}{\\sqrt2}-i\\sqrt2$",
+        "c": "$\\dfrac{1}{\\sqrt2}-i\\dfrac{1}{\\sqrt2}$",
+        "d": "$\\sqrt2+i\\sqrt2$"
+      },
+      "correct": "c",
+      "explication": "$\\frac{1}{\\sqrt2}+i\\frac{1}{\\sqrt2}=e^{i\\pi/4}$. $1999\\times\\pi/4$, réduit modulo $2\\pi$ (soit $1999\\bmod8=7$), donne $e^{i7\\pi/4}=\\frac{1}{\\sqrt2}-i\\frac{1}{\\sqrt2}$."
+    },
+    {
+      "id": "m2011_q17",
+      "text": "Si $\\omega\\neq1$ est une racine $n$-ième de l'unité, alors la somme $S=1+\\omega+\\omega^2+\\cdots+\\omega^{n-1}$ vaut :",
+      "choices": {
+        "a": "$-1$",
+        "b": "$0$",
+        "c": "$1$",
+        "d": "$2\\pi$"
+      },
+      "correct": "b",
+      "explication": "$S=\\dfrac{\\omega^n-1}{\\omega-1}=\\dfrac{1-1}{\\omega-1}=0$ car $\\omega^n=1$."
+    },
+    {
+      "id": "m2011_q18",
+      "text": "Évaluer l'intégrale suivante : $I=\\displaystyle\\int x\\sin x\\,dx$",
+      "choices": {
+        "a": "$I=x\\sin x+\\cos x+c$",
+        "b": "$I=x\\sin x-\\cos x+c$",
+        "c": "$I=x\\cos x+\\cos x+c$",
+        "d": "$I=-x\\cos x+\\sin x+c$"
+      },
+      "correct": "d",
+      "explication": "Par parties ($u=x$, $dv=\\sin x\\,dx$) : $I=-x\\cos x+\\int\\cos x\\,dx=-x\\cos x+\\sin x+c$."
+    },
+    {
+      "id": "m2011_q19",
+      "text": "Soit l'intégrale $B(p,q)=\\displaystyle\\int_0^1x^{p-1}(1-x)^{q-1}dx$ ; $p>0$, $q>0$, alors :",
+      "choices": {
+        "a": "$B(p,q)=B(p+1,q-1)$",
+        "b": "$B(p,q)=B(p-1,q+1)$",
+        "c": "$B(p,q)=B(q,p)$",
+        "d": "$B(p,q)=B(p-1,q-1)$"
+      },
+      "correct": "c",
+      "explication": "La fonction Bêta est symétrique en $p$ et $q$ (changement de variable $x\\to1-x$)."
+    },
+    {
+      "id": "m2011_q20",
+      "text": "Un ensemble de 100 pièces usinées contient 5 pièces défectueuses. Quelle est la probabilité pour qu'on ait au plus une pièce défectueuse parmi 50 pièces prises au hasard ?",
+      "choices": {
+        "a": "$P=\\dfrac{C_{95}^{50}+C_5^1C_{95}^{49}}{C_{100}^{50}}$",
+        "b": "$P=\\dfrac{C_{50}^1}{C_{100}^{50}}$",
+        "c": "$P=\\dfrac{C_{95}^{50}\\times C_5^1C_{95}^{49}}{C_{100}^{50}}$",
+        "d": "$P=\\dfrac{C_{100}^{48}}{C_{100}^{50}}$"
+      },
+      "correct": "a",
+      "explication": "P(0 ou 1 défectueuse) = [P(0 défectueuse) + P(1 défectueuse)] = $\\dfrac{C_{95}^{50}+C_5^1C_{95}^{49}}{C_{100}^{50}}$ (les deux cas s'additionnent, ils ne se multiplient pas)."
+    }
+  ]
+}

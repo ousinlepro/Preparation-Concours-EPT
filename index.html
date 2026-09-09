@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Concours EPT - Entraînement</title>
+  <link rel="icon" type="image/png" href="assets/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&display=block" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Applique le thème sauvegardé avant le premier rendu, pour éviter un flash clair/sombre -->
+  <script>
+    (function () {
+      var mode = localStorage.getItem('themeMode') || 'system';
+      var theme = (mode === 'light' || mode === 'dark')
+        ? mode
+        : (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-theme', theme);
+    })();
+  </script>
+  <!-- MathJax : rend les formules écrites en LaTeX dans les épreuves (entre $...$ ou $$...$$) -->
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']]
+      },
+      options: { skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre'] }
+    };
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.js" id="MathJax-script" async></script>
+</head>
+<body>
+  <div class="app-shell">
+    <nav class="bottom-nav">
+      <a href="#/" class="bn-item" data-nav-section="">
+        <span class="bn-icon-wrap"><span class="material-symbols-outlined">home</span></span>
+        <span class="bn-label">Accueil</span>
+      </a>
+      <a href="#/historique" class="bn-item" data-nav-section="historique">
+        <span class="bn-icon-wrap"><span class="material-symbols-outlined">history</span></span>
+        <span class="bn-label">Historique</span>
+      </a>
+      <a href="#/statistiques" class="bn-item" data-nav-section="statistiques">
+        <span class="bn-icon-wrap"><span class="material-symbols-outlined">bar_chart</span></span>
+        <span class="bn-label">Stats</span>
+      </a>
+      <a href="#/reglages" class="bn-item" data-nav-section="reglages">
+        <span class="bn-icon-wrap"><span class="material-symbols-outlined">settings</span></span>
+        <span class="bn-label">Réglages</span>
+      </a>
+    </nav>
+
+    <div class="app-main-col">
+      <header class="app-topbar">
+        <span id="app-title">Concours EPT</span>
+      </header>
+
+      <main id="app">
+        <p class="loading-hint">Chargement…</p>
+      </main>
+    </div>
+  </div>
+
+  <script src="js/util.js"></script>
+  <script src="js/theme.js"></script>
+  <script src="js/matiereStyle.js"></script>
+  <script src="js/storage.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/quiz.js"></script>
+  <script src="js/confetti.js"></script>
+  <script src="js/views/base.js"></script>
+  <script src="js/views/home.js"></script>
+  <script src="js/views/quiz.js"></script>
+  <script src="js/views/report.js"></script>
+  <script src="js/views/historique.js"></script>
+  <script src="js/views/stats.js"></script>
+  <script src="js/views/settings.js"></script>
+  <script src="js/router.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

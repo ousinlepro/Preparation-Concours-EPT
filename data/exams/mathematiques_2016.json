@@ -1,0 +1,244 @@
+{
+  "questions": [
+    {
+      "id": "m2016_q1",
+      "text": "Calculer $\\displaystyle\\lim_{x\\to0}\\dfrac{\\cos(4x)-1}{x^2}$",
+      "choices": {
+        "a": "$8$",
+        "b": "$-2$",
+        "c": "$2$",
+        "d": "$-8$"
+      },
+      "correct": "d",
+      "explication": "$\\cos(4x)-1\\approx-\\dfrac{(4x)^2}{2}=-8x^2$, d'où la limite $-8$."
+    },
+    {
+      "id": "m2016_q2",
+      "text": "Si $f(x)=\\sin(2x)$ pour tout $x\\in\\mathbb{R}$, calculer $\\displaystyle\\lim_{x\\to0}\\dfrac{f(f(x))}{x}$",
+      "choices": {
+        "a": "$-4$",
+        "b": "$2$",
+        "c": "$4$",
+        "d": "$2$"
+      },
+      "correct": "c",
+      "explication": "$f(x)=\\sin2x\\approx2x$, donc $f(f(x))\\approx\\sin(4x)\\approx4x$ ; la limite vaut $4$."
+    },
+    {
+      "id": "m2016_q3",
+      "text": "Calculer $\\displaystyle\\lim_{x\\to\\pi/2}\\dfrac{\\cos(x/2)-\\sin(x/2)}{x-\\pi/2}$",
+      "choices": {
+        "a": "$\\dfrac{2}{\\sqrt2}$",
+        "b": "$-\\dfrac{2}{\\sqrt2}$",
+        "c": "$-\\dfrac{\\sqrt2}{2}$",
+        "d": "$\\dfrac{\\sqrt2}{2}$"
+      },
+      "correct": "c",
+      "explication": "C'est la dérivée de $g(x)=\\cos(x/2)-\\sin(x/2)$ en $x=\\pi/2$ (où $g$ s'annule) : $g'(x)=-\\frac12\\sin(x/2)-\\frac12\\cos(x/2)$, soit $g'(\\pi/2)=-\\sqrt2/2$."
+    },
+    {
+      "id": "m2016_q4",
+      "text": "L'ensemble des points décrit par l'équation $\\sqrt{(x+1)^2+(y-2)^2}=\\sqrt{(x-1)^2+y^2}$ est",
+      "choices": {
+        "a": "une droite",
+        "b": "un cercle",
+        "c": "une ellipse",
+        "d": "une parabole"
+      },
+      "correct": "a",
+      "explication": "C'est l'équation de la médiatrice du segment joignant $(-1,2)$ et $(1,0)$ : une droite."
+    },
+    {
+      "id": "m2016_q5",
+      "text": "Calculer l'aire délimitée par les courbes d'équations $y=1$, $y=x^2$, et les droites d'équations $x=0$, $x=1$.",
+      "choices": {
+        "a": "$\\dfrac23$",
+        "b": "$-\\dfrac23$",
+        "c": "$\\dfrac32$",
+        "d": "$-\\dfrac32$"
+      },
+      "correct": "a",
+      "explication": "$\\displaystyle\\int_0^1(1-x^2)dx=\\left[x-\\dfrac{x^3}{3}\\right]_0^1=\\dfrac23$."
+    },
+    {
+      "id": "m2016_q6",
+      "text": "Soit $f$ une fonction continue sur $\\mathbb{R}$ telle que $x^2-1=\\displaystyle\\int_c^xf(t)dt,\\ \\forall x\\in\\mathbb{R}$. Déterminer $c$.",
+      "choices": {
+        "a": "$2$",
+        "b": "$\\pm2$",
+        "c": "$1$",
+        "d": "$\\pm1$"
+      },
+      "correct": "d",
+      "explication": "En $x=c$, l'intégrale est nulle : $c^2-1=0\\Rightarrow c=\\pm1$."
+    },
+    {
+      "id": "m2016_q7",
+      "text": "Calculer $\\displaystyle\\int_{-\\pi/2}^{\\pi/2}\\left(-\\cos t+\\sin^3t\\right)dt$",
+      "choices": {
+        "a": "$-2$",
+        "b": "$0$",
+        "c": "$\\pi$",
+        "d": "$-1$"
+      },
+      "correct": "a",
+      "explication": "$\\sin^3t$ est impaire : son intégrale sur un intervalle symétrique est nulle. $\\int_{-\\pi/2}^{\\pi/2}-\\cos t\\,dt=-[\\sin t]_{-\\pi/2}^{\\pi/2}=-2$."
+    },
+    {
+      "id": "m2016_q8",
+      "text": "On pose $f(x)=\\displaystyle\\lim_{n\\to+\\infty}(1+x+\\cdots+x^n)$ avec $x\\in]-1,1[$. Que vaut $f'(x)$ ?",
+      "choices": {
+        "a": "$\\dfrac{1}{(1-x)^2}$",
+        "b": "$\\dfrac{-x}{(1-x)^2}$",
+        "c": "$\\dfrac{-1}{(1-x)^2}$",
+        "d": "$\\dfrac{x}{(1-x)^2}$"
+      },
+      "correct": "a",
+      "explication": "$f(x)=\\dfrac{1}{1-x}$ (somme géométrique), donc $f'(x)=\\dfrac{1}{(1-x)^2}$."
+    },
+    {
+      "id": "m2016_q9",
+      "text": "Calculer la dérivée à l'ordre 10 de $f(x)=(x-1)e^{-x}$.",
+      "choices": {
+        "a": "$(10-x)e^{-x}$",
+        "b": "$(x-11)e^{-x}$",
+        "c": "$(x-10)e^{-x}$",
+        "d": "$(11-x)e^{-x}$"
+      },
+      "correct": "b",
+      "explication": "Par récurrence, $f^{(n)}(x)=(-1)^n(x-(n+1))e^{-x}$ ; pour $n=10$ (pair) : $f^{(10)}(x)=(x-11)e^{-x}$."
+    },
+    {
+      "id": "m2016_q10",
+      "text": "L'équation $\\tan(x)=0$ admet",
+      "choices": {
+        "a": "une racine sur $]\\pi/4,3\\pi/4[$",
+        "b": "deux racines sur $]\\pi/4,3\\pi/4[$",
+        "c": "trois racines sur $]\\pi/4,3\\pi/4[$",
+        "d": "aucune racine sur $]\\pi/4,3\\pi/4[$"
+      },
+      "correct": "d",
+      "explication": "$\\tan(x)=0$ seulement pour $x=k\\pi$ ; aucun multiple de $\\pi$ n'appartient à $]\\pi/4,3\\pi/4[$."
+    },
+    {
+      "id": "m2016_q11",
+      "text": "Soit l'équation $a_0x^n+a_1x^{n-1}+\\cdots+a_n=0$ où $a_0,\\ldots,a_n$ sont des entiers, $a_0\\neq0$, $a_n\\neq0$. Si cette équation a une racine rationnelle $p/q$ (irréductible) alors :",
+      "choices": {
+        "a": "$p$ divise $a_n$ et non $a_0$",
+        "b": "$p$ divise $a_n$ et $q$ divise $a_0$",
+        "c": "$q$ divise $a_0$ et non $a_n$",
+        "d": "$q$ divise $a_n$ et $p$ divise $a_0$"
+      },
+      "correct": "b",
+      "explication": "C'est le théorème des racines rationnelles : $p$ divise le terme constant $a_n$ et $q$ divise le coefficient dominant $a_0$."
+    },
+    {
+      "id": "m2016_q12",
+      "text": "On pose $u_n=\\dfrac12+\\dfrac14+\\dfrac18+\\cdots+\\dfrac{1}{2^{n-1}}$, $n>1$",
+      "choices": {
+        "a": "$u_n\\leq2$",
+        "b": "$1\\leq u_n\\leq2$",
+        "c": "$u_n\\leq1$",
+        "d": "$u_n\\geq1$"
+      },
+      "correct": "c",
+      "explication": "$u_n=1-\\left(\\frac12\\right)^{n-1}<1$ pour tout $n>1$ : la suite reste toujours inférieure ou égale à $1$."
+    },
+    {
+      "id": "m2016_q13",
+      "text": "On pose $P_n(x)=(1+x)^n$, $n=2,3,\\ldots$ et $x>-1$, $x\\neq0$",
+      "choices": {
+        "a": "$P_n(x)>2+nx$",
+        "b": "$P_n(x)>2$",
+        "c": "$P_n(x)>nx$",
+        "d": "$P_n(x)>1+nx$"
+      },
+      "correct": "d",
+      "explication": "C'est l'inégalité de Bernoulli, stricte pour $n\\geq2$ et $x\\neq0$."
+    },
+    {
+      "id": "m2016_q14",
+      "text": "Soit $l=\\displaystyle\\lim_{x\\to0}\\dfrac{e^x-1}{x}$",
+      "choices": {
+        "a": "$l=1$",
+        "b": "$l=0$",
+        "c": "$l=\\pm\\infty$",
+        "d": "$l=\\dfrac12$"
+      },
+      "correct": "a",
+      "explication": "Limite usuelle $(e^x-1)/x\\to1$."
+    },
+    {
+      "id": "m2016_q15",
+      "text": "Soit $s=\\displaystyle\\lim_{x\\to1}\\dfrac{x-1}{\\ln x}$",
+      "choices": {
+        "a": "$s=0$",
+        "b": "$s=1$",
+        "c": "$s=\\pm\\infty$",
+        "d": "$s=e$"
+      },
+      "correct": "b",
+      "explication": "Par la règle de L'Hôpital : $\\lim\\dfrac{1}{1/x}=\\lim x=1$."
+    },
+    {
+      "id": "m2016_q16",
+      "text": "Soit $t=\\displaystyle\\lim_{x\\to0}\\dfrac{1-\\cos x}{x}$",
+      "choices": {
+        "a": "$t=1$",
+        "b": "$t=+\\infty$",
+        "c": "$t=0$",
+        "d": "$t=-\\infty$"
+      },
+      "correct": "c",
+      "explication": "$1-\\cos x\\approx x^2/2$, donc le rapport $\\approx x/2\\to0$."
+    },
+    {
+      "id": "m2016_q17",
+      "text": "On pose $u=\\displaystyle\\lim_{h\\to0}\\dfrac{\\sqrt[3]{8+h}-2}{h}$",
+      "choices": {
+        "a": "$u=\\dfrac12$",
+        "b": "$u=1$",
+        "c": "$u=0$",
+        "d": "$u=\\dfrac{1}{12}$"
+      },
+      "correct": "d",
+      "explication": "C'est la dérivée de $x^{1/3}$ en $x=8$ : $\\dfrac13\\times8^{-2/3}=\\dfrac13\\times\\dfrac14=\\dfrac1{12}$."
+    },
+    {
+      "id": "m2016_q18",
+      "text": "Soit $v=\\displaystyle\\lim_{x\\to0}\\dfrac{1-2\\cos x+\\cos(2x)}{x^2}$",
+      "choices": {
+        "a": "$v=-1$",
+        "b": "$v=1$",
+        "c": "$v=0$",
+        "d": "$v=\\dfrac12$"
+      },
+      "correct": "a",
+      "explication": "En développant à l'ordre 2 : $1-2\\cos x+\\cos2x\\approx-x^2$, d'où $v\\to-1$."
+    },
+    {
+      "id": "m2016_q19",
+      "text": "On pose $\\displaystyle\\lim_{n\\to+\\infty}u_n=l$ et $x=\\displaystyle\\lim_{n\\to+\\infty}\\dfrac{u_1+u_2+\\cdots+u_n}{n}$",
+      "choices": {
+        "a": "$x=\\dfrac12l$",
+        "b": "$x=l$",
+        "c": "$x=2l$",
+        "d": "$x=1$"
+      },
+      "correct": "b",
+      "explication": "La moyenne de Cesàro d'une suite convergente tend vers la même limite : $x=l$."
+    },
+    {
+      "id": "m2016_q20",
+      "text": "Soit $y=\\displaystyle\\int_e^{e^2}\\dfrac{1}{x(\\ln x)^3}dx$",
+      "choices": {
+        "a": "$y=\\dfrac14$",
+        "b": "$y=\\dfrac18$",
+        "c": "$y=\\dfrac38$",
+        "d": "$y=\\dfrac58$"
+      },
+      "correct": "c",
+      "explication": "Avec $u=\\ln x$ : $y=\\int_1^2u^{-3}du=\\left[-\\frac{1}{2u^2}\\right]_1^2=-\\frac18+\\frac12=\\frac38$."
+    }
+  ]
+}

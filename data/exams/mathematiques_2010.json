@@ -1,0 +1,244 @@
+{
+  "questions": [
+    {
+      "id": "m2010_q1",
+      "text": "Laquelle des égalités suivantes est vraie ?",
+      "choices": {
+        "a": "$tg(\\alpha+\\beta)=\\dfrac{tg\\alpha-tg\\beta}{1+tg\\alpha}$",
+        "b": "$tg(\\alpha+\\beta)=\\dfrac{tg\\alpha\\,tg\\beta}{tg\\alpha+tg\\beta}$",
+        "c": "$tg(\\alpha+\\beta)=\\dfrac{tg\\alpha+tg\\beta}{1-tg\\alpha\\,tg\\beta}$",
+        "d": "$tg(\\alpha+\\beta)=\\dfrac{tg\\alpha-tg\\beta}{tg\\alpha\\,tg\\beta}$"
+      },
+      "correct": "c",
+      "explication": "C'est la formule d'addition standard de la tangente."
+    },
+    {
+      "id": "m2010_q2",
+      "text": "Donner un argument de $\\sqrt[12]{4+3i}$.",
+      "choices": {
+        "a": "$12\\,arctg\\dfrac34$",
+        "b": "$\\dfrac{1}{12}arctg\\dfrac43$",
+        "c": "$\\dfrac{1}{12}arctg\\dfrac34$",
+        "d": "$12\\,arctg\\dfrac34$"
+      },
+      "correct": "c",
+      "explication": "$\\arg(4+3i)=\\arctan(3/4)$ ; pour une racine 12-ième, on divise l'argument par 12."
+    },
+    {
+      "id": "m2010_q3",
+      "text": "Calculer $\\displaystyle\\lim_{x\\to0}\\dfrac{\\sqrt{1+x+x^2}-1}{\\sin2x}$.",
+      "choices": {
+        "a": "$0$",
+        "b": "$-\\infty$",
+        "c": "$\\dfrac14$",
+        "d": "$\\dfrac12$"
+      },
+      "correct": "c",
+      "explication": "$\\sqrt{1+x+x^2}-1\\approx\\frac{x}{2}$ et $\\sin2x\\approx2x$ au voisinage de $0$, d'où le rapport $\\to1/4$."
+    },
+    {
+      "id": "m2010_q4",
+      "text": "Calculer $\\displaystyle\\lim_{h\\to0}\\dfrac{\\sqrt{4+h}-2}{h}$.",
+      "choices": {
+        "a": "$+\\infty$",
+        "b": "$\\dfrac12$",
+        "c": "$\\dfrac14$",
+        "d": "$0$"
+      },
+      "correct": "c",
+      "explication": "C'est la dérivée de $\\sqrt{x}$ en $x=4$ : $\\dfrac{1}{2\\sqrt4}=\\dfrac14$."
+    },
+    {
+      "id": "m2010_q5",
+      "text": "Calculer $\\displaystyle\\lim_{n\\to\\infty}\\dfrac{\\sqrt[n]{e}+\\sqrt[n]{e^2}+\\cdots+\\sqrt[n]{e^n}}{n}$.",
+      "choices": {
+        "a": "$1$",
+        "b": "$e-1$",
+        "c": "$e+1$",
+        "d": "$\\dfrac1e$"
+      },
+      "correct": "b",
+      "explication": "C'est une somme de Riemann pour $\\int_0^1e^x\\,dx=e-1$."
+    },
+    {
+      "id": "m2010_q6",
+      "text": "Évaluer l'intégrale $\\displaystyle\\int\\dfrac{dx}{\\sin x\\cos x}$.",
+      "choices": {
+        "a": "$\\text{Ln}\\left|\\dfrac{x}{2}\\right|+c$",
+        "b": "$\\text{Ln}\\left|tg\\left(\\dfrac{x}{2}\\right)\\right|+c$",
+        "c": "$\\text{Ln}|tgx|+c$",
+        "d": "$\\text{Ln}\\left|\\dfrac{x}{2}+tg\\dfrac{x}{2}\\right|+c$"
+      },
+      "correct": "c",
+      "explication": "$\\frac{1}{\\sin x\\cos x}=\\frac{2}{\\sin2x}$ et $\\int\\frac{2\\,dx}{\\sin2x}=\\ln|tg\\,x|+c$."
+    },
+    {
+      "id": "m2010_q7",
+      "text": "Évaluer l'intégrale $\\displaystyle\\int\\dfrac{dx}{\\sin x}$.",
+      "choices": {
+        "a": "$\\text{Ln}|\\sin x|+c$",
+        "b": "$\\text{Ln}|\\cos x|+c$",
+        "c": "$tg\\left(\\dfrac{x}{2}\\right)+c$",
+        "d": "$\\text{Ln}\\left|tg\\left(\\dfrac{x}{2}\\right)\\right|+c$"
+      },
+      "correct": "d",
+      "explication": "Formule usuelle : $\\int\\csc x\\,dx=\\ln|tg(x/2)|+c$."
+    },
+    {
+      "id": "m2010_q8",
+      "text": "L'équation $\\cos2x+\\sqrt2\\sin2x=-1$ a pour solutions dans $\\mathbb{R}$ :",
+      "choices": {
+        "a": "$x=\\dfrac{\\pi}{2}+2k\\pi$ ou $x=-\\dfrac{\\pi}{2}+2k\\pi,\\ k\\in\\mathbb{Z}$",
+        "b": "$x=\\dfrac{\\pi}{6}k\\pi$ ou $x=-\\dfrac{\\pi}{3}+k\\pi,\\ k\\in\\mathbb{Z}$",
+        "c": "$x=\\dfrac{\\pi}{2}+k\\pi$ ou $x=-\\dfrac{\\pi}{6}+k\\pi,\\ k\\in\\mathbb{Z}$",
+        "d": "$x=\\dfrac{\\pi}{3}+2k\\pi$ ou $x=-\\dfrac{\\pi}{3}+2k\\pi,\\ k\\in\\mathbb{Z}$"
+      },
+      "correct": "a",
+      "explication": "En testant $x=\\pi/2$ : $\\cos\\pi+\\sqrt2\\sin\\pi=-1$ ✓. Les deux branches de a) couvrent exactement l'ensemble $x\\equiv\\pi/2\\ (\\text{mod }\\pi)$, qui vérifie l'équation."
+    },
+    {
+      "id": "m2010_q9",
+      "text": "Si $b>a$, laquelle des inégalités est vraie ?",
+      "choices": {
+        "a": "$b^n-a^n\\geq nb^{n-1}(b-a)$",
+        "b": "$b^n-a^n\\leq nb^{n-1}(b-a)$",
+        "c": "$b^n-a^n<nb^{n-1}(b-a)$",
+        "d": "$b^n-a^n>nb^{n-1}(b-a)$"
+      },
+      "correct": "c",
+      "explication": "Par l'égalité des accroissements finis, $b^n-a^n=nc^{n-1}(b-a)$ pour un $c\\in]a,b[$ ; comme $c<b$, $nc^{n-1}(b-a)<nb^{n-1}(b-a)$."
+    },
+    {
+      "id": "m2010_q10",
+      "text": "$\\forall z\\in\\mathbb{C},\\forall\\omega\\in\\mathbb{C}$, la somme $S=z\\bar z+\\omega\\bar\\omega-\\omega\\bar z-\\bar\\omega z$ est :",
+      "choices": {
+        "a": "un réel positif",
+        "b": "un réel négatif",
+        "c": "un imaginaire pur",
+        "d": "un nombre complexe de la forme $a+ib$"
+      },
+      "correct": "a",
+      "explication": "$S=|z-\\omega|^2$ (identité remarquable), donc toujours un réel positif ou nul."
+    },
+    {
+      "id": "m2010_q11",
+      "text": "Donner l'image $M'$ du point $M(1,0,-1)$ par la translation de vecteur $\\vec u=2\\vec\\imath+3\\vec\\jmath+\\vec k$.",
+      "choices": {
+        "a": "$M'(3,0,3)$",
+        "b": "$M'(0,3,3)$",
+        "c": "$M'(1,3,1)$",
+        "d": "$M'(3,3,0)$"
+      },
+      "correct": "d",
+      "explication": "$M'=(1+2,\\,0+3,\\,-1+1)=(3,3,0)$."
+    },
+    {
+      "id": "m2010_q12",
+      "text": "Donner l'image $M'$ du point $M(2,1,3)$ par l'homothétie de centre $O$ et de rapport $\\dfrac12$.",
+      "choices": {
+        "a": "$M'(1,\\frac12,\\frac32)$",
+        "b": "$M'(\\frac12,1,\\frac32)$",
+        "c": "$M'(\\frac32,\\frac12,1)$",
+        "d": "$M'(1,\\frac32,\\frac12)$"
+      },
+      "correct": "a",
+      "explication": "$M'=\\frac12(2,1,3)=(1,\\frac12,\\frac32)$."
+    },
+    {
+      "id": "m2010_q13",
+      "text": "Au début de la 1ère année, l'effectif d'une population est $P_1$. Chaque année cet effectif s'accroît de $\\frac{1}{50}$ de sa valeur. L'effectif $P_n$ au début de la $n$-ième année est :",
+      "choices": {
+        "a": "$P_n=P_1+P_1\\left(\\frac{51}{50}\\right)^n$",
+        "b": "$P_n=P_1\\times\\left(\\frac{51}{50}\\right)^{n-1}$",
+        "c": "$P_n=P_1\\times\\left(\\frac{51}{50}\\right)^n$",
+        "d": "$P_n=P_1+P_1\\left(\\frac{51}{50}\\right)^{n-1}$"
+      },
+      "correct": "b",
+      "explication": "Une croissance géométrique de raison $51/50$ sur $n-1$ périodes entre l'année 1 et l'année $n$."
+    },
+    {
+      "id": "m2010_q14",
+      "text": "Donner le nombre de termes $n$ et la raison $q$ d'une progression géométrique sachant que le premier terme est $3$, le dernier terme $192$ et la somme des termes $381$.",
+      "choices": {
+        "a": "$n=7,\\ q=3$",
+        "b": "$n=6,\\ q=2$",
+        "c": "$n=7,\\ q=2$",
+        "d": "$n=8,\\ q=2$"
+      },
+      "correct": "c",
+      "explication": "$3\\times2^{6}=192$ (donc $n=7$) et $S=3\\times\\dfrac{2^7-1}{2-1}=381$ : les deux conditions sont vérifiées."
+    },
+    {
+      "id": "m2010_q15",
+      "text": "Donner la solution $S$ de l'inéquation $2(2x-1)<3\\sqrt{(x+2)(3-x)}$.",
+      "choices": {
+        "a": "$S=]-2,+2]$",
+        "b": "$S=[-2,\\frac12[$",
+        "c": "$S=[\\frac12,2[$",
+        "d": "$S=[-2,+2[$"
+      },
+      "correct": "d",
+      "explication": "Pour $x<1/2$ l'inégalité est automatique (membre de gauche négatif). Pour $x\\geq1/2$, élever au carré donne $x^2-x-2<0$, soit $-1<x<2$. En combinant avec le domaine $[-2,3]$ : $S=[-2,2[$."
+    },
+    {
+      "id": "m2010_q16",
+      "text": "$l=\\displaystyle\\lim_{x\\to0}\\dfrac{e^{2x}-1}{x}$.",
+      "choices": {
+        "a": "$l=2$",
+        "b": "$l=1$",
+        "c": "$l=\\dfrac12$",
+        "d": "$l=e$"
+      },
+      "correct": "a",
+      "explication": "Limite usuelle $\\dfrac{e^{kx}-1}{x}\\to k$."
+    },
+    {
+      "id": "m2010_q17",
+      "text": "$l=\\displaystyle\\lim_{x\\to0^+}x^2\\ln x$.",
+      "choices": {
+        "a": "$l=1$",
+        "b": "$l=0$",
+        "c": "$l=+\\infty$",
+        "d": "$l=-\\infty$"
+      },
+      "correct": "b",
+      "explication": "Croissances comparées : $x^2\\ln x\\to0$ quand $x\\to0^+$."
+    },
+    {
+      "id": "m2010_q18",
+      "text": "Soit $f(x)=e^{-1/x^2}$ si $x\\neq0$, $f(0)=0$.",
+      "choices": {
+        "a": "$f'(0)=e$",
+        "b": "$f'(0)=1$",
+        "c": "$f'(0)=0$",
+        "d": "$f'(0)=-1$"
+      },
+      "correct": "c",
+      "explication": "$f'(0)=\\lim_{h\\to0}e^{-1/h^2}/h$ : l'exponentielle décroît beaucoup plus vite que $h$ ne diminue, la limite est $0$."
+    },
+    {
+      "id": "m2010_q19",
+      "text": "Soit $f(x)=x^2\\sin(1/x)$ si $x\\neq0$, $f(0)=0$.",
+      "choices": {
+        "a": "$f'(0)=2$",
+        "b": "$f'(0)=1$",
+        "c": "$f'(0)=\\dfrac12$",
+        "d": "$f'(0)=0$"
+      },
+      "correct": "d",
+      "explication": "$f'(0)=\\lim_{h\\to0}h\\sin(1/h)=0$ (produit d'une quantité bornée par une quantité qui tend vers $0$)."
+    },
+    {
+      "id": "m2010_q20",
+      "text": "Soit la suite $(u_n)$ définie par $u_{n+1}=\\sqrt{u_n+1}$, $u_1=1$.",
+      "choices": {
+        "a": "$\\lim_{n\\to\\infty}(u_n)=\\frac12(1+\\sqrt5)$",
+        "b": "$\\lim_{n\\to\\infty}u_n=\\sqrt5$",
+        "c": "$\\lim_{n\\to\\infty}(u_n)=1+\\sqrt5$",
+        "d": "$\\lim_{n\\to\\infty}u_n=\\frac12\\sqrt5$"
+      },
+      "correct": "a",
+      "explication": "À la limite $l=\\sqrt{l+1}\\Rightarrow l^2-l-1=0\\Rightarrow l=\\frac{1+\\sqrt5}{2}$."
+    }
+  ]
+}

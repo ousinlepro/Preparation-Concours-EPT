@@ -1,0 +1,244 @@
+{
+  "questions": [
+    {
+      "id": "p2014_q1",
+      "text": "Un objet décrit une trajectoire circulaire de rayon $r=0{,}25\\,m$ ; il se déplace avec une accélération angulaire constante de $12{,}56\\,rad.s^{-2}$ et sa vitesse initiale est de $1$ tour$.s^{-1}$. Quelle est en $rad.s^{-1}$ la vitesse angulaire de l'objet au bout de $4\\,s$ ?",
+      "choices": {
+        "a": "$24$",
+        "b": "$31$",
+        "c": "$12$",
+        "d": "$56$"
+      },
+      "correct": "d",
+      "explication": "$\\omega_0=2\\pi\\,rad/s$ ; $\\omega(4)=\\omega_0+\\alpha t=2\\pi+12{,}56\\times4\\approx56\\,rad/s$."
+    },
+    {
+      "id": "p2014_q2",
+      "text": "Pour le même objet, quel est en radians l'angle parcouru en $4\\,s$ ?",
+      "choices": {
+        "a": "$76$",
+        "b": "$126$",
+        "c": "$312$",
+        "d": "$90$"
+      },
+      "correct": "b",
+      "explication": "$\\theta=\\omega_0t+\\frac12\\alpha t^2=2\\pi\\times4+\\frac12\\times12{,}56\\times16\\approx126\\,rad$."
+    },
+    {
+      "id": "p2014_q3",
+      "text": "Quelle est en $m.s^{-1}$ la vitesse linéaire à l'instant $t=4\\,s$ ?",
+      "choices": {
+        "a": "$14$",
+        "b": "$2$",
+        "c": "$28$",
+        "d": "$33$"
+      },
+      "correct": "a",
+      "explication": "$v=\\omega(4)\\times r\\approx56{,}5\\times0{,}25\\approx14\\,m/s$."
+    },
+    {
+      "id": "p2014_q4",
+      "text": "Quelle est en $m.s^{-2}$ la valeur de l'accélération à l'instant $t=0$ ?",
+      "choices": {
+        "a": "$6{,}2$",
+        "b": "$21{,}4$",
+        "c": "$10{,}3$",
+        "d": "$41{,}5$"
+      },
+      "correct": "c",
+      "explication": "Composante tangentielle $a_t=\\alpha r=12{,}56\\times0{,}25=3{,}14$ ; composante radiale $a_r=\\omega_0^2r=(2\\pi)^2\\times0{,}25\\approx9{,}87$. Norme totale $\\sqrt{a_t^2+a_r^2}\\approx10{,}3\\,m/s^2$."
+    },
+    {
+      "id": "p2014_q5",
+      "text": "Un objet A de masse $0{,}2\\,kg$ glisse sans frottement sur un plan incliné de $30°$. Il est relié par un fil et une poulie à un objet B de masse $0{,}18\\,kg$ qui se déplace verticalement. Quelle est en mètres la distance parcourue par B, $2\\,s$ après le début du mouvement ? ($g=9{,}81\\,m.s^{-2}$)",
+      "choices": {
+        "a": "$6{,}4$",
+        "b": "$3{,}14$",
+        "c": "$4{,}1$",
+        "d": "$1{,}2$"
+      },
+      "correct": "c",
+      "explication": "$a=\\dfrac{g(m_B-m_A\\sin30°)}{m_A+m_B}=\\dfrac{9{,}81(0{,}18-0{,}1)}{0{,}38}\\approx2{,}07\\,m.s^{-2}$ ; $d=\\frac12at^2\\approx4{,}1\\,m$."
+    },
+    {
+      "id": "p2014_q6",
+      "text": "Quelle est en newtons la tension du fil (système précédent) ?",
+      "choices": {
+        "a": "$4{,}16$",
+        "b": "$1{,}4$",
+        "c": "$7{,}14$",
+        "d": "$9{,}18$"
+      },
+      "correct": "b",
+      "explication": "$T=m_B(g-a)=0{,}18\\times(9{,}81-2{,}07)\\approx1{,}4\\,N$."
+    },
+    {
+      "id": "p2014_q7",
+      "text": "Sur un segment de longueur $6\\,m$, un point matériel est animé d'un mouvement oscillatoire sinusoïdal. Sa fréquence est de $5\\,Hz$ et à l'instant initial son abscisse est maximale. Quelle est l'équation du mouvement ?",
+      "choices": {
+        "a": "$x=3\\cos10\\pi t$",
+        "b": "$x=-3\\cos10\\pi t$",
+        "c": "$x=6\\cos10\\pi t$",
+        "d": "$x=-6\\cos10\\pi t$"
+      },
+      "correct": "a",
+      "explication": "L'amplitude est la moitié du segment total : $X_m=3\\,m$ ; $\\omega=2\\pi f=10\\pi$ ; abscisse maximale à $t=0$ : $x=3\\cos(10\\pi t)$."
+    },
+    {
+      "id": "p2014_q8",
+      "text": "Quel est le module de l'accélération à l'instant $t=0$ (mouvement précédent) ?",
+      "choices": {
+        "a": "$12{,}96.10^3$",
+        "b": "$2{,}96.10^3$",
+        "c": "$4{,}12.10^3$",
+        "d": "$24{,}51.10^3$"
+      },
+      "correct": "b",
+      "explication": "$a_{max}=\\omega^2X_m=(10\\pi)^2\\times3\\approx2{,}96.10^3\\,m/s^2$."
+    },
+    {
+      "id": "p2014_q9",
+      "text": "Une masse $M=0{,}5\\,kg$ tombe sur un ressort de raideur $k=100\\,N.m^{-1}$ placé verticalement. Donner en secondes la période des oscillations que subit la masse M, supposée liée au ressort.",
+      "choices": {
+        "a": "$5{,}14$",
+        "b": "$0{,}21$",
+        "c": "$2{,}13$",
+        "d": "$0{,}44$"
+      },
+      "correct": "d",
+      "explication": "$T=2\\pi\\sqrt{m/k}=2\\pi\\sqrt{0{,}5/100}\\approx0{,}44\\,s$."
+    },
+    {
+      "id": "p2014_q10",
+      "text": "Quelle est en nF la capacité d'un condensateur constitué par une feuille de papier de $1/10\\,mm$ d'épaisseur (permittivité relative $\\approx2{,}5$) collée entre deux feuilles métalliques identiques de surface $400\\,cm^2$ ?",
+      "choices": {
+        "a": "$8{,}8$",
+        "b": "$9{,}9$",
+        "c": "$1{,}2$",
+        "d": "$6{,}4$"
+      },
+      "correct": "a",
+      "explication": "$C=\\varepsilon_r\\varepsilon_0S/e=2{,}5\\times8{,}85.10^{-12}\\times0{,}04/10^{-4}\\approx8{,}8\\,nF$."
+    },
+    {
+      "id": "p2014_q11",
+      "text": "Quelle est en nF la capacité équivalente des trois condensateurs suivants montés en série : $C_1=2nF$, $C_2=4nF$, $C_3=8nF$ ?",
+      "choices": {
+        "a": "$8{,}14$",
+        "b": "$14$",
+        "c": "$1{,}14$",
+        "d": "$3{,}21$"
+      },
+      "correct": "c",
+      "explication": "$1/C_{eq}=1/2+1/4+1/8=7/8\\Rightarrow C_{eq}=8/7\\approx1{,}14\\,nF$."
+    },
+    {
+      "id": "p2014_q12",
+      "text": "Quelle est en nF la capacité équivalente des mêmes condensateurs montés en parallèle ?",
+      "choices": {
+        "a": "$2{,}08$",
+        "b": "$14$",
+        "c": "$10$",
+        "d": "$16$"
+      },
+      "correct": "b",
+      "explication": "En parallèle, les capacités s'additionnent : $2+4+8=14\\,nF$."
+    },
+    {
+      "id": "p2014_q13",
+      "text": "Soit un carré ABCD de côté $2a$ ; on place en A une charge $+q$, en B $+2q$, en C $+q$ et en D $+2q$. Quelle est la valeur du module du champ électrique résultant au centre M du carré ?",
+      "choices": {
+        "a": "$\\dfrac{1}{4\\pi\\varepsilon_0}\\dfrac{q}{a^2}$",
+        "b": "$\\dfrac{1}{4\\pi\\varepsilon_0}\\dfrac{q\\sqrt2}{a^2}$",
+        "c": "$0$",
+        "d": "$\\dfrac{1}{4\\pi\\varepsilon_0}\\dfrac{q}{a}$"
+      },
+      "correct": "c",
+      "explication": "A et C (charges égales $+q$) sont diamétralement opposés : leurs champs au centre s'annulent. De même pour B et D (charges égales $+2q$). Le champ résultant est nul."
+    },
+    {
+      "id": "p2014_q14",
+      "text": "Quelle est en tesla (T) l'induction magnétique créée par un conducteur rectiligne parcouru par un courant de $10\\,A$, en un point de l'espace situé à $2\\,m$ du fil ?",
+      "choices": {
+        "a": "$10^{-6}$",
+        "b": "$10^{-5}$",
+        "c": "$10^{-4}$",
+        "d": "$10^{-3}$"
+      },
+      "correct": "a",
+      "explication": "$B=\\mu_0I/(2\\pi r)=4\\pi.10^{-7}\\times10/(2\\pi\\times2)=10^{-6}\\,T$."
+    },
+    {
+      "id": "p2014_q15",
+      "text": "L'équation d'une onde transversale est $y=10\\sin\\pi(2t-0{,}01x)$ où y et x sont en cm et t en s. Quelle est son amplitude en cm ?",
+      "choices": {
+        "a": "$20$",
+        "b": "$10$",
+        "c": "$10\\sqrt2$",
+        "d": "$10/\\sqrt2$"
+      },
+      "correct": "b",
+      "explication": "L'amplitude est le coefficient devant le sinus : $10\\,cm$."
+    },
+    {
+      "id": "p2014_q16",
+      "text": "Quelle est sa fréquence en Hz (onde précédente) ?",
+      "choices": {
+        "a": "$\\pi$",
+        "b": "$2$",
+        "c": "$1$",
+        "d": "$2\\pi$"
+      },
+      "correct": "c",
+      "explication": "$y=10\\sin(2\\pi t-0{,}01\\pi x)$ : la pulsation temporelle est $2\\pi\\,rad/s$, donc $f=1\\,Hz$."
+    },
+    {
+      "id": "p2014_q17",
+      "text": "Quelle est sa longueur d'onde en mètre (onde précédente) ?",
+      "choices": {
+        "a": "$1$",
+        "b": "$2$",
+        "c": "$0{,}01$",
+        "d": "$0{,}01\\pi$"
+      },
+      "correct": "b",
+      "explication": "Le nombre d'onde est $k=0{,}01\\pi\\,rad/cm$, donc $\\lambda=2\\pi/k=200\\,cm=2\\,m$."
+    },
+    {
+      "id": "p2014_q18",
+      "text": "Quelle est sa vitesse en $m.s^{-1}$ (onde précédente) ?",
+      "choices": {
+        "a": "$10$",
+        "b": "$5$",
+        "c": "$7$",
+        "d": "$2$"
+      },
+      "correct": "d",
+      "explication": "$v=\\lambda f=2\\times1=2\\,m/s$."
+    },
+    {
+      "id": "p2014_q19",
+      "text": "Durant la dernière seconde de sa chute verticale, un objet lâché sans vitesse initiale parcourt la moitié de sa trajectoire. Calculer la durée de la chute en secondes.",
+      "choices": {
+        "a": "$3{,}41$",
+        "b": "$2$",
+        "c": "$8$",
+        "d": "$6{,}7$"
+      },
+      "correct": "a",
+      "explication": "Avec $H=\\frac12gT^2$ et $g(T-\\frac12)=\\frac12H$, on obtient $T^2-4T+2=0$, soit $T\\approx3{,}41\\,s$ (racine $>1$)."
+    },
+    {
+      "id": "p2014_q20",
+      "text": "Calculer la hauteur de la chute en mètres.",
+      "choices": {
+        "a": "$4{,}9$",
+        "b": "$10{,}1$",
+        "c": "$30$",
+        "d": "$57$"
+      },
+      "correct": "d",
+      "explication": "$H=\\frac12gT^2\\approx0{,}5\\times9{,}81\\times3{,}41^2\\approx57\\,m$."
+    }
+  ]
+}

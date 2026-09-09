@@ -1,0 +1,244 @@
+{
+  "questions": [
+    {
+      "id": "p2012_q1",
+      "text": "L'équation horaire d'un mobile sur une trajectoire rectiligne est $x=3t^2-2t$ (x en mètres, t en secondes). La vitesse instantanée à $t=0$ est :",
+      "choices": {
+        "a": "$0$",
+        "b": "$2$",
+        "c": "$-2$",
+        "d": "$-1$"
+      },
+      "correct": "c",
+      "explication": "$v(t)=dx/dt=6t-2$ ; $v(0)=-2$."
+    },
+    {
+      "id": "p2012_q2",
+      "text": "Pour le même mouvement ($x=3t^2-2t$), la vitesse moyenne entre $t=0$ et $t=1\\,s$ est :",
+      "choices": {
+        "a": "$4$",
+        "b": "$2$",
+        "c": "$3$",
+        "d": "$1$"
+      },
+      "correct": "d",
+      "explication": "$v_{moy}=\\dfrac{x(1)-x(0)}{1}=\\dfrac{1-0}{1}=1$."
+    },
+    {
+      "id": "p2012_q3",
+      "text": "Pour le même mouvement, l'accélération est :",
+      "choices": {
+        "a": "$3$",
+        "b": "$6$",
+        "c": "$2$",
+        "d": "$4$"
+      },
+      "correct": "b",
+      "explication": "$a=d^2x/dt^2=6$ (constante)."
+    },
+    {
+      "id": "p2012_q4",
+      "text": "Sachant que les réflexes moyens d'un chauffeur sont de l'ordre de $0{,}7\\,s$ et que sa voiture peut freiner à raison de $5\\,m.s^{-2}$ (décélération), quelle sera en mètres la distance parcourue avant de s'arrêter, quand il roule à $36\\,km/h$ ?",
+      "choices": {
+        "a": "$17$",
+        "b": "$6{,}4$",
+        "c": "$40$",
+        "d": "$8$"
+      },
+      "correct": "a",
+      "explication": "$v=36\\,km/h=10\\,m/s$. Distance de réaction : $d_1=v\\times t=10\\times0{,}7=7\\,m$. Distance de freinage : $d_2=v^2/(2a)=100/10=10\\,m$. Total : $d=d_1+d_2=17\\,m$."
+    },
+    {
+      "id": "p2012_q5",
+      "text": "Une boule décrit une trajectoire circulaire horizontale de rayon $r=0{,}5\\,m$ avec une vitesse angulaire constante de $120$ tours par minute. Quelle est en $m.s^{-2}$ la valeur de la composante radiale de l'accélération ?",
+      "choices": {
+        "a": "$79$",
+        "b": "$31$",
+        "c": "$240$",
+        "d": "$99$"
+      },
+      "correct": "a",
+      "explication": "$\\omega=120\\times2\\pi/60=4\\pi\\,rad/s$. $a=\\omega^2r=(4\\pi)^2\\times0{,}5\\approx79\\,m.s^{-2}$."
+    },
+    {
+      "id": "p2012_q6",
+      "text": "Une roue en rotation passe de $1800$ tours/min à $1200$ tours/min en $2\\,s$. Quel est en $rad.s^{-2}$ le module de l'accélération angulaire ?",
+      "choices": {
+        "a": "$15{,}7$",
+        "b": "$12{,}2$",
+        "c": "$22{,}2$",
+        "d": "$31{,}4$"
+      },
+      "correct": "d",
+      "explication": "$\\omega_1=1800\\times2\\pi/60=60\\pi\\,rad/s$, $\\omega_2=1200\\times2\\pi/60=40\\pi\\,rad/s$. $|\\alpha|=(\\omega_1-\\omega_2)/2=10\\pi\\approx31{,}4\\,rad.s^{-2}$."
+    },
+    {
+      "id": "p2012_q7",
+      "text": "Pour la même roue, quel est le nombre de tours effectués pendant ces deux secondes ?",
+      "choices": {
+        "a": "$50$",
+        "b": "$20$",
+        "c": "$70$",
+        "d": "$60$"
+      },
+      "correct": "a",
+      "explication": "Vitesse angulaire moyenne $=(1800+1200)/2=1500\\,tr/min=25\\,tr/s$ ; sur $2\\,s$ : $N=25\\times2=50$ tours."
+    },
+    {
+      "id": "p2012_q8",
+      "text": "Un objet glisse sans frottement sur un plan incliné. Il démarre avec une vitesse nulle et parcourt $7{,}20\\,m$ durant la troisième seconde. Quelle est en degrés la valeur, par rapport à l'horizontale, de l'angle du plan incliné ? ($g=9{,}81\\,m.s^{-2}$)",
+      "choices": {
+        "a": "$17$",
+        "b": "$34$",
+        "c": "$54$",
+        "d": "$28$"
+      },
+      "correct": "a",
+      "explication": "Distance parcourue durant la $n$-ième seconde : $d_n=\\frac a2(2n-1)$. Pour $n=3$ : $7{,}20=2{,}5a\\Rightarrow a=2{,}88\\,m.s^{-2}$. $\\sin\\theta=a/g\\approx0{,}294\\Rightarrow\\theta\\approx17°$."
+    },
+    {
+      "id": "p2012_q9",
+      "text": "On remplace un oscillateur harmonique de période T constitué d'un ressort de raideur k par un autre ressort de raideur $4k$ et de période T'.",
+      "choices": {
+        "a": "$T'=T$",
+        "b": "$T'=2T$",
+        "c": "$T'=4T$",
+        "d": "$T'=T/2$"
+      },
+      "correct": "d",
+      "explication": "$T=2\\pi\\sqrt{m/k}$ ; en remplaçant $k$ par $4k$, $T'=2\\pi\\sqrt{m/(4k)}=T/2$."
+    },
+    {
+      "id": "p2012_q10",
+      "text": "Donner en mètres la longueur d'onde dans l'eau d'un son de fréquence $256\\,Hz$, sachant que la célérité du son dans l'eau est de $1500\\,m.s^{-1}$.",
+      "choices": {
+        "a": "$6{,}35$",
+        "b": "$5{,}98$",
+        "c": "$11{,}43$",
+        "d": "$0{,}167$"
+      },
+      "correct": "b",
+      "explication": "$\\lambda=v/f=1500/256\\approx5{,}9\\,m$."
+    },
+    {
+      "id": "p2012_q11",
+      "text": "Quel est en volts le potentiel électrique au centre d'un carré de $1\\,m$ de côté dont les sommets sont occupés par les charges $q_1=10^{-8}C$, $q_2=2.10^{-8}C$, $q_3=-10^{-8}C$, $q_4=3.10^{-8}C$ ? ($1/4\\pi\\varepsilon_0=9.10^9$)",
+      "choices": {
+        "a": "$240$",
+        "b": "$120$",
+        "c": "$360$",
+        "d": "$636$"
+      },
+      "correct": "d",
+      "explication": "Distance centre-sommet $\\approx0{,}707\\,m$ ; $V=k\\sum q_i/r=9.10^9\\times5.10^{-8}/0{,}707\\approx636\\,V$."
+    },
+    {
+      "id": "p2012_q12",
+      "text": "Quelle est en joules l'énergie électrique emmagasinée dans un condensateur de capacité $6\\,\\mu F$ soumis à une ddp de $10\\,V$ ?",
+      "choices": {
+        "a": "$3.10^{-4}$",
+        "b": "$3.10^{-3}$",
+        "c": "$6.10^{-1}$",
+        "d": "$6.10^{-4}$"
+      },
+      "correct": "a",
+      "explication": "$E=\\frac12CU^2=\\frac12\\times6.10^{-6}\\times100=3.10^{-4}\\,J$."
+    },
+    {
+      "id": "p2012_q13",
+      "text": "Deux résistances de $100\\,\\Omega$ chacune sont montées en parallèle. La résistance équivalente est égale à :",
+      "choices": {
+        "a": "$100\\,\\Omega$",
+        "b": "$50\\,\\Omega$",
+        "c": "$200\\,\\Omega$",
+        "d": "$150\\,\\Omega$"
+      },
+      "correct": "b",
+      "explication": "$1/R_{eq}=1/100+1/100=2/100\\Rightarrow R_{eq}=50\\,\\Omega$."
+    },
+    {
+      "id": "p2012_q14",
+      "text": "Deux inductances $0{,}1\\,H$ et $0{,}2\\,H$ sont placées en série. Elles sont équivalentes à une inductance de :",
+      "choices": {
+        "a": "$0{,}06\\,H$",
+        "b": "$0{,}1\\,H$",
+        "c": "$0{,}3\\,H$",
+        "d": "$0{,}2\\,H$"
+      },
+      "correct": "c",
+      "explication": "En série, les inductances s'additionnent : $0{,}1+0{,}2=0{,}3\\,H$."
+    },
+    {
+      "id": "p2012_q15",
+      "text": "Dans un circuit RLC série, soit $\\varphi$ le déphasage entre la tension et le courant. À la résonance :",
+      "choices": {
+        "a": "$\\sin\\varphi=1$",
+        "b": "$\\cos\\varphi=1$",
+        "c": "$\\cos\\varphi=0$",
+        "d": "$tg\\varphi=0$"
+      },
+      "correct": "b",
+      "explication": "À la résonance, l'impédance se réduit à $R$ (partie purement résistive) : tension et courant sont en phase, $\\varphi=0$ donc $\\cos\\varphi=1$."
+    },
+    {
+      "id": "p2012_q16",
+      "text": "Dans un circuit RLC série, on appelle facteur de puissance :",
+      "choices": {
+        "a": "$\\sin\\varphi$",
+        "b": "$tg\\varphi$",
+        "c": "$\\cos\\varphi$",
+        "d": "$\\cos^2\\varphi$"
+      },
+      "correct": "c",
+      "explication": "Le facteur de puissance d'un circuit est $\\cos\\varphi$."
+    },
+    {
+      "id": "p2012_q17",
+      "text": "Quelle sera la vitesse en $m.s^{-1}$ des électrons émis par une cathode incandescente lorsqu'ils atteindront l'anode, si la tension appliquée entre l'anode et la cathode est égale à $200\\,V$ ?",
+      "choices": {
+        "a": "$8{,}4.10^{6}$",
+        "b": "$7.10^{13}$",
+        "c": "$6.10^{6}$",
+        "d": "$3.10^{15}$"
+      },
+      "correct": "a",
+      "explication": "$v=\\sqrt{2eU/m}=\\sqrt{2\\times1{,}6.10^{-19}\\times200/9{,}1.10^{-31}}\\approx8{,}4.10^{6}\\,m.s^{-1}$."
+    },
+    {
+      "id": "p2012_q18",
+      "text": "L'induction magnétique dans un solénoïde est égale à B. Sachant que la longueur du solénoïde est L et qu'il comporte N spires, quelle est l'intensité du courant dans le solénoïde ?",
+      "choices": {
+        "a": "$I=\\mu_0BNL$",
+        "b": "$I=\\mu_0B/NL$",
+        "c": "$I=BL/\\mu_0N$",
+        "d": "$I=BN/\\mu_0L$"
+      },
+      "correct": "c",
+      "explication": "De $B=\\mu_0NI/L$, on tire $I=BL/(\\mu_0N)$."
+    },
+    {
+      "id": "p2012_q19",
+      "text": "On branche un condensateur de capacité $C=20\\,\\mu F$ sur un réseau de courant alternatif de $50\\,Hz$, $220\\,V$. Quelle sera l'intensité du courant traversant le condensateur ?",
+      "choices": {
+        "a": "$69\\,A$",
+        "b": "$1{,}38\\,A$",
+        "c": "$0{,}22\\,A$",
+        "d": "$30\\,A$"
+      },
+      "correct": "b",
+      "explication": "$I=U C\\omega=220\\times20.10^{-6}\\times2\\pi\\times50\\approx1{,}38\\,A$."
+    },
+    {
+      "id": "p2012_q20",
+      "text": "Dans l'expérience des fentes de Young, soient $a$ la distance entre les fentes, $\\lambda$ la longueur d'onde et $D$ la distance entre l'écran et les fentes. L'interfrange est :",
+      "choices": {
+        "a": "$a/\\lambda D$",
+        "b": "$D/\\lambda a$",
+        "c": "$aD/\\lambda$",
+        "d": "$\\lambda D/a$"
+      },
+      "correct": "d",
+      "explication": "L'interfrange des fentes de Young est $i=\\lambda D/a$."
+    }
+  ]
+}

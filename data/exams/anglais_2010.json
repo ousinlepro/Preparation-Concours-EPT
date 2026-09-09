@@ -1,0 +1,244 @@
+{
+  "questions": [
+    {
+      "id": "a2010_q1",
+      "text": "No sooner had they returned home ________ it started raining.",
+      "choices": {
+        "a": "before",
+        "b": "while",
+        "c": "when",
+        "d": "after"
+      },
+      "correct": "c",
+      "explication": "« No sooner... when » (variante de « no sooner... than ») marque l'immédiateté entre les deux actions."
+    },
+    {
+      "id": "a2010_q2",
+      "text": "She was accused of ________ her husband.",
+      "choices": {
+        "a": "to murder",
+        "b": "murdering",
+        "c": "to murdering",
+        "d": "having murdering"
+      },
+      "correct": "b",
+      "explication": "« Accuse someone of + gérondif »."
+    },
+    {
+      "id": "a2010_q3",
+      "text": "I wonder ________ they will reconciliate.",
+      "choices": {
+        "a": "that",
+        "b": "as",
+        "c": "whether",
+        "d": "though"
+      },
+      "correct": "c",
+      "explication": "« Wonder whether » introduit une interrogation indirecte totale (oui/non)."
+    },
+    {
+      "id": "a2010_q4",
+      "text": "They are used to ________ in this hotel.",
+      "choices": {
+        "a": "staying",
+        "b": "stay",
+        "c": "to staying",
+        "d": "stayed"
+      },
+      "correct": "a",
+      "explication": "« Be used to + gérondif » (être habitué à)."
+    },
+    {
+      "id": "a2010_q5",
+      "text": "An award means:",
+      "choices": {
+        "a": "price",
+        "b": "prize",
+        "c": "poster",
+        "d": "ward"
+      },
+      "correct": "b",
+      "explication": "« An award » = une récompense, un prix."
+    },
+    {
+      "id": "a2010_q6",
+      "text": "________ do muslims pray a day?",
+      "choices": {
+        "a": "how many time",
+        "b": "when",
+        "c": "how often",
+        "d": "how"
+      },
+      "correct": "c",
+      "explication": "« How often » interroge sur la fréquence."
+    },
+    {
+      "id": "a2010_q7",
+      "text": "\"Salagn-Salagn\" is one of Youssou Ndour's ________ song.",
+      "choices": {
+        "a": "latest",
+        "b": "last",
+        "c": "late",
+        "d": "least"
+      },
+      "correct": "a",
+      "explication": "« Latest » = le plus récent (dernier en date), qui convient ici, contrairement à « last » (final, ultime)."
+    },
+    {
+      "id": "a2010_q8",
+      "text": "Africans had better ________ themselves.",
+      "choices": {
+        "a": "united",
+        "b": "uniting",
+        "c": "to uniting",
+        "d": "unite"
+      },
+      "correct": "d",
+      "explication": "« Had better + base verbale » (sans « to »)."
+    },
+    {
+      "id": "a2010_q9",
+      "text": "________ he woke up early he missed the train.",
+      "choices": {
+        "a": "despite",
+        "b": "every day",
+        "c": "although",
+        "d": "but"
+      },
+      "correct": "c",
+      "explication": "« Although » introduit une proposition complète (sujet + verbe), contrairement à « despite »."
+    },
+    {
+      "id": "a2010_q10",
+      "text": "If I ________ you I wouldn't do that.",
+      "choices": {
+        "a": "was",
+        "b": "were",
+        "c": "am",
+        "d": "would be"
+      },
+      "correct": "b",
+      "explication": "Second conditionnel : « If I were you » (subjonctif figé)."
+    },
+    {
+      "id": "a2010_q11",
+      "text": "He is angry ________ what I said.",
+      "choices": {
+        "a": "with",
+        "b": "after",
+        "c": "on",
+        "d": "about"
+      },
+      "correct": "d",
+      "explication": "« Angry about + un fait/propos » (« angry with » s'utilise plutôt pour une personne)."
+    },
+    {
+      "id": "a2010_q12",
+      "text": "It's high time we ________ smoking.",
+      "choices": {
+        "a": "stopped",
+        "b": "stop",
+        "c": "stopping",
+        "d": "to stop"
+      },
+      "correct": "a",
+      "explication": "« It's (high) time + sujet + prétérit » exprime une obligation présente."
+    },
+    {
+      "id": "a2010_q13",
+      "text": "I had given him my phone number two days ________.",
+      "choices": {
+        "a": "ago",
+        "b": "too",
+        "c": "before",
+        "d": "neither"
+      },
+      "correct": "a",
+      "explication": "« Two days ago » (expression figée avec un repère temporel précis)."
+    },
+    {
+      "id": "a2010_q14",
+      "text": "I wish my wife ________ pretty.",
+      "choices": {
+        "a": "is",
+        "b": "were",
+        "c": "would have been",
+        "d": "has been"
+      },
+      "correct": "b",
+      "explication": "« Wish + prétérit modal (were) » exprime un souhait irréel au présent."
+    },
+    {
+      "id": "a2010_q15",
+      "text": "It's no use ________ against her.",
+      "choices": {
+        "a": "plotting",
+        "b": "to plot",
+        "c": "plot",
+        "d": "didn't plot"
+      },
+      "correct": "a",
+      "explication": "« It's no use + gérondif »."
+    },
+    {
+      "id": "a2010_q16",
+      "text": "He enjoys ________ vegetables raw.",
+      "choices": {
+        "a": "to eat",
+        "b": "eat",
+        "c": "eated",
+        "d": "eating"
+      },
+      "correct": "d",
+      "explication": "« Enjoy » est toujours suivi d'un gérondif."
+    },
+    {
+      "id": "a2010_q17",
+      "text": "They ________ long before the sun rose.",
+      "choices": {
+        "a": "arrived",
+        "b": "were arriving",
+        "c": "arrive",
+        "d": "had arrived"
+      },
+      "correct": "d",
+      "explication": "Plus-que-parfait : l'arrivée précède une autre action passée (« before the sun rose »)."
+    },
+    {
+      "id": "a2010_q18",
+      "text": "Africans should rely ________ Themselves.",
+      "choices": {
+        "a": "with",
+        "b": "in",
+        "c": "upon",
+        "d": "for"
+      },
+      "correct": "c",
+      "explication": "« Rely upon » (variante formelle de « rely on »)."
+    },
+    {
+      "id": "a2010_q19",
+      "text": "My sister is looking ________ her restless baby.",
+      "choices": {
+        "a": "after",
+        "b": "for",
+        "c": "at",
+        "d": "in"
+      },
+      "correct": "a",
+      "explication": "« Look after » = s'occuper de."
+    },
+    {
+      "id": "a2010_q20",
+      "text": "________ English and French are spoken in Canada.",
+      "choices": {
+        "a": "the",
+        "b": "both",
+        "c": "languages",
+        "d": "the two"
+      },
+      "correct": "b",
+      "explication": "« Both X and Y » (les deux, l'un et l'autre)."
+    }
+  ]
+}

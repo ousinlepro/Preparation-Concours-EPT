@@ -1,0 +1,244 @@
+{
+  "questions": [
+    {
+      "id": "p2011_q1",
+      "text": "Un projectile est tiré depuis le sol avec une vitesse de $400\\,m.s^{-1}$, le vecteur vitesse initiale fait un angle de $30°$ avec l'horizontale ($g=10\\,m.s^{-2}$). Quelle est, environ en kilomètres, la portée du tir ?",
+      "choices": {
+        "a": "$14$",
+        "b": "$15$",
+        "c": "$12$",
+        "d": "$16$"
+      },
+      "correct": "a",
+      "explication": "$R=\\dfrac{v_0^2\\sin(2\\theta)}{g}=\\dfrac{400^2\\times\\sin60°}{10}\\approx13856\\,m\\approx14\\,km$."
+    },
+    {
+      "id": "p2011_q2",
+      "text": "Un mobile est animé d'un mouvement rectiligne uniformément varié d'accélération $5\\,m.s^{-2}$. À $t=0$ il est à l'abscisse $x=-20\\,m$ et a une vitesse de $10\\,m.s^{-1}$. Quelle est l'équation horaire de son mouvement ?",
+      "choices": {
+        "a": "$10t$",
+        "b": "$2{,}5t^2$",
+        "c": "$2{,}5t^2+10t-20$",
+        "d": "$2{,}5t^2-20$"
+      },
+      "correct": "c",
+      "explication": "$x(t)=x_0+v_0t+\\frac12at^2=-20+10t+2{,}5t^2$."
+    },
+    {
+      "id": "p2011_q3",
+      "text": "Un obus est tiré verticalement avec une vitesse initiale de $600\\,m.s^{-1}$ ($g=9{,}8\\,m.s^{-2}$). Quelle est en km l'altitude maximale atteinte par l'obus ?",
+      "choices": {
+        "a": "$4$",
+        "b": "$18$",
+        "c": "$9$",
+        "d": "$32$"
+      },
+      "correct": "b",
+      "explication": "$h=v_0^2/(2g)=600^2/(2\\times9{,}8)\\approx18367\\,m\\approx18\\,km$."
+    },
+    {
+      "id": "p2011_q4",
+      "text": "Quel est en secondes le temps mis par cet obus pour atteindre cette altitude ?",
+      "choices": {
+        "a": "$92$",
+        "b": "$81$",
+        "c": "$61$",
+        "d": "$31$"
+      },
+      "correct": "c",
+      "explication": "$t=v_0/g=600/9{,}8\\approx61\\,s$."
+    },
+    {
+      "id": "p2011_q5",
+      "text": "Quelle est en $m.s^{-1}$ la vitesse du projectile à l'altitude $2\\,km$ ?",
+      "choices": {
+        "a": "$75$",
+        "b": "$115$",
+        "c": "$715$",
+        "d": "$565$"
+      },
+      "correct": "d",
+      "explication": "$v^2=v_0^2-2gh=600^2-2\\times9{,}8\\times2000=320800\\Rightarrow v\\approx565\\,m.s^{-1}$."
+    },
+    {
+      "id": "p2011_q6",
+      "text": "Un objet glisse sans frottement sur un plan incliné. Il démarre avec une vitesse nulle et parcourt $7{,}20\\,m$ durant la troisième seconde. Quelle est en degrés la valeur de l'angle du plan incliné par rapport à l'horizontale ? ($g=9{,}81\\,m.s^{-2}$)",
+      "choices": {
+        "a": "$17$",
+        "b": "$28$",
+        "c": "$54$",
+        "d": "$8$"
+      },
+      "correct": "a",
+      "explication": "Distance parcourue durant la $n$-ième seconde : $d_n=\\frac{a}{2}(2n-1)$. Pour $n=3$ : $7{,}20=2{,}5a\\Rightarrow a=2{,}88\\,m.s^{-2}$. Puis $\\sin\\theta=a/g\\approx0{,}294\\Rightarrow\\theta\\approx17°$."
+    },
+    {
+      "id": "p2011_q7",
+      "text": "Une force de $5\\,N$ comprime de $5\\,cm$ un ressort ; quelle est en $N.m^{-1}$ la constante de raideur de ce ressort ?",
+      "choices": {
+        "a": "$1$",
+        "b": "$10$",
+        "c": "$5$",
+        "d": "$100$"
+      },
+      "correct": "d",
+      "explication": "$k=F/x=5/0{,}05=100\\,N.m^{-1}$."
+    },
+    {
+      "id": "p2011_q8",
+      "text": "Trouver la résultante des deux vibrations : $s_1=2\\sin(t+\\frac{\\pi}{3})$ et $s_2=2\\sin(t+\\frac{2\\pi}{3})$.",
+      "choices": {
+        "a": "$4\\sin(t+\\frac{\\pi}{2})$",
+        "b": "$3{,}46\\cos t$",
+        "c": "$0$",
+        "d": "$4$"
+      },
+      "correct": "b",
+      "explication": "Amplitude $R=4\\cos\\left(\\frac{2\\pi/3-\\pi/3}{2}\\right)=4\\cos(\\pi/6)=2\\sqrt3\\approx3{,}46$, phase moyenne $\\pi/2$, donc $3{,}46\\sin(t+\\pi/2)=3{,}46\\cos t$."
+    },
+    {
+      "id": "p2011_q9",
+      "text": "On observe sur une corde des ondes stationnaires constituées de fuseaux de $16\\,cm$ de long et $3\\,cm$ de large. La vitesse de propagation le long de la corde est de $6\\,m/s$. Trouver la valeur $y$ de l'élongation à l'instant $t$ en un ventre.",
+      "choices": {
+        "a": "$3\\sin118t$",
+        "b": "$1{,}5\\sin118t$",
+        "c": "$1{,}5$",
+        "d": "$0$"
+      },
+      "correct": "b",
+      "explication": "$\\lambda=2\\times0{,}16=0{,}32\\,m$, $f=v/\\lambda\\approx18{,}75\\,Hz$, $\\omega\\approx118\\,rad/s$ ; l'amplitude au ventre est la demi-largeur du fuseau, soit $1{,}5\\,cm$."
+    },
+    {
+      "id": "p2011_q10",
+      "text": "Quel est en volts le potentiel électrique au centre d'un carré de $1\\,m$ de côté dont les sommets sont occupés par les charges $q_1=+10^{-8}C$, $q_2=+2.10^{-8}C$, $q_3=-10^{-8}C$, $q_4=+3.10^{-8}C$ ? ($1/4\\pi\\varepsilon_0=9.10^9$)",
+      "choices": {
+        "a": "$636$",
+        "b": "$240$",
+        "c": "$940$",
+        "d": "$360$"
+      },
+      "correct": "a",
+      "explication": "Distance centre-sommet $=\\frac{\\sqrt2}{2}\\,m\\approx0{,}707\\,m$ ; $V=k\\dfrac{\\sum q_i}{r}=\\dfrac{9.10^9\\times5.10^{-8}}{0{,}707}\\approx636\\,V$."
+    },
+    {
+      "id": "p2011_q11",
+      "text": "Quelle est en joules l'énergie potentielle électrique emmagasinée dans un condensateur de capacité $6\\,\\mu F$ à une ddp de $10\\,V$ ?",
+      "choices": {
+        "a": "$60$",
+        "b": "$3.10^{-1}$",
+        "c": "$3.10^{-4}$",
+        "d": "$6.10^{-3}$"
+      },
+      "correct": "c",
+      "explication": "$E=\\frac12CU^2=\\frac12\\times6.10^{-6}\\times10^2=3.10^{-4}\\,J$."
+    },
+    {
+      "id": "p2011_q12",
+      "text": "Un conducteur électrique de longueur $d=1\\,m$ parcouru par un courant de $10\\,A$ est placé dans un champ magnétique de $4\\,T$ avec lequel il fait un angle de $30°$. Quelle est en newtons la force que subit le conducteur ?",
+      "choices": {
+        "a": "$50$",
+        "b": "$30$",
+        "c": "$20$",
+        "d": "$7{,}5$"
+      },
+      "correct": "c",
+      "explication": "$F=BIL\\sin\\theta=4\\times10\\times1\\times\\sin30°=20\\,N$."
+    },
+    {
+      "id": "p2011_q13",
+      "text": "Quelle est en teslas l'induction magnétique créée en un point M à $1\\,m$ d'un conducteur rectiligne parcouru par un courant de $10\\,A$ ? ($\\mu_0=4\\pi.10^{-7}\\,SI$)",
+      "choices": {
+        "a": "$4.10^{-6}$",
+        "b": "$8.10^{-6}$",
+        "c": "$6.10^{-6}$",
+        "d": "$2.10^{-6}$"
+      },
+      "correct": "d",
+      "explication": "$B=\\mu_0I/(2\\pi r)=4\\pi.10^{-7}\\times10/(2\\pi\\times1)=2.10^{-6}\\,T$."
+    },
+    {
+      "id": "p2011_q14",
+      "text": "Une particule de masse $m=6{,}68.10^{-27}\\,kg$ et de charge $q=3{,}2.10^{-19}\\,C$ est accélérée sous une ddp $V=40000\\,V$, avant de pénétrer dans un champ $B=4\\,T$ perpendiculaire à son déplacement. Quel est en mètres le diamètre du demi-cercle décrit ?",
+      "choices": {
+        "a": "$1{,}02.10^{-2}$",
+        "b": "$2{,}04.10^{-2}$",
+        "c": "$4{,}08.10^{-2}$",
+        "d": "$6{,}06.10^{-2}$"
+      },
+      "correct": "b",
+      "explication": "$v=\\sqrt{2qV/m}\\approx1{,}96.10^6\\,m/s$ ; $r=mv/(qB)\\approx1{,}02.10^{-2}\\,m$ ; diamètre $\\approx2{,}04.10^{-2}\\,m$."
+    },
+    {
+      "id": "p2011_q15",
+      "text": "Le moment d'inertie d'une tige mince, de masse $m$ et de longueur $l$, par rapport à un axe orthogonal passant par une extrémité est :",
+      "choices": {
+        "a": "$\\dfrac{ml^2}{2}$",
+        "b": "$\\dfrac{ml^2}{3}$",
+        "c": "$\\dfrac{ml^2}{12}$",
+        "d": "$\\dfrac{2ml^2}{5}$"
+      },
+      "correct": "b",
+      "explication": "Moment d'inertie d'une tige par rapport à un axe passant par une extrémité : $I=ml^2/3$."
+    },
+    {
+      "id": "p2011_q16",
+      "text": "Dans le système international (MKSA), le moment d'une force s'exprime en :",
+      "choices": {
+        "a": "J",
+        "b": "kg.m",
+        "c": "N.m",
+        "d": "N.m/s"
+      },
+      "correct": "c",
+      "explication": "Le moment d'une force s'exprime en newton-mètre (N·m)."
+    },
+    {
+      "id": "p2011_q17",
+      "text": "Une bobine de self de $20\\,\\Omega$ de résistance est alimentée par un courant de fréquence $50\\,Hz$. Son facteur de puissance est $0{,}8$. Calculer en microfarads la capacité d'un condensateur à placer en série avec la bobine pour que le facteur de puissance soit égal à l'unité.",
+      "choices": {
+        "a": "$265$",
+        "b": "$212$",
+        "c": "$20$",
+        "d": "$1$"
+      },
+      "correct": "b",
+      "explication": "$\\cos\\varphi=0{,}8\\Rightarrow L\\omega=R\\tan\\varphi=20\\times0{,}75=15\\,\\Omega$. À résonance, $C=1/(L\\omega^2)\\approx212\\,\\mu F$."
+    },
+    {
+      "id": "p2011_q18",
+      "text": "La longueur d'onde du seuil photoélectrique du sodium étant $\\lambda_0=0{,}52\\,\\mu m$, on l'éclaire avec une radiation de longueur d'onde $\\lambda=0{,}40\\,\\mu m$ ; calculer en km/s la vitesse maximale d'un électron à sa sortie du métal. (masse de l'électron $m=0{,}9.10^{-30}\\,kg$)",
+      "choices": {
+        "a": "$100$",
+        "b": "$503$",
+        "c": "$1{,}3$",
+        "d": "$350$"
+      },
+      "correct": "b",
+      "explication": "$E_c=hc(1/\\lambda-1/\\lambda_0)\\approx1{,}15.10^{-19}\\,J$ ; $v=\\sqrt{2E_c/m}\\approx5{,}05.10^5\\,m/s\\approx503\\,km/s$."
+    },
+    {
+      "id": "p2011_q19",
+      "text": "Dans le système international, l'unité de radioactivité est :",
+      "choices": {
+        "a": "Le becquerel (Bq)",
+        "b": "L'électron-volt (eV)",
+        "c": "Le curie (Ci)",
+        "d": "Le gramme (g)"
+      },
+      "correct": "a",
+      "explication": "L'activité radioactive s'exprime en becquerels dans le système international (le curie est une unité hors SI)."
+    },
+    {
+      "id": "p2011_q20",
+      "text": "Soit T la période d'une substance radioactive. Au bout d'un temps $t=2T$, la masse initiale $m$ est devenue :",
+      "choices": {
+        "a": "$0{,}69\\,m$",
+        "b": "$m/2$",
+        "c": "$m/3$",
+        "d": "$m/4$"
+      },
+      "correct": "d",
+      "explication": "Après deux demi-vies, il reste $m\\times(1/2)^2=m/4$."
+    }
+  ]
+}

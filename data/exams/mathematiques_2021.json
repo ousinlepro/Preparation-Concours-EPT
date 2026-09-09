@@ -1,0 +1,244 @@
+{
+  "questions": [
+    {
+      "id": "m2021_q1",
+      "text": "Diviser le nombre $120$ en deux parties $x_1$ et $x_2$ telles que le produit $P$ d'une des parties par le carré de l'autre soit maximal.",
+      "choices": {
+        "a": "$x_1=50$ et $x_2=70$",
+        "b": "$x_1=80$ et $x_2=40$",
+        "c": "$x_1=30$ et $x_2=90$",
+        "d": "$x_1=70$ et $x_2=50$"
+      },
+      "correct": "b",
+      "explication": "En posant $P(x)=x(120-x)^2$, $P'(x)=(120-x)(120-3x)$ s'annule en $x=40$, qui donne le maximum $P=256000$ (les parties sont $40$ et $80$)."
+    },
+    {
+      "id": "m2021_q2",
+      "text": "Un réservoir cylindrique ouvert (sans couvercle) doit avoir un volume de $64\\,cm^3$. Trouver le rayon $r$ de sa base et sa hauteur $h$ pour que la surface de métal utilisée soit minimale.",
+      "choices": {
+        "a": "$r=3\\sqrt[3]{\\pi}$ et $h=2\\sqrt[3]{\\pi}$",
+        "b": "$r=3\\sqrt[3]{\\pi}$ et $h=3\\sqrt[3]{\\pi}$",
+        "c": "$r=\\dfrac{4}{\\sqrt[3]{\\pi}}$ et $h=\\dfrac{4}{\\sqrt[3]{\\pi}}$",
+        "d": "$r=\\dfrac{2}{\\sqrt[3]{\\pi}}$ et $h=\\dfrac{2}{\\sqrt[3]{\\pi}}$"
+      },
+      "correct": "c",
+      "explication": "Avec $V=\\pi r^2 h=64$ et $S(r)=\\pi r^2+128/r$, $S'(r)=0$ donne $r=4/\\sqrt[3]{\\pi}$, et $h=64/(\\pi r^2)$ redonne la même valeur : $h=r$."
+    },
+    {
+      "id": "m2021_q3",
+      "text": "Un corps se déplace sur une droite suivant la loi $s=\\frac12 t^3-2t$. Quelles sont sa vitesse $v$ et son accélération $\\lambda$ au bout de $2$ secondes ?",
+      "choices": {
+        "a": "$v=3\\,m/s$ et $\\lambda=5\\,m/s^2$",
+        "b": "$v=4\\,m/s$ et $\\lambda=3\\,m/s^2$",
+        "c": "$v=6\\,m/s$ et $\\lambda=4\\,m/s^2$",
+        "d": "$v=4\\,m/s$ et $\\lambda=6\\,m/s^2$"
+      },
+      "correct": "d",
+      "explication": "$v(t)=s'(t)=\\frac32 t^2-2$, donc $v(2)=6-2=4\\,m/s$. $\\lambda(t)=v'(t)=3t$, donc $\\lambda(2)=6\\,m/s^2$."
+    },
+    {
+      "id": "m2021_q4",
+      "text": "Un corps se déplace suivant la loi $s=t^3-9t^2+24t$. Quand $s$ est-elle croissante ?",
+      "choices": {
+        "a": "Quand $t\\in[0,2[$",
+        "b": "Quand $t\\in\\,]4,+\\infty[$",
+        "c": "Quand $t\\in\\,]2,4[$",
+        "d": "Quand $t\\in[0,2[\\,\\cup\\,]4,+\\infty[$"
+      },
+      "correct": "d",
+      "explication": "$s'(t)=3t^2-18t+24=3(t-2)(t-4)$ est positif quand $t<2$ ou $t>4$."
+    },
+    {
+      "id": "m2021_q5",
+      "text": "Étant donné $f(x)=x^2-3x$, trouver $l=\\lim\\limits_{h\\to0}\\dfrac{f(x+h)-f(x)}{h}$.",
+      "choices": {
+        "a": "$l=2x-3$",
+        "b": "$l=-2x+3$",
+        "c": "$l=0$",
+        "d": "$l=+\\infty$"
+      },
+      "correct": "a",
+      "explication": "Cette limite est par définition $f'(x)=2x-3$."
+    },
+    {
+      "id": "m2021_q6",
+      "text": "Calculer $s=\\lim\\limits_{x\\to0^-}\\dfrac{1}{3+2^{1/x}}$.",
+      "choices": {
+        "a": "$s=0$",
+        "b": "$s=\\dfrac13$",
+        "c": "$s=+\\infty$",
+        "d": "$s=-\\infty$"
+      },
+      "correct": "b",
+      "explication": "Quand $x\\to0^-$, $1/x\\to-\\infty$ donc $2^{1/x}\\to0$, d'où $s\\to1/3$."
+    },
+    {
+      "id": "m2021_q7",
+      "text": "Évaluer $t=\\lim\\limits_{x\\to0^+}\\dfrac{1}{3+2^{1/x}}$.",
+      "choices": {
+        "a": "$t=-\\infty$",
+        "b": "$t=+\\infty$",
+        "c": "$t=0$",
+        "d": "$t=3$"
+      },
+      "correct": "c",
+      "explication": "Quand $x\\to0^+$, $1/x\\to+\\infty$ donc $2^{1/x}\\to+\\infty$, et $t\\to0$."
+    },
+    {
+      "id": "m2021_q8",
+      "text": "Calculer $u=\\lim\\limits_{x\\to2}\\dfrac{x-2}{\\sqrt{x^2-4}}$.",
+      "choices": {
+        "a": "$u=1$",
+        "b": "$u=+\\infty$",
+        "c": "$u=\\dfrac12$",
+        "d": "$u=0$"
+      },
+      "correct": "d",
+      "explication": "$\\dfrac{x-2}{\\sqrt{(x-2)(x+2)}}=\\dfrac{\\sqrt{x-2}}{\\sqrt{x+2}}\\to0$ quand $x\\to2^+$."
+    },
+    {
+      "id": "m2021_q9",
+      "text": "Évaluer $v=\\lim\\limits_{h\\to0}\\dfrac{(x+h)^3-x^3}{h}$.",
+      "choices": {
+        "a": "$v=3x^2$",
+        "b": "$v=x^2$",
+        "c": "$v=3x$",
+        "d": "$v=x$"
+      },
+      "correct": "a",
+      "explication": "C'est la dérivée de $x^3$, soit $3x^2$."
+    },
+    {
+      "id": "m2021_q10",
+      "text": "Évaluer $q=\\lim\\limits_{x\\to1}\\dfrac{x-1}{\\sqrt{x^2+3}-2}$.",
+      "choices": {
+        "a": "$q=1$",
+        "b": "$q=2$",
+        "c": "$q=0$",
+        "d": "$q=\\dfrac14$"
+      },
+      "correct": "b",
+      "explication": "En multipliant par la quantité conjuguée : $q=\\lim\\dfrac{(x-1)(\\sqrt{x^2+3}+2)}{x^2-1}=\\lim\\dfrac{\\sqrt{x^2+3}+2}{x+1}=\\dfrac{4}{2}=2$."
+    },
+    {
+      "id": "m2021_q11",
+      "text": "L'apport quotidien recommandé en calcium est de $1000\\,mg$. Une tasse de lait contient $299\\,mg$ et une tasse de jus $261\\,mg$. Laquelle des inégalités représente le nombre de tasses de lait $m$ et de jus $j$ permettant d'atteindre ou dépasser cet apport ?",
+      "choices": {
+        "a": "$299m+261j\\geq1000$",
+        "b": "$299m+261j>1000$",
+        "c": "$\\dfrac{299}{m}+\\dfrac{261}{j}\\geq1000$",
+        "d": "$\\dfrac{299}{m}+\\dfrac{261}{j}<1000$"
+      },
+      "correct": "a",
+      "explication": "Le calcium total apporté est $299m+261j$ ; « atteindre ou dépasser » se traduit par $\\geq$."
+    },
+    {
+      "id": "m2021_q12",
+      "text": "Trouver la valeur de $\\sin\\!\\left(\\dfrac{\\pi}{3}\\right)$.",
+      "choices": {
+        "a": "$-\\cos\\!\\left(\\dfrac{7\\pi}{12}\\right)$",
+        "b": "$\\sin\\!\\left(\\dfrac{7\\pi}{12}\\right)$",
+        "c": "$\\cos\\!\\left(\\dfrac{77\\pi}{42}\\right)$",
+        "d": "$-\\sin\\!\\left(\\dfrac{77\\pi}{42}\\right)$"
+      },
+      "correct": "c",
+      "explication": "$\\dfrac{77\\pi}{42}=\\dfrac{11\\pi}{6}$, et $\\cos(11\\pi/6)=\\cos(-\\pi/6)=\\dfrac{\\sqrt3}{2}=\\sin(\\pi/3)$."
+    },
+    {
+      "id": "m2021_q13",
+      "text": "Évaluer $q=\\lim\\limits_{x\\to0}\\dfrac{\\sin(\\pi x)}{x}$.",
+      "choices": {
+        "a": "$q=\\pi$",
+        "b": "$q=1$",
+        "c": "$q=\\dfrac1\\pi$",
+        "d": "$q=+\\infty$"
+      },
+      "correct": "a",
+      "explication": "$\\dfrac{\\sin(\\pi x)}{x}=\\pi\\cdot\\dfrac{\\sin(\\pi x)}{\\pi x}\\to\\pi\\times1=\\pi$."
+    },
+    {
+      "id": "m2021_q14",
+      "text": "Une population locale double tous les $12$ ans. Estimée à $50$ animaux en 2014, quelle équation représente la population $P$, $n$ années plus tard ?",
+      "choices": {
+        "a": "$P=12+50n$",
+        "b": "$P=50+12n$",
+        "c": "$P=50(2)^{12n}$",
+        "d": "$P=50(2)^{n/12}$"
+      },
+      "correct": "d",
+      "explication": "Un doublement tous les $12$ ans correspond à une croissance exponentielle $P=P_0\\times2^{n/12}$."
+    },
+    {
+      "id": "m2021_q15",
+      "text": "La fonction $f(x)=2x^3+3x^2+cx+8$ ($c$ constante) coupe l'axe des abscisses en $(-4,0)$, $(\\frac12,0)$ et $(p,0)$. Quelle est la valeur de $c$ ?",
+      "choices": {
+        "a": "$c=-18$",
+        "b": "$c=-2$",
+        "c": "$c=2$",
+        "d": "$c=10$"
+      },
+      "correct": "a",
+      "explication": "En substituant $x=-4$ (ou $x=1/2$) dans $f(x)=0$ : $2(-4)^3+3(-4)^2-4c+8=0 \\Rightarrow -72-4c=0 \\Rightarrow c=-18$."
+    },
+    {
+      "id": "m2021_q16",
+      "text": "Soit $f$ définie par $f(x)=\\displaystyle\\int_0^x\\dfrac{1}{1-t^2}\\,dt$. Laquelle de ces affirmations est vraie ?",
+      "choices": {
+        "a": "$f(0)=1$",
+        "b": "$f$ est une fonction paire",
+        "c": "$f$ est définie sur $]-1,1[$",
+        "d": "$f(x)=\\ln\\!\\left(\\sqrt{1-x^2}\\right)$"
+      },
+      "correct": "c",
+      "explication": "L'intégrande a des pôles en $t=\\pm1$ : $f$ n'est définie que si l'intervalle $[0,x]$ reste dans $]-1,1[$. De plus $f(0)=0$ (a faux) et $f$ est impaire, pas paire (b faux)."
+    },
+    {
+      "id": "m2021_q17",
+      "text": "La valeur $x_0$ du théorème de Rolle pour $g(x)=\\sin x$ sur $[0,\\pi]$ est :",
+      "choices": {
+        "a": "$x_0=\\dfrac{\\pi}{3}$",
+        "b": "$x_0=\\dfrac{\\pi}{4}$",
+        "c": "$x_0=\\dfrac{\\pi}{6}$",
+        "d": "$x_0=\\dfrac{\\pi}{2}$"
+      },
+      "correct": "d",
+      "explication": "$g(0)=g(\\pi)=0$ et $g'(x)=\\cos x$ s'annule en $x_0=\\pi/2$."
+    },
+    {
+      "id": "m2021_q18",
+      "text": "La valeur $x_0$ du théorème des accroissements finis pour $f(x)=3x^2+4x-3$ sur $[1,3]$ est :",
+      "choices": {
+        "a": "$x_0=2$",
+        "b": "$x_0=\\dfrac32$",
+        "c": "$x_0=\\dfrac52$",
+        "d": "$x_0=1$"
+      },
+      "correct": "a",
+      "explication": "$\\dfrac{f(3)-f(1)}{3-1}=\\dfrac{36-4}{2}=16=f'(x_0)=6x_0+4 \\Rightarrow x_0=2$."
+    },
+    {
+      "id": "m2021_q19",
+      "text": "Laquelle de ces affirmations est fausse ?",
+      "choices": {
+        "a": "$\\displaystyle\\int_0^{\\pi/3}\\dfrac{\\sin t}{\\cos^2 t}\\,dt=1$",
+        "b": "$\\displaystyle\\int_0^{\\pi/4}\\sin(2t)\\,dt=\\dfrac12$",
+        "c": "$\\displaystyle\\int_0^{\\pi/4}\\cos(2t)\\,dt=3$",
+        "d": "$\\displaystyle\\int_1^{e}\\ln(t)\\,dt=1$"
+      },
+      "correct": "c",
+      "explication": "$\\int_0^{\\pi/4}\\cos(2t)\\,dt=\\left[\\frac{\\sin(2t)}{2}\\right]_0^{\\pi/4}=\\frac12$, et non $3$."
+    },
+    {
+      "id": "m2021_q20",
+      "text": "Soit $f(x)=(x+1)e^{2x}$ (avec $2<e<3$). Laquelle de ces affirmations est fausse ?",
+      "choices": {
+        "a": "$f$ satisfait $f'(x)-2f(x)=e^{2x}$",
+        "b": "L'équation $f(x)=-\\dfrac{1}{16}$ a deux solutions",
+        "c": "Si $I(\\alpha)=\\displaystyle\\int_\\alpha^{-1}f(x)\\,dx$, alors $I(\\alpha)=-\\dfrac{1}{4e^2}-\\dfrac{2\\alpha+1}{4}e^{2\\alpha}$",
+        "d": "$\\lim\\limits_{\\alpha\\to-\\infty}I(\\alpha)=-\\dfrac{1}{4e^2}$"
+      },
+      "correct": "b",
+      "explication": "$f$ décroît sur $]-\\infty,-\\frac32[$ puis croît, avec un minimum $f(-\\frac32)=-\\frac{1}{2e^3}\\approx-0{,}025$. Comme $-1/16\\approx-0{,}0625$ est inférieur à ce minimum, l'équation $f(x)=-1/16$ n'a aucune solution."
+    }
+  ]
+}

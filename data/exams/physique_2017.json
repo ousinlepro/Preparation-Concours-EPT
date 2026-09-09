@@ -1,0 +1,244 @@
+{
+  "questions": [
+    {
+      "id": "p2017_q1",
+      "text": "Un volant de moment d'inertie $J=180\\,kg.m^2$, de rayon $R=60\\,cm$, tourne à la fréquence $\\omega=5$ tours/s, autour d'un axe passant par son centre d'inertie. Pour l'arrêter, on lui applique une force de freinage $\\vec f$, tangente à sa circonférence et d'intensité constante égale à $140\\,N$. Quel est le temps mis par le volant pour s'arrêter ?",
+      "choices": {
+        "a": "$36\\,s$",
+        "b": "$70\\,s$",
+        "c": "$140\\,s$",
+        "d": "$5\\,s$"
+      },
+      "correct": "b",
+      "explication": "$\\omega_0=2\\pi\\times5\\approx31{,}4\\,rad/s$. Moment du couple de freinage $=fR=140\\times0{,}6=84\\,N.m$ ; décélération angulaire $\\alpha=84/180\\approx0{,}467\\,rad/s^2$ ; $t=\\omega_0/\\alpha\\approx70\\,s$."
+    },
+    {
+      "id": "p2017_q2",
+      "text": "Un véhicule roule à vitesse constante égale à $52\\,km/h$ sur une piste circulaire de rayon $R=600\\,m$. Quelle est la période du mouvement ?",
+      "choices": {
+        "a": "$11{,}5\\,s$",
+        "b": "$4{,}5\\,s$",
+        "c": "$522\\,s$",
+        "d": "$261\\,s$"
+      },
+      "correct": "d",
+      "explication": "$v=52\\,km/h\\approx14{,}44\\,m/s$ ; $T=2\\pi R/v\\approx261\\,s$."
+    },
+    {
+      "id": "p2017_q3",
+      "text": "Une voiture qui roulait initialement à vitesse constante sur une voie rectiligne, accélère pendant $10\\,s$. Son accélération est $a=1\\,m.s^{-2}$. Quelle est, en m/s, sa vitesse initiale si elle parcourt $200\\,m$ en $10\\,s$ ?",
+      "choices": {
+        "a": "$15$",
+        "b": "$5$",
+        "c": "$20$",
+        "d": "$10$"
+      },
+      "correct": "a",
+      "explication": "$d=v_0t+\\frac12at^2\\Rightarrow200=10v_0+50\\Rightarrow v_0=15\\,m/s$."
+    },
+    {
+      "id": "p2017_q4",
+      "text": "Une charge électrique ponctuelle $q$ de masse $m$, soumise à l'action d'une force magnétique égale à $F$, est animée d'un mouvement circulaire uniforme de vitesse $\\vec v$. Donner l'expression du rayon de la trajectoire.",
+      "choices": {
+        "a": "$mv/F$",
+        "b": "$F/mv^2$",
+        "c": "$mv^2/F$",
+        "d": "$F/mv$"
+      },
+      "correct": "c",
+      "explication": "La force magnétique fournit la force centripète : $F=mv^2/r\\Rightarrow r=mv^2/F$."
+    },
+    {
+      "id": "p2017_q5",
+      "text": "Un enfant de masse $m=40\\,kg$ se place sur un pèse-personne. Il saute verticalement. L'aiguille atteint la graduation $53\\,kg$ pendant son élan. Quelle est, en $m/s^2$, l'accélération du mouvement de l'enfant ? ($g=9{,}8\\,m.s^{-2}$)",
+      "choices": {
+        "a": "$2{,}4$",
+        "b": "$5{,}6$",
+        "c": "$3{,}2$",
+        "d": "$1{,}3$"
+      },
+      "correct": "c",
+      "explication": "$N=m(g+a)$ avec $N$ équivalent à $53\\,kg$ : $53g=40(g+a)\\Rightarrow a=g(53/40-1)\\approx3{,}2\\,m/s^2$."
+    },
+    {
+      "id": "p2017_q6",
+      "text": "Un satellite met $220\\,min$ pour effectuer un tour complet de la planète. L'orbite supposée circulaire a un rayon $R=9{,}2.10^7\\,m$. Quelle est, en m/s, la vitesse du satellite sur son orbite ?",
+      "choices": {
+        "a": "$9.10^4$",
+        "b": "$2{,}2.10^4$",
+        "c": "$4{,}4.10^4$",
+        "d": "$10^4$"
+      },
+      "correct": "c",
+      "explication": "$T=220\\times60=13200\\,s$ ; $v=2\\pi R/T\\approx4{,}4.10^4\\,m/s$."
+    },
+    {
+      "id": "p2017_q7",
+      "text": "À partir du sol, on tire un obus de masse $m$ avec une vitesse initiale $\\vec v_0$ faisant un angle $\\alpha$ avec l'horizontale. On néglige la résistance de l'air. Pour quelle valeur de $\\alpha$ la portée du tir est-elle maximale ?",
+      "choices": {
+        "a": "$30°$",
+        "b": "$45°$",
+        "c": "$60°$",
+        "d": "$15°$"
+      },
+      "correct": "b",
+      "explication": "La portée $v_0^2\\sin(2\\alpha)/g$ est maximale quand $\\sin(2\\alpha)=1$, soit $\\alpha=45°$."
+    },
+    {
+      "id": "p2017_q8",
+      "text": "Sur une piste horizontale longue de $3\\,km$, la vitesse au décollage d'un avion est égale à $432\\,km/h$. Quelle est l'accélération de l'avion en $m/s^2$ ?",
+      "choices": {
+        "a": "$5$",
+        "b": "$0{,}5$",
+        "c": "$1{,}2$",
+        "d": "$2{,}4$"
+      },
+      "correct": "d",
+      "explication": "$v=432\\,km/h=120\\,m/s$ ; $a=v^2/(2d)=120^2/6000=2{,}4\\,m/s^2$."
+    },
+    {
+      "id": "p2017_q9",
+      "text": "Dans l'air, les armatures d'un condensateur plan sont séparées par une distance de $3\\,mm$. Chacune d'elles a une surface de $30\\,cm^2$. Quelle est la capacité du condensateur ?",
+      "choices": {
+        "a": "$4.10^{-6}F$",
+        "b": "$9{,}3.10^{-6}F$",
+        "c": "$8{,}8.10^{-12}F$",
+        "d": "$3.10^{-12}F$"
+      },
+      "correct": "c",
+      "explication": "$C=\\varepsilon_0S/d=8{,}85.10^{-12}\\times0{,}003/0{,}003\\approx8{,}8.10^{-12}\\,F$."
+    },
+    {
+      "id": "p2017_q10",
+      "text": "Soient Q la charge d'un condensateur et V la tension entre ses bornes. Donner l'expression de l'énergie du condensateur.",
+      "choices": {
+        "a": "$QV$",
+        "b": "$QV^2/2$",
+        "c": "$V^3/2Q$",
+        "d": "$QV/2$"
+      },
+      "correct": "d",
+      "explication": "$E=\\frac12CV^2=\\frac12QV$."
+    },
+    {
+      "id": "p2017_q11",
+      "text": "Un proton ($q=+1{,}6.10^{-19}C$ et $m=1{,}67.10^{-27}kg$) a une trajectoire circulaire de rayon $R=6\\,m$ lorsqu'il se trouve plongé dans un champ magnétique uniforme $B=10^{-2}T$. Quelle est sa vitesse en m/s ?",
+      "choices": {
+        "a": "$5{,}76.10^6$",
+        "b": "$8{,}42.10^6$",
+        "c": "$2{,}51.10^6$",
+        "d": "$10^6$"
+      },
+      "correct": "a",
+      "explication": "$v=RqB/m=6\\times1{,}6.10^{-19}\\times10^{-2}/1{,}67.10^{-27}\\approx5{,}76.10^6\\,m/s$."
+    },
+    {
+      "id": "p2017_q12",
+      "text": "Un solénoïde de longueur L comporte N spires de rayon R. Il est parcouru par un courant I. Donner l'expression du champ magnétique à l'intérieur du solénoïde.",
+      "choices": {
+        "a": "$\\mu_0I$",
+        "b": "$\\mu_0NI/L$",
+        "c": "$\\mu_0NI$",
+        "d": "$\\mu_0NRL/I$"
+      },
+      "correct": "b",
+      "explication": "Champ au centre d'un long solénoïde : $B=\\mu_0NI/L$."
+    },
+    {
+      "id": "p2017_q13",
+      "text": "1g d'uranium 238 émet 12400 particules par seconde. Calculer la période T de cette désintégration.",
+      "choices": {
+        "a": "$12{,}3\\,ans$",
+        "b": "$3.10^5\\,ans$",
+        "c": "$23\\,min$",
+        "d": "$4{,}48.10^9\\,ans$"
+      },
+      "correct": "d",
+      "explication": "$N=N_A/238\\approx2{,}52.10^{21}$ noyaux ; $\\lambda=A/N\\approx4{,}92.10^{-18}s^{-1}$ ; $T=\\ln2/\\lambda\\approx4{,}48.10^9$ ans."
+    },
+    {
+      "id": "p2017_q14",
+      "text": "On donne $j=\\sqrt{-1}$. L'impédance complexe d'un circuit RL série est :",
+      "choices": {
+        "a": "$R+jL$",
+        "b": "$R+L\\omega$",
+        "c": "$R+jL\\omega$",
+        "d": "$R/L$"
+      },
+      "correct": "c",
+      "explication": "L'impédance complexe d'une bobine est $jL\\omega$, s'ajoutant à $R$ en série."
+    },
+    {
+      "id": "p2017_q15",
+      "text": "L'impédance complexe d'un circuit RC série est :",
+      "choices": {
+        "a": "$R-j/C\\omega$",
+        "b": "$R+j/C\\omega$",
+        "c": "$R+C$",
+        "d": "$R/C$"
+      },
+      "correct": "a",
+      "explication": "L'impédance complexe d'un condensateur est $-j/(C\\omega)$."
+    },
+    {
+      "id": "p2017_q16",
+      "text": "L'impédance complexe d'un circuit RLC série est :",
+      "choices": {
+        "a": "$R+L+C$",
+        "b": "$R+j(L\\omega-1/C\\omega)$",
+        "c": "$R+jLC$",
+        "d": "$LC/R$"
+      },
+      "correct": "b",
+      "explication": "Les réactances inductive et capacitive s'additionnent algébriquement dans la partie imaginaire."
+    },
+    {
+      "id": "p2017_q17",
+      "text": "À une onde électromagnétique de fréquence $\\nu$, on associe un photon d'énergie :",
+      "choices": {
+        "a": "$(1/2)h\\nu$",
+        "b": "$(1/2)h\\nu^2$",
+        "c": "$h/\\nu$",
+        "d": "$h\\nu$"
+      },
+      "correct": "d",
+      "explication": "Relation de Planck-Einstein : $E=h\\nu$."
+    },
+    {
+      "id": "p2017_q18",
+      "text": "Dans un milieu d'indice de réfraction n, la vitesse de la lumière est :",
+      "choices": {
+        "a": "$nc$",
+        "b": "$nc/2$",
+        "c": "$c/n$",
+        "d": "$n/c$"
+      },
+      "correct": "c",
+      "explication": "Par définition de l'indice de réfraction, $v=c/n$."
+    },
+    {
+      "id": "p2017_q19",
+      "text": "La formule d'Einstein est :",
+      "choices": {
+        "a": "$E=mc^2/2$",
+        "b": "$E=mc^2$",
+        "c": "$E=mc$",
+        "d": "$E=m/c$"
+      },
+      "correct": "b",
+      "explication": "L'équivalence masse-énergie s'écrit $E=mc^2$."
+    },
+    {
+      "id": "p2017_q20",
+      "text": "Soit v la vitesse de propagation d'une onde sinusoïdale. La longueur d'onde $\\lambda$ et la fréquence f sont reliées par la relation :",
+      "choices": {
+        "a": "$\\lambda f=1$",
+        "b": "$f/\\lambda=v$",
+        "c": "$\\lambda/f=v$",
+        "d": "$\\lambda f=v$"
+      },
+      "correct": "d",
+      "explication": "$v=\\lambda f$ est la relation fondamentale de propagation d'une onde."
+    }
+  ]
+}

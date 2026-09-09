@@ -1,0 +1,244 @@
+{
+  "questions": [
+    {
+      "id": "p2019_q1",
+      "text": "Un solide ponctuel est lancé verticalement vers le haut à partir d'un point situé à $1{,}50\\,m$ au-dessus du sol. Il atteint son altitude maximale à $0{,}60\\,m$ au-dessus du point de lancement. On néglige la résistance de l'air et on donne $g=9{,}8\\,m.s^{-2}$. Quelle est la vitesse de lancement ?",
+      "choices": {
+        "a": "$v=3{,}43\\,m.s^{-1}$",
+        "b": "$v=9{,}8\\,m.s^{-1}$",
+        "c": "$v=3{,}8\\,m.s^{-1}$",
+        "d": "$v=4{,}2\\,m.s^{-1}$"
+      },
+      "correct": "a",
+      "explication": "À l'altitude maximale la vitesse s'annule : $v^2=2gh \\Rightarrow v=\\sqrt{2\\times9{,}8\\times0{,}60}\\approx3{,}43\\,m.s^{-1}$."
+    },
+    {
+      "id": "p2019_q2",
+      "text": "Un pendule simple (fil + solide de masse $m=0{,}10\\,kg$) est suspendu dans une voiture qui démarre avec une accélération constante $a=4\\,m.s^{-2}$ sur une route horizontale. On donne $g=9{,}8\\,N.kg^{-1}$. Quelle est la tension du fil ?",
+      "choices": {
+        "a": "$T=0{,}105\\,N$",
+        "b": "$T=10{,}5\\,N$",
+        "c": "$T=0\\,N$",
+        "d": "$T=1{,}05\\,N$"
+      },
+      "correct": "d",
+      "explication": "Le fil équilibre le poids et la force d'inertie : $T=m\\sqrt{a^2+g^2}=0{,}10\\sqrt{4^2+9{,}8^2}\\approx1{,}06\\,N$."
+    },
+    {
+      "id": "p2019_q3",
+      "text": "La période d'un oscillateur harmonique (masse $m$, raideur $k$) est :",
+      "choices": {
+        "a": "$2\\pi\\sqrt{km}$",
+        "b": "$2\\pi\\sqrt{\\dfrac{k}{m}}$",
+        "c": "$2\\pi\\sqrt{\\dfrac{m}{k}}$",
+        "d": "$2\\pi\\sqrt{\\dfrac{mg}{k}}$"
+      },
+      "correct": "c",
+      "explication": "Pour un oscillateur harmonique masse-ressort, $T=2\\pi\\sqrt{m/k}$."
+    },
+    {
+      "id": "p2019_q4",
+      "text": "Un électron pénètre dans un champ magnétique uniforme $\\vec{B}$ perpendiculaire à $\\vec{v_0}$, de valeur $10^{-3}\\,T$. La norme de la vitesse vaut $10^{7}\\,m.s^{-1}$. On donne $e/m=1{,}76.10^{11}\\,C.kg^{-1}$. Quel est le rayon du cercle décrit ?",
+      "choices": {
+        "a": "$R=5{,}6\\,cm$",
+        "b": "$R=56\\,cm$",
+        "c": "$R=5{,}6\\,m$",
+        "d": "$R=0{,}56\\,cm$"
+      },
+      "correct": "a",
+      "explication": "$R=\\dfrac{v}{(e/m)B}=\\dfrac{10^7}{1{,}76.10^{11}\\times10^{-3}}\\approx0{,}057\\,m=5{,}6\\,cm$."
+    },
+    {
+      "id": "p2019_q5",
+      "text": "Une bobine de résistance $R=9\\,\\Omega$ et d'inductance $L=0{,}85\\,H$ est parcourue par un courant d'intensité $2{,}0\\,A$. Quelle est l'énergie magnétique emmagasinée dans la bobine ?",
+      "choices": {
+        "a": "$1{,}7\\,J$",
+        "b": "$0{,}90\\,J$",
+        "c": "$17\\,J$",
+        "d": "$34\\,J$"
+      },
+      "correct": "a",
+      "explication": "$E=\\frac12 L I^2=0{,}5\\times0{,}85\\times2{,}0^2=1{,}7\\,J$ (la résistance n'intervient pas dans l'énergie stockée)."
+    },
+    {
+      "id": "p2019_q6",
+      "text": "Un électron (charge $-e=-1{,}6.10^{-19}\\,C$, masse $m_e=9{,}1.10^{-31}\\,kg$) se trouve dans un champ électrique uniforme de valeur $E=100\\,V.m^{-1}$. Quelle est la valeur de son accélération ?",
+      "choices": {
+        "a": "$1{,}8.10^{3}\\,m.s^{-2}$",
+        "b": "$1{,}8.10^{13}\\,m.s^{-2}$",
+        "c": "$1{,}8.10^{15}\\,m.s^{-2}$",
+        "d": "$18.10^{20}\\,m.s^{-2}$"
+      },
+      "correct": "b",
+      "explication": "$a=eE/m_e=\\dfrac{1{,}6.10^{-19}\\times100}{9{,}1.10^{-31}}\\approx1{,}76.10^{13}\\,m.s^{-2}$."
+    },
+    {
+      "id": "p2019_q7",
+      "text": "La période d'un pendule simple de longueur $60\\,cm$ est (on donne $g=9{,}8\\,m.s^{-2}$) :",
+      "choices": {
+        "a": "$1{,}55\\,s$",
+        "b": "$15{,}5\\,s$",
+        "c": "$0{,}15\\,s$",
+        "d": "$0{,}55\\,s$"
+      },
+      "correct": "a",
+      "explication": "$T=2\\pi\\sqrt{l/g}=2\\pi\\sqrt{0{,}6/9{,}8}\\approx1{,}55\\,s$."
+    },
+    {
+      "id": "p2019_q8",
+      "text": "Un circuit comporte un conducteur ohmique de résistance $R=47\\,\\Omega$ et un condensateur de capacité $C=0{,}10\\,\\mu F$. Quelle est la valeur de la constante de temps ?",
+      "choices": {
+        "a": "$\\tau=47\\,ms$",
+        "b": "$\\tau=47\\times10^{7}\\,ms$",
+        "c": "$\\tau=4{,}7\\,\\mu s$",
+        "d": "$\\tau=74\\,ms$"
+      },
+      "correct": "c",
+      "explication": "$\\tau=RC=47\\times0{,}10.10^{-6}=4{,}7.10^{-6}\\,s=4{,}7\\,\\mu s$."
+    },
+    {
+      "id": "p2019_q9",
+      "text": "Un oscillateur harmonique horizontal de constante de raideur $k=25\\,N.m^{-1}$ et de masse $m=300\\,g$ a une vitesse maximale de $0{,}8\\,m.s^{-1}$. L'amplitude du mouvement est :",
+      "choices": {
+        "a": "$X_m=0{,}88\\,cm$",
+        "b": "$X_m=8{,}8\\,cm$",
+        "c": "$X_m=8{,}8\\,mm$",
+        "d": "$X_m=0{,}88\\,m$"
+      },
+      "correct": "b",
+      "explication": "$\\omega=\\sqrt{k/m}=\\sqrt{25/0{,}3}\\approx9{,}13\\,rad/s$ et $X_m=v_{max}/\\omega\\approx0{,}088\\,m=8{,}8\\,cm$."
+    },
+    {
+      "id": "p2019_q10",
+      "text": "Le travail d'extraction d'un électron d'une cathode photoémissive au césium ($\\lambda_0=0{,}66\\,\\mu m$) est ($h=6{,}62.10^{-34}\\,J.s$, $c=3.10^{8}\\,m.s^{-1}$) :",
+      "choices": {
+        "a": "$0{,}3.10^{-19}\\,J$",
+        "b": "$0{,}03.10^{-19}\\,J$",
+        "c": "$3.10^{-19}\\,J$",
+        "d": "$0{,}33.10^{-19}\\,J$"
+      },
+      "correct": "c",
+      "explication": "$W=\\dfrac{hc}{\\lambda_0}=\\dfrac{6{,}62.10^{-34}\\times3.10^8}{0{,}66.10^{-6}}\\approx3{,}0.10^{-19}\\,J$."
+    },
+    {
+      "id": "p2019_q11",
+      "text": "L'énergie libérée par la transformation du radium en radon selon $^{226}_{88}Ra \\to \\,^{4}_{2}He + \\,^{222}_{86}Rn$ est ($m(Ra)=226{,}0254\\,U$ ; $m(Rn)=222{,}0176\\,U$ ; $m(He)=4{,}0026\\,U$) :",
+      "choices": {
+        "a": "$4{,}84\\,MeV$",
+        "b": "$0{,}484\\,MeV$",
+        "c": "$48\\,MeV$",
+        "d": "$8{,}44\\,MeV$"
+      },
+      "correct": "a",
+      "explication": "$\\Delta m=226{,}0254-222{,}0176-4{,}0026=0{,}0052\\,U$, soit $E=0{,}0052\\times931{,}5\\approx4{,}84\\,MeV$."
+    },
+    {
+      "id": "p2019_q12",
+      "text": "Une particule chargée qui pénètre dans un champ magnétique uniforme $\\vec{B}$ avec $\\vec{v_0}$ perpendiculaire à $\\vec{B}$ a un mouvement :",
+      "choices": {
+        "a": "rectiligne uniforme",
+        "b": "circulaire uniforme",
+        "c": "sinusoïdal",
+        "d": "parabolique"
+      },
+      "correct": "b",
+      "explication": "La force magnétique, toujours perpendiculaire à la vitesse, ne change pas sa norme : le mouvement est circulaire uniforme."
+    },
+    {
+      "id": "p2019_q13",
+      "text": "La pulsation propre $\\omega_0$ d'un circuit (LC) est :",
+      "choices": {
+        "a": "$\\omega_0^2=LC$",
+        "b": "$\\omega_0^2=\\dfrac{L}{C}$",
+        "c": "$\\omega_0^2=\\dfrac{1}{LC}$",
+        "d": "$\\omega_0^2=\\dfrac{C}{L}$"
+      },
+      "correct": "c",
+      "explication": "Pour un circuit LC, $\\omega_0=1/\\sqrt{LC}$."
+    },
+    {
+      "id": "p2019_q14",
+      "text": "Le vecteur accélération d'un mouvement circulaire uniforme est :",
+      "choices": {
+        "a": "centripète",
+        "b": "centrifuge",
+        "c": "tangent",
+        "d": "nul"
+      },
+      "correct": "a",
+      "explication": "Dans un mouvement circulaire uniforme, l'accélération est purement normale, dirigée vers le centre (centripète)."
+    },
+    {
+      "id": "p2019_q15",
+      "text": "À la résonance, l'intensité $i$ et la tension $u$ appliquées sont :",
+      "choices": {
+        "a": "en opposition de phase",
+        "b": "en phase",
+        "c": "en quadrature de phase",
+        "d": "égales"
+      },
+      "correct": "b",
+      "explication": "À la résonance d'intensité, l'impédance se réduit à $R$ (partie résistive pure) : $i$ et $u$ sont en phase."
+    },
+    {
+      "id": "p2019_q16",
+      "text": "La bande passante d'un dipôle (R, L, C) est d'autant plus étroite que sa résistance est :",
+      "choices": {
+        "a": "plus grande",
+        "b": "plus petite",
+        "c": "moyenne",
+        "d": "égale à la capacité C"
+      },
+      "correct": "b",
+      "explication": "Le facteur de qualité $Q=L\\omega_0/R$ augmente quand $R$ diminue, ce qui resserre la bande passante."
+    },
+    {
+      "id": "p2019_q17",
+      "text": "L'énergie d'un photon de longueur d'onde $\\lambda$ est :",
+      "choices": {
+        "a": "$E=\\dfrac{hc}{\\lambda}$",
+        "b": "$E=hc\\lambda$",
+        "c": "$E=\\dfrac{h\\lambda}{c}$",
+        "d": "$E=\\dfrac{c}{h\\lambda}$"
+      },
+      "correct": "a",
+      "explication": "Relation de Planck-Einstein : $E=h\\nu=hc/\\lambda$."
+    },
+    {
+      "id": "p2019_q18",
+      "text": "Les isotopes d'un élément chimique sont les nucléides caractérisés par une même valeur :",
+      "choices": {
+        "a": "du nombre de charge Z",
+        "b": "du nombre de masse A",
+        "c": "du nombre de neutrons",
+        "d": "du nombre de neutrons et d'électrons"
+      },
+      "correct": "a",
+      "explication": "Des isotopes ont le même numéro atomique Z (même élément) mais des nombres de masse A différents."
+    },
+    {
+      "id": "p2019_q19",
+      "text": "La période et la constante radioactive sont :",
+      "choices": {
+        "a": "inversement proportionnelles",
+        "b": "proportionnelles",
+        "c": "opposées",
+        "d": "égales"
+      },
+      "correct": "a",
+      "explication": "$T=\\dfrac{\\ln 2}{\\lambda}$ : la période est inversement proportionnelle à la constante radioactive $\\lambda$."
+    },
+    {
+      "id": "p2019_q20",
+      "text": "Le rapport entre le carré de la période et le cube du rayon de l'orbite d'un satellite :",
+      "choices": {
+        "a": "est constant",
+        "b": "dépend de la masse du satellite",
+        "c": "dépend de la vitesse",
+        "d": "varie"
+      },
+      "correct": "a",
+      "explication": "3ème loi de Kepler : $T^2/R^3$ est constant, indépendant de la masse ou de la vitesse du satellite."
+    }
+  ]
+}

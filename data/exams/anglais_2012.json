@@ -1,0 +1,244 @@
+{
+  "questions": [
+    {
+      "id": "a2012_q1",
+      "text": "________ you like another drink?",
+      "choices": {
+        "a": "will",
+        "b": "would",
+        "c": "can",
+        "d": "could"
+      },
+      "correct": "b",
+      "explication": "« Would you like » est la formule polie standard pour proposer quelque chose."
+    },
+    {
+      "id": "a2012_q2",
+      "text": "I had better take my umbrella. It ________ this afternoon.",
+      "choices": {
+        "a": "must",
+        "b": "may",
+        "c": "shall",
+        "d": "would"
+      },
+      "correct": "b",
+      "explication": "« May » exprime la possibilité (une éventualité de pluie), cohérente avec la précaution prise."
+    },
+    {
+      "id": "a2012_q3",
+      "text": "\"Where's Khady?\" \"She's ________ dinner\"",
+      "choices": {
+        "a": "prepares",
+        "b": "is preparing",
+        "c": "will prepare",
+        "d": "would prepare"
+      },
+      "correct": "b",
+      "explication": "Present continuous pour une action en cours au moment où l'on parle."
+    },
+    {
+      "id": "a2012_q4",
+      "text": "When we arrived, the other guests ________ drinks.",
+      "choices": {
+        "a": "were having",
+        "b": "have had",
+        "c": "have been having",
+        "d": "did have"
+      },
+      "correct": "a",
+      "explication": "Passé progressif pour une action en cours au moment d'une autre action passée (« arrived »)."
+    },
+    {
+      "id": "a2012_q5",
+      "text": "Before I moved to Dakar, I ________ in Thiès for eighteen months.",
+      "choices": {
+        "a": "lived",
+        "b": "had lived",
+        "c": "live",
+        "d": "will live"
+      },
+      "correct": "b",
+      "explication": "Plus-que-parfait : l'action est antérieure à une autre action passée (« moved »)."
+    },
+    {
+      "id": "a2012_q6",
+      "text": "When she ________ enough money, she will buy herself a car.",
+      "choices": {
+        "a": "has",
+        "b": "will have",
+        "c": "would have",
+        "d": "is going to have"
+      },
+      "correct": "a",
+      "explication": "Après « when » dans une proposition temporelle de futur, l'anglais utilise le présent simple."
+    },
+    {
+      "id": "a2012_q7",
+      "text": "I have invited a friend of ________.",
+      "choices": {
+        "a": "me",
+        "b": "mine",
+        "c": "myself",
+        "d": "I"
+      },
+      "correct": "b",
+      "explication": "« A friend of mine » (double génitif)."
+    },
+    {
+      "id": "a2012_q8",
+      "text": "She's terribly boring. She only talks about ________.",
+      "choices": {
+        "a": "each other",
+        "b": "one another",
+        "c": "herself",
+        "d": "she"
+      },
+      "correct": "c",
+      "explication": "Pronom réfléchi à la 3ᵉ personne du singulier féminin."
+    },
+    {
+      "id": "a2012_q9",
+      "text": "He loved ________ his brother nor his sister.",
+      "choices": {
+        "a": "either",
+        "b": "neither",
+        "c": "so",
+        "d": "nor"
+      },
+      "correct": "b",
+      "explication": "Corrélation « neither... nor »."
+    },
+    {
+      "id": "a2012_q10",
+      "text": "I want ________.",
+      "choices": {
+        "a": "you come",
+        "b": "you to come",
+        "c": "you coming",
+        "d": "that you should come"
+      },
+      "correct": "b",
+      "explication": "« Want + objet + to + infinitif »."
+    },
+    {
+      "id": "a2012_q11",
+      "text": "I'm tired of ________ to this record.",
+      "choices": {
+        "a": "listen",
+        "b": "to listen",
+        "c": "listening",
+        "d": "had listened"
+      },
+      "correct": "c",
+      "explication": "« Tired of + gérondif » (préposition « of » suivie de « -ing »)."
+    },
+    {
+      "id": "a2012_q12",
+      "text": "Today was even ________ than yesterday.",
+      "choices": {
+        "a": "hotter",
+        "b": "hottest",
+        "c": "as hot",
+        "d": "so hot"
+      },
+      "correct": "a",
+      "explication": "Comparatif requis avec « than »."
+    },
+    {
+      "id": "a2012_q13",
+      "text": "He said he ________ her the day before.",
+      "choices": {
+        "a": "has seen",
+        "b": "has been seeing",
+        "c": "had seen",
+        "d": "will have seen"
+      },
+      "correct": "c",
+      "explication": "Discours rapporté : plus-que-parfait pour une action antérieure à un repère passé (« the day before »)."
+    },
+    {
+      "id": "a2012_q14",
+      "text": "I've heard about the book, but I ________ it yet.",
+      "choices": {
+        "a": "don't read",
+        "b": "didn't read",
+        "c": "haven't read",
+        "d": "hadn't read"
+      },
+      "correct": "c",
+      "explication": "Present perfect négatif avec « yet »."
+    },
+    {
+      "id": "a2012_q15",
+      "text": "If you don't mind, we'd rather ________ now.",
+      "choices": {
+        "a": "left",
+        "b": "leave",
+        "c": "to leave",
+        "d": "leaving"
+      },
+      "correct": "b",
+      "explication": "« Would rather + base verbale » pour son propre souhait présent."
+    },
+    {
+      "id": "a2012_q16",
+      "text": "Stop ________! You are disturbing me.",
+      "choices": {
+        "a": "to talk",
+        "b": "talk",
+        "c": "talking",
+        "d": "talks"
+      },
+      "correct": "c",
+      "explication": "« Stop + gérondif » (cesser de faire quelque chose)."
+    },
+    {
+      "id": "a2012_q17",
+      "text": "________ being tall, he is not a good basketball player.",
+      "choices": {
+        "a": "though",
+        "b": "despite",
+        "c": "yet",
+        "d": "whereas"
+      },
+      "correct": "b",
+      "explication": "« Despite + gérondif » exprime le contraste (malgré)."
+    },
+    {
+      "id": "a2012_q18",
+      "text": "The student worked ________ a waiter during the holidays.",
+      "choices": {
+        "a": "at",
+        "b": "as",
+        "c": "like",
+        "d": "such as"
+      },
+      "correct": "b",
+      "explication": "« Work as + fonction » (travailler en tant que)."
+    },
+    {
+      "id": "a2012_q19",
+      "text": "The Rolls Royce is the ________ car in the world.",
+      "choices": {
+        "a": "more expensive",
+        "b": "expensivest",
+        "c": "most expensive",
+        "d": "expensive"
+      },
+      "correct": "c",
+      "explication": "Superlatif d'un adjectif de plus de deux syllabes : « most expensive »."
+    },
+    {
+      "id": "a2012_q20",
+      "text": "Susan is interested ________ African history.",
+      "choices": {
+        "a": "at",
+        "b": "on",
+        "c": "in",
+        "d": "by"
+      },
+      "correct": "c",
+      "explication": "« Interested in » est la préposition fixe correcte."
+    }
+  ]
+}

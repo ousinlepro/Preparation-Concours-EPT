@@ -1,0 +1,244 @@
+{
+  "questions": [
+    {
+      "id": "m2019_q1",
+      "text": "On pose $I = \\displaystyle\\int_{-1}^{1}\\big(x^3 + x\\ln(x^2+1)\\big)\\,dx$",
+      "choices": {
+        "a": "$I=0$",
+        "b": "$I=\\ln 2$",
+        "c": "$I=1$",
+        "d": "$I=-1$"
+      },
+      "correct": "a",
+      "explication": "$x^3$ et $x\\ln(x^2+1)$ sont des fonctions impaires (produit d'une fonction impaire par une fonction paire). L'intégrale d'une fonction impaire sur un intervalle symétrique est nulle."
+    },
+    {
+      "id": "m2019_q2",
+      "text": "Si le reste de la division euclidienne de $x^2 - 2x + k$ par $x - 1$ est $1$ alors",
+      "choices": {
+        "a": "$k = -2$",
+        "b": "$k = 2$",
+        "c": "$k = -1$",
+        "d": "$k = 1$"
+      },
+      "correct": "b",
+      "explication": "Le reste vaut $f(1) = 1 - 2 + k = k - 1$. On veut $k - 1 = 1$, donc $k = 2$."
+    },
+    {
+      "id": "m2019_q3",
+      "text": "Soient $f$ et $g$ deux fonctions continues sur $[0,1]$ telles que $\\displaystyle\\int_0^1 f(x)dx = 2$ et $\\displaystyle\\int_0^1 g(x)dx = -1$. Laquelle des affirmations suivantes est vraie ?",
+      "choices": {
+        "a": "$f(x) > g(x)$ pour tout $x\\in[0,1]$",
+        "b": "$\\displaystyle\\int_0^1 (f(x)+g(x))dx = 1$",
+        "c": "$\\displaystyle\\int_0^1 f(x)g(x)dx = -2$",
+        "d": "$\\displaystyle\\int_0^1 (f(x)+g(x))dx + \\int_0^1 f(x)g(x)dx = -1$"
+      },
+      "correct": "b",
+      "explication": "L'intégrale est linéaire : $\\int(f+g) = \\int f + \\int g = 2+(-1)=1$. Rien ne garantit a), c) ou d) à partir des seules valeurs des intégrales de $f$ et $g$."
+    },
+    {
+      "id": "m2019_q4",
+      "text": "Soit $f$ une fonction dérivable sur un intervalle contenant $1$ telle que $f(x) = \\ln\\!\\big(1+x^2+f(x)^2\\big) - \\ln 2$ pour tout $x\\in\\mathbb{R}$ et $f(1)=0$ alors",
+      "choices": {
+        "a": "$f'(1)=0$",
+        "b": "$f'(1)=1$",
+        "c": "$f'(1)=\\dfrac12$",
+        "d": "$f'(1)=2$"
+      },
+      "correct": "b",
+      "explication": "En dérivant : $f'(x) = \\dfrac{2x+2f(x)f'(x)}{1+x^2+f(x)^2}$. En $x=1$, $f(1)=0$ : $f'(1)=\\dfrac{2}{1+1}=1$."
+    },
+    {
+      "id": "m2019_q5",
+      "text": "Si $f$ est définie par $f(x)=(x^2+1)^{x+1}$ pour tout $x\\geq0$ alors",
+      "choices": {
+        "a": "$f'(1)=4(2+\\ln2)$",
+        "b": "$f'(1)=4$",
+        "c": "$f'(1)=8$",
+        "d": "$f'(1)$ n'existe pas"
+      },
+      "correct": "a",
+      "explication": "En posant $y=(x^2+1)^{x+1}$, $\\ln y=(x+1)\\ln(x^2+1)$, donc $\\dfrac{y'}{y}=\\ln(x^2+1)+\\dfrac{2x(x+1)}{x^2+1}$. En $x=1$ : $\\dfrac{y'}{y}=\\ln2+2$, et $y(1)=4$, donc $f'(1)=4(\\ln2+2)$."
+    },
+    {
+      "id": "m2019_q6",
+      "text": "L'ensemble des points $(e^t, t)$ tels que $t\\in\\mathbb{R}$ est le graphe de la fonction",
+      "choices": {
+        "a": "$x\\in\\mathbb{R} \\mapsto \\dfrac{1}{e^x}$",
+        "b": "$x\\in\\mathbb{R} \\mapsto e^x$",
+        "c": "$x\\in\\mathbb{R}_+^* \\mapsto \\ln x$",
+        "d": "$x\\in\\mathbb{R}_+^* \\mapsto \\dfrac{1}{\\ln x}$"
+      },
+      "correct": "c",
+      "explication": "$x=e^t$ et $y=t$, donc $t=\\ln x$ avec $x>0$."
+    },
+    {
+      "id": "m2019_q7",
+      "text": "Soit $f$ définie par $f(x)=\\sqrt{16+\\sin x}$. La valeur approchée de $f$ en $x=0.16$ obtenue à partir de la tangente en $x=0$ est :",
+      "choices": {
+        "a": "$4$",
+        "b": "$4.02$",
+        "c": "$4.16$",
+        "d": "$4.32$"
+      },
+      "correct": "b",
+      "explication": "$f(0)=4$, $f'(x)=\\dfrac{\\cos x}{2\\sqrt{16+\\sin x}}$, donc $f'(0)=\\dfrac18$. Approximation : $f(0.16)\\approx 4+0.125\\times0.16=4.02$."
+    },
+    {
+      "id": "m2019_q8",
+      "text": "Soit $f:\\mathbb{R}\\to\\mathbb{R}$ telle que $\\displaystyle\\lim_{x\\to+\\infty}f(x)=1$ et $\\displaystyle\\lim_{x\\to-\\infty}f(x)=-1$. Laquelle des affirmations suivantes est vraie ?",
+      "choices": {
+        "a": "Pour tout $x\\in\\mathbb{R}$ on a $-1\\leq f(x)\\leq1$.",
+        "b": "La fonction $f$ est croissante sur $\\mathbb{R}$.",
+        "c": "Il existe $x\\in\\mathbb{R}$ tel que $f(x)=0$.",
+        "d": "Si $f$ est croissante alors $-1\\leq f(x)\\leq1$ pour tout $x\\in\\mathbb{R}$."
+      },
+      "correct": "d",
+      "explication": "Sans hypothèse de continuité ou de monotonie, a) et c) ne sont pas garanties, et b) n'est pas donnée. Mais si $f$ est croissante, ses limites en $\\pm\\infty$ bornent nécessairement toutes ses valeurs."
+    },
+    {
+      "id": "m2019_q9",
+      "text": "Soit $f: D_f \\to \\mathbb{R}$ avec $D_f = \\;]{-1},0[\\,\\cup\\,]0,1[$. Laquelle des affirmations suivantes est vraie ?",
+      "choices": {
+        "a": "Si $f$ est dérivable sur $D_f$ avec $f'(x)=0$ pour tout $x\\in D_f$ alors elle est constante sur $D_f$.",
+        "b": "Si $f$ est constante sur $D_f$ alors elle est dérivable sur $D_f$ et $f'(x)=0$ pour tout $x\\in D_f$.",
+        "c": "Si $f$ est constante sur $]{-1},0[$ et sur $]0,1[$ alors elle est constante sur $D_f$.",
+        "d": "Si $f$ est croissante et dérivable sur $D_f$ alors il existe au moins un $x\\in D_f$ tel que $f'(x)>0$."
+      },
+      "correct": "b",
+      "explication": "$D_f$ n'est pas un intervalle. a), c) et d) peuvent être mises en défaut à cause du trou en 0 (ou, pour d, si $f$ est constante). Seule b) est toujours vraie."
+    },
+    {
+      "id": "m2019_q10",
+      "text": "Soit $f$ une fonction non constante définie sur $[0,1]$ telle que : $\\forall\\varepsilon>0\\;\\exists\\eta>0 \\mid \\forall x\\in[0,1],\\; 0\\leq1-x\\leq\\eta \\Rightarrow 0\\leq f(x)-1\\leq\\varepsilon$. Laquelle des affirmations suivantes est fausse ?",
+      "choices": {
+        "a": "$\\exists\\varepsilon>0\\;\\exists\\eta>0 \\mid \\forall x\\in[0,1],\\;0\\leq1-x\\leq\\eta \\Rightarrow 0\\leq f(x)-1\\leq\\varepsilon$",
+        "b": "$\\forall\\varepsilon>0\\;\\exists\\eta>0 \\mid \\forall x\\in[0,1],\\;0\\leq1-x\\leq\\eta \\Rightarrow 0\\leq f(x)-1\\leq2\\varepsilon$",
+        "c": "$\\forall\\varepsilon>0\\;\\exists\\eta>0 \\mid \\forall x\\in[0,1],\\;0\\leq1-x\\leq2\\eta \\Rightarrow 0\\leq f(x)-1\\leq\\varepsilon$",
+        "d": "$\\exists\\varepsilon>0 \\mid \\forall\\eta>0,\\exists x\\in[0,1],\\;0\\leq1-x\\leq\\eta \\text{ et } f(x)-1>\\varepsilon$"
+      },
+      "correct": "d",
+      "explication": "L'énoncé dit que $\\lim_{x\\to1^-}f(x)=1$. Les propositions a), b) et c) sont des reformulations affaiblies ou équivalentes, donc vraies. d) est exactement la négation logique de cette limite, donc fausse."
+    },
+    {
+      "id": "m2019_q11",
+      "text": "La forme trigonométrique du nombre complexe $z=-1+i\\sqrt3$ est",
+      "choices": {
+        "a": "$e^{i2\\pi/3}$",
+        "b": "$2e^{i2\\pi/3}$",
+        "c": "$2e^{-i2\\pi/3}$",
+        "d": "$e^{-i2\\pi/3}$"
+      },
+      "correct": "b",
+      "explication": "$|z|=\\sqrt{1+3}=2$, $\\arg(z)=2\\pi/3$."
+    },
+    {
+      "id": "m2019_q12",
+      "text": "La forme trigonométrique du nombre complexe $z=-2-i2\\sqrt3$ est",
+      "choices": {
+        "a": "$4e^{-i4\\pi/3}$",
+        "b": "$2e^{i4\\pi/3}$",
+        "c": "$4e^{i4\\pi/3}$",
+        "d": "$2e^{-i4\\pi/3}$"
+      },
+      "correct": "c",
+      "explication": "$|z|=\\sqrt{4+12}=4$, $\\arg(z)=-2\\pi/3 \\equiv 4\\pi/3 \\pmod{2\\pi}$."
+    },
+    {
+      "id": "m2019_q13",
+      "text": "Calculer $z=\\left(\\dfrac{1-i}{1+i}\\right)^{10}$",
+      "choices": {
+        "a": "$z=i$",
+        "b": "$z=-i$",
+        "c": "$z=1$",
+        "d": "$z=-1$"
+      },
+      "correct": "d",
+      "explication": "$\\dfrac{1-i}{1+i}=-i$, donc $z=(-i)^{10}=((-i)^2)^5=(-1)^5=-1$."
+    },
+    {
+      "id": "m2019_q14",
+      "text": "Le carré du module d'un nombre complexe $z=\\dfrac{2-4i}{5+7i}$ est",
+      "choices": {
+        "a": "$\\dfrac{10}{37}$",
+        "b": "$\\dfrac{37}{10}$",
+        "c": "$\\dfrac{5}{37}$",
+        "d": "$\\dfrac{37}{5}$"
+      },
+      "correct": "a",
+      "explication": "$|z|^2=\\dfrac{|2-4i|^2}{|5+7i|^2}=\\dfrac{4+16}{25+49}=\\dfrac{20}{74}=\\dfrac{10}{37}$."
+    },
+    {
+      "id": "m2019_q15",
+      "text": "On pose $S = a+(a+d)+(a+2d)+\\cdots+(a+(n-1)d)$",
+      "choices": {
+        "a": "$S=\\dfrac12(2a+(n-1)d)$",
+        "b": "$S=\\dfrac{n}{2}(2a+(n-1)d)$",
+        "c": "$S=n(2a+(n-1)d)$",
+        "d": "$S=(2a+(n-1)d)$"
+      },
+      "correct": "b",
+      "explication": "Somme d'une suite arithmétique de $n$ termes : $S=\\dfrac{n}{2}(2a+(n-1)d)$."
+    },
+    {
+      "id": "m2019_q16",
+      "text": "On pose $l=\\displaystyle\\lim_{x\\to0^+}\\dfrac{2}{1+e^{-1/x}}$",
+      "choices": {
+        "a": "$l=1$",
+        "b": "$l=\\dfrac12$",
+        "c": "$l=2$",
+        "d": "$l=0$"
+      },
+      "correct": "c",
+      "explication": "Quand $x\\to0^+$, $1/x\\to+\\infty$ donc $e^{-1/x}\\to0$, et $l=\\dfrac{2}{1+0}=2$."
+    },
+    {
+      "id": "m2019_q17",
+      "text": "Soit $s=\\displaystyle\\lim_{x\\to0^+}\\dfrac{\\sin(x)}{\\sqrt{x}}$",
+      "choices": {
+        "a": "$s=+\\infty$",
+        "b": "$s=1$",
+        "c": "$s=2$",
+        "d": "$s=0$"
+      },
+      "correct": "d",
+      "explication": "$\\sin(x)\\sim x$ au voisinage de 0, donc $\\dfrac{\\sin x}{\\sqrt x}\\sim\\sqrt x \\to 0$."
+    },
+    {
+      "id": "m2019_q18",
+      "text": "On pose $t=\\displaystyle\\lim_{x\\to0}\\dfrac{1-\\cos(x)}{x^2}$",
+      "choices": {
+        "a": "$t=\\dfrac12$",
+        "b": "$t=1$",
+        "c": "$t=+\\infty$",
+        "d": "$t=0$"
+      },
+      "correct": "a",
+      "explication": "Limite classique : $\\dfrac{1-\\cos x}{x^2}\\to\\dfrac12$."
+    },
+    {
+      "id": "m2019_q19",
+      "text": "Calculer $I=\\displaystyle\\int_1^8 \\sqrt{1+3x}\\,dx$",
+      "choices": {
+        "a": "$I=12$",
+        "b": "$I=26$",
+        "c": "$I=13$",
+        "d": "$I=39$"
+      },
+      "correct": "b",
+      "explication": "Avec $u=1+3x$ : $I=\\dfrac{2}{9}\\left[u^{3/2}\\right]_4^{25}=\\dfrac{2}{9}(125-8)=26$."
+    },
+    {
+      "id": "m2019_q20",
+      "text": "Évaluer $J=\\displaystyle\\int_0^3 \\dfrac{dx}{\\sqrt{1+x}}$",
+      "choices": {
+        "a": "$J=1$",
+        "b": "$J=4$",
+        "c": "$J=2$",
+        "d": "$J=\\dfrac12$"
+      },
+      "correct": "c",
+      "explication": "Avec $u=1+x$ : $J=\\left[2\\sqrt{u}\\right]_1^4=4-2=2$."
+    }
+  ]
+}

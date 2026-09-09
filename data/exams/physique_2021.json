@@ -1,0 +1,244 @@
+{
+  "questions": [
+    {
+      "id": "p2021_q1",
+      "text": "Les coordonnées d'une particule sont données en fonction du temps par $x=2t$ ; $y=4t(t-1)$. La norme de la vitesse à l'instant $t$ est :",
+      "choices": {
+        "a": "$v=2\\sqrt{16t^2-16t+5}$",
+        "b": "$v=2\\sqrt{16t^2+16t+5}$",
+        "c": "$v=2\\sqrt{16t^2-16t-5}$",
+        "d": "$v=2\\sqrt{16t^2+16t-5}$"
+      },
+      "correct": "a",
+      "explication": "$v_x=2$, $v_y=8t-4$, donc $v=\\sqrt{4+(8t-4)^2}=\\sqrt{4(16t^2-16t+5)}=2\\sqrt{16t^2-16t+5}$."
+    },
+    {
+      "id": "p2021_q2",
+      "text": "La force d'interaction entre la lune et la terre a pour valeur $2.10^{20}\\,N$. Quelle est la distance entre ces deux astres ? $M_T=6.10^{24}\\,kg$ ; $M_L=7{,}4.10^{22}\\,kg$ ; $G=6{,}67.10^{-11}\\,SI$",
+      "choices": {
+        "a": "$3{,}8.10^{8}\\,km$",
+        "b": "$0{,}38.10^{8}\\,m$",
+        "c": "$38.10^{8}\\,km$",
+        "d": "$3{,}8.10^{8}\\,m$"
+      },
+      "correct": "d",
+      "explication": "$d=\\sqrt{GM_TM_L/F}=\\sqrt{6{,}67.10^{-11}\\times6.10^{24}\\times7{,}4.10^{22}/2.10^{20}}\\approx3{,}8.10^{8}\\,m$."
+    },
+    {
+      "id": "p2021_q3",
+      "text": "Une tension sinusoïdale $u=150\\cos(5000\\pi t)$ (en mV) est établie aux bornes d'une bobine non résistive d'inductance $L=60\\,mH$. L'intensité instantanée du courant (en $\\mu A$) est égale à :",
+      "choices": {
+        "a": "$159\\cos\\!\\left(5000\\pi t-\\dfrac{\\pi}{2}\\right)$",
+        "b": "$150\\sin\\!\\left(5000\\pi t+\\dfrac{\\pi}{2}\\right)$",
+        "c": "$-150\\sin(5000\\pi t)$",
+        "d": "$-159\\cos(5000\\pi t)$"
+      },
+      "correct": "a",
+      "explication": "$i=\\frac1L\\int u\\,dt=\\dfrac{U_m}{L\\omega}\\sin(\\omega t)\\approx159\\,\\mu A\\times\\sin(5000\\pi t)=159\\cos(5000\\pi t-\\pi/2)$."
+    },
+    {
+      "id": "p2021_q4",
+      "text": "Deux charges ponctuelles $q=+5\\,\\mu C$ et $q'=-7{,}0\\,\\mu C$ sont placées dans le vide en deux points distants de $10\\,cm$. Quelle est la valeur de la force électrique s'exerçant sur chacune ? ($\\frac{1}{4\\pi\\varepsilon_0}=9{,}0.10^{9}\\,SI$)",
+      "choices": {
+        "a": "$30\\,N$",
+        "b": "$3{,}15\\,N$",
+        "c": "$31{,}5\\,N$",
+        "d": "$32{,}5\\,N$"
+      },
+      "correct": "c",
+      "explication": "$F=k\\dfrac{|q\\,q'|}{d^2}=9.10^9\\times\\dfrac{5.10^{-6}\\times7.10^{-6}}{0{,}10^2}=31{,}5\\,N$."
+    },
+    {
+      "id": "p2021_q5",
+      "text": "Une bobine de $1000$ spires de rayon $r=2{,}5\\,cm$ et de longueur $l=50\\,cm$ est parcourue par un courant $I=2\\,A$. Quelle est la valeur du champ magnétique ? ($\\mu_0=4\\pi.10^{-7}\\,SI$)",
+      "choices": {
+        "a": "$5.10^{-3}\\,T$",
+        "b": "$5.10^{-3}\\,mT$",
+        "c": "$5.10^{-3}\\,\\mu T$",
+        "d": "$5.10^{-3}\\,nT$"
+      },
+      "correct": "a",
+      "explication": "$B=\\mu_0\\dfrac{NI}{l}=4\\pi.10^{-7}\\times\\dfrac{1000\\times2}{0{,}5}\\approx5.10^{-3}\\,T$."
+    },
+    {
+      "id": "p2021_q6",
+      "text": "Un pot de masse $m=0{,}5\\,kg$ tombe d'un balcon. Après une chute de $4\\,m$, il s'écrase sur le sol (frottements négligés). Quelle est sa vitesse à l'arrivée ? ($g=10\\,m.s^{-2}$)",
+      "choices": {
+        "a": "$1{,}1\\,m.s^{-1}$",
+        "b": "$10\\,m.s^{-1}$",
+        "c": "$9\\,m.s^{-1}$",
+        "d": "$11\\,m.s^{-1}$"
+      },
+      "correct": "c",
+      "explication": "$v=\\sqrt{2gh}=\\sqrt{2\\times10\\times4}=\\sqrt{80}\\approx9\\,m.s^{-1}$."
+    },
+    {
+      "id": "p2021_q7",
+      "text": "Un proton pénètre entre les plaques d'un condensateur avec une vitesse $v_0=2{,}5.10^{5}\\,m.s^{-1}$ perpendiculaire aux plaques, soumis à une tension accélératrice $U=5{,}0.10^{2}\\,V$. Quelle est sa vitesse en sortie ? ($m_p=1{,}67.10^{-27}\\,kg$ ; $e=1{,}6.10^{-19}\\,C$)",
+      "choices": {
+        "a": "$4.10^{6}\\,m.s^{-1}$",
+        "b": "$4.10^{5}\\,m.s^{-1}$",
+        "c": "$40.10^{5}\\,m.s^{-1}$",
+        "d": "$4.10^{2}\\,m.s^{-1}$"
+      },
+      "correct": "b",
+      "explication": "$v^2=v_0^2+\\dfrac{2eU}{m_p}=(2{,}5.10^5)^2+\\dfrac{2\\times1{,}6.10^{-19}\\times500}{1{,}67.10^{-27}}\\Rightarrow v\\approx4.10^{5}\\,m.s^{-1}$."
+    },
+    {
+      "id": "p2021_q8",
+      "text": "Une source émet des électrons à $\\|v_0\\|=4.10^{7}\\,m.s^{-1}$ dans un champ magnétique $\\vec{B}$ perpendiculaire à $\\vec{v_0}$, d'intensité $10^{-2}\\,T$. La charge massique de l'électron est $1{,}76.10^{11}\\,C.kg^{-1}$. Le rayon de la trajectoire vaut :",
+      "choices": {
+        "a": "$R=23\\,m$",
+        "b": "$R=23\\,cm$",
+        "c": "$R=23\\,mm$",
+        "d": "$R=23\\,nm$"
+      },
+      "correct": "c",
+      "explication": "$R=\\dfrac{v}{(e/m)B}=\\dfrac{4.10^7}{1{,}76.10^{11}\\times10^{-2}}\\approx0{,}0227\\,m\\approx23\\,mm$."
+    },
+    {
+      "id": "p2021_q9",
+      "text": "Un mobile en mouvement rectiligne uniformément varié démarre avec une vitesse nulle et atteint $16\\,m.s^{-1}$ après $80\\,m$ de parcours. Son accélération vaut :",
+      "choices": {
+        "a": "$3{,}2\\,m.s^{-2}$",
+        "b": "$1{,}6\\,m.s^{-2}$",
+        "c": "$-3{,}2\\,m.s^{-2}$",
+        "d": "$-1{,}6\\,m.s^{-2}$"
+      },
+      "correct": "b",
+      "explication": "$v^2=2ad \\Rightarrow a=\\dfrac{16^2}{2\\times80}=1{,}6\\,m.s^{-2}$."
+    },
+    {
+      "id": "p2021_q10",
+      "text": "Un pendule simple de longueur $l=0{,}5\\,m$ est écarté de $\\alpha_m=20°$. Quelle est la valeur de sa période propre $T_0$ (frottements négligés) ? ($g=10\\,m.s^{-2}$)",
+      "choices": {
+        "a": "$14\\,s$",
+        "b": "$14\\,ms$",
+        "c": "$1{,}4\\,ms$",
+        "d": "$1{,}4\\,s$"
+      },
+      "correct": "d",
+      "explication": "$T_0=2\\pi\\sqrt{l/g}=2\\pi\\sqrt{0{,}5/10}\\approx1{,}4\\,s$ (indépendante de l'amplitude en approximation harmonique)."
+    },
+    {
+      "id": "p2021_q11",
+      "text": "L'équation horaire d'un pendule élastique non amorti est $x=2{,}0.10^{-1}\\cos\\!\\left(10\\pi t+\\dfrac{\\pi}{2}\\right)$ (m). Quelle est la période propre du mouvement ?",
+      "choices": {
+        "a": "$0{,}2\\,s$",
+        "b": "$2\\,s$",
+        "c": "$5\\,s$",
+        "d": "$0{,}5\\,s$"
+      },
+      "correct": "a",
+      "explication": "$\\omega=10\\pi\\,rad/s \\Rightarrow T=2\\pi/\\omega=2\\pi/(10\\pi)=0{,}2\\,s$."
+    },
+    {
+      "id": "p2021_q12",
+      "text": "Un circuit comporte un conducteur ohmique $R=1{,}2\\,k\\Omega$ et une bobine (résistance négligeable) d'inductance $L=50\\,mH$. Quelle est sa constante de temps ?",
+      "choices": {
+        "a": "$4{,}2.10^{-5}\\,s$",
+        "b": "$2{,}4.10^{3}\\,s$",
+        "c": "$42.10^{3}\\,s$",
+        "d": "$24.10^{3}\\,ms$"
+      },
+      "correct": "a",
+      "explication": "$\\tau=L/R=0{,}05/1200\\approx4{,}2.10^{-5}\\,s$."
+    },
+    {
+      "id": "p2021_q13",
+      "text": "Quel est le coefficient de self-induction d'un solénoïde de rayon $R=1\\,cm$, de longueur $l=10\\,cm$ et de $N=1000$ spires ? ($\\mu_0=4\\pi.10^{-7}\\,SI$)",
+      "choices": {
+        "a": "$4.10^{-3}\\,H$",
+        "b": "$4.10^{-3}\\,mH$",
+        "c": "$4.10^{-3}\\,\\mu H$",
+        "d": "$4.10^{-3}\\,nH$"
+      },
+      "correct": "a",
+      "explication": "$L=\\mu_0\\dfrac{N^2}{l}\\pi R^2=4\\pi.10^{-7}\\times\\dfrac{10^6}{0{,}1}\\times\\pi(0{,}01)^2\\approx4.10^{-3}\\,H$."
+    },
+    {
+      "id": "p2021_q14",
+      "text": "Un dipôle (R, L, C) série est alimenté par une tension sinusoïdale efficace constante de $8\\,V$. À la résonance d'intensité $I_0=0{,}10\\,A$, quelle est la résistance de ce dipôle ?",
+      "choices": {
+        "a": "$80\\,k\\Omega$",
+        "b": "$8\\,\\Omega$",
+        "c": "$80\\,\\Omega$",
+        "d": "$8\\,k\\Omega$"
+      },
+      "correct": "c",
+      "explication": "À la résonance, l'impédance se réduit à $R$ : $R=U/I_0=8/0{,}10=80\\,\\Omega$."
+    },
+    {
+      "id": "p2021_q15",
+      "text": "Une radiation lumineuse se propage dans le verre d'indice $1{,}5$ (par rapport à l'air) et se réfracte dans l'air avec un angle de réfraction de $40°$. Quel est l'angle d'incidence ?",
+      "choices": {
+        "a": "$52{,}4°$",
+        "b": "$2{,}54°$",
+        "c": "$25{,}4°$",
+        "d": "$24{,}5°$"
+      },
+      "correct": "c",
+      "explication": "$n\\sin(i)=\\sin(40°) \\Rightarrow \\sin(i)=\\sin(40°)/1{,}5\\approx0{,}4285 \\Rightarrow i\\approx25{,}4°$."
+    },
+    {
+      "id": "p2021_q16",
+      "text": "Quelle est la surface d'un condensateur plan d'épaisseur $10\\,\\mu m$ et de capacité $10\\,nF$ ? ($\\varepsilon_0=8{,}84.10^{-12}\\,SI$)",
+      "choices": {
+        "a": "$11{,}3\\,cm^2$",
+        "b": "$113\\,cm^2$",
+        "c": "$113\\,m^2$",
+        "d": "$11{,}3\\,mm^2$"
+      },
+      "correct": "b",
+      "explication": "$S=\\dfrac{Ce}{\\varepsilon_0}=\\dfrac{10.10^{-9}\\times10.10^{-6}}{8{,}84.10^{-12}}\\approx0{,}0113\\,m^2=113\\,cm^2$."
+    },
+    {
+      "id": "p2021_q17",
+      "text": "Un générateur sinusoïdal de tension efficace $220\\,V$ et de fréquence $50\\,Hz$ alimente une résistance $R=10\\,\\Omega$ et une bobine $L=0{,}1\\,H$ en série. Quelle est l'intensité efficace fournie ?",
+      "choices": {
+        "a": "$6{,}6\\,mA$",
+        "b": "$6{,}6\\,A$",
+        "c": "$6{,}6\\,\\mu A$",
+        "d": "$6{,}6\\,nA$"
+      },
+      "correct": "b",
+      "explication": "$Z=\\sqrt{R^2+(L\\omega)^2}=\\sqrt{10^2+(0{,}1\\times314{,}16)^2}\\approx33\\,\\Omega$, donc $I=U/Z\\approx6{,}6\\,A$."
+    },
+    {
+      "id": "p2021_q18",
+      "text": "Un fil de cuivre de $1\\,mm^2$ de section et $1\\,km$ de longueur est soumis à une tension de $160\\,V$ entre ses extrémités. Quelle est la densité de courant ? ($\\rho_c=1{,}6.10^{-8}\\,\\Omega.m$)",
+      "choices": {
+        "a": "$1\\,A.mm^{-2}$",
+        "b": "$10\\,A.cm^{-2}$",
+        "c": "$10\\,A.m^{-2}$",
+        "d": "$10\\,A.mm^{-2}$"
+      },
+      "correct": "d",
+      "explication": "$R=\\rho_c l/S=1{,}6.10^{-8}\\times1000/10^{-6}=16\\,\\Omega$, $I=U/R=10\\,A$, $j=I/S=10\\,A.mm^{-2}$."
+    },
+    {
+      "id": "p2021_q19",
+      "text": "Quelle est l'énergie de liaison par nucléon (en MeV) du noyau d'hélium ? $m(He)=4{,}0026\\,U$ ; $m_p=1{,}0073\\,U$ ; $m_n=1{,}0087\\,U$",
+      "choices": {
+        "a": "$65{,}8\\,MeV/nucléon$",
+        "b": "$68{,}5\\,MeV/nucléon$",
+        "c": "$685\\,MeV/nucléon$",
+        "d": "$6{,}85\\,MeV/nucléon$"
+      },
+      "correct": "d",
+      "explication": "$\\Delta m=2m_p+2m_n-m(He)=0{,}0294\\,U$, soit $E=0{,}0294\\times931{,}5\\approx27{,}4\\,MeV$, donc $27{,}4/4\\approx6{,}85\\,MeV$ par nucléon."
+    },
+    {
+      "id": "p2021_q20",
+      "text": "La désintégration du polonium $^{210}_{84}Po$ engendre une particule $\\alpha$ et du plomb. Le noyau de plomb obtenu s'écrit alors :",
+      "choices": {
+        "a": "$^{214}_{80}Pb$",
+        "b": "$^{206}_{82}Pb$",
+        "c": "$^{214}_{88}Pb$",
+        "d": "$^{206}_{80}Pb$"
+      },
+      "correct": "b",
+      "explication": "$A: 210-4=206$ et $Z: 84-2=82$."
+    }
+  ]
+}

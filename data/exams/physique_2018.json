@@ -1,0 +1,244 @@
+{
+  "questions": [
+    {
+      "id": "p2018_q1",
+      "text": "Une montgolfière s'élève avec une vitesse constante de $10\\,m/s$. À une altitude de $70\\,m$, on laisse tomber un paquet à l'instant $t=0$. Le paquet atteindra le sol à l'instant $t$ égal à : ($g=9{,}8\\,m.s^{-2}$)",
+      "choices": {
+        "a": "$3{,}5\\,s$",
+        "b": "$4{,}9\\,s$",
+        "c": "$6{,}1\\,s$",
+        "d": "$3{,}8\\,s$"
+      },
+      "correct": "b",
+      "explication": "$70+10t-4{,}9t^2=0$ (le paquet garde la vitesse ascendante du ballon à $t=0$) donne $t\\approx4{,}9\\,s$ (racine positive)."
+    },
+    {
+      "id": "p2018_q2",
+      "text": "Soient $g_0$ l'accélération de la pesanteur au sol, $g_h$ sa valeur à une altitude $h$, et $R$ le rayon de la Terre. Alors :",
+      "choices": {
+        "a": "$g_h=g_0\\dfrac{R}{R+h}$",
+        "b": "$g_h=g_0\\dfrac{R}{h}$",
+        "c": "$g_h=g_0\\left(\\dfrac{R}{h}\\right)^2$",
+        "d": "$g_h=g_0\\left(\\dfrac{R}{R+h}\\right)^2$"
+      },
+      "correct": "d",
+      "explication": "La gravitation varie en $1/d^2$ avec la distance $d=R+h$ au centre de la Terre : $g_h=g_0(R/(R+h))^2$."
+    },
+    {
+      "id": "p2018_q3",
+      "text": "La période $T$ d'un satellite à l'altitude $h$ est égale à :",
+      "choices": {
+        "a": "$2\\pi\\sqrt{\\dfrac{(R+h)^3}{g_0R^2}}$",
+        "b": "$2\\pi\\sqrt{\\dfrac{R+h}{g_0R}}$",
+        "c": "$2\\pi(R+h)$",
+        "d": "$2\\pi h$"
+      },
+      "correct": "a",
+      "explication": "En écrivant $g_h=\\dfrac{4\\pi^2}{T^2}(R+h)$ avec $g_h=g_0R^2/(R+h)^2$, on obtient $T=2\\pi\\sqrt{(R+h)^3/(g_0R^2)}$."
+    },
+    {
+      "id": "p2018_q4",
+      "text": "Un circuit comporte deux générateurs en opposition ($10\\,V$, $1\\,\\Omega$ et $16\\,V$, $1\\,\\Omega$) et un conducteur ohmique de $8\\,\\Omega$. Quelle est l'intensité du courant (en A) ?",
+      "choices": {
+        "a": "$1{,}8$",
+        "b": "$1$",
+        "c": "$0{,}6$",
+        "d": "$2{,}25$"
+      },
+      "correct": "c",
+      "explication": "Les deux générateurs s'opposant, la f.é.m. résultante est $16-10=6\\,V$ pour une résistance totale $1+1+8=10\\,\\Omega$ : $I=6/10=0{,}6\\,A$."
+    },
+    {
+      "id": "p2018_q5",
+      "text": "Quelle est l'induction magnétique (en T) créée par un long conducteur rectiligne parcouru par un courant de $8\\,A$, en un point situé à $1\\,m$ du fil ? ($\\mu_0=4\\pi.10^{-7}\\,SI$)",
+      "choices": {
+        "a": "$1{,}6.10^{-6}$",
+        "b": "$0{,}8.10^{-6}$",
+        "c": "$0{,}5.10^{-6}$",
+        "d": "$10^{-6}$"
+      },
+      "correct": "a",
+      "explication": "$B=\\dfrac{\\mu_0 I}{2\\pi r}=\\dfrac{4\\pi.10^{-7}\\times8}{2\\pi\\times1}=1{,}6.10^{-6}\\,T$."
+    },
+    {
+      "id": "p2018_q6",
+      "text": "Quelle est la vitesse (en m/s) d'un électron soumis à une d.d.p. de $5000\\,V$ ? (masse de l'électron $=9{,}1.10^{-31}\\,kg$, charge $=1{,}6.10^{-19}\\,C$)",
+      "choices": {
+        "a": "$3.10^{6}$",
+        "b": "$5{,}6.10^{7}$",
+        "c": "$1{,}3.10^{6}$",
+        "d": "$4{,}2.10^{7}$"
+      },
+      "correct": "d",
+      "explication": "$\\frac12mv^2=eU \\Rightarrow v=\\sqrt{2eU/m}=\\sqrt{2\\times1{,}6.10^{-19}\\times5000/9{,}1.10^{-31}}\\approx4{,}2.10^{7}\\,m/s$."
+    },
+    {
+      "id": "p2018_q7",
+      "text": "Quelle est l'unité internationale du flux du champ magnétique ?",
+      "choices": {
+        "a": "Tesla",
+        "b": "Watt",
+        "c": "Weber",
+        "d": "Joule"
+      },
+      "correct": "c",
+      "explication": "Le flux magnétique s'exprime en weber (Wb)."
+    },
+    {
+      "id": "p2018_q8",
+      "text": "Parmi les relations suivantes, laquelle porte le nom de Laplace ?",
+      "choices": {
+        "a": "$\\vec F=q\\vec E$",
+        "b": "$\\vec F=q\\vec v\\wedge\\vec B$",
+        "c": "$E=\\dfrac{q}{4\\pi\\varepsilon_0r^2}$",
+        "d": "$B=\\dfrac{\\mu_0I}{2r}$"
+      },
+      "correct": "b",
+      "explication": "La force de Laplace (composante magnétique de la force de Lorentz sur une charge en mouvement) s'écrit $\\vec F=q\\vec v\\wedge\\vec B$."
+    },
+    {
+      "id": "p2018_q9",
+      "text": "On considère un long solénoïde ayant $n$ spires par unité de longueur, parcouru par un courant $I$. Le champ magnétique au centre est égal à :",
+      "choices": {
+        "a": "$\\dfrac{\\mu_0I}{n}$",
+        "b": "$\\mu_0nI$",
+        "c": "$\\mu_0I$",
+        "d": "$0$"
+      },
+      "correct": "b",
+      "explication": "Le champ à l'intérieur d'un solénoïde infini est $B=\\mu_0 nI$."
+    },
+    {
+      "id": "p2018_q10",
+      "text": "Dans le système international, le champ électrique s'exprime en :",
+      "choices": {
+        "a": "V/m",
+        "b": "$C^2/m$",
+        "c": "N/m",
+        "d": "Ah"
+      },
+      "correct": "a",
+      "explication": "Le champ électrique se mesure en volts par mètre (V/m), équivalent à N/C."
+    },
+    {
+      "id": "p2018_q11",
+      "text": "Quelle devra être (en volts) la tension appliquée entre les « D » d'un cyclotron pour qu'un électron ait une trajectoire circulaire de rayon $1{,}5\\,m$ au premier tour, avec un champ magnétique de $2\\,T$ ?",
+      "choices": {
+        "a": "$8.10^{11}$",
+        "b": "$2.10^{12}$",
+        "c": "$3.10^{7}$",
+        "d": "$2.10^{5}$"
+      },
+      "correct": "a",
+      "explication": "$eU=\\frac12mv^2$ avec $v=eBr/m$ donne $U=\\dfrac{eB^2r^2}{2m}=\\dfrac{1{,}6.10^{-19}\\times2^2\\times1{,}5^2}{2\\times9{,}1.10^{-31}}\\approx8.10^{11}\\,V$."
+    },
+    {
+      "id": "p2018_q12",
+      "text": "Quel est le moment d'inertie d'une masse ponctuelle $m$ par rapport à un axe $(\\Delta)$ distant de $r$ ?",
+      "choices": {
+        "a": "$\\frac12mr^2$",
+        "b": "$\\frac{1}{12}mr^2$",
+        "c": "$mr^2$",
+        "d": "$\\frac13mr^2$"
+      },
+      "correct": "c",
+      "explication": "Pour une masse ponctuelle, le moment d'inertie est simplement $J=mr^2$."
+    },
+    {
+      "id": "p2018_q13",
+      "text": "Dans un circuit RLC série, soit $\\varphi$ le déphasage entre la tension et le courant. Qu'appelle-t-on facteur de puissance ?",
+      "choices": {
+        "a": "$\\sin\\varphi$",
+        "b": "$\\tan\\varphi$",
+        "c": "$\\cos\\varphi$",
+        "d": "$\\cos^2\\varphi$"
+      },
+      "correct": "c",
+      "explication": "Le facteur de puissance d'un circuit RLC est $\\cos\\varphi$."
+    },
+    {
+      "id": "p2018_q14",
+      "text": "La fréquence (pulsation) de résonance d'un circuit RLC série est :",
+      "choices": {
+        "a": "$\\omega=1/LC$",
+        "b": "$\\omega=LC$",
+        "c": "$\\omega=CL^2$",
+        "d": "$\\omega=1/\\sqrt{LC}$"
+      },
+      "correct": "d",
+      "explication": "La pulsation propre d'un circuit RLC est $\\omega_0=1/\\sqrt{LC}$."
+    },
+    {
+      "id": "p2018_q15",
+      "text": "L'unité internationale de la capacité d'un condensateur est :",
+      "choices": {
+        "a": "Ah",
+        "b": "F",
+        "c": "V/C",
+        "d": "V/m"
+      },
+      "correct": "b",
+      "explication": "La capacité électrique s'exprime en farads (F)."
+    },
+    {
+      "id": "p2018_q16",
+      "text": "Le moment d'une force, dans le système international, s'exprime en :",
+      "choices": {
+        "a": "N.m",
+        "b": "Watt",
+        "c": "N/m",
+        "d": "Pa"
+      },
+      "correct": "a",
+      "explication": "Le moment d'une force (couple) s'exprime en newton-mètre (N·m)."
+    },
+    {
+      "id": "p2018_q17",
+      "text": "Quelle est l'expression de la loi de décroissance radioactive ?",
+      "choices": {
+        "a": "$N(t)=\\dfrac{N_0}{t}$",
+        "b": "$N(t)=\\dfrac{N_0}{\\lambda t}$",
+        "c": "$N(t)=N_0\\exp(-\\lambda t/2)$",
+        "d": "$N(t)=N_0\\exp(-\\lambda t)$"
+      },
+      "correct": "d",
+      "explication": "La loi de décroissance radioactive s'écrit $N(t)=N_0e^{-\\lambda t}$."
+    },
+    {
+      "id": "p2018_q18",
+      "text": "La période d'une substance radioactive est de $138$ jours. Pour un échantillon contenant $8.10^7$ noyaux, combien en restera-t-il au bout de $276$ jours ?",
+      "choices": {
+        "a": "$4.10^7$",
+        "b": "$6.10^7$",
+        "c": "$2.10^7$",
+        "d": "$10^7$"
+      },
+      "correct": "c",
+      "explication": "$276$ jours $=2$ périodes : $N=N_0/2^2=8.10^7/4=2.10^7$."
+    },
+    {
+      "id": "p2018_q19",
+      "text": "Un photon a une énergie égale à $2\\,eV$. Quelle est sa longueur d'onde (en nm) ? ($h=6{,}62.10^{-34}\\,Js$, $c=3.10^8\\,m/s$)",
+      "choices": {
+        "a": "$800$",
+        "b": "$620$",
+        "c": "$510$",
+        "d": "$380$"
+      },
+      "correct": "b",
+      "explication": "$\\lambda=\\dfrac{hc}{E}=\\dfrac{6{,}62.10^{-34}\\times3.10^8}{2\\times1{,}6.10^{-19}}\\approx6{,}21.10^{-7}\\,m\\approx620\\,nm$."
+    },
+    {
+      "id": "p2018_q20",
+      "text": "Pour extraire un électron d'un métal, il faut lui fournir une énergie $W_s$. Si $W_s=3{,}4\\,eV$, calculer la fréquence seuil $\\nu_s$.",
+      "choices": {
+        "a": "$8{,}2.10^{14}\\,Hz$",
+        "b": "$2.10^{10}\\,Hz$",
+        "c": "$3.10^{16}\\,Hz$",
+        "d": "$7{,}6.10^{5}\\,Hz$"
+      },
+      "correct": "a",
+      "explication": "$\\nu_s=\\dfrac{W_s}{h}=\\dfrac{3{,}4\\times1{,}6.10^{-19}}{6{,}62.10^{-34}}\\approx8{,}2.10^{14}\\,Hz$."
+    }
+  ]
+}

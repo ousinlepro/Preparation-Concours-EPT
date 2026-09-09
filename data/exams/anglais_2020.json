@@ -1,0 +1,244 @@
+{
+  "questions": [
+    {
+      "id": "a2020_q1",
+      "text": "John moved to London 10 years ago and he __________ lives there.",
+      "choices": {
+        "a": "Already",
+        "b": "Still",
+        "c": "Always",
+        "d": "Yet"
+      },
+      "correct": "b",
+      "explication": "'Still' exprime une action qui continue jusqu'à maintenant."
+    },
+    {
+      "id": "a2020_q2",
+      "text": "Julie ____________ walks to school.",
+      "choices": {
+        "a": "Already",
+        "b": "Still",
+        "c": "Always",
+        "d": "Yet"
+      },
+      "correct": "c",
+      "explication": "'Always' exprime une habitude régulière."
+    },
+    {
+      "id": "a2020_q3",
+      "text": "Do you mind ____ it with you?",
+      "choices": {
+        "a": "Take",
+        "b": "Taking",
+        "c": "to take",
+        "d": "takening"
+      },
+      "correct": "b",
+      "explication": "'Do you mind' est toujours suivi d'un gérondif (verbe en -ing)."
+    },
+    {
+      "id": "a2020_q4",
+      "text": "Water ____ at 100° C.",
+      "choices": {
+        "a": "boils",
+        "b": "is boiling",
+        "c": "boiled",
+        "d": "boil"
+      },
+      "correct": "a",
+      "explication": "Vérité scientifique générale : present simple."
+    },
+    {
+      "id": "a2020_q5",
+      "text": "I won't be able to do it ____ you help me.",
+      "choices": {
+        "a": "if",
+        "b": "unless",
+        "c": "less",
+        "d": "if and unless could be used here"
+      },
+      "correct": "b",
+      "explication": "'Unless' = 'sauf si / à moins que' : je ne pourrai pas le faire à moins que tu m'aides."
+    },
+    {
+      "id": "a2020_q6",
+      "text": "I don't want to go out ____ it's raining - I hate getting wet.",
+      "choices": {
+        "a": "if",
+        "b": "unless",
+        "c": "less",
+        "d": "if and unless could be used here"
+      },
+      "correct": "a",
+      "explication": "Le sens (détester être mouillé) impose 'if' : je ne veux pas sortir s'il pleut."
+    },
+    {
+      "id": "a2020_q7",
+      "text": "What ____ do if you were in my position?",
+      "choices": {
+        "a": "will you",
+        "b": "would you",
+        "c": "would you have",
+        "d": "are you"
+      },
+      "correct": "b",
+      "explication": "Second conditionnel (if + prétérit, would + base verbale)."
+    },
+    {
+      "id": "a2020_q8",
+      "text": "You'll be very ill ____ smoking.",
+      "choices": {
+        "a": "if you stop",
+        "b": "unless you stop",
+        "c": "if you don't stop",
+        "d": "unless you don't stop"
+      },
+      "correct": "c",
+      "explication": "'Si tu n'arrêtes pas de fumer, tu seras malade.'"
+    },
+    {
+      "id": "a2020_q9",
+      "text": "That ____ be true- she would never say something like that.",
+      "choices": {
+        "a": "mightn't",
+        "b": "can't",
+        "c": "mustn't",
+        "d": "couldn't"
+      },
+      "correct": "b",
+      "explication": "'Can't be true' exprime une impossibilité logique forte."
+    },
+    {
+      "id": "a2020_q10",
+      "text": "Do you think you ____ open the door for me?",
+      "choices": {
+        "a": "can",
+        "b": "could",
+        "c": "can't",
+        "d": "couldn't"
+      },
+      "correct": "b",
+      "explication": "'Could' pour une demande polie."
+    },
+    {
+      "id": "a2020_q11",
+      "text": "I ____ my grandmother as she died before I was born.",
+      "choices": {
+        "a": "never knew",
+        "b": "have never known",
+        "c": "knew never",
+        "d": "never have known"
+      },
+      "correct": "a",
+      "explication": "Action liée à un moment précis du passé (avant ma naissance) : prétérit simple."
+    },
+    {
+      "id": "a2020_q12",
+      "text": "She ____ away for the last two weeks.",
+      "choices": {
+        "a": "has been",
+        "b": "was",
+        "c": "was being",
+        "d": "has being"
+      },
+      "correct": "a",
+      "explication": "'For the last two weeks' impose le present perfect."
+    },
+    {
+      "id": "a2020_q13",
+      "text": "She told me she ____ it ages ago.",
+      "choices": {
+        "a": "Did",
+        "b": "had done",
+        "c": "have done",
+        "d": "did and had done could be used here"
+      },
+      "correct": "d",
+      "explication": "Dans le discours indirect avec un repère temporel précis ('ages ago'), le prétérit et le plus-que-parfait sont tous les deux acceptables."
+    },
+    {
+      "id": "a2020_q14",
+      "text": "The man ____ answered the phone was rather rude.",
+      "choices": {
+        "a": "which",
+        "b": "that",
+        "c": "whom",
+        "d": "whose"
+      },
+      "correct": "b",
+      "explication": "Pronom relatif sujet référant à une personne : 'that' (ou 'who') convient ; 'that' est l'option proposée ici."
+    },
+    {
+      "id": "a2020_q15",
+      "text": "Two guys, ____ car had broken down, asked me for a lift.",
+      "choices": {
+        "a": "whose",
+        "b": "whom",
+        "c": "which",
+        "d": "that"
+      },
+      "correct": "a",
+      "explication": "'Whose' exprime la possession (la voiture DES deux gars)."
+    },
+    {
+      "id": "a2020_q16",
+      "text": "She was promoted ____ manager.",
+      "choices": {
+        "a": "for",
+        "b": "to",
+        "c": "in",
+        "d": "at"
+      },
+      "correct": "b",
+      "explication": "'Promoted to' + poste."
+    },
+    {
+      "id": "a2020_q17",
+      "text": "If you have any problems, don't worry; I ____ help you.",
+      "choices": {
+        "a": "am going to",
+        "b": "will",
+        "c": "gone",
+        "d": "have been"
+      },
+      "correct": "b",
+      "explication": "Décision spontanée / promesse au moment de parler : 'will'."
+    },
+    {
+      "id": "a2020_q18",
+      "text": "She often goes out ___ Friday night.",
+      "choices": {
+        "a": "in",
+        "b": "on",
+        "c": "at",
+        "d": "for"
+      },
+      "correct": "b",
+      "explication": "'On' + jour de la semaine."
+    },
+    {
+      "id": "a2020_q19",
+      "text": "The party is ____ next week.",
+      "choices": {
+        "a": "in",
+        "b": "on",
+        "c": "at",
+        "d": "none of them are used"
+      },
+      "correct": "d",
+      "explication": "Avec 'next week', aucune préposition n'est utilisée."
+    },
+    {
+      "id": "a2020_q20",
+      "text": "He hasn't worked ____ he lost his job.",
+      "choices": {
+        "a": "since",
+        "b": "for",
+        "c": "by",
+        "d": "ago"
+      },
+      "correct": "a",
+      "explication": "'Since' + point de départ dans le temps (évènement)."
+    }
+  ]
+}

@@ -1,0 +1,244 @@
+{
+  "questions": [
+    {
+      "id": "a2018_q1",
+      "text": "I was late. ________, the others were all on time.",
+      "choices": {
+        "a": "Although",
+        "b": "However",
+        "c": "Despite",
+        "d": "Also"
+      },
+      "correct": "b",
+      "explication": "« However » peut introduire une phrase indépendante contrastant avec la précédente ; « Although » et « Despite » exigent d'être rattachés à une proposition."
+    },
+    {
+      "id": "a2018_q2",
+      "text": "He works ________ a receptionist three days a week.",
+      "choices": {
+        "a": "as",
+        "b": "like",
+        "c": "to",
+        "d": "on"
+      },
+      "correct": "a",
+      "explication": "« Work as + job title » décrit un rôle réel occupé."
+    },
+    {
+      "id": "a2018_q3",
+      "text": "Weather ________ this always depresses me.",
+      "choices": {
+        "a": "as",
+        "b": "like",
+        "c": "to",
+        "d": "at"
+      },
+      "correct": "b",
+      "explication": "« Like » + nom introduit une comparaison (« weather like this » = ce genre de temps)."
+    },
+    {
+      "id": "a2018_q4",
+      "text": "They came to London ________ he got a job there.",
+      "choices": {
+        "a": "because of",
+        "b": "because",
+        "c": "despite",
+        "d": "in spite of"
+      },
+      "correct": "b",
+      "explication": "« Because » introduit une proposition complète (sujet + verbe) ; « because of » exigerait un groupe nominal."
+    },
+    {
+      "id": "a2018_q5",
+      "text": "We'll leave ____ we're ready.",
+      "choices": {
+        "a": "as soon as",
+        "b": "when",
+        "c": "how",
+        "d": "a and b are good"
+      },
+      "correct": "d",
+      "explication": "« When » et « as soon as » conviennent tous les deux ici pour introduire le moment du départ."
+    },
+    {
+      "id": "a2018_q6",
+      "text": "I'll be glad ____ it's finished.",
+      "choices": {
+        "a": "when",
+        "b": "before",
+        "c": "only",
+        "d": "then"
+      },
+      "correct": "a",
+      "explication": "« Glad when » exprime le moment où l'on sera content : « before » ou « only » ne conviennent pas grammaticalement ici."
+    },
+    {
+      "id": "a2018_q7",
+      "text": "I miss ____ in London.",
+      "choices": {
+        "a": "live",
+        "b": "living",
+        "c": "to live",
+        "d": "lived"
+      },
+      "correct": "b",
+      "explication": "« Miss » est suivi d'un gérondif : « miss living somewhere »."
+    },
+    {
+      "id": "a2018_q8",
+      "text": "I enjoyed ____ them again.",
+      "choices": {
+        "a": "see",
+        "b": "seeing",
+        "c": "to see",
+        "d": "seen"
+      },
+      "correct": "b",
+      "explication": "« Enjoy » est toujours suivi d'un gérondif."
+    },
+    {
+      "id": "a2018_q9",
+      "text": "I won't be able to do it ____ you help me.",
+      "choices": {
+        "a": "if",
+        "b": "unless",
+        "c": "when",
+        "d": "a and b are good"
+      },
+      "correct": "b",
+      "explication": "« Unless » (= si... ne... pas) donne le sens voulu : je ne pourrai pas le faire SI tu ne m'aides PAS. « If » seul contredirait le sens."
+    },
+    {
+      "id": "a2018_q10",
+      "text": "____ you stop making that noise, I'll call the police.",
+      "choices": {
+        "a": "If",
+        "b": "Unless",
+        "c": "when",
+        "d": "a and b are good"
+      },
+      "correct": "b",
+      "explication": "« Unless you stop » = si vous n'arrêtez pas ; c'est le seul choix logique (« If you stop » impliquerait à tort que la police est appelée si le bruit cesse)."
+    },
+    {
+      "id": "a2018_q11",
+      "text": "He asked me what I ____ if I failed to get the job.",
+      "choices": {
+        "a": "would do",
+        "b": "would have done",
+        "c": "would done",
+        "d": "will"
+      },
+      "correct": "a",
+      "explication": "Discours indirect d'un conditionnel de type 1 (« what will I do » devient « what I would do »)."
+    },
+    {
+      "id": "a2018_q12",
+      "text": "He told me he ____ be here by three o'clock at the latest and it's half past already.",
+      "choices": {
+        "a": "will",
+        "b": "would",
+        "c": "is",
+        "d": "a and b are good"
+      },
+      "correct": "b",
+      "explication": "Discours rapporté : « will » devient « would »."
+    },
+    {
+      "id": "a2018_q13",
+      "text": "If I ...... you, I would tell him straightaway.",
+      "choices": {
+        "a": "were",
+        "b": "am",
+        "c": "was",
+        "d": "is"
+      },
+      "correct": "a",
+      "explication": "Second conditionnel : « If I were you » (subjonctif figé pour toutes les personnes)."
+    },
+    {
+      "id": "a2018_q14",
+      "text": "If you ...... yellow and blue, you get green.",
+      "choices": {
+        "a": "will mix",
+        "b": "mix",
+        "c": "mixed",
+        "d": "have mixed"
+      },
+      "correct": "b",
+      "explication": "Conditionnel zéro (vérité générale) : présent simple dans les deux propositions."
+    },
+    {
+      "id": "a2018_q15",
+      "text": "That ____ be true- she would never say something like that.",
+      "choices": {
+        "a": "mightn't",
+        "b": "can't",
+        "c": "mustn't",
+        "d": "will"
+      },
+      "correct": "b",
+      "explication": "« Can't be true » exprime une déduction logique d'impossibilité."
+    },
+    {
+      "id": "a2018_q16",
+      "text": "Do you think you ____ open the door for me?",
+      "choices": {
+        "a": "can",
+        "b": "could",
+        "c": "can't",
+        "d": "couldn't"
+      },
+      "correct": "b",
+      "explication": "« Could » rend une demande polie plus naturelle après « Do you think »."
+    },
+    {
+      "id": "a2018_q17",
+      "text": "It's the first time I ........ caviar.",
+      "choices": {
+        "a": "ate",
+        "b": "have eaten",
+        "c": "eat",
+        "d": "eaten"
+      },
+      "correct": "b",
+      "explication": "« It's the first time + present perfect » est la structure standard."
+    },
+    {
+      "id": "a2018_q18",
+      "text": "The first time we ......... was just the other day.",
+      "choices": {
+        "a": "spoke",
+        "b": "have spoken",
+        "c": "speak",
+        "d": "is speaking"
+      },
+      "correct": "a",
+      "explication": "« The other day » marque un moment précis du passé : il faut le prétérit simple."
+    },
+    {
+      "id": "a2018_q19",
+      "text": "I stopped ____ a break.",
+      "choices": {
+        "a": "for",
+        "b": "to",
+        "c": "at",
+        "d": "on"
+      },
+      "correct": "a",
+      "explication": "« Stop for a break » = faire une pause (expression idiomatique)."
+    },
+    {
+      "id": "a2018_q20",
+      "text": "She was promoted ____ manager.",
+      "choices": {
+        "a": "for",
+        "b": "to",
+        "c": "on",
+        "d": "at"
+      },
+      "correct": "b",
+      "explication": "« Be promoted to + poste » : être promu à un poste."
+    }
+  ]
+}

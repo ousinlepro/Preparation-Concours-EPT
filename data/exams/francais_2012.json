@@ -1,0 +1,244 @@
+{
+  "questions": [
+    {
+      "id": "f2012_q1",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Les voitures que j'ai entendu vrombir, filaient au loin",
+        "b": "Les voitures que j'aie entendu vrombir, filaient au loin",
+        "c": "Les voitures que j'ai entendues vrombir, filaient au loin",
+        "d": "Les voitures que j'ai entendus vrombir, filaient au loin"
+      },
+      "correct": "c",
+      "explication": "« Les voitures » (COD placé avant, féminin pluriel) sont le sujet réel de « vrombir » : le participe s'accorde (« entendues »)."
+    },
+    {
+      "id": "f2012_q2",
+      "text": "Quelle figure de style avons-nous dans la phrase suivante ? « Un affreux soleil noir surplombait la ville »",
+      "choices": {
+        "a": "Une métaphore",
+        "b": "Une métonymie",
+        "c": "Un oxymore",
+        "d": "Une personnification"
+      },
+      "correct": "c",
+      "explication": "« Soleil noir » associe deux termes contradictoires (le soleil est lumineux) : c'est un oxymore."
+    },
+    {
+      "id": "f2012_q3",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Les leçons dont on n'apprend pas ne sont pas sues",
+        "b": "Les leçons qu'on n'apprend pas ne sont pas sues",
+        "c": "Les leçons qu'on n'apprenne pas ne sont pas sues",
+        "d": "Les leçons qu'on n'apprend pas ne sont pas sue"
+      },
+      "correct": "b",
+      "explication": "« Apprendre » est transitif direct (« que », pas « dont »), à l'indicatif (constat simple, pas de subjonctif). « Sues » s'accorde avec « leçons »."
+    },
+    {
+      "id": "f2012_q4",
+      "text": "Quelle est la fonction de l'expression soulignée dans : « Le maître a distribué des livres aux bons élèves »",
+      "choices": {
+        "a": "Complément d'objet direct",
+        "b": "Complément d'objet indirect",
+        "c": "Complément du nom",
+        "d": "Complément d'objet second"
+      },
+      "correct": "d",
+      "explication": "Dans « distribuer quelque chose (COD) à quelqu'un », le second complément est le complément d'objet second."
+    },
+    {
+      "id": "f2012_q5",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Les dettes qu'il a fallu payer étaient importantes",
+        "b": "Les dettes qu'il a fallut payer étaient importantes",
+        "c": "Les dettes qu'il a fallue payer étaient importantes",
+        "d": "Les dettes qu'il a fallues payer étaient importantes"
+      },
+      "correct": "a",
+      "explication": "« Falloir » est impersonnel : son participe passé « fallu » est toujours invariable."
+    },
+    {
+      "id": "f2012_q6",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Les deux filles se sont plues dès leur première rencontre",
+        "b": "Les deux filles se sont plu dès leur première rencontre",
+        "c": "Les deux filles se sont plus dès leur première rencontre",
+        "d": "Les deux filles se sont plu dès leur première rencontre"
+      },
+      "correct": "b",
+      "explication": "Le participe passé de « plaire » (« se plaire », indirect) est toujours invariable."
+    },
+    {
+      "id": "f2012_q7",
+      "text": "Un sonnet désigne :",
+      "choices": {
+        "a": "Un vers de douze syllabes",
+        "b": "Un poème à forme fixe de quatorze vers",
+        "c": "Une strophe de quatre vers",
+        "d": "Une moitié d'alexandrin"
+      },
+      "correct": "b",
+      "explication": "Un sonnet est un poème de quatorze vers (deux quatrains et deux tercets)."
+    },
+    {
+      "id": "f2012_q8",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Les enfants qu'elle a fait punir sont innocents",
+        "b": "Les enfants qu'elle a faite punir sont innocents",
+        "c": "Les enfants qu'elle a faits punir sont innocents",
+        "d": "Les enfants qu'elle ait fait punir sont innocents"
+      },
+      "correct": "a",
+      "explication": "« Faire » causatif suivi d'un infinitif est toujours invariable (« a fait punir »)."
+    },
+    {
+      "id": "f2012_q9",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Les jours et les semaines se sont succédés avec monotonie",
+        "b": "Les jours et les semaines se sont succédées avec monotonie",
+        "c": "Les jours et les semaines se sont succédé avec monotonie",
+        "d": "Les jours et les semaines se sont succéder avec monotonie"
+      },
+      "correct": "c",
+      "explication": "« Succéder à quelque chose » est indirect : « se succéder » reste toujours invariable."
+    },
+    {
+      "id": "f2012_q10",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Nous allons au lycée en bicyclette",
+        "b": "Nous allons au lycée via une bicyclette",
+        "c": "Nous allons au lycée à portée d'une bicyclette",
+        "d": "Nous allons au lycée à bicyclette"
+      },
+      "correct": "d",
+      "explication": "Comme « à pied » ou « à cheval », on dit « à bicyclette »."
+    },
+    {
+      "id": "f2012_q11",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Elles se sont vues et se sont serré la main",
+        "b": "Elles se sont vue et se sont serrées la main",
+        "c": "Elles se sont vu et se sont serré la main",
+        "d": "Elles se sont vues et sont serrées la main"
+      },
+      "correct": "a",
+      "explication": "« Se voir » (voir quelqu'un, direct) s'accorde : « vues ». « Se serrer LA MAIN » : le COD « la main » suit le verbe, « se » (indirect) n'entraîne pas d'accord : « serré »."
+    },
+    {
+      "id": "f2012_q12",
+      "text": "Quelle est la fonction grammaticale du mot « eau » dans la phrase : « ce seau est plein d'eau »",
+      "choices": {
+        "a": "Complément du nom",
+        "b": "Complément de l'adjectif",
+        "c": "Attribut du sujet",
+        "d": "Épithète"
+      },
+      "correct": "b",
+      "explication": "« Plein DE quelque chose » : « d'eau » complète l'adjectif « plein »."
+    },
+    {
+      "id": "f2012_q13",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "J'ai acheté des chemises rouges, oranges, bleu clair",
+        "b": "J'ai acheté des chemises rouges, orange, bleu clair",
+        "c": "J'ai acheté des chemises rouges, orange, bleues claires",
+        "d": "J'ai acheté des chemises rouges, oranges, bleues claires"
+      },
+      "correct": "b",
+      "explication": "« Rouges » (couleur simple) s'accorde ; « orange » (nom employé comme couleur) et « bleu clair » (couleur composée) restent invariables."
+    },
+    {
+      "id": "f2012_q14",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Les quatre-vingts ans qu'il a vécu sont bien remplis",
+        "b": "Les quatre vingt ans qu'il a vécus sont bien remplis",
+        "c": "Les quatre vingts ans qu'il a vécus sont bien remplis",
+        "d": "Les quatre vingt ans qu'il a vécu sont bien remplis"
+      },
+      "correct": "a",
+      "explication": "« Quatre-vingts » (non suivi d'un autre nombre) prend un s. « Vivre » suivi d'un complément de durée est traditionnellement invariable : « a vécu »."
+    },
+    {
+      "id": "f2012_q15",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "J'ai entendu des paroles aigre douce",
+        "b": "J'ai entendu des paroles aigre douces",
+        "c": "J'ai entendu des paroles aigres douce",
+        "d": "J'ai entendu des paroles aigres douces"
+      },
+      "correct": "d",
+      "explication": "« Aigre-doux » est un adjectif composé ordinaire (pas une couleur) : ses deux éléments s'accordent avec « paroles » (féminin pluriel)."
+    },
+    {
+      "id": "f2012_q16",
+      "text": "En poésie des vers blancs sont :",
+      "choices": {
+        "a": "Des vers commençant par une majuscule",
+        "b": "Des vers sans ponctuation",
+        "c": "Des vers sans rimes",
+        "d": "Des vers sans accents toniques"
+      },
+      "correct": "c",
+      "explication": "Les vers blancs sont des vers réguliers mais dépourvus de rimes."
+    },
+    {
+      "id": "f2012_q17",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Elles ont beau crié, elles n'ont pas été entendues",
+        "b": "Elles ont beau crier, elles n'ont pas été entendues",
+        "c": "Elles ont beau criés, elles n'ont pas été entendues",
+        "d": "Elles ont beau criées, elles n'ont pas été entendues"
+      },
+      "correct": "b",
+      "explication": "« Avoir beau » se construit toujours avec un infinitif."
+    },
+    {
+      "id": "f2012_q18",
+      "text": "Lequel de ces courants littéraires appartient au XXᵉ siècle ?",
+      "choices": {
+        "a": "Le romantisme",
+        "b": "Le symbolisme",
+        "c": "Le classicisme",
+        "d": "Le surréalisme"
+      },
+      "correct": "d",
+      "explication": "Le surréalisme (années 1920) est le seul de ces courants appartenant au XXᵉ siècle."
+    },
+    {
+      "id": "f2012_q19",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Nous lui avons remis les clés après qu'il est venu",
+        "b": "Nous lui avons remis les clés après qu'il ait venu",
+        "c": "Nous lui avons remis les clés après qu'il soit venu",
+        "d": "Nous lui avons remis les clés après qu'il fût venu"
+      },
+      "correct": "a",
+      "explication": "« Après que » se construit avec l'indicatif (« est venu »), pas le subjonctif."
+    },
+    {
+      "id": "f2012_q20",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Les lettres qu'il nous a envoyés ne nous sont pas parvenues",
+        "b": "Les lettres qu'il nous a envoyé ne nous sont pas parvenues",
+        "c": "Les lettres qu'il nous a envoyées ne nous sont pas parvenues",
+        "d": "Les lettres qu'il nous a envoyer ne nous sont pas parvenues"
+      },
+      "correct": "c",
+      "explication": "« Envoyer » : le COD « que » (les lettres, féminin pluriel) placé avant entraîne l'accord (« envoyées »)."
+    }
+  ]
+}

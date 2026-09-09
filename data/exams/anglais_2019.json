@@ -1,0 +1,244 @@
+{
+  "questions": [
+    {
+      "id": "a2019_q1",
+      "text": "The increase in the number of cars on the road has resulted ________ more and more traffic jams.",
+      "choices": {
+        "a": "in",
+        "b": "to",
+        "c": "at",
+        "d": "for"
+      },
+      "correct": "a",
+      "explication": "Le verbe à particule 'result in' signifie 'entraîner, causer'."
+    },
+    {
+      "id": "a2019_q2",
+      "text": "Scientists _____ a new planet.",
+      "choices": {
+        "a": "had just discover",
+        "b": "has just discover",
+        "c": "have just discover",
+        "d": "have just discovered"
+      },
+      "correct": "d",
+      "explication": "Present perfect avec sujet pluriel ('scientists') : 'have' + participe passé 'discovered'."
+    },
+    {
+      "id": "a2019_q3",
+      "text": "The bus _____ before I reached the bus-stop.",
+      "choices": {
+        "a": "arrive",
+        "b": "arrived",
+        "c": "had arrived",
+        "d": "have arrive"
+      },
+      "correct": "c",
+      "explication": "Le past perfect ('had arrived') exprime une action antérieure à une autre action passée."
+    },
+    {
+      "id": "a2019_q4",
+      "text": "The manager _____ soon.",
+      "choices": {
+        "a": "will arrive",
+        "b": "is arriving",
+        "c": "has arrive",
+        "d": "arrives"
+      },
+      "correct": "a",
+      "explication": "'Will' exprime une prédiction future simple, adaptée à 'soon'."
+    },
+    {
+      "id": "a2019_q5",
+      "text": "They were late ____ usual.",
+      "choices": {
+        "a": "as",
+        "b": "like",
+        "c": "in",
+        "d": "for"
+      },
+      "correct": "a",
+      "explication": "'As usual' est une expression figée signifiant 'comme d'habitude'."
+    },
+    {
+      "id": "a2019_q6",
+      "text": "I was late. _____, the others were all on time.",
+      "choices": {
+        "a": "Although",
+        "b": "However",
+        "c": "Despite",
+        "d": "In spite"
+      },
+      "correct": "b",
+      "explication": "'However' introduit une phrase indépendante exprimant un contraste ; 'Although' et 'Despite' relient deux propositions dans une même phrase."
+    },
+    {
+      "id": "a2019_q7",
+      "text": "- ____ tired, he managed to finish it on time.",
+      "choices": {
+        "a": "Though",
+        "b": "Despite",
+        "c": "Either",
+        "d": "How"
+      },
+      "correct": "a",
+      "explication": "'Though' peut être suivi directement d'un adjectif ('Though tired...'), contrairement à 'Despite' qui demande un nom ou un gérondif."
+    },
+    {
+      "id": "a2019_q8",
+      "text": "I regard them ____ friends.",
+      "choices": {
+        "a": "like",
+        "b": "as",
+        "c": "of",
+        "d": "at"
+      },
+      "correct": "b",
+      "explication": "La structure fixe est 'regard someone as something'."
+    },
+    {
+      "id": "a2019_q9",
+      "text": "We must finish it ____ we leave.",
+      "choices": {
+        "a": "before",
+        "b": "until",
+        "c": "Either",
+        "d": "if"
+      },
+      "correct": "a",
+      "explication": "'Before we leave' indique que l'action doit être terminée avant le départ."
+    },
+    {
+      "id": "a2019_q10",
+      "text": "\"I've been taking English lessons for 3 months but I ______ haven't made much progress\".",
+      "choices": {
+        "a": "already",
+        "b": "still",
+        "c": "always",
+        "d": "yet"
+      },
+      "correct": "b",
+      "explication": "'Still' devant une forme négative souligne qu'une situation n'a toujours pas changé."
+    },
+    {
+      "id": "a2019_q11",
+      "text": "I won't be able to do it ____ you help me.",
+      "choices": {
+        "a": "if",
+        "b": "unless",
+        "c": "as",
+        "d": "otherwise"
+      },
+      "correct": "b",
+      "explication": "'Unless' signifie 'à moins que / sauf si' : je ne pourrai pas le faire sauf si tu m'aides."
+    },
+    {
+      "id": "a2019_q12",
+      "text": "- What would you do if the police ......... you?",
+      "choices": {
+        "a": "arrested",
+        "b": "arrest",
+        "c": "is arrest",
+        "d": "has arrested"
+      },
+      "correct": "a",
+      "explication": "Second conditionnel : 'if' + prétérit ('arrested'), 'would' + base verbale dans la principale."
+    },
+    {
+      "id": "a2019_q13",
+      "text": "I ......... there if I'd known about it",
+      "choices": {
+        "a": "would never have gone",
+        "b": "would never go",
+        "c": "would never had gone",
+        "d": "would have never go"
+      },
+      "correct": "a",
+      "explication": "Troisième conditionnel : 'would have' + participe passé ('gone')."
+    },
+    {
+      "id": "a2019_q14",
+      "text": "......... there, you could have helped me",
+      "choices": {
+        "a": "Unless you had been",
+        "b": "Had you been",
+        "c": "Have you been",
+        "d": "If you have been"
+      },
+      "correct": "b",
+      "explication": "Inversion du troisième conditionnel : 'Had you been there' équivaut à 'If you had been there'."
+    },
+    {
+      "id": "a2019_q15",
+      "text": "It's ages since we ........",
+      "choices": {
+        "a": "spoke",
+        "b": "have spoken",
+        "c": "speak",
+        "d": "have been speaking"
+      },
+      "correct": "a",
+      "explication": "Après 'It's ages since...', on utilise le prétérit simple ('spoke')."
+    },
+    {
+      "id": "a2019_q16",
+      "text": "He ......... yet",
+      "choices": {
+        "a": "hasn't arrived",
+        "b": "didn't arrive",
+        "c": "arrives",
+        "d": "wasn't arriving"
+      },
+      "correct": "a",
+      "explication": "'Yet' dans une phrase négative s'utilise avec le present perfect ('hasn't arrived')."
+    },
+    {
+      "id": "a2019_q17",
+      "text": "She often goes out ___ night.",
+      "choices": {
+        "a": "in",
+        "b": "on",
+        "c": "at",
+        "d": "of"
+      },
+      "correct": "c",
+      "explication": "'At night' est l'expression figée pour indiquer un moment de la journée."
+    },
+    {
+      "id": "a2019_q18",
+      "text": "The class is ____ Tuesdays and Thursdays.",
+      "choices": {
+        "a": "in",
+        "b": "on",
+        "c": "at",
+        "d": "of"
+      },
+      "correct": "b",
+      "explication": "Les jours de la semaine s'utilisent avec la préposition 'on'."
+    },
+    {
+      "id": "a2019_q19",
+      "text": "I ____ a lot of progress at the moment.",
+      "choices": {
+        "a": "make",
+        "b": "am making",
+        "c": "made",
+        "d": "had made"
+      },
+      "correct": "b",
+      "explication": "'At the moment' indique une action en cours : present continuous ('am making')."
+    },
+    {
+      "id": "a2019_q20",
+      "text": "It _____ me a lot at the moment.",
+      "choices": {
+        "a": "worries",
+        "b": "is worrying",
+        "c": "worried",
+        "d": "had worried"
+      },
+      "correct": "b",
+      "explication": "'At the moment' indique une action en cours : present continuous ('is worrying')."
+    }
+  ]
+}

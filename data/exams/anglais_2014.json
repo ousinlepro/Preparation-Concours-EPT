@@ -1,0 +1,124 @@
+{
+  "questions": [
+    {
+      "id": "a2014_q1",
+      "text": "I prefer tea ________ coffee.",
+      "choices": {
+        "a": "to",
+        "b": "than",
+        "c": "against",
+        "d": "over"
+      },
+      "correct": "a",
+      "explication": "« Prefer X to Y » est la construction correcte."
+    },
+    {
+      "id": "a2014_q2",
+      "text": "They gave me a form and told me to ________.",
+      "choices": {
+        "a": "fill",
+        "b": "to filling",
+        "c": "to fill it in",
+        "d": "to fill in it"
+      },
+      "correct": "c",
+      "explication": "Verbe à particule « fill in » ; le pronom objet se place entre le verbe et la particule : « fill it in »."
+    },
+    {
+      "id": "a2014_q3",
+      "text": "I'm good ________ English.",
+      "choices": {
+        "a": "in",
+        "b": "at",
+        "c": "for",
+        "d": "about"
+      },
+      "correct": "b",
+      "explication": "« Good at + domaine » (être bon en quelque chose)."
+    },
+    {
+      "id": "a2014_q4",
+      "text": "His arrival depends ________ the traffic.",
+      "choices": {
+        "a": "of",
+        "b": "for",
+        "c": "from",
+        "d": "on"
+      },
+      "correct": "d",
+      "explication": "« Depend on » est la préposition fixe correcte."
+    },
+    {
+      "id": "a2014_q5",
+      "text": "He is sad. His eyes are filled ________ tears.",
+      "choices": {
+        "a": "on",
+        "b": "with",
+        "c": "in",
+        "d": "of"
+      },
+      "correct": "b",
+      "explication": "« Filled with » (rempli de)."
+    },
+    {
+      "id": "a2014_q6",
+      "text": "The train always arrives ________ time.",
+      "choices": {
+        "a": "in",
+        "b": "at",
+        "c": "on",
+        "d": "out"
+      },
+      "correct": "c",
+      "explication": "« On time » = à l'heure (ponctualité)."
+    },
+    {
+      "id": "a2014_q7",
+      "text": "We ________ each other for a long time.",
+      "choices": {
+        "a": "know",
+        "b": "have known",
+        "c": "have been knowing",
+        "d": "knew"
+      },
+      "correct": "b",
+      "explication": "« Know » est un verbe d'état : present perfect simple, pas de forme progressive."
+    },
+    {
+      "id": "a2014_q8",
+      "text": "Moussa ________ in Tamba for ten years. Now he lives in Dakar.",
+      "choices": {
+        "a": "lived",
+        "b": "has lived",
+        "c": "lives",
+        "d": "have been living"
+      },
+      "correct": "a",
+      "explication": "La situation est terminée (il vit maintenant à Dakar) : prétérit simple, pas present perfect."
+    },
+    {
+      "id": "a2014_q9",
+      "text": "Awa has been working here ________.",
+      "choices": {
+        "a": "for six months",
+        "b": "since six months",
+        "c": "six months ago",
+        "d": "in six months"
+      },
+      "correct": "a",
+      "explication": "« For » + une durée avec le present perfect (continuous)."
+    },
+    {
+      "id": "a2014_q10",
+      "text": "Take an umbrella. It ________ rain later.",
+      "choices": {
+        "a": "must",
+        "b": "may",
+        "c": "can",
+        "d": "need"
+      },
+      "correct": "b",
+      "explication": "« May » exprime la possibilité d'un événement futur."
+    }
+  ]
+}

@@ -1,0 +1,244 @@
+{
+  "questions": [
+    {
+      "id": "f2018_q1",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Les veuves sont les ayants droits aux allocations",
+        "b": "Les veuves sont les ayant droit aux allocations",
+        "c": "Les veuves sont les ayants droit aux allocations",
+        "d": "Les veuves sont les ayant droits aux allocations"
+      },
+      "correct": "c",
+      "explication": "« Ayant droit » : « ayant » (substantivé) prend un s au pluriel, « droit » (l'objet du droit) reste invariable : « ayants droit »."
+    },
+    {
+      "id": "f2018_q2",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Les deux stars se sont appréciées et se sont embrassées",
+        "b": "Les deux stars se sont appréciés et se sont embrassés",
+        "c": "Les deux stars se sont apprécié et se sont embrassé",
+        "d": "Les deux stars se sont appréciées et se sont embrassé"
+      },
+      "correct": "a",
+      "explication": "« Apprécier quelqu'un » et « embrasser quelqu'un » sont directs : « se » = COD, accord au féminin pluriel (stars)."
+    },
+    {
+      "id": "f2018_q3",
+      "text": "Un distique désigne :",
+      "choices": {
+        "a": "Une moitié d'alexandrin",
+        "b": "Une strophe de deux vers",
+        "c": "Un vers de deux syllabes",
+        "d": "Deux vers comportant la même rime"
+      },
+      "correct": "b",
+      "explication": "Un distique est un ensemble de deux vers formant une unité de sens."
+    },
+    {
+      "id": "f2018_q4",
+      "text": "Quel courant littéraire s'est développé en France au XXᵉ siècle ?",
+      "choices": {
+        "a": "Le romantisme",
+        "b": "Le parnasse",
+        "c": "Le symbolisme",
+        "d": "Le surréalisme"
+      },
+      "correct": "d",
+      "explication": "Le surréalisme, fondé dans les années 1920, est le seul de ces courants à appartenir au XXᵉ siècle."
+    },
+    {
+      "id": "f2018_q5",
+      "text": "Quelle est la nature de la proposition subordonnée contenue dans la phrase suivante ? « Nous ne savons pas quand nous pourrons partir »",
+      "choices": {
+        "a": "Subordonnée relative",
+        "b": "Subordonnée infinitive",
+        "c": "Subordonnée conjonctive",
+        "d": "Subordonnée interrogative"
+      },
+      "correct": "d",
+      "explication": "« Quand nous pourrons partir » est une interrogation indirecte, COD de « savons »."
+    },
+    {
+      "id": "f2018_q6",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Les automobiles que nous avons entendu klaxonner roulaient à vive allure",
+        "b": "Les automobiles que nous avons entendues klaxonner roulaient à vive allure",
+        "c": "Les automobiles que nous avons entendus klaxonner roulaient à vive allure",
+        "d": "Les automobiles que nous avons entendu klaxonné roulaient à vive allure"
+      },
+      "correct": "b",
+      "explication": "« Les automobiles » (COD placé avant, féminin pluriel) sont le sujet réel de « klaxonner » : le participe s'accorde (« entendues »)."
+    },
+    {
+      "id": "f2018_q7",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Ils sont venus à cheval et non à voiture",
+        "b": "Ils sont venus en cheval et non en voiture",
+        "c": "Ils sont venus à cheval et non en voiture",
+        "d": "Ils sont venus en cheval et non à voiture"
+      },
+      "correct": "c",
+      "explication": "On dit « à cheval » (comme « à pied ») mais « en voiture » (véhicule clos)."
+    },
+    {
+      "id": "f2018_q8",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Elles portaient des jupes bleu marine et des robes marron",
+        "b": "Elles portaient des jupes bleues marines et des robes marrons",
+        "c": "Elles portaient des jupes bleu marines et des robes marrons",
+        "d": "Elles portaient des jupes bleus marines et des robes marron"
+      },
+      "correct": "a",
+      "explication": "« Bleu marine » (couleur composée) et « marron » (nom employé comme adjectif de couleur) sont invariables."
+    },
+    {
+      "id": "f2018_q9",
+      "text": "Quelle est la fonction de la subordonnée soulignée dans la phrase suivante ? « Si le vent s'était calmé, nous serions partis »",
+      "choices": {
+        "a": "Complément circonstanciel de temps",
+        "b": "Complément circonstanciel de condition",
+        "c": "Complément circonstanciel d'opposition",
+        "d": "Complément circonstanciel de cause"
+      },
+      "correct": "b",
+      "explication": "« Si + plus-que-parfait » introduit une condition (hypothèse non réalisée)."
+    },
+    {
+      "id": "f2018_q10",
+      "text": "Lequel de ces écrivains est un romancier ?",
+      "choices": {
+        "a": "Charles Baudelaire",
+        "b": "Arthur Rimbaud",
+        "c": "Léopold Sédar Senghor",
+        "d": "Gustave Flaubert"
+      },
+      "correct": "d",
+      "explication": "Gustave Flaubert est romancier (« Madame Bovary ») ; les autres sont avant tout poètes."
+    },
+    {
+      "id": "f2018_q11",
+      "text": "Quelle est la fonction du mot souligné dans la phrase suivante ? « Ces biens, ils nous les ont légués »",
+      "choices": {
+        "a": "Complément d'objet direct",
+        "b": "Complément d'objet indirect",
+        "c": "Complément d'objet second",
+        "d": "Attribut du sujet"
+      },
+      "correct": "c",
+      "explication": "« Léguer quelque chose (COD : les) à quelqu'un (nous) » : « nous » est le second complément d'objet (destinataire)."
+    },
+    {
+      "id": "f2018_q12",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Les filles ont beau pleurer, elles n'ont pas été secourues",
+        "b": "Les filles ont beau pleuré, elles n'ont pas été secourues",
+        "c": "Les filles ont beau pleurées, elles n'ont pas été secourues",
+        "d": "Les filles ont beau pleurés, elles n'ont pas été secourues"
+      },
+      "correct": "a",
+      "explication": "« Avoir beau » se construit toujours avec un infinitif (« pleurer »), jamais un participe."
+    },
+    {
+      "id": "f2018_q13",
+      "text": "Quelle figure de style avons-nous dans le vers suivant ? « Pour qui sont ces serpents qui sifflent sur vos têtes »",
+      "choices": {
+        "a": "Une allitération",
+        "b": "Une assonance",
+        "c": "Une litote",
+        "d": "Une anaphore"
+      },
+      "correct": "a",
+      "explication": "La répétition du son « s » (serpents, sifflent) est une allitération caractéristique de ce vers de Racine."
+    },
+    {
+      "id": "f2018_q14",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Ces chauves souris, nous les avons entrevus survoler la maison",
+        "b": "Ces chauves-souris, nous les avons entrevu survoler la maison",
+        "c": "Ces chauves-souris, nous les avons entrevues survoler la maison",
+        "d": "Ces chauves-souris, nous les avons entrevu survolée la maison"
+      },
+      "correct": "c",
+      "explication": "« Chauves-souris » (nom composé, les deux éléments s'accordent). « Les » (COD, fém. pluriel) est le sujet réel de « survoler » : le participe s'accorde (« entrevues »)."
+    },
+    {
+      "id": "f2018_q15",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Les données dont nous nous rappelons sont correctes",
+        "b": "Les données que nous nous rappelons sont correctes",
+        "c": "Les données auxquelles nous nous rappelons sont correctes",
+        "d": "Les données desquelles nous nous rappelons sont correctes"
+      },
+      "correct": "b",
+      "explication": "« Se rappeler quelque chose » est direct (contrairement à « se souvenir DE ») : le relatif adapté est « que »."
+    },
+    {
+      "id": "f2018_q16",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Il y avait trop de laissez-aller dans la maison",
+        "b": "Il y avait trop de laissers-allers dans la maison",
+        "c": "Il y avait trop de laissé-allez dans la maison",
+        "d": "Il y avait trop de laisser-aller dans la maison"
+      },
+      "correct": "d",
+      "explication": "« Laisser-aller » (nonchalance) s'écrit avec l'infinitif « laisser », toujours invariable — à ne pas confondre avec « laissez-passer »."
+    },
+    {
+      "id": "f2018_q17",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Les demoiselles que nous avons faites renvoyer sont fautives",
+        "b": "Les demoiselles que nous avons faits renvoyer sont fautives",
+        "c": "Les demoiselles que nous avons fait renvoyées sont fautives",
+        "d": "Les demoiselles que nous avons fait renvoyer sont fautives"
+      },
+      "correct": "d",
+      "explication": "« Faire » causatif suivi d'un infinitif est toujours invariable (« fait renvoyer »)."
+    },
+    {
+      "id": "f2018_q18",
+      "text": "Quelle est la fonction du mot souligné dans la phrase suivante ? « Le sport et le grand air les rendent robustes »",
+      "choices": {
+        "a": "Complément d'objet direct",
+        "b": "Attribut du complément d'objet direct",
+        "c": "Épithète",
+        "d": "Complément circonstanciel de manière"
+      },
+      "correct": "b",
+      "explication": "« Robustes » qualifie le COD « les » par l'intermédiaire du verbe « rendre » : attribut du COD."
+    },
+    {
+      "id": "f2018_q19",
+      "text": "Qui est l'auteur du recueil de poèmes Les Contemplations ?",
+      "choices": {
+        "a": "Aimé Césaire",
+        "b": "Paul Verlaine",
+        "c": "Victor Hugo",
+        "d": "Jean de La Fontaine"
+      },
+      "correct": "c",
+      "explication": "« Les Contemplations » est un recueil de Victor Hugo (1856)."
+    },
+    {
+      "id": "f2018_q20",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Les lames qu'ils ont aiguisées les ont égratignés",
+        "b": "Les lames qu'ils ont aiguisés les ont égratignés",
+        "c": "Les lames qu'ils ont aiguisé les ont égratigné",
+        "d": "Les lames qu'ils ont aiguisées les ont égratignées"
+      },
+      "correct": "d",
+      "explication": "« Aiguiser » : le COD « que » (les lames, féminin pluriel) placé avant entraîne l'accord (« aiguisées »), de même pour « égratignées »."
+    }
+  ]
+}

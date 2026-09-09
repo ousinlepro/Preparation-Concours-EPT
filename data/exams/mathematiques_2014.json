@@ -1,0 +1,244 @@
+{
+  "questions": [
+    {
+      "id": "m2014_q1",
+      "text": "Calculer $\\displaystyle\\lim_{x\\to0}\\dfrac{tgx-\\sin x}{x^3}$",
+      "choices": {
+        "a": "$0$",
+        "b": "$\\dfrac13$",
+        "c": "$\\dfrac12$",
+        "d": "$1$"
+      },
+      "correct": "c",
+      "explication": "$tgx-\\sin x=\\sin x\\left(\\dfrac{1}{\\cos x}-1\\right)\\approx x\\times\\dfrac{x^2}{2}=\\dfrac{x^3}{2}$, d'où la limite $1/2$."
+    },
+    {
+      "id": "m2014_q2",
+      "text": "$\\displaystyle\\lim_{n\\to\\infty}U_n=\\lim_{n\\to\\infty}n\\left(\\cos\\dfrac{\\pi}{3}\\left(1+\\dfrac1n\\right)-\\dfrac12\\right)=l$",
+      "choices": {
+        "a": "$l=\\dfrac{\\sqrt3}{2}$",
+        "b": "$l=-\\dfrac{\\sqrt3}{2}$",
+        "c": "$l=-\\dfrac{\\pi\\sqrt3}{6}$",
+        "d": "$l=\\dfrac{\\pi\\sqrt3}{2}$"
+      },
+      "correct": "c",
+      "explication": "En développant $\\cos\\left(\\frac{\\pi}{3}+\\frac{\\pi}{3n}\\right)\\approx\\frac12-\\frac{\\sqrt3}{2}\\cdot\\frac{\\pi}{3n}$, le terme entre parenthèses $\\approx-\\frac{\\sqrt3\\pi}{6n}$, d'où $l=-\\pi\\sqrt3/6$ après multiplication par $n$."
+    },
+    {
+      "id": "m2014_q3",
+      "text": "Soit $f(x)=\\dfrac{x-1}{x^2-2x+2}$. La courbe représentative de $f(x)$ admet :",
+      "choices": {
+        "a": "Un axe de symétrie",
+        "b": "Une asymptote oblique",
+        "c": "Un centre de symétrie",
+        "d": "Une asymptote verticale"
+      },
+      "correct": "c",
+      "explication": "En posant $u=x-1$, $f=\\dfrac{u}{u^2+1}$ est une fonction impaire de $u$ : le graphe admet le point $(1,0)$ comme centre de symétrie."
+    },
+    {
+      "id": "m2014_q4",
+      "text": "Soient les courbes $f(x)=x^2+\\dfrac1x$ et $g(x)=x^2$. Elles sont :",
+      "choices": {
+        "a": "Tangentes",
+        "b": "Asymptotes",
+        "c": "Sécantes",
+        "d": "Toutes deux sécantes avec l'axe des x"
+      },
+      "correct": "b",
+      "explication": "$f(x)-g(x)=1/x$ ne s'annule jamais (pas d'intersection) mais tend vers $0$ à l'infini : les deux courbes sont asymptotes l'une de l'autre."
+    },
+    {
+      "id": "m2014_q5",
+      "text": "Soit $f(x)=tgx$ définie sur $I=\\left[0;\\dfrac{\\pi}{4}\\right]$. Alors $\\forall x\\in I$ on a :",
+      "choices": {
+        "a": "$\\dfrac12x\\leq tgx\\leq x$",
+        "b": "$0\\leq tgx\\leq x$",
+        "c": "$x\\leq tgx\\leq2x$",
+        "d": "$0\\leq tgx\\leq2x$"
+      },
+      "correct": "c",
+      "explication": "$tgx$ est convexe et $tgx\\geq x$ (au-dessus de sa tangente en 0) ; sur $[0,\\pi/4]$, $tgx/x$ croît de $1$ à $4/\\pi\\approx1{,}27<2$, donc $tgx\\leq2x$."
+    },
+    {
+      "id": "m2014_q6",
+      "text": "Soit $g(x)=x-\\cos x$, définie sur $I=\\left[0;\\dfrac{\\pi}{2}\\right]$. L'équation $g(x)=0$ admet sur $I$ :",
+      "choices": {
+        "a": "Zéro racine",
+        "b": "Une racine",
+        "c": "Deux racines",
+        "d": "Trois racines"
+      },
+      "correct": "b",
+      "explication": "$g(0)=-1<0$, $g(\\pi/2)=\\pi/2>0$ et $g'(x)=1+\\sin x>0$ (strictement croissante) : une seule racine par le théorème des valeurs intermédiaires."
+    },
+    {
+      "id": "m2014_q7",
+      "text": "$I=\\displaystyle\\int tg\\left(\\dfrac1x\\right)\\dfrac{dx}{x^2}$",
+      "choices": {
+        "a": "$I=\\ln|\\sin x|+c$",
+        "b": "$I=-\\ln|\\sin x|+c$",
+        "c": "$I=-\\ln\\left|\\cos\\dfrac1x\\right|+c$",
+        "d": "$I=+\\ln\\left|\\cos\\dfrac1x\\right|+c$"
+      },
+      "correct": "d",
+      "explication": "Avec $u=1/x$, $du=-dx/x^2$ : $I=-\\int tg(u)\\,du=\\ln|\\cos u|+c=\\ln|\\cos(1/x)|+c$."
+    },
+    {
+      "id": "m2014_q8",
+      "text": "L'équation $2\\cos^2x+\\sin2x=0$ a pour solution :",
+      "choices": {
+        "a": "$\\left\\{-\\dfrac{\\pi}{2};-\\dfrac{\\pi}{4};\\dfrac{\\pi}{4};\\dfrac{\\pi}{2}\\right\\}$",
+        "b": "$\\left\\{-\\dfrac{3\\pi}{4};-\\dfrac{\\pi}{2};-\\dfrac{\\pi}{4};0\\right\\}$",
+        "c": "$\\left\\{0;\\dfrac{\\pi}{4};\\dfrac{\\pi}{2};\\dfrac{3\\pi}{4}\\right\\}$",
+        "d": "$\\left\\{-\\dfrac{\\pi}{2};-\\dfrac{\\pi}{4};\\dfrac{\\pi}{2};\\dfrac{3\\pi}{4}\\right\\}$"
+      },
+      "correct": "d",
+      "explication": "$2\\cos^2x=1+\\cos2x$, donc l'équation devient $\\cos2x+\\sin2x=-1$, soit $\\sqrt2\\cos(2x-\\pi/4)=-1$. Les solutions dans un tour sont $x=\\pi/2+k\\pi$ ou $x=-\\pi/4+k\\pi$, soit $\\{-\\pi/2,-\\pi/4,\\pi/2,3\\pi/4\\}$."
+    },
+    {
+      "id": "m2014_q9",
+      "text": "Si $\\omega\\neq1$ est une racine $n$-ième de l'unité, calculer $S=1+\\omega+\\omega^2+\\cdots+\\omega^{n-1}$",
+      "choices": {
+        "a": "$S=1$",
+        "b": "$S=2$",
+        "c": "$S=3$",
+        "d": "$S=0$"
+      },
+      "correct": "d",
+      "explication": "$S=\\dfrac{\\omega^n-1}{\\omega-1}=0$ car $\\omega^n=1$."
+    },
+    {
+      "id": "m2014_q10",
+      "text": "Déterminer l'ensemble des points du plan complexe vérifiant : $|z-1|<|z-i|$",
+      "choices": {
+        "a": "$Re(z)>0$",
+        "b": "$Im(z)<0$",
+        "c": "$Re(z)>Im(z)$",
+        "d": "$Re(z)<Im(z)$"
+      },
+      "correct": "c",
+      "explication": "Cette inégalité définit le demi-plan des points plus proches de $1$ que de $i$, séparé par la médiatrice du segment $[1,i]$ (droite $Re(z)=Im(z)$) : c'est le côté où $Re(z)>Im(z)$."
+    },
+    {
+      "id": "m2014_q11",
+      "text": "La valeur approchée à $10^{-3}$ près de $\\sqrt[3]{25}$ est",
+      "choices": {
+        "a": "$2{,}925$",
+        "b": "$2{,}926$",
+        "c": "$2{,}927$",
+        "d": "$2{,}924$"
+      },
+      "correct": "d",
+      "explication": "$2{,}924^3\\approx25{,}00$."
+    },
+    {
+      "id": "m2014_q12",
+      "text": "Soit $l=\\displaystyle\\lim_{n\\to\\infty}\\dfrac{a^n}{n!}$, $a$ est une constante",
+      "choices": {
+        "a": "$l=1$",
+        "b": "$l=\\dfrac12$",
+        "c": "$l=0$",
+        "d": "$l=a$"
+      },
+      "correct": "c",
+      "explication": "La factorielle croît plus vite que n'importe quelle exponentielle : la limite est toujours $0$."
+    },
+    {
+      "id": "m2014_q13",
+      "text": "$l_1=\\displaystyle\\lim_{x\\to0}\\dfrac{e^{2x}-1}{x}$",
+      "choices": {
+        "a": "$l_1=e$",
+        "b": "$l_1=1$",
+        "c": "$l_1=0$",
+        "d": "$l_1=2$"
+      },
+      "correct": "d",
+      "explication": "Limite usuelle $(e^{kx}-1)/x\\to k$."
+    },
+    {
+      "id": "m2014_q14",
+      "text": "$l_2=\\displaystyle\\lim_{x\\to1}\\dfrac{1+\\cos(\\pi x)}{x^2-2x+1}$",
+      "choices": {
+        "a": "$l_2=\\dfrac{\\pi^2}{2}$",
+        "b": "$l_2=\\dfrac{\\pi}{2}$",
+        "c": "$l_2=\\dfrac12$",
+        "d": "$l_2=2\\pi$"
+      },
+      "correct": "a",
+      "explication": "Avec $u=x-1\\to0$ : $\\cos(\\pi x)=-\\cos(\\pi u)\\approx-1+\\pi^2u^2/2$, donc $1+\\cos(\\pi x)\\approx\\pi^2u^2/2$ et $(x-1)^2=u^2$ : $l_2\\to\\pi^2/2$."
+    },
+    {
+      "id": "m2014_q15",
+      "text": "$l_3=\\displaystyle\\lim_{x\\to0^+}\\dfrac{\\ln\\cos3x}{\\ln\\cos2x}$",
+      "choices": {
+        "a": "$l_3=\\dfrac62$",
+        "b": "$l_3=\\dfrac94$",
+        "c": "$l_3=\\dfrac64$",
+        "d": "$l_3=\\dfrac92$"
+      },
+      "correct": "b",
+      "explication": "$\\ln\\cos(kx)\\approx-k^2x^2/2$, d'où $l_3\\to9/4$."
+    },
+    {
+      "id": "m2014_q16",
+      "text": "Le point $P(x,y)$ équidistant des points $A(1,7)$, $B(8,6)$, $C(7,-1)$ est :",
+      "choices": {
+        "a": "$P(3,4)$",
+        "b": "$P(4,2)$",
+        "c": "$P(4,3)$",
+        "d": "$P(2,4)$"
+      },
+      "correct": "c",
+      "explication": "En résolvant $|PA|^2=|PB|^2$ et $|PA|^2=|PC|^2$, on obtient $y=7x-25$ et $y=3x/4$, d'où $x=4$, $y=3$."
+    },
+    {
+      "id": "m2014_q17",
+      "text": "La pente $m$ et l'angle d'inclinaison $\\theta$ des droites passant par les points $A(-8,-4)$ et $B(5,9)$ sont :",
+      "choices": {
+        "a": "$m=\\dfrac12,\\theta=30°$",
+        "b": "$m=1,\\theta=30°$",
+        "c": "$m=\\dfrac12,\\theta=45°$",
+        "d": "$m=1,\\theta=45°$"
+      },
+      "correct": "d",
+      "explication": "$m=(9-(-4))/(5-(-8))=13/13=1$, d'où $\\theta=\\arctan(1)=45°$."
+    },
+    {
+      "id": "m2014_q18",
+      "text": "Soit T le triangle de sommets $A(8,6)$, $B(4,8)$, $C(2,4)$",
+      "choices": {
+        "a": "T est un triangle rectangle",
+        "b": "T est un triangle rectangle isocèle",
+        "c": "T est un triangle isocèle",
+        "d": "T est un triangle équilatéral"
+      },
+      "correct": "b",
+      "explication": "$AB^2=BC^2=20$ et $AC^2=40=AB^2+BC^2$ : le triangle est à la fois isocèle (en B) et rectangle (en B), donc rectangle isocèle."
+    },
+    {
+      "id": "m2014_q19",
+      "text": "L'angle de deux droites $D_1$ et $D_2$ est de $45°$. Si la pente $m_1$ de $D_1$ est égale à $\\dfrac23$, la pente $m_2$ de $D_2$ est :",
+      "choices": {
+        "a": "$m_2=\\dfrac32$",
+        "b": "$m_2=5$",
+        "c": "$m_2=\\dfrac23$",
+        "d": "$m_2=\\dfrac15$"
+      },
+      "correct": "b",
+      "explication": "$tg45°=\\left|\\dfrac{m_2-m_1}{1+m_1m_2}\\right|=1$ ; en résolvant avec $m_1=2/3$, on trouve $m_2=5$."
+    },
+    {
+      "id": "m2014_q20",
+      "text": "Les coordonnées du centre de gravité du triangle de sommets $A(5,7)$, $B(1,-3)$, $C(-5,1)$ sont :",
+      "choices": {
+        "a": "$\\left(\\dfrac13,\\dfrac35\\right)$",
+        "b": "$\\left(\\dfrac15,\\dfrac52\\right)$",
+        "c": "$\\left(\\dfrac13,\\dfrac53\\right)$",
+        "d": "$\\left(\\dfrac23,\\dfrac53\\right)$"
+      },
+      "correct": "c",
+      "explication": "$G=\\left(\\dfrac{5+1-5}{3},\\dfrac{7-3+1}{3}\\right)=\\left(\\dfrac13,\\dfrac53\\right)$."
+    }
+  ]
+}

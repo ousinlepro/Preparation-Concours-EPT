@@ -1,0 +1,244 @@
+{
+  "questions": [
+    {
+      "id": "f2014_q1",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Elles se sont téléphonées et se sont rencontrées",
+        "b": "Elles se sont téléphonés et se sont rencontrées",
+        "c": "Elles se sont téléphoné et se sont rencontrées",
+        "d": "Elles se sont téléphoné et se sont rencontré"
+      },
+      "correct": "c",
+      "explication": "« Téléphoner à quelqu'un » est indirect (invariable : « téléphoné »). « Rencontrer quelqu'un » est direct : « se » = COD, accord (« rencontrées »)."
+    },
+    {
+      "id": "f2014_q2",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Les lettres qu'elle a faite écrire ont été envoyées",
+        "b": "Les lettres qu'elle a fait écrire ont été envoyées",
+        "c": "Les lettres qu'elle a faites écrire ont été envoyées",
+        "d": "Les lettres qu'elle a faits écrire ont été envoyées"
+      },
+      "correct": "b",
+      "explication": "« Faire » causatif suivi d'un infinitif est toujours invariable (« a fait écrire »)."
+    },
+    {
+      "id": "f2014_q3",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Les femmes ont beau parler, elles n'ont pas été entendues",
+        "b": "Les femmes ont beau parlé, elles n'ont pas été entendues",
+        "c": "Les femmes ont beau parlées, elles n'ont pas été entendues",
+        "d": "Les femmes ont beau parlés, elles n'ont pas été entendues"
+      },
+      "correct": "a",
+      "explication": "« Avoir beau » se construit toujours avec un infinitif."
+    },
+    {
+      "id": "f2014_q4",
+      "text": "Laquelle de ces œuvres est un roman ?",
+      "choices": {
+        "a": "Les Fleurs du Mal",
+        "b": "Antigone",
+        "c": "Les Contemplations",
+        "d": "Manon Lescaut"
+      },
+      "correct": "d",
+      "explication": "« Manon Lescaut » (Abbé Prévost) est un roman ; les autres sont un recueil de poèmes et une pièce de théâtre."
+    },
+    {
+      "id": "f2014_q5",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Les deux cents ans que ces édifices ont résistés aux intempéries sont mémorables",
+        "b": "Les deux cent ans que ces édifices ont résistés aux intempéries sont mémorables",
+        "c": "Les deux cents ans que ces édifices ont résisté aux intempéries sont mémorables",
+        "d": "Les deux cent ans que ces édifices ont résisté aux intempéries sont mémorables"
+      },
+      "correct": "c",
+      "explication": "« Cent » multiplié par un nombre ≥2 et non suivi d'un autre nombre prend un s : « deux cents ». « Résister à » est indirect : le participe reste invariable (« résisté »)."
+    },
+    {
+      "id": "f2014_q6",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Les sommes qu'il a fallues restituer étaient importantes",
+        "b": "Les sommes qu'il a fallu restituer étaient importantes",
+        "c": "Les sommes qu'il a fallut restituer étaient importantes",
+        "d": "Les sommes qu'il a fallus restituer étaient importantes"
+      },
+      "correct": "b",
+      "explication": "« Falloir » est impersonnel : son participe passé « fallu » est toujours invariable."
+    },
+    {
+      "id": "f2014_q7",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Nous leurs avons remis le courrier après qu'ils soient venus",
+        "b": "Nous leurs avons remis le courrier après qu'ils sont venus",
+        "c": "Nous leur avons remis le courrier après qu'ils fussent venus",
+        "d": "Nous leur avons remis le courrier après qu'ils sont venus"
+      },
+      "correct": "d",
+      "explication": "« Leur » (pronom complément indirect) est invariable, jamais « leurs ». « Après que » se construit avec l'indicatif (« sont venus »)."
+    },
+    {
+      "id": "f2014_q8",
+      "text": "Quelle figure de style avons-nous dans la phrase suivante ? « Les perles de rosée brillent au soleil »",
+      "choices": {
+        "a": "Une métaphore",
+        "b": "Une métonymie",
+        "c": "Un oxymore",
+        "d": "Une litote"
+      },
+      "correct": "a",
+      "explication": "Les gouttes de rosée sont assimilées à des perles sans mot de comparaison explicite : c'est une métaphore."
+    },
+    {
+      "id": "f2014_q9",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Les tâches qu'il doit s'acquitter sont lourdes",
+        "b": "Les tâches auxquelles il doit s'acquitter sont lourdes",
+        "c": "Les tâches desquels il doit s'acquitter sont lourdes",
+        "d": "Les tâches dont il doit s'acquitter sont lourdes"
+      },
+      "correct": "d",
+      "explication": "« S'acquitter DE quelque chose » : le relatif adapté est « dont »."
+    },
+    {
+      "id": "f2014_q10",
+      "text": "Quelle est la nature de la subordonnée dans la phrase suivante ? « Je me demande qui a laissé la porte ouverte. »",
+      "choices": {
+        "a": "Subordonnée conjonctive",
+        "b": "Subordonnée interrogative",
+        "c": "Subordonnée relative",
+        "d": "Subordonnée participiale"
+      },
+      "correct": "b",
+      "explication": "« Qui a laissé la porte ouverte » est une interrogation indirecte, COD de « demande »."
+    },
+    {
+      "id": "f2014_q11",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Ils ont fourni toutes les peines qu'ils ont pu",
+        "b": "Ils ont fourni toutes les peines qu'ils ont pus",
+        "c": "Ils ont fourni toutes les peines qu'ils ont pues",
+        "d": "Ils ont fournis toutes les peines qu'ils ont put"
+      },
+      "correct": "a",
+      "explication": "Le participe passé de « pouvoir » (« pu ») est toujours invariable."
+    },
+    {
+      "id": "f2014_q12",
+      "text": "Quelle est la fonction du mot souligné ? « Les mamans rendent leurs enfants heureux. »",
+      "choices": {
+        "a": "Complément du nom",
+        "b": "Complément d'objet direct",
+        "c": "Épithète",
+        "d": "Attribut du complément d'objet direct"
+      },
+      "correct": "d",
+      "explication": "« Heureux » qualifie le COD « leurs enfants » par l'intermédiaire du verbe « rendre »."
+    },
+    {
+      "id": "f2014_q13",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Quelques soient nos conditions, nous devons réussir",
+        "b": "Quelque soient nos conditions, nous devons réussir",
+        "c": "Quelles que soient nos conditions, nous devons réussir",
+        "d": "Quels que soit nos conditions, nous devons réussir"
+      },
+      "correct": "c",
+      "explication": "« Quel que » (en deux mots) s'accorde avec le sujet qui suit : « nos conditions » est féminin pluriel."
+    },
+    {
+      "id": "f2014_q14",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Ces femmes, nous les avons vues manger au restaurant",
+        "b": "Ces femmes, nous les avons vus manger au restaurant",
+        "c": "Ces femmes, nous les avons vus mangés au restaurant",
+        "d": "Ces femmes, nous les avons vu manger au restaurant"
+      },
+      "correct": "a",
+      "explication": "« Les » (= ces femmes, féminin pluriel) est le sujet réel de « manger » : le participe s'accorde (« vues »)."
+    },
+    {
+      "id": "f2014_q15",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Toutes les filles ont réussi, exceptée Marie",
+        "b": "Toutes les filles ont réussi, exceptez Marie",
+        "c": "Toutes les filles ont réussi, excepté Marie",
+        "d": "Toutes les filles ont réussi, excepter Marie"
+      },
+      "correct": "c",
+      "explication": "« Excepté » placé avant le nom fonctionne comme une préposition et reste invariable."
+    },
+    {
+      "id": "f2014_q16",
+      "text": "Combien de syllabes compte le vers suivant ? « L'homme y passe à travers des forêts de symboles »",
+      "choices": {
+        "a": "Onze syllabes",
+        "b": "Douze syllabes",
+        "c": "Treize syllabes",
+        "d": "Quatorze syllabes"
+      },
+      "correct": "b",
+      "explication": "C'est un alexandrin (douze syllabes) tiré de « Correspondances » de Baudelaire."
+    },
+    {
+      "id": "f2014_q17",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Ils portent des chemises jaune d'or, mauves et vert émeraude",
+        "b": "Ils portent des chemises jaunes d'or, mauves et vert émeraude",
+        "c": "Ils portent des chemises jaune d'or, mauves et vert émeraudes",
+        "d": "Ils portent des chemises jaunes d'or, mauves et vertes émeraude"
+      },
+      "correct": "a",
+      "explication": "« Jaune d'or » et « vert émeraude » sont des couleurs composées, invariables. « Mauves » (couleur simple) s'accorde normalement."
+    },
+    {
+      "id": "f2014_q18",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Ce sont les mesures que nous avons crût devoir prendre",
+        "b": "Ce sont les mesures que nous avons crues devoir prendre",
+        "c": "Ce sont les mesures que nous avons crus devoir prendre",
+        "d": "Ce sont les mesures que nous avons cru devoir prendre"
+      },
+      "correct": "d",
+      "explication": "Quand « croire » gouverne un infinitif, son participe reste invariable, même si un COD apparent précède."
+    },
+    {
+      "id": "f2014_q19",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Les parasites vivent au dépend de leurs semblables",
+        "b": "Les parasites vivent aux dépends de leurs semblables",
+        "c": "Les parasites vivent aux dépens de leurs semblables",
+        "d": "Les parasites vivent au dépens de leurs semblables"
+      },
+      "correct": "c",
+      "explication": "L'expression figée est « vivre aux dépens de quelqu'un » (toujours au pluriel, sans d final à « dépens »)."
+    },
+    {
+      "id": "f2014_q20",
+      "text": "Un ennéasyllabe désigne :",
+      "choices": {
+        "a": "Une strophe de neuf vers",
+        "b": "Un vers de neuf syllabes",
+        "c": "Une moitié d'alexandrin",
+        "d": "Un vers de onze syllabes"
+      },
+      "correct": "b",
+      "explication": "Un ennéasyllabe est un vers de neuf syllabes (du grec « ennea », neuf)."
+    }
+  ]
+}

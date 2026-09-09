@@ -1,0 +1,232 @@
+{
+  "questions": [
+    {
+      "id": "m2020_q1",
+      "text": "Combien de points critiques admet $f(x) = (x-1)^3(x+1)^4$ ?",
+      "choices": {
+        "a": "$I = 3$",
+        "b": "$I = 7$",
+        "c": "$I = 6$",
+        "d": "$I = 2$"
+      },
+      "correct": "a",
+      "explication": "$f'(x) = (x-1)^2(x+1)^3(7x-1)$. Les racines distinctes de $f'$ sont $x=1$, $x=-1$ et $x=\\frac{1}{7}$, donc 3 points critiques."
+    },
+    {
+      "id": "m2020_q2",
+      "text": "On pose $$I = \\int_0^1 (2^x - 1)\\,dx.$$",
+      "choices": {
+        "a": "$I = -1$",
+        "b": "$I = 1$",
+        "c": "$I = 0.442$",
+        "d": "$I = -0.442$"
+      },
+      "correct": "c",
+      "explication": "$I = \\left[\\dfrac{2^x}{\\ln 2} - x\\right]_0^1 = \\left(\\dfrac{2}{\\ln 2} - 1\\right) - \\dfrac{1}{\\ln 2} = \\dfrac{1}{\\ln 2} - 1 \\approx 0.442$."
+    },
+    {
+      "id": "m2020_q4",
+      "text": "Soient $f$ et $g$ deux fonctions continues sur $\\mathbb{R}$ telles que $f(x) = k-g(x)$, $\\displaystyle\\int_0^1 g(x)\\,dx = \\int_1^2 f(x)\\,dx$ et $\\displaystyle\\int_1^2 g(x)\\,dx = -k$. Donc on a",
+      "choices": {
+        "a": "$\\displaystyle\\int_0^1 g(x)dx = k$",
+        "b": "$\\displaystyle\\int_0^1 g(x)dx = 2k$",
+        "c": "$\\displaystyle\\int_0^1 g(x)dx = -k$",
+        "d": "$\\displaystyle\\int_0^1 g(x)dx = -2k$"
+      },
+      "correct": "b",
+      "explication": "$\\int_1^2 f(x)dx = \\int_1^2(k-g(x))dx = k - \\int_1^2 g(x)dx = k-(-k) = 2k$. Or $\\int_0^1 g(x)dx = \\int_1^2 f(x)dx$, donc $\\int_0^1 g(x)dx = 2k$."
+    },
+    {
+      "id": "m2020_q5",
+      "text": "Si $f(x) = \\displaystyle\\lim_{n\\to+\\infty}(x^2+x^3+\\cdots+x^n)$ avec $|x|<1$ alors",
+      "choices": {
+        "a": "$f(x)=\\dfrac{1}{1-x}$",
+        "b": "$f(x)=\\dfrac{x^2}{1-x}$",
+        "c": "$f(x)=x^2+x^3+\\ldots$",
+        "d": "$f(x)=0$"
+      },
+      "correct": "b",
+      "explication": "C'est une série géométrique de premier terme $x^2$ et de raison $x$ : $\\sum_{k=2}^{\\infty} x^k = \\dfrac{x^2}{1-x}$ pour $|x|<1$."
+    },
+    {
+      "id": "m2020_q6",
+      "text": "Soit $f$ une fonction dérivable en $0$. Que peut-on dire de la limite $A = \\displaystyle\\lim_{h\\to0}\\dfrac{f(2h)-f(h)}{h}$ ?",
+      "choices": {
+        "a": "n'existe pas",
+        "b": "$A=2f'(0)$",
+        "c": "$A=0$",
+        "d": "$A=f'(0)$"
+      },
+      "correct": "d",
+      "explication": "$\\dfrac{f(2h)-f(h)}{h} = 2\\cdot\\dfrac{f(2h)-f(0)}{2h} - \\dfrac{f(h)-f(0)}{h} \\to 2f'(0)-f'(0) = f'(0)$."
+    },
+    {
+      "id": "m2020_q7",
+      "text": "Si le nombre de cas de COVID-19 par jour est constant, laquelle des fonctions suivantes peut représenter le nombre de cas cumulés ?",
+      "choices": {
+        "a": "Une fonction exponentielle",
+        "b": "Une fonction parabolique",
+        "c": "Une fonction affine",
+        "d": "Une fonction cubique"
+      },
+      "correct": "c",
+      "explication": "Un taux d'accroissement constant correspond à une dérivée constante, donc à une primitive affine."
+    },
+    {
+      "id": "m2020_q8",
+      "text": "Laquelle des affirmations suivantes est vraie ?",
+      "choices": {
+        "a": "Toute fonction $f$ définie sur un intervalle $I$ est au moins continue en un point de $I$.",
+        "b": "Toute fonction $f$ définie sur un intervalle $I$ est au moins dérivable en un point de $I$.",
+        "c": "Toute fonction $f$ continue sur un intervalle $I$ est au moins dérivable en un point de $I$.",
+        "d": "Il existe une fonction $f$ continue sur un intervalle $I$ et n'est dérivable en aucun point de $I$."
+      },
+      "correct": "d",
+      "explication": "C'est le cas de la fonction de Weierstrass : continue partout, dérivable nulle part."
+    },
+    {
+      "id": "m2020_q9",
+      "text": "Soit $f: D_f \\to \\mathbb{R}$ avec $D_f = \\;]{-1},0[\\,\\cup\\,]0,1[$. Laquelle des affirmations suivantes est vraie ?",
+      "choices": {
+        "a": "Si $f$ est dérivable sur $D_f$ avec $f'(x)=0$ pour tout $x\\in D_f$ alors elle est constante sur $D_f$.",
+        "b": "Si $f$ est constante sur $D_f$ alors elle est dérivable sur $D_f$ et $f'(x)=0$ pour tout $x\\in D_f$.",
+        "c": "Si $f$ est dérivable sur $D_f$ avec $f'(x)\\geq 0$ pour tout $x\\in D_f$ alors elle est croissante sur $D_f$.",
+        "d": "Si $f$ est dérivable sur $D_f$ avec $f'(x)>0$ pour tout $x\\in D_f$ alors elle est bijective."
+      },
+      "correct": "b",
+      "explication": "$D_f$ n'est pas un intervalle (il y a un trou en 0), donc les théorèmes classiques (a, c, d) qui exigent un intervalle peuvent être mis en défaut. Seule b) reste vraie dans tous les cas : une fonction constante est toujours dérivable, de dérivée nulle."
+    },
+    {
+      "id": "m2020_q10",
+      "text": "Soit $f$ une fonction continue sur $[0,1]$ telle que $f(0)=1$ et $f(1)=0$. Laquelle des affirmations suivantes peut être fausse ?",
+      "choices": {
+        "a": "Il existe $x_0\\in[0,1]$ tel que $f(x_0)\\geq f(x)$ pour tout $x\\in[0,1]$.",
+        "b": "Il existe $x_0\\in[0,1]$ tel que $f(x_0)=1/2$.",
+        "c": "$f([0,1])=[0,1]$.",
+        "d": "$\\displaystyle\\lim_{x\\to x_0} f(x)=f(x_0)$ pour tout $x_0\\in\\,]0,1[$."
+      },
+      "correct": "c",
+      "explication": "a) est vraie (théorème des bornes atteintes), b) est vraie (théorème des valeurs intermédiaires), d) est vraie (c'est la continuité, donnée par l'énoncé). Mais c) peut être fausse : rien n'empêche $f$ de dépasser 1 ou d'être négative entre 0 et 1, auquel cas $f([0,1]) \\neq [0,1]$."
+    },
+    {
+      "id": "m2020_q11",
+      "text": "L'aire $S$ de la surface totale d'un parallélépipède rectangle, de base carrée de côté $y$ et de hauteur $x$, est donnée par",
+      "choices": {
+        "a": "$S=2x^2+4xy$",
+        "b": "$S=4x^2+xy$",
+        "c": "$S=2y^2+4xy$",
+        "d": "$S=4y^2+xy$"
+      },
+      "correct": "c",
+      "explication": "2 bases carrées ($2y^2$) + 4 faces latérales ($4xy$)."
+    },
+    {
+      "id": "m2020_q12",
+      "text": "L'aire $S$ de la surface totale d'un cylindre droit, de base circulaire de rayon $r$ et de hauteur $h$, est donnée par",
+      "choices": {
+        "a": "$S=2\\pi h^2+2\\pi rh$",
+        "b": "$S=2\\pi r^2+4\\pi rh$",
+        "c": "$S=2\\pi rh+4\\pi h^2$",
+        "d": "$S=2\\pi r^2+2\\pi rh$"
+      },
+      "correct": "d",
+      "explication": "2 disques ($2\\pi r^2$) + surface latérale ($2\\pi rh$)."
+    },
+    {
+      "id": "m2020_q13",
+      "text": "La pente de la tangente à la parabole $y=-x^2+5x-6$ à ses points d'intersection avec l'axe des $x$ est donnée par",
+      "choices": {
+        "a": "$m=1$ et $m=-1$",
+        "b": "$m=-1$ et $m=-1$",
+        "c": "$m=1/2$ et $m=-1/2$",
+        "d": "$m=-1/2$ et $m=-1/2$"
+      },
+      "correct": "a",
+      "explication": "Les racines sont $x=2$ et $x=3$. $y'=-2x+5$ : en $x=2$, $y'=1$ ; en $x=3$, $y'=-1$."
+    },
+    {
+      "id": "m2020_q14",
+      "text": "Un liquide remplit un réservoir cylindrique de $6\\,m$ de rayon à la vitesse de $8\\,m^3/\\text{min}$. À quelle vitesse sa surface monte-t-elle ?",
+      "choices": {
+        "a": "$\\dfrac{9\\pi}{2}\\,m/\\text{min}$",
+        "b": "$\\dfrac{2}{9\\pi}\\,m/\\text{min}$",
+        "c": "$9\\pi\\,m/\\text{min}$",
+        "d": "$\\dfrac{2}{9}\\,m/\\text{min}$"
+      },
+      "correct": "b",
+      "explication": "$V=\\pi r^2 h \\Rightarrow \\dfrac{dh}{dt}=\\dfrac{1}{\\pi r^2}\\dfrac{dV}{dt}=\\dfrac{8}{36\\pi}=\\dfrac{2}{9\\pi}$."
+    },
+    {
+      "id": "m2020_q15",
+      "text": "On considère la fonction définie sur $[1,3]$ par $f(x)=x^2-4x+3$. La valeur $x_0$ du théorème de Rolle pour $f$ est :",
+      "choices": {
+        "a": "$x_0=3/2$",
+        "b": "$x_0=1$",
+        "c": "$x_0=2$",
+        "d": "$x_0=3$"
+      },
+      "correct": "c",
+      "explication": "$f(1)=f(3)=0$. $f'(x)=2x-4=0 \\Rightarrow x=2$."
+    },
+    {
+      "id": "m2020_q16",
+      "text": "La valeur $x_0$ du théorème de Rolle pour $g(x)=\\sin x$ sur $[0,\\pi]$ est",
+      "choices": {
+        "a": "$x_0=\\pi/3$",
+        "b": "$x_0=\\pi/4$",
+        "c": "$x_0=\\pi/6$",
+        "d": "$x_0=\\pi/2$"
+      },
+      "correct": "d",
+      "explication": "$g(0)=g(\\pi)=0$. $g'(x)=\\cos x=0 \\Rightarrow x=\\pi/2$."
+    },
+    {
+      "id": "m2020_q17",
+      "text": "La valeur $x_0$ du théorème des accroissements finis pour $f(x)=3x^2+4x-3$ sur $[1,3]$ est",
+      "choices": {
+        "a": "$x_0=2$",
+        "b": "$x_0=3/2$",
+        "c": "$x_0=5/2$",
+        "d": "$x_0=1$"
+      },
+      "correct": "a",
+      "explication": "$\\dfrac{f(3)-f(1)}{3-1}=\\dfrac{36-4}{2}=16$. $f'(x)=6x+4=16 \\Rightarrow x=2$."
+    },
+    {
+      "id": "m2020_q18",
+      "text": "On considère la fonction $f$ définie par $f(x)=\\dfrac{1}{x-2}$. Quelle est la limite $l=\\displaystyle\\lim_{h\\to0}\\dfrac{f(a+h)-f(a)}{h}$, $a\\neq2$ ?",
+      "choices": {
+        "a": "$l=\\dfrac{1}{(a-2)^2}$",
+        "b": "$l=-\\dfrac{1}{(a-2)^2}$",
+        "c": "$l=\\dfrac{2}{(a-2)^2}$",
+        "d": "$l=-\\dfrac{2}{(a-2)^2}$"
+      },
+      "correct": "b",
+      "explication": "$l=f'(a)=-\\dfrac{1}{(a-2)^2}$."
+    },
+    {
+      "id": "m2020_q19",
+      "text": "Soit la fonction $g$ définie par $g(x)=\\sqrt{x-4}$. Trouver la limite $s=\\displaystyle\\lim_{h\\to0}\\dfrac{g(a+h)-g(a)}{h}$, $a>4$",
+      "choices": {
+        "a": "$s=\\dfrac{1}{\\sqrt{a-4}}$",
+        "b": "$s=-\\dfrac{1}{2\\sqrt{a-4}}$",
+        "c": "$s=\\dfrac{1}{2\\sqrt{a-4}}$",
+        "d": "$s=\\dfrac{2}{\\sqrt{a-4}}$"
+      },
+      "correct": "c",
+      "explication": "$s=g'(a)=\\dfrac{1}{2\\sqrt{a-4}}$."
+    },
+    {
+      "id": "m2020_q20",
+      "text": "Que peut-on dire de $t=\\displaystyle\\lim_{x\\to+\\infty}\\dfrac{a_0x^m+a_1x^{m-1}+\\cdots+a_m}{b_0x^n+b_1x^{n-1}+\\cdots+b_n}$ avec $a_0b_0\\neq0$ et $m,n$ des entiers positifs tels que $m<n$ ?",
+      "choices": {
+        "a": "pas de limite",
+        "b": "$t=\\dfrac{b_0}{a_0}$",
+        "c": "$t=a_0b_0$",
+        "d": "$t=0$"
+      },
+      "correct": "d",
+      "explication": "Le degré du numérateur est strictement inférieur à celui du dénominateur, donc la limite est $0$."
+    }
+  ]
+}

@@ -1,0 +1,244 @@
+{
+  "questions": [
+    {
+      "id": "m2012_q1",
+      "text": "Calculer la limite $l$ suivante : $l=\\displaystyle\\lim_{x\\to+\\infty}x\\sin\\dfrac1x$",
+      "choices": {
+        "a": "$l=+\\infty$",
+        "b": "$l=0$",
+        "c": "$l=1$",
+        "d": "$l=2$"
+      },
+      "correct": "c",
+      "explication": "En posant $u=1/x\\to0$ : $x\\sin(1/x)=\\dfrac{\\sin u}{u}\\to1$."
+    },
+    {
+      "id": "m2012_q2",
+      "text": "Calculer la limite $l$ suivante : $l=\\displaystyle\\lim_{x\\to\\pi}\\dfrac{\\sin x}{x-\\pi}$",
+      "choices": {
+        "a": "$l=0$",
+        "b": "$l=\\pi$",
+        "c": "$l=-1$",
+        "d": "$l=2$"
+      },
+      "correct": "c",
+      "explication": "Avec $u=x-\\pi$ : $\\sin x=\\sin(u+\\pi)=-\\sin u$, donc $\\dfrac{\\sin x}{x-\\pi}=\\dfrac{-\\sin u}{u}\\to-1$."
+    },
+    {
+      "id": "m2012_q3",
+      "text": "Calculer la limite $l$ suivante : $l=\\displaystyle\\lim_{h\\to0}\\dfrac{\\sqrt[3]{x+h}-\\sqrt[3]{x}}{h}$",
+      "choices": {
+        "a": "$l=\\dfrac13\\sqrt[3]{x}$",
+        "b": "$l=\\dfrac13\\dfrac{1}{\\sqrt[3]{x^2}}$",
+        "c": "$l=\\dfrac13\\sqrt{x^3}$",
+        "d": "$l=3\\sqrt{x}$"
+      },
+      "correct": "b",
+      "explication": "C'est la dérivée de $x^{1/3}$ : $\\dfrac13x^{-2/3}=\\dfrac{1}{3\\sqrt[3]{x^2}}$."
+    },
+    {
+      "id": "m2012_q4",
+      "text": "La suite $U_n$ définie par $U_0=5$, $U_{n+1}=\\sqrt{2+U_n}$ :",
+      "choices": {
+        "a": "Est constante",
+        "b": "Est divergente",
+        "c": "Est croissante",
+        "d": "Est décroissante"
+      },
+      "correct": "d",
+      "explication": "Le point fixe est $L=2$ ; partant de $U_0=5>2$, la suite décroît vers $2$ ($U_1=\\sqrt7\\approx2{,}65$, $U_2\\approx2{,}15$, ...)."
+    },
+    {
+      "id": "m2012_q5",
+      "text": "De combien varie, approximativement, le côté d'un carré si son aire passe de $9\\,m^2$ à $9{,}1\\,m^2$ ?",
+      "choices": {
+        "a": "$0{,}21\\,m$",
+        "b": "$0{,}12\\,m$",
+        "c": "$0{,}016\\,m$",
+        "d": "$0{,}025\\,m$"
+      },
+      "correct": "c",
+      "explication": "$s=\\sqrt{A}$, $ds=\\dfrac{dA}{2\\sqrt A}=\\dfrac{0{,}1}{2\\times3}\\approx0{,}017\\,m$."
+    },
+    {
+      "id": "m2012_q6",
+      "text": "Soit l'équation $x^3-3x+1=0$.",
+      "choices": {
+        "a": "Elle n'admet pas de racines dans $]1,2[$",
+        "b": "Elle est croissante sur $\\mathbb{R}$",
+        "c": "Elle admet une racine réelle dans $]1,2[$",
+        "d": "Elle est décroissante sur $\\mathbb{R}$"
+      },
+      "correct": "c",
+      "explication": "$f(1)=-1<0$ et $f(2)=3>0$ : par le théorème des valeurs intermédiaires, il existe une racine dans $]1,2[$ (et $f$ n'est pas monotone sur $\\mathbb{R}$, $f'$ s'annulant en $\\pm1$)."
+    },
+    {
+      "id": "m2012_q7",
+      "text": "Dans $\\mathbb{R}$, l'équation $\\cos x-\\sqrt3\\sin x=\\sqrt3$ a pour solutions :",
+      "choices": {
+        "a": "$x=\\dfrac{\\pi}{3}+2k\\pi$",
+        "b": "$x=-\\dfrac{2\\pi}{3}+2k\\pi$",
+        "c": "$x=\\dfrac{5\\pi}{6}+2k\\pi$",
+        "d": "$x=-\\dfrac{\\pi}{6}+2k\\pi$"
+      },
+      "correct": "d",
+      "explication": "$\\cos x-\\sqrt3\\sin x=2\\cos(x+\\pi/3)$. L'équation devient $\\cos(x+\\pi/3)=\\sqrt3/2$, vérifiée notamment pour $x=-\\pi/6+2k\\pi$."
+    },
+    {
+      "id": "m2012_q8",
+      "text": "Si $1$, $j$ et $j^2$ sont les racines cubiques de l'unité, alors :",
+      "choices": {
+        "a": "$1+j+j^2=-1$",
+        "b": "$1+j+j^2=1$",
+        "c": "$1+j+j^2=0$",
+        "d": "$1+j+j^2=3$"
+      },
+      "correct": "c",
+      "explication": "La somme des racines $n$-ièmes de l'unité est nulle dès que $n\\geq2$."
+    },
+    {
+      "id": "m2012_q9",
+      "text": "Évaluer l'intégrale : $I=\\displaystyle\\int\\dfrac{\\ln x}{\\sqrt x}\\,dx$",
+      "choices": {
+        "a": "$I=4x\\ln x-\\sqrt x+c$",
+        "b": "$I=2x\\ln\\sqrt x-4x+c$",
+        "c": "$I=2\\sqrt x\\ln x-4\\sqrt x+c$",
+        "d": "$I=2\\sqrt x-x\\ln x+c$"
+      },
+      "correct": "c",
+      "explication": "Par parties ($u=\\ln x$, $dv=x^{-1/2}dx$, $v=2\\sqrt x$) : $I=2\\sqrt x\\ln x-\\int2x^{-1/2}dx=2\\sqrt x\\ln x-4\\sqrt x+c$."
+    },
+    {
+      "id": "m2012_q10",
+      "text": "Calculer l'intégrale : $I=\\displaystyle\\int\\dfrac{dx}{1+\\sin x+\\cos x}$",
+      "choices": {
+        "a": "$I=\\ln\\left|x+\\sin\\dfrac{x}{2}\\right|+c$",
+        "b": "$I=\\ln|x+\\sin x|+c$",
+        "c": "$I=\\ln\\left|1+tg\\dfrac{x}{2}\\right|+c$",
+        "d": "$I=1+\\cos\\dfrac{x}{2}+c$"
+      },
+      "correct": "c",
+      "explication": "Avec $t=tg(x/2)$ (substitution de Weierstrass), $1+\\sin x+\\cos x=\\dfrac{2(1+t)}{1+t^2}$ et $dx=\\dfrac{2dt}{1+t^2}$, l'intégrale se ramène à $\\int\\dfrac{dt}{1+t}=\\ln|1+t|+c$."
+    },
+    {
+      "id": "m2012_q11",
+      "text": "On pose $I=\\displaystyle\\int_3^5\\dfrac{1}{(x-1)(x-2)}dx$",
+      "choices": {
+        "a": "$I=\\ln\\dfrac23$",
+        "b": "$I=\\ln\\dfrac32$",
+        "c": "$I=\\dfrac23$",
+        "d": "$I=\\dfrac32$"
+      },
+      "correct": "b",
+      "explication": "$\\dfrac{1}{(x-1)(x-2)}=\\dfrac{1}{x-2}-\\dfrac{1}{x-1}$ ; primitive $\\ln\\left|\\dfrac{x-2}{x-1}\\right|$, évaluée entre 3 et 5 : $\\ln(3/4)-\\ln(1/2)=\\ln(3/2)$."
+    },
+    {
+      "id": "m2012_q12",
+      "text": "On pose $J=\\displaystyle\\int_0^3\\dfrac{dx}{(x-2)(x+2)(x-1)}$",
+      "choices": {
+        "a": "$J=\\ln\\left(\\dfrac{5^{1/3}}{2^{1/3}}\\right)$",
+        "b": "$J=\\ln\\left(\\dfrac{5^2}{2^3}\\right)$",
+        "c": "$J=\\ln\\left(\\dfrac{5^{1/12}}{2^{2/3}}\\right)$",
+        "d": "$J=\\ln\\left(\\dfrac{5}{2^{2/3}}\\right)$"
+      },
+      "correct": "c",
+      "explication": "Décomposition en éléments simples ($A=1/4$, $B=1/12$, $C=-1/3$) puis évaluation formelle des bornes donne $J=\\frac{1}{12}\\ln5-\\frac23\\ln2=\\ln\\!\\left(5^{1/12}/2^{2/3}\\right)$."
+    },
+    {
+      "id": "m2012_q13",
+      "text": "Soit $A=\\displaystyle\\int_0^1x^2e^x\\,dx$",
+      "choices": {
+        "a": "$A=\\dfrac12$",
+        "b": "$A=e$",
+        "c": "$A=\\dfrac12e$",
+        "d": "$A=e-2$"
+      },
+      "correct": "d",
+      "explication": "Par parties deux fois : $\\int x^2e^x dx=e^x(x^2-2x+2)+c$ ; évalué entre 0 et 1 : $e\\times1-1\\times2=e-2$."
+    },
+    {
+      "id": "m2012_q14",
+      "text": "On pose $B=\\displaystyle\\int_0^1e^{ax}\\cos(bx)\\,dx$ où $a$ et $b$ sont des constantes réelles.",
+      "choices": {
+        "a": "$B=\\dfrac{e^a(b\\sin b+a\\cos b)-a}{a^2+b^2}$",
+        "b": "$B=\\dfrac{e^a}{a^2+b^2}$",
+        "c": "$B=\\dfrac{1}{a^2+b^2}$",
+        "d": "$B=\\dfrac{a}{a^2+b^2}$"
+      },
+      "correct": "a",
+      "explication": "Primitive usuelle $\\int e^{ax}\\cos(bx)dx=\\dfrac{e^{ax}(a\\cos bx+b\\sin bx)}{a^2+b^2}$, évaluée entre 0 et 1."
+    },
+    {
+      "id": "m2012_q15",
+      "text": "La fonction $f(x)=x^3+3x^2-x-3$ a pour racines $-1$ et $1$. La racine $x_0$ de la dérivée $f'(x)$ dont il est question dans le théorème de Rolle est :",
+      "choices": {
+        "a": "$x_0=-1-\\dfrac{2\\sqrt3}{3}$",
+        "b": "$x_0=-1+\\dfrac{2\\sqrt3}{3}$",
+        "c": "$x_0=-\\dfrac12$",
+        "d": "$x_0=\\dfrac12$"
+      },
+      "correct": "b",
+      "explication": "$f'(x)=3x^2+6x-1$ s'annule en $x_0=\\dfrac{-6\\pm\\sqrt{48}}{6}=-1\\pm\\dfrac{2\\sqrt3}{3}$ ; seule la valeur $-1+\\frac{2\\sqrt3}{3}\\approx0{,}15$ appartient à $]-1,1[$."
+    },
+    {
+      "id": "m2012_q16",
+      "text": "On pose $l=\\displaystyle\\lim_{x\\to0}\\dfrac{e^{x^2}-1}{\\cos x-1}$",
+      "choices": {
+        "a": "$l=1$",
+        "b": "$l=2$",
+        "c": "$l=-2$",
+        "d": "$l=-\\dfrac12$"
+      },
+      "correct": "c",
+      "explication": "$e^{x^2}-1\\approx x^2$ et $\\cos x-1\\approx-x^2/2$, d'où $l\\to-2$."
+    },
+    {
+      "id": "m2012_q17",
+      "text": "On pose $m=\\displaystyle\\lim_{x\\to1}\\dfrac{x-1}{x^n-1}$",
+      "choices": {
+        "a": "$m=\\dfrac12$",
+        "b": "$m=1$",
+        "c": "$m=0$",
+        "d": "$m=\\dfrac1n$"
+      },
+      "correct": "d",
+      "explication": "$x^n-1=(x-1)(x^{n-1}+\\cdots+1)$, dont la somme vaut $n$ en $x=1$."
+    },
+    {
+      "id": "m2012_q18",
+      "text": "On pose $s=\\displaystyle\\lim_{x\\to0}\\dfrac{e^x-e^{-x}}{\\sin x}$",
+      "choices": {
+        "a": "$s=2$",
+        "b": "$s=1$",
+        "c": "$s=\\dfrac12$",
+        "d": "$s=0$"
+      },
+      "correct": "a",
+      "explication": "$e^x-e^{-x}\\approx2x$ et $\\sin x\\approx x$, d'où $s\\to2$."
+    },
+    {
+      "id": "m2012_q19",
+      "text": "La différentielle $dy$ et l'accroissement $\\Delta y$ pour la fonction $y=2x^2-x$ avec $x=1$ et $\\Delta x=0{,}01$ est :",
+      "choices": {
+        "a": "$dy=0{,}3$ et $\\Delta y=0{,}031$",
+        "b": "$dy=0{,}03$ et $\\Delta y=0{,}032$",
+        "c": "$dy=0{,}034$ et $\\Delta y=0{,}023$",
+        "d": "$dy=0{,}2$ et $\\Delta y=0{,}0203$"
+      },
+      "correct": "b",
+      "explication": "$dy=y'(1)\\Delta x=(4-1)\\times0{,}01=0{,}03$. $\\Delta y=y(1{,}01)-y(1)\\approx0{,}0302$."
+    },
+    {
+      "id": "m2012_q20",
+      "text": "On dispose d'un dé cubique dont les faces sont numérotées de 1 à 6. Quelle est la probabilité $p$ d'obtenir 4 fois la face numérotée 1 au bout de 10 lancers du dé ?",
+      "choices": {
+        "a": "$p=C_{10}^3\\left(\\frac26\\right)^3\\left(\\frac46\\right)^7$",
+        "b": "$p=C_{10}^4\\left(\\frac13\\right)^4\\left(\\frac23\\right)^6$",
+        "c": "$p=C_{10}^4\\left(\\frac16\\right)^4\\left(\\frac56\\right)^6$",
+        "d": "$p=\\left(\\frac16\\right)^4\\left(\\frac56\\right)^6$"
+      },
+      "correct": "c",
+      "explication": "Loi binomiale : $p=C_{10}^4\\,p^4(1-p)^6$ avec $p=1/6$ (probabilité de succès à chaque lancer), en n'oubliant pas le coefficient binomial."
+    }
+  ]
+}

@@ -1,0 +1,244 @@
+{
+  "questions": [
+    {
+      "id": "m2017_q1",
+      "text": "Quelle est la valeur de $b$ pour que la fonction $f(x)=\\begin{cases}1+e^{-2x}&\\text{si }0\\leq x\\leq b\\\\1+e^{2x-12}&\\text{si }b<x\\leq6\\end{cases}$ soit continue sur $[0,6]$ ?",
+      "choices": {
+        "a": "$1$",
+        "b": "$2$",
+        "c": "$3$",
+        "d": "$4$"
+      },
+      "correct": "c",
+      "explication": "Continuité en $x=b$ : $1+e^{-2b}=1+e^{2b-12}\\Rightarrow-2b=2b-12\\Rightarrow b=3$."
+    },
+    {
+      "id": "m2017_q2",
+      "text": "Laquelle des fonctions suivantes représente le graphe de $f$ décalé d'une unité vers la gauche ?",
+      "choices": {
+        "a": "$f(x-1)$",
+        "b": "$f(x)-1$",
+        "c": "$f(x+1)$",
+        "d": "$f(x)+1$"
+      },
+      "correct": "c",
+      "explication": "Un décalage vers la gauche de $a$ unités transforme $f(x)$ en $f(x+a)$."
+    },
+    {
+      "id": "m2017_q3",
+      "text": "Soit $A=\\{a\\in\\mathbb{R}:-3<a\\leq1\\}$ et $B=\\{b\\in\\mathbb{R}:-3<b<1\\}$. Laquelle des affirmations suivantes est fausse ?",
+      "choices": {
+        "a": "$\\forall a\\in A\\ \\exists b\\in B\\ (b<a)$",
+        "b": "$\\exists b\\in B\\ \\forall a\\in A\\ (b<a)$",
+        "c": "$\\exists b\\in B\\ \\exists a\\in A\\ (b<a)$",
+        "d": "$\\exists a\\in A\\ \\forall b\\in B\\ (b<a)$"
+      },
+      "correct": "b",
+      "explication": "$B$ n'a pas de minimum ($\\inf B=-3$ non atteint) : aucun $b\\in B$ ne peut être inférieur à TOUS les éléments de $A$."
+    },
+    {
+      "id": "m2017_q4",
+      "text": "Si $f'(x)$ et $g'(x)$ existent avec $f'(x)>g'(x)$ pour tout réel $x$ alors les graphes de $f$ et $g$",
+      "choices": {
+        "a": "se coupent une seule fois",
+        "b": "ne se coupent pas",
+        "c": "se coupent au plus une fois",
+        "d": "se coupent plus d'une fois"
+      },
+      "correct": "c",
+      "explication": "$h=f-g$ est strictement croissante ($h'>0$), donc s'annule au plus une fois."
+    },
+    {
+      "id": "m2017_q5",
+      "text": "Si $\\log_a(2^a)=\\dfrac{a}{4}$ alors",
+      "choices": {
+        "a": "$a=2$",
+        "b": "$a=4$",
+        "c": "$a=8$",
+        "d": "$a=16$"
+      },
+      "correct": "d",
+      "explication": "$a\\log_a2=\\dfrac{a}{4}\\Rightarrow\\log_a2=\\dfrac14\\Rightarrow2=a^{1/4}\\Rightarrow a=16$."
+    },
+    {
+      "id": "m2017_q6",
+      "text": "L'intégrale $\\displaystyle\\int_0^{\\pi/4}\\tan^2(x)dx$ est égale à",
+      "choices": {
+        "a": "$\\dfrac{\\pi}{4}-1$",
+        "b": "$1-\\dfrac{\\pi}{4}$",
+        "c": "$\\dfrac13$",
+        "d": "$\\sqrt2-1$"
+      },
+      "correct": "b",
+      "explication": "$\\tan^2x=\\sec^2x-1$, donc $\\int\\tan^2x\\,dx=\\tan x-x$ ; évalué entre $0$ et $\\pi/4$ : $1-\\pi/4$."
+    },
+    {
+      "id": "m2017_q7",
+      "text": "On pose $f(x)=\\displaystyle\\int_0^x\\dfrac{1}{\\sqrt{t^3+2}}dt$. Laquelle des affirmations suivantes est fausse ?",
+      "choices": {
+        "a": "$f(1)>0$",
+        "b": "$f(-1)>0$",
+        "c": "$f'(1)=\\dfrac{1}{\\sqrt3}$",
+        "d": "$f(0)=0$"
+      },
+      "correct": "b",
+      "explication": "Pour $t\\in[-1,0]$, l'intégrande est positive, donc $f(-1)=-\\int_{-1}^0(\\text{positif})\\,dt<0$."
+    },
+    {
+      "id": "m2017_q8",
+      "text": "Quelle est la valeur moyenne de $1-t^2$ dans l'intervalle $[-1,1]$ ?",
+      "choices": {
+        "a": "$1$",
+        "b": "$\\dfrac23$",
+        "c": "$\\dfrac43$",
+        "d": "$0$"
+      },
+      "correct": "b",
+      "explication": "Valeur moyenne $=\\dfrac12\\int_{-1}^1(1-t^2)dt=\\dfrac12\\times\\dfrac43=\\dfrac23$."
+    },
+    {
+      "id": "m2017_q9",
+      "text": "Soit $f:\\mathbb{R}\\to\\mathbb{R}$ une fonction impaire. Si $f$ est dérivable en $x_0$ alors",
+      "choices": {
+        "a": "$f'(-x_0)=f'(x_0)$",
+        "b": "$f'(-x_0)=-f'(x_0)$",
+        "c": "$f'(-x_0)=\\dfrac{1}{f'(x_0)}$",
+        "d": "$f'(-x_0)=-\\dfrac{1}{f'(x_0)}$"
+      },
+      "correct": "a",
+      "explication": "En dérivant $f(-x)=-f(x)$ : $-f'(-x)=-f'(x)$, donc $f'(-x)=f'(x)$ : la dérivée d'une fonction impaire est paire."
+    },
+    {
+      "id": "m2017_q10",
+      "text": "On pose $l=\\displaystyle\\lim_{x\\to+\\infty}(e^x-1)^{1/x}$.",
+      "choices": {
+        "a": "$l=1$",
+        "b": "$l=+\\infty$",
+        "c": "$l=e$",
+        "d": "$l=-\\infty$"
+      },
+      "correct": "c",
+      "explication": "$e^x-1\\approx e^x$ pour $x$ grand, donc $(e^x)^{1/x}=e$."
+    },
+    {
+      "id": "m2017_q11",
+      "text": "On pose $f(x)=\\dfrac{3x+|x|}{7x-5|x|}$",
+      "choices": {
+        "a": "$\\displaystyle\\lim_{x\\to0^+}f(x)=0$",
+        "b": "$\\displaystyle\\lim_{x\\to0^+}f(x)=2$",
+        "c": "$\\displaystyle\\lim_{x\\to0^+}f(x)=1$",
+        "d": "$\\displaystyle\\lim_{x\\to0^+}f(x)=3$"
+      },
+      "correct": "b",
+      "explication": "Pour $x>0$, $|x|=x$ : $f(x)=\\dfrac{4x}{2x}=2$."
+    },
+    {
+      "id": "m2017_q12",
+      "text": "Soit $g(x)=\\dfrac{1+10^{-1/x}}{2-10^{-1/x}}$",
+      "choices": {
+        "a": "$\\displaystyle\\lim_{x\\to0^-}g(x)=-1$",
+        "b": "$\\displaystyle\\lim_{x\\to0^-}g(x)=1$",
+        "c": "$\\displaystyle\\lim_{x\\to0^-}g(x)=0$",
+        "d": "$\\displaystyle\\lim_{x\\to0^-}g(x)=+\\infty$"
+      },
+      "correct": "a",
+      "explication": "Quand $x\\to0^-$, $-1/x\\to+\\infty$ donc $10^{-1/x}\\to+\\infty$ : les termes dominants donnent $g(x)\\to-1$."
+    },
+    {
+      "id": "m2017_q13",
+      "text": "On pose $l=\\displaystyle\\lim_{x\\to0}\\dfrac{6x-\\sin(2x)}{2x+3\\sin(4x)}$",
+      "choices": {
+        "a": "$l=-\\dfrac27$",
+        "b": "$l=\\dfrac17$",
+        "c": "$l=3$",
+        "d": "$l=\\dfrac27$"
+      },
+      "correct": "d",
+      "explication": "Au premier ordre : numérateur $\\approx6x-2x=4x$, dénominateur $\\approx2x+12x=14x$ : $l=4/14=2/7$."
+    },
+    {
+      "id": "m2017_q14",
+      "text": "Soit $s=\\displaystyle\\lim_{x\\to3}\\dfrac{x-3}{\\sin(\\pi x)}$",
+      "choices": {
+        "a": "$s=\\dfrac1\\pi$",
+        "b": "$s=0$",
+        "c": "$s=-\\dfrac1\\pi$",
+        "d": "$s=\\dfrac2\\pi$"
+      },
+      "correct": "c",
+      "explication": "Avec $u=x-3$ : $\\sin(\\pi x)=\\sin(\\pi u+3\\pi)=-\\sin(\\pi u)\\approx-\\pi u$, d'où $s\\to-1/\\pi$."
+    },
+    {
+      "id": "m2017_q15",
+      "text": "La suite de Fibonacci est la suite $(U_n)$ où $U_{n+2}=U_{n+1}+U_n$ et $U_1=1$, $U_2=1$.",
+      "choices": {
+        "a": "$\\displaystyle\\lim_{n\\to+\\infty}\\dfrac{U_{n+1}}{U_n}=1$",
+        "b": "$\\displaystyle\\lim_{n\\to+\\infty}\\dfrac{U_{n+1}}{U_n}=\\dfrac{1+\\sqrt5}{2}$",
+        "c": "$\\displaystyle\\lim_{n\\to+\\infty}\\dfrac{U_{n+1}}{U_n}=\\dfrac{1-\\sqrt5}{2}$",
+        "d": "$\\displaystyle\\lim_{n\\to+\\infty}\\dfrac{U_{n+1}}{U_n}=\\dfrac{\\sqrt5}{2}$"
+      },
+      "correct": "b",
+      "explication": "Le rapport tend vers le nombre d'or $\\varphi=(1+\\sqrt5)/2$."
+    },
+    {
+      "id": "m2017_q16",
+      "text": "On considère la suite $U_n=\\left(1+\\dfrac1n\\right)^{n+1}$, $n=1,2,\\ldots$",
+      "choices": {
+        "a": "$\\displaystyle\\lim_{n\\to+\\infty}U_n=e$",
+        "b": "$\\displaystyle\\lim_{n\\to+\\infty}U_n=1$",
+        "c": "$\\displaystyle\\lim_{n\\to+\\infty}U_n=e^{-1}$",
+        "d": "$\\displaystyle\\lim_{n\\to+\\infty}U_n=1+e$"
+      },
+      "correct": "a",
+      "explication": "$(1+1/n)^n\\to e$ et le facteur supplémentaire $(1+1/n)\\to1$."
+    },
+    {
+      "id": "m2017_q17",
+      "text": "On donne $A=\\displaystyle\\int_1^2\\dfrac{dx}{(x^2-2x+4)^{3/2}}$",
+      "choices": {
+        "a": "$A=\\dfrac12$",
+        "b": "$A=\\dfrac15$",
+        "c": "$A=2$",
+        "d": "$A=\\dfrac16$"
+      },
+      "correct": "d",
+      "explication": "$x^2-2x+4=(x-1)^2+3$ ; avec $u=x-1$, $A=\\int_0^1\\frac{du}{(u^2+3)^{3/2}}=\\left[\\frac{u}{3\\sqrt{u^2+3}}\\right]_0^1=\\frac{1}{6}$."
+    },
+    {
+      "id": "m2017_q18",
+      "text": "Soit $B=\\displaystyle\\int_0^1x\\ln(x+3)dx$",
+      "choices": {
+        "a": "$B=\\dfrac54+4\\ln4+\\dfrac92\\ln3$",
+        "b": "$B=54-4\\ln4-\\dfrac92\\ln3$",
+        "c": "$B=\\dfrac54-4\\ln4+\\dfrac92\\ln3$",
+        "d": "$B=-\\dfrac54+4\\ln4+\\dfrac92\\ln3$"
+      },
+      "correct": "c",
+      "explication": "Intégration par parties puis division polynomiale de $x^2/(x+3)$ conduisent à $B=\\dfrac54-4\\ln4+\\dfrac92\\ln3$."
+    },
+    {
+      "id": "m2017_q19",
+      "text": "Soit $C=\\left(\\dfrac{1-i}{1+i}\\right)^{10}$",
+      "choices": {
+        "a": "$C=1$",
+        "b": "$C=-1$",
+        "c": "$C=2$",
+        "d": "$C=-2$"
+      },
+      "correct": "b",
+      "explication": "$\\dfrac{1-i}{1+i}=-i$, et $(-i)^{10}=((-i)^2)^5=(-1)^5=-1$."
+    },
+    {
+      "id": "m2017_q20",
+      "text": "On pose $S=1+3+5+\\cdots+(2n-1)$",
+      "choices": {
+        "a": "$S=n^2$",
+        "b": "$S=(n+1)^2$",
+        "c": "$S=(n-1)^2$",
+        "d": "$S=2n^2$"
+      },
+      "correct": "a",
+      "explication": "La somme des $n$ premiers entiers impairs vaut $n^2$."
+    }
+  ]
+}

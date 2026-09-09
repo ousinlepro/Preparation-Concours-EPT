@@ -1,0 +1,244 @@
+{
+  "questions": [
+    {
+      "id": "f2021_q1",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Que nos prières soient exhaussées !",
+        "b": "Que nos prières soient exaucées !",
+        "c": "Que nos prières soient exhaucées !",
+        "d": "Que nos prières soient exaussées !"
+      },
+      "correct": "b",
+      "explication": "« Exaucer » (accorder ce qui est demandé) s'écrit sans h, à ne pas confondre avec « exhausser » (rehausser physiquement)."
+    },
+    {
+      "id": "f2021_q2",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Les faire-parts que nous avons envoyés ne sont pas datés",
+        "b": "Les faires-parts que nous avons envoyés ne sont pas datés",
+        "c": "Les faires-part que nous avons envoyés ne sont pas datés",
+        "d": "Les faire-part que nous avons envoyés ne sont pas datés"
+      },
+      "correct": "d",
+      "explication": "« Faire-part » est un nom composé invariable au pluriel (ni « faire » ni « part » ne prennent de s)."
+    },
+    {
+      "id": "f2021_q3",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Les autorités ont beau alerté l'opinion, elles n'ont pas été écoutées",
+        "b": "Les autorités ont beau alerter l'opinion, elles n'ont pas été écoutées",
+        "c": "Les autorités ont beau alertés l'opinion, elles n'ont pas été écoutées",
+        "d": "Les autorités ont beau alerté l'opinion, elles n'ont pas été écouté"
+      },
+      "correct": "b",
+      "explication": "« Avoir beau » se construit toujours avec un infinitif (« alerter »), jamais un participe passé."
+    },
+    {
+      "id": "f2021_q4",
+      "text": "Quelle est la fonction du mot souligné dans la phrase suivante ? « Les exercices physiques rendent les muscles solides »",
+      "choices": {
+        "a": "Complément d'objet direct",
+        "b": "Épithète",
+        "c": "Attribut du COD",
+        "d": "Complément circonstanciel de manière"
+      },
+      "correct": "c",
+      "explication": "« Solides » qualifie le COD « les muscles » par l'intermédiaire du verbe « rendre » : c'est un attribut du COD."
+    },
+    {
+      "id": "f2021_q5",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Les oiseaux qu'elles ont entendus gazouiller les ont rassurées",
+        "b": "Les oiseaux qu'elles ont entendues gazouiller les ont rassurées",
+        "c": "Les oiseaux qu'elles ont entendu gazouiller les ont rassuré",
+        "d": "Les oiseaux qu'elles ont entendue gazouiller les ont rassurés"
+      },
+      "correct": "a",
+      "explication": "« Les oiseaux » (masculin pluriel) sont le sujet réel de « gazouiller » : « entendus » s'accorde avec eux. « Les » (= elles) entraîne l'accord féminin de « rassurées »."
+    },
+    {
+      "id": "f2021_q6",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Les amendes auxquelles nous nous sommes acquittés sont exonérées",
+        "b": "Les amendes que nous nous sommes acquittées sont exonérées",
+        "c": "Les amendes dont nous nous sommes acquittés sont exonérées",
+        "d": "Les amendes pour lesquelles nous nous sommes acquittés sont exonérées"
+      },
+      "correct": "c",
+      "explication": "On s'acquitte DE quelque chose : le pronom relatif adapté est « dont ». Le participe s'accorde avec le sujet « nous » (« acquittés »), faute de COD placé avant."
+    },
+    {
+      "id": "f2021_q7",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Elles se sont téléphoné avant qu'elles ne se soient vues",
+        "b": "Elles se sont téléphonées avant qu'elles ne se soient vues",
+        "c": "Elles se sont téléphoné avant qu'elles ne se sont vues",
+        "d": "Elles se sont téléphoné avant qu'elles ne s'étaient vues"
+      },
+      "correct": "a",
+      "explication": "« Téléphoner à quelqu'un » est indirect : « se » (COI) n'entraîne pas d'accord (« téléphoné »). « Avant que » se construit avec le subjonctif (« se soient vues »)."
+    },
+    {
+      "id": "f2021_q8",
+      "text": "À quel temps est conjugué le verbe dans la phrase suivante ? « Sans la lecture nous mourrions d'ennui »",
+      "choices": {
+        "a": "Futur simple",
+        "b": "Imparfait de l'indicatif",
+        "c": "Subjonctif présent",
+        "d": "Conditionnel présent"
+      },
+      "correct": "d",
+      "explication": "« Mourrions » (avec deux r, radical irrégulier « mourr- ») est le conditionnel présent, à distinguer de l'imparfait « mourions »."
+    },
+    {
+      "id": "f2021_q9",
+      "text": "Lequel de ces écrivains est un célèbre fabuliste ?",
+      "choices": {
+        "a": "Molière",
+        "b": "La Fontaine",
+        "c": "Racine",
+        "d": "Corneille"
+      },
+      "correct": "b",
+      "explication": "Jean de La Fontaine est l'auteur des célèbres « Fables »."
+    },
+    {
+      "id": "f2021_q10",
+      "text": "Lequel de ces courants appartient au XXᵉ siècle ?",
+      "choices": {
+        "a": "Le classicisme",
+        "b": "Le parnasse",
+        "c": "Le symbolisme",
+        "d": "Le surréalisme"
+      },
+      "correct": "d",
+      "explication": "Le surréalisme est fondé par André Breton dans les années 1920 ; les autres courants sont antérieurs (XVIIᵉ et XIXᵉ siècles)."
+    },
+    {
+      "id": "f2021_q11",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Les coquilles vert olive brillaient à côté des algues violettes",
+        "b": "Les coquilles vert olives brillaient à côté des algues violets",
+        "c": "Les coquilles vertes olives brillaient à côté des algues violettes",
+        "d": "Les coquilles verts olive brillaient à côté des algues violet"
+      },
+      "correct": "a",
+      "explication": "« Vert olive » est un adjectif de couleur composé, invariable. « Violettes », adjectif simple, s'accorde normalement avec « algues »."
+    },
+    {
+      "id": "f2021_q12",
+      "text": "Quelle est la fonction de la proposition soulignée ? « Si malin qu'il soit, le lièvre se laisse prendre »",
+      "choices": {
+        "a": "Complément circonstanciel de temps",
+        "b": "Complément circonstanciel d'opposition",
+        "c": "Complément circonstanciel de but",
+        "d": "Complément circonstanciel de comparaison"
+      },
+      "correct": "b",
+      "explication": "« Si + adjectif + que + subjonctif » exprime la concession/opposition (« bien qu'il soit très malin »)."
+    },
+    {
+      "id": "f2021_q13",
+      "text": "Un quintil désigne :",
+      "choices": {
+        "a": "Un vers de cinq syllabes",
+        "b": "Une moitié d'alexandrin",
+        "c": "Une strophe de cinq vers",
+        "d": "Un vers comportant cinq accents"
+      },
+      "correct": "c",
+      "explication": "Un quintil est une strophe de cinq vers."
+    },
+    {
+      "id": "f2021_q14",
+      "text": "Lequel de ces noms ne prend pas « s » au pluriel ?",
+      "choices": {
+        "a": "Bétail",
+        "b": "Sérail",
+        "c": "Éventail",
+        "d": "Corail"
+      },
+      "correct": "d",
+      "explication": "« Corail » suit le pluriel irrégulier en « -aux » (« coraux »), comme « travail »/« travaux » ou « vitrail »/« vitraux » ; les autres prennent un « s » régulier."
+    },
+    {
+      "id": "f2021_q15",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Les victimes se sont faits indemniser",
+        "b": "Les victimes se sont faites indemniser",
+        "c": "Les victimes se sont faites indemnisées",
+        "d": "Les victimes se sont fait indemniser"
+      },
+      "correct": "d",
+      "explication": "« Se faire » suivi d'un infinitif reste toujours invariable (« se sont fait indemniser »)."
+    },
+    {
+      "id": "f2021_q16",
+      "text": "Quelle figure de style avons-nous dans la phrase suivante ? « Va, cours, vole et nous venge »",
+      "choices": {
+        "a": "Une litote",
+        "b": "Une gradation",
+        "c": "Une métaphore",
+        "d": "Un oxymore"
+      },
+      "correct": "b",
+      "explication": "Cette réplique du Cid (Corneille) enchaîne des verbes d'intensité croissante : c'est une gradation."
+    },
+    {
+      "id": "f2021_q17",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Les haches qu'ils ont acérées les ont blessés",
+        "b": "Les haches qu'ils ont acérés les ont blessés",
+        "c": "Les haches qu'ils ont acéré les ont blessé",
+        "d": "Les haches qu'ils ont acérées les ont blessées"
+      },
+      "correct": "a",
+      "explication": "« Acérer » : le COD « que » (les haches, féminin pluriel) placé avant entraîne l'accord (« acérées »)."
+    },
+    {
+      "id": "f2021_q18",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Ces solutions, nous les avons jugés satisfaisants",
+        "b": "Ces solutions, nous les avons jugé satisfaisants",
+        "c": "Ces solutions, nous les avons jugées satisfaisantes",
+        "d": "Ces solutions, nous les avons jugés satisfaisant"
+      },
+      "correct": "c",
+      "explication": "« Juger quelque chose + adjectif » : le COD « les » (= ces solutions, féminin pluriel) placé avant entraîne l'accord (« jugées »), de même que l'attribut « satisfaisantes »."
+    },
+    {
+      "id": "f2021_q19",
+      "text": "Quelle est la fonction de l'expression soulignée ? « Du haut des montagnes dégringolaient des pierres »",
+      "choices": {
+        "a": "Complément du nom",
+        "b": "Complément d'objet direct",
+        "c": "Sujet",
+        "d": "Complément d'objet second"
+      },
+      "correct": "c",
+      "explication": "Dans cette phrase inversée, « des pierres » est le sujet réel du verbe « dégringolaient »."
+    },
+    {
+      "id": "f2021_q20",
+      "text": "Que signifie l'expression « sortir de l'ornière » ?",
+      "choices": {
+        "a": "Se libérer d'une situation difficile",
+        "b": "Échouer",
+        "c": "Avoir beaucoup de travail",
+        "d": "S'embourber"
+      },
+      "correct": "a",
+      "explication": "« Sortir de l'ornière » signifie se dégager d'une situation difficile ou bloquée."
+    }
+  ]
+}

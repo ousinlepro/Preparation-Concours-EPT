@@ -1,0 +1,149 @@
+{
+  "note": "Les questions 1 à 8 sont absentes du PDF source (page manquante, remplacée par une page dupliquée par erreur au scan) : seules les questions 9 à 20 ont pu être reprises, avec leur numérotation d'origine.",
+  "questions": [
+    {
+      "id": "f2010_q9",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "La mère, je l'ai vue gifler sa fille",
+        "b": "La mère, je l'ai vu gifler sa fille",
+        "c": "La mère, je l'ai vu giffler sa fille",
+        "d": "La mère, je les vu gifler sa fille"
+      },
+      "correct": "a",
+      "explication": "« La mère » (COD « l' », féminin singulier) est celle qui gifle : le participe s'accorde (« vue »). « Gifler » ne prend qu'un f."
+    },
+    {
+      "id": "f2010_q10",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Cette pauvre fille, je l'ai vue giflée par sa mère",
+        "b": "Cette pauvre fille, je l'ai vu giflée par sa mère",
+        "c": "Cette pauvre fille, je l'ai vu gifflée par sa mère",
+        "d": "Cette pauvre fille, je l'ai vu giflée par sa mère"
+      },
+      "correct": "a",
+      "explication": "Ici « la fille » subit l'action (giflée par sa mère) : on utilise le participe passé « giflée », et « vue » s'accorde avec « l' » (féminin)."
+    },
+    {
+      "id": "f2010_q11",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Nous aurions besoin d'autres Mandela pour que la paix règne dans le monde",
+        "b": "Nous aurions besoin d'autre Mandela pour que la paix règne dans le monde",
+        "c": "Nous aurions besoin d'autres Mandelas pour que la paix règne dans le monde",
+        "d": "Nous aurions besoin d'autres Mandela pour que la paix règne dans le monde"
+      },
+      "correct": "d",
+      "explication": "Un nom propre employé comme type/exemplar (« des Mandela » = des gens comme Mandela) reste invariable."
+    },
+    {
+      "id": "f2010_q12",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Nous cherchons des hauts-parleurs puissants",
+        "b": "Nous cherchons des haut-parleurs puissants",
+        "c": "Nous cherchons des hauts-parleur puissants",
+        "d": "Nous cherchons des haut-parleur puissants"
+      },
+      "correct": "a",
+      "explication": "Dans « haut-parleur », les deux éléments s'accordent au pluriel : « hauts-parleurs »."
+    },
+    {
+      "id": "f2010_q13",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Vue votre attitude, je reconnaitrai vos qualités",
+        "b": "Vu votre attitude, je reconnaîtrai vos qualités",
+        "c": "Vu votre attitude, je reconnaîtrai vos qualités",
+        "d": "Vue votre attitude, je reconnaîtrai vos qualités"
+      },
+      "correct": "b",
+      "explication": "« Vu » employé comme préposition (= étant donné) reste invariable. « Reconnaîtrai » garde son accent circonflexe traditionnel."
+    },
+    {
+      "id": "f2010_q14",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Elle s'est cogné contre les murs de sa cellule",
+        "b": "Elle s'est cognée contre les murs de sa cellule",
+        "c": "Elle s'est cogné contre les mur de sa cellule",
+        "d": "Elle s'est cognée contre les mûrs de sa cellule"
+      },
+      "correct": "b",
+      "explication": "« Se cogner » (elle cogne elle-même) : « se » = COD, accord (« cognée »). « Murs » (les murailles) ne prend pas d'accent circonflexe, à ne pas confondre avec « mûrs » (mûrir)."
+    },
+    {
+      "id": "f2010_q15",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "La situation, nous l'avons maitrisé",
+        "b": "La situation, nous l'avons maîtrisé",
+        "c": "La situation, nous l'avons maitrisée",
+        "d": "La situation, nous l'avons maîtrisée"
+      },
+      "correct": "d",
+      "explication": "« Maîtriser » (accent circonflexe traditionnel) : COD « l' » (la situation, féminin) placé avant entraîne l'accord « maîtrisée »."
+    },
+    {
+      "id": "f2010_q16",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "La jupe que j'ai fait confectionner par le tailleur est trop grande pour moi",
+        "b": "La jupe que j'ai faite confectionner par le tailleur est trop grande pour moi",
+        "c": "La jupe que j'ai fait confectionner par le tailleur ait trop grande pour moi",
+        "d": "La jupe que j'ai faite confectionner par le tailleur ait trop grande pour moi"
+      },
+      "correct": "a",
+      "explication": "« Faire » causatif suivi d'un infinitif est toujours invariable (« fait confectionner »). Le fait constaté utilise l'indicatif (« est »), pas le subjonctif."
+    },
+    {
+      "id": "f2010_q17",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Les laisser-aller sont inadmissibles",
+        "b": "Les laissers-aller sont inadmissibles",
+        "c": "Les laisser-allers sont inadmissibles",
+        "d": "Les laissers-allers sont inadmissibles"
+      },
+      "correct": "a",
+      "explication": "« Laisser-aller » (deux infinitifs) est un nom composé invariable au pluriel."
+    },
+    {
+      "id": "f2010_q18",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Il ne lui reste que cents vingts francs en poche",
+        "b": "Il ne lui reste que cent vingts francs en poche",
+        "c": "Il ne lui reste que cents vingt francs en poche",
+        "d": "Il ne lui reste que cent vingt francs en poche"
+      },
+      "correct": "d",
+      "explication": "« Cent » ne prend un s que multiplié par un nombre et non suivi d'un autre nombre ; « vingt » ne prend un s que dans « quatre-vingts » seul. Ici, « cent vingt » (100+20) reste invariable des deux côtés."
+    },
+    {
+      "id": "f2010_q19",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Les medias sont nombreux au Sènégal",
+        "b": "Les média sont nombreux au Sènégal",
+        "c": "Les média sont nombreux au Sénégal",
+        "d": "Les médias sont nombreux au Sénégal"
+      },
+      "correct": "d",
+      "explication": "« Un média » (avec accent), pluriel « des médias » (avec s) ; « Sénégal » prend un é, pas un è."
+    },
+    {
+      "id": "f2010_q20",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Le jury a trouvé cette situation ambigu",
+        "b": "Le jury a trouvé cette situation ambiguë",
+        "c": "Le jury a trouvé cette situation ambigüe",
+        "d": "Le jury a trouvé cette situation ambigue"
+      },
+      "correct": "b",
+      "explication": "« Situation » est féminin : « ambigu » devient « ambiguë » (tréma sur le e, orthographe traditionnelle)."
+    }
+  ]
+}

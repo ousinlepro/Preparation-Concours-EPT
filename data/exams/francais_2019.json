@@ -1,0 +1,244 @@
+{
+  "questions": [
+    {
+      "id": "f2019_q1",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Les cerises que les enfants ont mangé ne sont pas mûres",
+        "b": "Les cerises que les enfants ont mangées ne sont pas mûres",
+        "c": "Les cerises que les enfants ont mangés ne sont pas mûrs",
+        "d": "Les cerises que les enfants ont manger ne sont pas mûrs"
+      },
+      "correct": "b",
+      "explication": "Le COD « que » (les cerises, féminin pluriel) est placé avant le verbe : le participe s'accorde (« mangées »). « Mûres » s'accorde avec « cerises », sujet de « sont »."
+    },
+    {
+      "id": "f2019_q2",
+      "text": "Que signifie l'expression « Battre en brèche » ?",
+      "choices": {
+        "a": "S'enfuir",
+        "b": "Arriver le premier",
+        "c": "Combattre avec succès",
+        "d": "Échouer lamentablement"
+      },
+      "correct": "c",
+      "explication": "« Battre en brèche » signifie attaquer et faire céder quelque chose (une idée, une institution) avec succès."
+    },
+    {
+      "id": "f2019_q3",
+      "text": "Quelle figure de style avons-nous dans la phrase suivante ? « Les rochers ressemblaient à d'immenses crapauds »",
+      "choices": {
+        "a": "Une litote",
+        "b": "Une métaphore",
+        "c": "Une allitération",
+        "d": "Une comparaison"
+      },
+      "correct": "d",
+      "explication": "L'emploi explicite de « ressembler à » (outil de comparaison) signale une comparaison, et non une métaphore (qui identifierait directement les deux termes sans outil comparatif)."
+    },
+    {
+      "id": "f2019_q4",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Les maisons que la police a fait fouiller étaient suspectes",
+        "b": "Les maisons que la police a faits fouiller étaient suspects",
+        "c": "Les maisons que la police a faites fouiller étaient suspectes",
+        "d": "Les maisons que la police a faite fouiller étaient suspectes"
+      },
+      "correct": "a",
+      "explication": "« Faire » causatif suivi d'un infinitif reste toujours invariable (« a fait fouiller »). « Suspectes » s'accorde avec « maisons », sujet de « étaient »."
+    },
+    {
+      "id": "f2019_q5",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Quelles que soient les interventions, ils ne passeront pas",
+        "b": "Quelques soient les interventions, ils ne passeront pas",
+        "c": "Quelque soit les interventions, ils ne passeront pas",
+        "d": "Quelle que soit les interventions, ils ne passeront pas"
+      },
+      "correct": "a",
+      "explication": "« Quel que » (en deux mots) s'accorde avec le sujet qui suit : « les interventions » est féminin pluriel, d'où « quelles que soient »."
+    },
+    {
+      "id": "f2019_q6",
+      "text": "À quel temps est le verbe souligné ? « Nous savions que vous viendriez »",
+      "choices": {
+        "a": "Imparfait de l'indicatif",
+        "b": "Présent du subjonctif",
+        "c": "Présent du conditionnel",
+        "d": "Futur antérieur"
+      },
+      "correct": "c",
+      "explication": "« Viendriez » est formé du radical futur « viendr- » + terminaison « -iez » : c'est le conditionnel présent."
+    },
+    {
+      "id": "f2019_q7",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Les documents dont ils se réfèrent n'existent pas",
+        "b": "Les documents auxquels ils se réfèrent n'existent pas",
+        "c": "Les documents qu'ils se réfèrent n'existent pas",
+        "d": "Les documents pour lesquels ils se réfèrent n'existent pas"
+      },
+      "correct": "b",
+      "explication": "On se réfère À quelque chose : le pronom relatif adapté est « auxquels » (à + lesquels)."
+    },
+    {
+      "id": "f2019_q8",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Ces soit-disantes sages-femmes sont inexpérimentées",
+        "b": "Ces soit-disant sages-femmes sont inexpérimentées",
+        "c": "Ces sois-disants sages-femmes sont inexpérimentées",
+        "d": "Ces soi-disant sages-femmes sont inexpérimentées"
+      },
+      "correct": "d",
+      "explication": "« Soi-disant » (de « soi », pas « soit ») est toujours invariable."
+    },
+    {
+      "id": "f2019_q9",
+      "text": "Quelle est la fonction de la subordonnée soulignée ? « Je parlerai fort pour que tous m'entendent »",
+      "choices": {
+        "a": "Complément circonstanciel de cause",
+        "b": "Complément circonstanciel de conséquence",
+        "c": "Complément circonstanciel de concession",
+        "d": "Complément circonstanciel de but"
+      },
+      "correct": "d",
+      "explication": "« Pour que » introduit le but recherché (que tous entendent)."
+    },
+    {
+      "id": "f2019_q10",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Les amateurs de bonne chair préfèrent manger au restaurant",
+        "b": "Les amateurs de bonne chère préfèrent manger au restaurant",
+        "c": "Les amateurs de bonne chaire préfèrent manger au restaurant",
+        "d": "Les amateurs de bon cher préfèrent manger au restaurant"
+      },
+      "correct": "b",
+      "explication": "« Faire bonne chère » signifie bien manger : on écrit « chère », pas « chair » (la peau) ni « chaire » (tribune)."
+    },
+    {
+      "id": "f2019_q11",
+      "text": "Quelle est la fonction du mot souligné ? « Les enfants ont trouvé ce gâteau délicieux »",
+      "choices": {
+        "a": "Complément d'objet direct",
+        "b": "Complément du nom",
+        "c": "Attribut du COD",
+        "d": "Épithète"
+      },
+      "correct": "c",
+      "explication": "« Délicieux » qualifie le COD « ce gâteau » par l'intermédiaire du verbe « trouver » : c'est un attribut du COD."
+    },
+    {
+      "id": "f2019_q12",
+      "text": "Un distique désigne :",
+      "choices": {
+        "a": "Un groupe de deux vers",
+        "b": "Un duo d'opéra",
+        "c": "Un vers de deux syllabes",
+        "d": "Une strophe de dix vers"
+      },
+      "correct": "a",
+      "explication": "Un distique est un ensemble de deux vers formant une unité de sens."
+    },
+    {
+      "id": "f2019_q13",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Les cloches que nous avons entendues tinter sont fêlées",
+        "b": "Les cloches que nous avons entendu tinter sont fêlées",
+        "c": "Les cloches que nous avons entendus tinter sont fêlées",
+        "d": "Les cloches que nous avons entendus tintées sont fêlées"
+      },
+      "correct": "a",
+      "explication": "Le participe suivi d'un infinitif s'accorde avec le COD placé avant s'il en est le sujet réel : ce sont les cloches qui tintent, d'où « entendues » (féminin pluriel)."
+    },
+    {
+      "id": "f2019_q14",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Elles se sont parlées et se sont saluées",
+        "b": "Elles se sont parlé et se sont salué",
+        "c": "Elles se sont parlé et se sont saluées",
+        "d": "Elles se sont parlées et se sont salué"
+      },
+      "correct": "c",
+      "explication": "« Parler à quelqu'un » est indirect : « se » est COI, pas d'accord (« parlé »). « Saluer quelqu'un » est direct : « se » est COD, accord (« saluées »)."
+    },
+    {
+      "id": "f2019_q15",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Fatou a reçu des perles vertes olives et bleues ciel",
+        "b": "Fatou a reçu des perles vert olive et bleu ciel",
+        "c": "Fatou a reçu des perles verts olives et bleus ciel",
+        "d": "Fatou a reçu des perles vert olives et bleu ciels"
+      },
+      "correct": "b",
+      "explication": "Les adjectifs de couleur composés (« vert olive », « bleu ciel ») sont invariables."
+    },
+    {
+      "id": "f2019_q16",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Les sacrifices que ces labeurs ont coûtées sont énormes",
+        "b": "Les sacrifices que ces labeurs ont coûté sont énormes",
+        "c": "Les sacrifices que ces labeurs ont coûter sont énormes",
+        "d": "Les sacrifices que ces labeurs ont coûtés sont énormes"
+      },
+      "correct": "b",
+      "explication": "« Coûter » employé au sens figuré (mesure, pas véritable COD) garde son participe invariable."
+    },
+    {
+      "id": "f2019_q17",
+      "text": "Comment appelle-t-on ce type de vers ? « De la musique encore et toujours »",
+      "choices": {
+        "a": "Un alexandrin",
+        "b": "Un ennéasyllabe",
+        "c": "Un décasyllabe",
+        "d": "Un octosyllabe"
+      },
+      "correct": "b",
+      "explication": "Ce vers, tiré de « l'Art poétique » de Verlaine, compte neuf syllabes : un ennéasyllabe, mètre impair caractéristique du poème."
+    },
+    {
+      "id": "f2019_q18",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Dans peu de temps nous seront confiées des tâches importantes",
+        "b": "Dans peu de temps nous seront confiés des tâches importantes",
+        "c": "Dans peu de temps nous serons confiés des tâches importantes",
+        "d": "Dans peu de temps nous seront confié des tâches importantes"
+      },
+      "correct": "a",
+      "explication": "Le sujet réel du passif est « des tâches importantes » (féminin pluriel) : le verbe s'accorde à la 3ᵉ personne du pluriel (« seront ») et le participe s'accorde (« confiées »). « Nous » n'est ici qu'un complément d'attribution."
+    },
+    {
+      "id": "f2019_q19",
+      "text": "Lequel de ces écrivains est un célèbre dramaturge ?",
+      "choices": {
+        "a": "Léopold Sédar Senghor",
+        "b": "Charles Baudelaire",
+        "c": "Émile Zola",
+        "d": "Jean Racine"
+      },
+      "correct": "d",
+      "explication": "Jean Racine est un dramaturge classique, auteur de tragédies comme « Phèdre »."
+    },
+    {
+      "id": "f2019_q20",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Les anecdotes relatés dans la presse nous ont plus",
+        "b": "Les anecdotes relatées dans la presse nous ont plues",
+        "c": "Les anecdotes relatées dans la presse nous ont plu",
+        "d": "Les anecdotes relaté dans la presse nous ont plues"
+      },
+      "correct": "c",
+      "explication": "« Relatées » s'accorde avec « anecdotes » (féminin pluriel, COD placé avant). Le participe de « plaire » reste toujours invariable (« plu »)."
+    }
+  ]
+}

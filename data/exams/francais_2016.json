@@ -1,0 +1,244 @@
+{
+  "questions": [
+    {
+      "id": "f2016_q1",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Si elles s'étaient parlées, elles se seraient fait des politesses",
+        "b": "Si elles s'étaient parlé, elles se seraient fait des politesses",
+        "c": "Si elles s'étaient parlées, elles se seraient faites des politesses",
+        "d": "Si elles s'étaient parlé, elles se seraient faites des politesses"
+      },
+      "correct": "b",
+      "explication": "« Se parler » (indirect) reste invariable. « Se faire des politesses » : le COD « des politesses » suit le verbe, donc « fait » reste aussi invariable."
+    },
+    {
+      "id": "f2016_q2",
+      "text": "Quelle est la bonne orthographe ?",
+      "choices": {
+        "a": "En mon fort intérieur",
+        "b": "En mon fors intérieur",
+        "c": "En mon for intérieur",
+        "d": "En mon fore intérieur"
+      },
+      "correct": "c",
+      "explication": "« Le for intérieur » (la conscience) vient du latin « forum » : il s'écrit « for »."
+    },
+    {
+      "id": "f2016_q3",
+      "text": "À quel temps est conjugué le verbe souligné ? « S'il avait plu, je fusse resté »",
+      "choices": {
+        "a": "Imparfait du subjonctif",
+        "b": "Passé antérieur",
+        "c": "Plus-que-parfait du subjonctif",
+        "d": "Passé deuxième forme du conditionnel"
+      },
+      "correct": "d",
+      "explication": "« Fusse resté » est la forme littéraire du conditionnel passé (« je serais resté »), dite deuxième forme."
+    },
+    {
+      "id": "f2016_q4",
+      "text": "Quelle est la fonction de la subordonnée soulignée ? « Il était généreux quoiqu'il fût économe »",
+      "choices": {
+        "a": "Complément circonstanciel d'opposition",
+        "b": "Complément circonstanciel de conséquence",
+        "c": "Complément circonstanciel de cause",
+        "d": "Complément circonstanciel de condition"
+      },
+      "correct": "a",
+      "explication": "« Quoique » introduit une opposition/concession (bien que)."
+    },
+    {
+      "id": "f2016_q5",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Des perles rouges vives scintillaient à son cou",
+        "b": "Des perles rouges vifs scintillaient à son cou",
+        "c": "Des perles rouge vives scintillaient à son cou",
+        "d": "Des perles rouge vif scintillaient à son cou"
+      },
+      "correct": "a",
+      "explication": "« Rouge » et « vif » sont ici des adjectifs de couleur simples : ils s'accordent normalement avec « perles » (féminin pluriel)."
+    },
+    {
+      "id": "f2016_q6",
+      "text": "« Elle avait pris ce pli dans son âge enfantin ». Combien de syllabes compte ce vers ?",
+      "choices": {
+        "a": "Dix",
+        "b": "Onze",
+        "c": "Douze",
+        "d": "Quatorze"
+      },
+      "correct": "c",
+      "explication": "C'est un alexandrin (douze syllabes), tiré des Contemplations de Victor Hugo."
+    },
+    {
+      "id": "f2016_q7",
+      "text": "Une strophe de cinq vers est :",
+      "choices": {
+        "a": "Un pentasyllabe",
+        "b": "Un quintil",
+        "c": "Un quintet",
+        "d": "Un quinté"
+      },
+      "correct": "b",
+      "explication": "Une strophe de cinq vers se nomme un quintil."
+    },
+    {
+      "id": "f2016_q8",
+      "text": "Lequel de ces écrivains n'appartient pas au romantisme ?",
+      "choices": {
+        "a": "Alphonse de Lamartine",
+        "b": "Alfred de Musset",
+        "c": "Paul Verlaine",
+        "d": "Victor Hugo"
+      },
+      "correct": "c",
+      "explication": "Paul Verlaine est un poète symboliste (fin du XIXᵉ siècle), pas un romantique."
+    },
+    {
+      "id": "f2016_q9",
+      "text": "Quelle est la nature de la subordonnée soulignée ? « Je ne sais pas si le concours aura lieu à la date prévue »",
+      "choices": {
+        "a": "Subordonnée interrogative",
+        "b": "Subordonnée relative",
+        "c": "Subordonnée conjonctive",
+        "d": "Subordonnée participe"
+      },
+      "correct": "a",
+      "explication": "« Si le concours aura lieu... » est une interrogation indirecte, COD de « sais »."
+    },
+    {
+      "id": "f2016_q10",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Je suis arrivé après qu'ils vous aient quittés",
+        "b": "Je suis arrivé après qu'ils vous eurent quittés",
+        "c": "Je suis arrivé après qu'ils vous eussent quittés",
+        "d": "Je suis arrivé après qu'ils vous furent quittés"
+      },
+      "correct": "b",
+      "explication": "« Après que » se construit avec l'indicatif : le passé antérieur (« eurent quittés ») convient, pas le subjonctif."
+    },
+    {
+      "id": "f2016_q11",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Les édifices qu'elles ont vu construire n'ont pas résisté au temps",
+        "b": "Les édifices qu'elles ont vus construire n'ont pas résisté au temps",
+        "c": "Les édifices qu'elles ont vues construire n'ont pas résisté au temps",
+        "d": "Les édifices qu'elles ont vue construire n'ont pas résisté au temps"
+      },
+      "correct": "a",
+      "explication": "Les édifices ne construisent pas, ils sont construits : ils sont patients de l'infinitif, donc le participe reste invariable."
+    },
+    {
+      "id": "f2016_q12",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Les missives qu'ils nous ont adressés ne nous étaient pas destinés",
+        "b": "Les missives qu'ils nous ont adressé ne nous étaient pas destinées",
+        "c": "Les missives qu'ils nous ont adressées ne nous étaient pas destinées",
+        "d": "Les missives qu'ils nous ont adressé ne nous étaient pas destinés"
+      },
+      "correct": "c",
+      "explication": "« Adresser » : le COD « que » (les missives, féminin pluriel) placé avant entraîne l'accord (« adressées »), de même que « destinées »."
+    },
+    {
+      "id": "f2016_q13",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Les touristes préfèrent se déplacer via une moto",
+        "b": "Les touristes préfèrent se déplacer à portée d'une moto",
+        "c": "Les touristes préfèrent se déplacer en moto",
+        "d": "Les touristes préfèrent se déplacer à moto"
+      },
+      "correct": "c",
+      "explication": "Pour un véhicule que l'on enfourche/dans lequel on monte, l'usage courant est « en moto »."
+    },
+    {
+      "id": "f2016_q14",
+      "text": "Quelle est la fonction de l'expression soulignée dans la phrase suivante ? « Ma meilleure amie a été élue conseillère municipale »",
+      "choices": {
+        "a": "Complément d'objet direct",
+        "b": "Attribut du complément d'objet direct",
+        "c": "Complément de l'adjectif",
+        "d": "Attribut du sujet"
+      },
+      "correct": "b",
+      "explication": "À la forme active (« on a élu ma meilleure amie conseillère municipale »), « conseillère municipale » est attribut du COD."
+    },
+    {
+      "id": "f2016_q15",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Les notes de musique que nous avons perçues nous ont égayés",
+        "b": "Les notes de musique que nous avons perçue nous ont égayés",
+        "c": "Les notes de musique que nous avons perçus nous ont égayés",
+        "d": "Les notes de musique que nous avons perçu nous ont égayés"
+      },
+      "correct": "a",
+      "explication": "« Percevoir » : le COD « que » (les notes, féminin pluriel) placé avant entraîne l'accord (« perçues »)."
+    },
+    {
+      "id": "f2016_q16",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Les deux cent francs que ces mangues ont coûté nous ont été offerts",
+        "b": "Les deux cents francs que ces mangues ont coûté nous ont été offerts",
+        "c": "Les deux cents francs que ces mangues ont coûtées nous ont offerts",
+        "d": "Les deux cent francs que ces mangues ont coûtés nous ont été offerts"
+      },
+      "correct": "b",
+      "explication": "« Cent » multiplié par 2 et non suivi d'un autre nombre prend un s. « Coûter » suivi d'un complément de prix reste invariable."
+    },
+    {
+      "id": "f2016_q17",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Compte tenu des tempêtes qu'il a fait, nous avons déprogrammé la réunion",
+        "b": "Compte tenu des tempêtes qu'il a faites, nous avons déprogrammé la réunion",
+        "c": "Compte tenu des tempêtes qu'il a faite, nous avons déprogrammé la réunion",
+        "d": "Compte tenus des tempêtes qu'il a faits, nous avons déprogrammé la réunion"
+      },
+      "correct": "a",
+      "explication": "« Compte tenu de » est une locution figée invariable. Le « il » météorologique de « il a fait des tempêtes » est impersonnel : le participe reste invariable."
+    },
+    {
+      "id": "f2016_q18",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Les voleuses, nous les avons laissées partir",
+        "b": "Les voleuses, nous les avons laissés partir",
+        "c": "Les voleuses, nous les avons laissé partir",
+        "d": "Les voleuses, nous les avons laissée partir"
+      },
+      "correct": "a",
+      "explication": "« Les » (= les voleuses, féminin pluriel) est le sujet réel de « partir » : le participe s'accorde (« laissées »)."
+    },
+    {
+      "id": "f2016_q19",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Les raisons que nous avons pesé nous ont aidés",
+        "b": "Les raisons que nous avons pesés nous ont aidés",
+        "c": "Les raisons que nous avons pesées nous ont aidés",
+        "d": "Les raisons que nous avons pesé nous ont aidé"
+      },
+      "correct": "a",
+      "explication": "« Peser » suivi d'un complément de mesure/valeur reste invariable (comme « coûter »)."
+    },
+    {
+      "id": "f2016_q20",
+      "text": "Un champ lexical désigne :",
+      "choices": {
+        "a": "L'ensemble des sens d'un mot",
+        "b": "Un ensemble de mots se rapportant à un même thème",
+        "c": "Des mots de sens contraires",
+        "d": "Des mots se prononçant presque de la même façon"
+      },
+      "correct": "b",
+      "explication": "Un champ lexical regroupe les mots relatifs à un même thème."
+    }
+  ]
+}

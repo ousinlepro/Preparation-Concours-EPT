@@ -1,0 +1,244 @@
+{
+  "questions": [
+    {
+      "id": "a2017_q1",
+      "text": "________ Wolof?",
+      "choices": {
+        "a": "All senegalese speak",
+        "b": "Are all senegalese speaking",
+        "c": "All senegalese are speaking",
+        "d": "Do all senegalese speak"
+      },
+      "correct": "d",
+      "explication": "Question au présent simple : auxiliaire « do »."
+    },
+    {
+      "id": "a2017_q2",
+      "text": "Cats ________ to eat meat.",
+      "choices": {
+        "a": "are preferring",
+        "b": "is preferring",
+        "c": "prefer",
+        "d": "are prefer"
+      },
+      "correct": "c",
+      "explication": "Vérité générale : présent simple (« prefer » n'est pas un verbe à forme progressive courante)."
+    },
+    {
+      "id": "a2017_q3",
+      "text": "I don't know her. She ________ a student.",
+      "choices": {
+        "a": "may be",
+        "b": "must be",
+        "c": "rather be",
+        "d": "should"
+      },
+      "correct": "a",
+      "explication": "« I don't know her » exprime l'incertitude : « may be » (possibilité), pas « must be » (déduction certaine)."
+    },
+    {
+      "id": "a2017_q4",
+      "text": "________ an easy sport for most people.",
+      "choices": {
+        "a": "Run is",
+        "b": "To run is",
+        "c": "Running is",
+        "d": "Running"
+      },
+      "correct": "c",
+      "explication": "Le gérondif sujet (« Running ») s'accorde avec un verbe singulier : « Running is »."
+    },
+    {
+      "id": "a2017_q5",
+      "text": "You can't prevent me from ________ what I want.",
+      "choices": {
+        "a": "do",
+        "b": "doing",
+        "c": "to do",
+        "d": "me to do"
+      },
+      "correct": "b",
+      "explication": "« Prevent someone from + gérondif »."
+    },
+    {
+      "id": "a2017_q6",
+      "text": "This is the ________ interesting book I have ever read.",
+      "choices": {
+        "a": "more",
+        "b": "most",
+        "c": "less",
+        "d": "as"
+      },
+      "correct": "b",
+      "explication": "Superlatif avec « ever » : « the most interesting ». "
+    },
+    {
+      "id": "a2017_q7",
+      "text": "I will call you when I ________ arrive.",
+      "choices": {
+        "a": "will arrive",
+        "b": "arriving",
+        "c": "do arrive",
+        "d": "arrive"
+      },
+      "correct": "d",
+      "explication": "Après « when » dans une subordonnée de temps au futur, l'anglais utilise le présent simple."
+    },
+    {
+      "id": "a2017_q8",
+      "text": "She has ________ on her.",
+      "choices": {
+        "a": "a money",
+        "b": "few money",
+        "c": "a little money",
+        "d": "a few money"
+      },
+      "correct": "c",
+      "explication": "« Money » est indénombrable : « a little »."
+    },
+    {
+      "id": "a2017_q9",
+      "text": "Before I take the test tomorrow, I ________ my notes.",
+      "choices": {
+        "a": "review",
+        "b": "do reviewing",
+        "c": "will do review",
+        "d": "will review"
+      },
+      "correct": "d",
+      "explication": "Action future dans la proposition principale : futur simple « will review »."
+    },
+    {
+      "id": "a2017_q10",
+      "text": "She was happy ________",
+      "choices": {
+        "a": "see me",
+        "b": "me seeing",
+        "c": "to seeing me",
+        "d": "to see me"
+      },
+      "correct": "d",
+      "explication": "« Happy + to + infinitif » (adjectif de sentiment suivi de l'infinitif)."
+    },
+    {
+      "id": "a2017_q11",
+      "text": "It's bedtime. Can you turn off ________?",
+      "choices": {
+        "a": "a light",
+        "b": "the light",
+        "c": "light",
+        "d": "lights"
+      },
+      "correct": "b",
+      "explication": "Objet précis et connu : « the light »."
+    },
+    {
+      "id": "a2017_q12",
+      "text": "It is ________ mobile phone.",
+      "choices": {
+        "a": "hers",
+        "b": "her",
+        "c": "her's",
+        "d": "she's"
+      },
+      "correct": "b",
+      "explication": "Adjectif possessif devant un nom : « her mobile phone »."
+    },
+    {
+      "id": "a2017_q13",
+      "text": "There isn't a shop ________!",
+      "choices": {
+        "a": "anywhere",
+        "b": "anything",
+        "c": "nothing",
+        "d": "somewhere"
+      },
+      "correct": "a",
+      "explication": "Phrase négative + « anywhere »."
+    },
+    {
+      "id": "a2017_q14",
+      "text": "I left ________ homework at home.",
+      "choices": {
+        "a": "mine",
+        "b": "my",
+        "c": "myself",
+        "d": "me"
+      },
+      "correct": "b",
+      "explication": "Adjectif possessif devant un nom : « my homework »."
+    },
+    {
+      "id": "a2017_q15",
+      "text": "Thank you ________ me with my homework.",
+      "choices": {
+        "a": "to help",
+        "b": "helping",
+        "c": "for helping",
+        "d": "for to help"
+      },
+      "correct": "c",
+      "explication": "« Thank you for + gérondif »."
+    },
+    {
+      "id": "a2017_q16",
+      "text": "Ousmane doesn't have a car and ________",
+      "choices": {
+        "a": "neither does not Sidi",
+        "b": "neither does Sidi",
+        "c": "neither Sidi does",
+        "d": "Sidi doesn't neither"
+      },
+      "correct": "b",
+      "explication": "Inversion après « neither » : auxiliaire + sujet (« neither does Sidi »)."
+    },
+    {
+      "id": "a2017_q17",
+      "text": "The older she gets, the ________ she becomes.",
+      "choices": {
+        "a": "quieter",
+        "b": "more quieter",
+        "c": "quiet",
+        "d": "quietlier"
+      },
+      "correct": "a",
+      "explication": "Structure parallèle « the + comparatif..., the + comparatif » : « quieter »."
+    },
+    {
+      "id": "a2017_q18",
+      "text": "Mamadou and Karim ________",
+      "choices": {
+        "a": "haven't finished yet",
+        "b": "didn't finish yet",
+        "c": "haven't yet finished",
+        "d": "didn't yet finish"
+      },
+      "correct": "a",
+      "explication": "Present perfect négatif, « yet » en fin de phrase."
+    },
+    {
+      "id": "a2017_q19",
+      "text": "This is ________ building in the city.",
+      "choices": {
+        "a": "the most oldest",
+        "b": "the oldest",
+        "c": "oldest",
+        "d": "most oldest"
+      },
+      "correct": "b",
+      "explication": "Superlatif d'un adjectif court : « the oldest »."
+    },
+    {
+      "id": "a2017_q20",
+      "text": "Moussa's shirt is dirty. He ________ at the dry cleaners.",
+      "choices": {
+        "a": "is cleaning it",
+        "b": "was cleaned it",
+        "c": "clean it",
+        "d": "is having it cleaned"
+      },
+      "correct": "d",
+      "explication": "Causatif « have something done » : il fait nettoyer sa chemise par quelqu'un d'autre."
+    }
+  ]
+}

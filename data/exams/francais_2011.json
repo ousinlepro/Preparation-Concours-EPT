@@ -1,0 +1,224 @@
+{
+  "questions": [
+    {
+      "id": "f2011_q1",
+      "text": "Laquelle de ces phrases ne comporte pas de faute ?",
+      "choices": {
+        "a": "Elles se sont rencontrées et se sont parlé",
+        "b": "Elles se sont rencontrées et se sont parlé",
+        "c": "Elles se sont rencontré et se sont parlées"
+      },
+      "correct": "a",
+      "explication": "« Se rencontrer » (direct, se=COD) s'accorde : « rencontrées ». « Se parler » (indirect, parler à qqn) reste invariable : « parlé »."
+    },
+    {
+      "id": "f2011_q2",
+      "text": "Quel type de discours avons-nous dans l'énoncé suivant ? « Ma mère m'a dit qu'elle ne viendrait pas demain »",
+      "choices": {
+        "a": "Discours indirect",
+        "b": "Discours indirect libre",
+        "c": "Discours direct"
+      },
+      "correct": "a",
+      "explication": "La parole rapportée est intégrée dans une subordonnée introduite par « que » : c'est du discours indirect."
+    },
+    {
+      "id": "f2011_q3",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "L'affaire pour qui tu es venu ne pourra pas être réglée",
+        "b": "L'affaire dont tu es venu ne pourra pas être réglée",
+        "c": "L'affaire pour laquelle tu es venu ne pourra pas être réglée"
+      },
+      "correct": "c",
+      "explication": "« Venir POUR une affaire » : le relatif adapté est « pour laquelle »."
+    },
+    {
+      "id": "f2011_q4",
+      "text": "Cochez la phrase correcte",
+      "choices": {
+        "a": "Elles se sont écrites des lettres et se sont téléphonées",
+        "b": "Elles se sont écrit des lettres et se sont téléphoné",
+        "c": "Elles se sont écrit des lettres et se sont téléphoné"
+      },
+      "correct": "c",
+      "explication": "« Écrire une lettre à quelqu'un » (indirect, COD « des lettres » placé après) et « téléphoner à quelqu'un » (indirect) : les deux participes restent invariables."
+    },
+    {
+      "id": "f2011_q5",
+      "text": "Quelle figure de style avons-nous dans la phrase suivante ? « une obscure clarté tombe des étoiles »",
+      "choices": {
+        "a": "Une hyperbole",
+        "b": "Un oxymore",
+        "c": "Une périphrase"
+      },
+      "correct": "b",
+      "explication": "« Obscure clarté » associe deux termes contradictoires : c'est un oxymore (vers célèbre du Cid, Corneille)."
+    },
+    {
+      "id": "f2011_q6",
+      "text": "Un hémistiche désigne :",
+      "choices": {
+        "a": "Une coupe divisant un vers en deux parties",
+        "b": "Une moitié d'alexandrin",
+        "c": "Un accent portant sur la dernière syllabe d'un vers"
+      },
+      "correct": "b",
+      "explication": "L'hémistiche est chacune des deux moitiés d'un alexandrin séparées par la césure."
+    },
+    {
+      "id": "f2011_q7",
+      "text": "Cochez la phrase correcte",
+      "choices": {
+        "a": "Après qu'il est venu, je lui ai donné son courrier",
+        "b": "Après qu'il soit venu, je lui ai donné son courrier",
+        "c": "Après qu'il fût venu, je lui ai donné son courrier"
+      },
+      "correct": "a",
+      "explication": "« Après que » se construit avec l'indicatif (« est venu »), contrairement à « avant que » qui prend le subjonctif."
+    },
+    {
+      "id": "f2011_q8",
+      "text": "Cochez la phrase correcte",
+      "choices": {
+        "a": "C'est un plat que tout le monde raffole",
+        "b": "C'est un plat dont tout le monde raffole",
+        "c": "C'est un plat auquel tout le monde raffole"
+      },
+      "correct": "b",
+      "explication": "« Raffoler DE quelque chose » : le relatif adapté est « dont »."
+    },
+    {
+      "id": "f2011_q9",
+      "text": "Lequel de ces courants littéraires appartient au XIXᵉ siècle ?",
+      "choices": {
+        "a": "Le surréalisme",
+        "b": "Le classicisme",
+        "c": "Le parnasse"
+      },
+      "correct": "c",
+      "explication": "Le parnasse est un mouvement poétique du XIXᵉ siècle (le surréalisme est du XXᵉ, le classicisme du XVIIᵉ)."
+    },
+    {
+      "id": "f2011_q10",
+      "text": "Cochez la phrase correcte",
+      "choices": {
+        "a": "Elles sont court-vêtu",
+        "b": "Elles sont court-vêtues",
+        "c": "Elles sont courtes-vêtues"
+      },
+      "correct": "b",
+      "explication": "« Court » employé adverbialement devant un participe reste invariable ; « vêtues » s'accorde avec le sujet."
+    },
+    {
+      "id": "f2011_q11",
+      "text": "Cochez la phrase correcte",
+      "choices": {
+        "a": "Les pommes que j'ai vu cueillir sont vertes",
+        "b": "Les pommes que j'ai vues cueillir sont vertes",
+        "c": "Les pommes que j'ai vus cueillir sont vertes"
+      },
+      "correct": "a",
+      "explication": "Les pommes ne font pas l'action de « cueillir » (elles la subissent) : le participe suivi de l'infinitif reste invariable."
+    },
+    {
+      "id": "f2011_q12",
+      "text": "Cochez la phrase correcte",
+      "choices": {
+        "a": "Quelles chansons a-t-elle composées ?",
+        "b": "Quelles chansons a-t-elle composée ?",
+        "c": "Quelles chansons a-t-elle composé ?"
+      },
+      "correct": "a",
+      "explication": "Le COD « quelles chansons » (féminin pluriel) est placé avant le verbe : le participe s'accorde."
+    },
+    {
+      "id": "f2011_q13",
+      "text": "À quel temps est employée la forme verbale soulignée dans la phrase : « on eût dit que la vie allait cesser » ?",
+      "choices": {
+        "a": "Le passé antérieur",
+        "b": "L'imparfait du subjonctif",
+        "c": "Le conditionnel passé deuxième forme"
+      },
+      "correct": "c",
+      "explication": "« Eût dit » (auxiliaire à l'imparfait du subjonctif + participe passé) est la forme littéraire du conditionnel passé, dite « deuxième forme »."
+    },
+    {
+      "id": "f2011_q14",
+      "text": "Cochez la phrase correcte",
+      "choices": {
+        "a": "Les journalistes demandent à leurs lecteurs de les écrire",
+        "b": "Les journalistes demandent à leurs lecteurs de leurs écrire",
+        "c": "Les journalistes demandent à leurs lecteurs de leur écrire"
+      },
+      "correct": "c",
+      "explication": "« Écrire à quelqu'un » est indirect : il faut le pronom indirect « leur », pas « les »."
+    },
+    {
+      "id": "f2011_q15",
+      "text": "Quelle est la fonction du groupe nominal souligné dans : « le vieil homme a légué sa fortune à ses enfants »",
+      "choices": {
+        "a": "Complément d'objet second",
+        "b": "Complément du nom",
+        "c": "Complément d'objet indirect"
+      },
+      "correct": "a",
+      "explication": "Dans « léguer quelque chose (COD) à quelqu'un », le second complément (« à ses enfants ») est le complément d'objet second."
+    },
+    {
+      "id": "f2011_q16",
+      "text": "La Pléiade désigne :",
+      "choices": {
+        "a": "Un courant littéraire du XIXᵉ siècle",
+        "b": "Un groupe de sept poètes du XVIe siècle",
+        "c": "Les principales œuvres du classicisme"
+      },
+      "correct": "b",
+      "explication": "La Pléiade est un groupe de sept poètes français du XVIᵉ siècle (Ronsard, du Bellay...)."
+    },
+    {
+      "id": "f2011_q17",
+      "text": "Cochez la phrase correcte",
+      "choices": {
+        "a": "Je connais les noms des reines qui se sont succédé au trône",
+        "b": "Je connais les noms des reines qui se sont succédées au trône",
+        "c": "Je connais les noms des reines qui se sont succédés au trône"
+      },
+      "correct": "a",
+      "explication": "« Succéder à quelqu'un » est indirect : « se succéder » reste toujours invariable."
+    },
+    {
+      "id": "f2011_q18",
+      "text": "Cochez la phrase",
+      "choices": {
+        "a": "Les deux heures que nous avons courues ont été dures",
+        "b": "Les deux heures que nous avons couru ont été dures",
+        "c": "Les deux heures que nous avons couru ont été dures"
+      },
+      "correct": "b",
+      "explication": "« Courir » suivi d'un complément de durée n'est pas un vrai COD (comme « peser », « coûter ») : le participe reste invariable."
+    },
+    {
+      "id": "f2011_q19",
+      "text": "Cochez la phrase correcte",
+      "choices": {
+        "a": "Quelles fautes avez-vous pus trouver ?",
+        "b": "Quelles fautes avez-vous pu trouver ?",
+        "c": "Quelles fautes avez-vous pues trouver ?"
+      },
+      "correct": "b",
+      "explication": "Le participe passé de « pouvoir » (« pu ») est toujours invariable."
+    },
+    {
+      "id": "f2011_q20",
+      "text": "Cochez la phrase correcte",
+      "choices": {
+        "a": "Elles se sont rendu compte de leurs erreurs",
+        "b": "Elles se sont rendus compte de leurs erreurs",
+        "c": "Elles se sont rendues compte de leurs erreurs"
+      },
+      "correct": "a",
+      "explication": "Dans « se rendre compte », « compte » est le vrai COD (placé après le verbe) : le participe « rendu » reste invariable, quel que soit le sujet."
+    }
+  ]
+}

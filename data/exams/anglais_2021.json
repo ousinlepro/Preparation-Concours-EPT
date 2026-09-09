@@ -1,0 +1,238 @@
+{
+  "questions": [
+    {
+      "id": "a2021_q1",
+      "text": "My grandparents walk _____ twenty minutes a day.",
+      "choices": {
+        "a": "for",
+        "b": "since",
+        "c": "ago",
+        "d": "during"
+      },
+      "correct": "a",
+      "explication": "'For' introduit une durée ('for twenty minutes')."
+    },
+    {
+      "id": "a2021_q2",
+      "text": "How long is it _____ you visited your grandparents?",
+      "choices": {
+        "a": "for",
+        "b": "since",
+        "c": "ago",
+        "d": "during"
+      },
+      "correct": "b",
+      "explication": "'How long is it since...' est une structure figée pour demander depuis quand un évènement n'a pas eu lieu."
+    },
+    {
+      "id": "a2021_q3",
+      "text": "I _____ walk when I was less than a year old.",
+      "choices": {
+        "a": "can",
+        "b": "could",
+        "c": "have can",
+        "d": "had been able"
+      },
+      "correct": "b",
+      "explication": "'Could' exprime une capacité passée."
+    },
+    {
+      "id": "a2021_q4",
+      "text": "(Polite) _____ you tell me what time it is, please?",
+      "choices": {
+        "a": "Could",
+        "b": "Can",
+        "c": "Will",
+        "d": "May"
+      },
+      "correct": "a",
+      "explication": "'Could' est la forme la plus polie pour formuler une demande."
+    },
+    {
+      "id": "a2021_q5",
+      "text": "If I eat peanut butter, I ________ sick.",
+      "choices": {
+        "a": "would have gotten",
+        "b": "would get",
+        "c": "get",
+        "d": "got"
+      },
+      "correct": "c",
+      "explication": "Conditionnel zéro (vérité générale) : présent simple dans les deux propositions."
+    },
+    {
+      "id": "a2021_q6",
+      "text": "What will you do if you ________ the history exam?",
+      "choices": {
+        "a": "would fail",
+        "b": "will fail",
+        "c": "fail",
+        "d": "failed"
+      },
+      "correct": "c",
+      "explication": "Premier conditionnel : 'if' + présent simple ('fail'), 'will' dans la principale."
+    },
+    {
+      "id": "a2021_q7",
+      "text": "I can't imagine ________ my own house.",
+      "choices": {
+        "a": "buying",
+        "b": "to buy",
+        "c": "bought",
+        "d": "buying/to buy"
+      },
+      "correct": "a",
+      "explication": "Le verbe 'imagine' se construit avec un gérondif ('imagine buying')."
+    },
+    {
+      "id": "a2021_q8",
+      "text": "I used ________ that television show all the time.",
+      "choices": {
+        "a": "watching",
+        "b": "to watch",
+        "c": "watching/to watch",
+        "d": "to watching"
+      },
+      "correct": "b",
+      "explication": "'Used to' + infinitif exprime une habitude passée révolue."
+    },
+    {
+      "id": "a2021_q9",
+      "text": "If I _____ you I would call her tonight.",
+      "choices": {
+        "a": "was",
+        "b": "were",
+        "c": "am",
+        "d": "are"
+      },
+      "correct": "b",
+      "explication": "Second conditionnel : on emploie 'were' pour tous les sujets dans la forme soutenue ('If I were you')."
+    },
+    {
+      "id": "a2021_q10",
+      "text": "All employees ________ on time for work.",
+      "choices": {
+        "a": "must be",
+        "b": "mustn't",
+        "c": "have to",
+        "d": "has to"
+      },
+      "correct": "a",
+      "explication": "'Must be' exprime une obligation, accordée au sujet pluriel 'employees'."
+    },
+    {
+      "id": "a2021_q11",
+      "text": "We ________ forget to take the chicken out of the freezer.",
+      "choices": {
+        "a": "have to not",
+        "b": "must",
+        "c": "mustn't",
+        "d": "may not"
+      },
+      "correct": "c",
+      "explication": "'Mustn't' exprime une interdiction/obligation négative : il ne faut pas oublier."
+    },
+    {
+      "id": "a2021_q12",
+      "text": "Will you ________ by 8 am?",
+      "choices": {
+        "a": "have arrived",
+        "b": "be arrive",
+        "c": "have arriving",
+        "d": "arrived"
+      },
+      "correct": "a",
+      "explication": "Futur antérieur : 'will have' + participe passé ('arrived')."
+    },
+    {
+      "id": "a2021_q13",
+      "text": "We won't ________ until we get there.",
+      "choices": {
+        "a": "knowing",
+        "b": "have know",
+        "c": "know",
+        "d": "knew"
+      },
+      "correct": "c",
+      "explication": "'Won't' (future simple négatif) est suivi de la base verbale ('know')."
+    },
+    {
+      "id": "a2021_q14",
+      "text": "I ________ back before Friday.",
+      "choices": {
+        "a": "'ll be",
+        "b": "will",
+        "c": "am being",
+        "d": "were"
+      },
+      "correct": "a",
+      "explication": "Futur simple : \"I'll be back\" (will + be)."
+    },
+    {
+      "id": "a2021_q15",
+      "text": "Alexander _____ taking his driving test next week.",
+      "choices": {
+        "a": "will",
+        "b": "is",
+        "c": "have been",
+        "d": "have"
+      },
+      "correct": "b",
+      "explication": "Present continuous à valeur de futur pour un projet déjà programmé ('is taking')."
+    },
+    {
+      "id": "a2021_q16",
+      "text": "The bus _____ at 7:30 sharp.",
+      "choices": {
+        "a": "arrives",
+        "b": "is arriving",
+        "c": "will arrive",
+        "d": "has arrive"
+      },
+      "correct": "a",
+      "explication": "Le présent simple s'utilise pour un horaire fixe ('arrives at 7:30')."
+    },
+    {
+      "id": "a2021_q17",
+      "text": "They were late ____ usual.",
+      "choices": {
+        "a": "as",
+        "b": "like"
+      },
+      "correct": "a",
+      "explication": "'As usual' est l'expression figée signifiant 'comme d'habitude'."
+    },
+    {
+      "id": "a2021_q18",
+      "text": "I gave it to her ____ a present.",
+      "choices": {
+        "a": "as",
+        "b": "like"
+      },
+      "correct": "a",
+      "explication": "'As' s'utilise pour indiquer le rôle ou la fonction de quelque chose ('as a present' = en tant que cadeau)."
+    },
+    {
+      "id": "a2021_q19",
+      "text": "I get up ___ 7am.",
+      "choices": {
+        "a": "in",
+        "b": "at",
+        "c": "on"
+      },
+      "correct": "b",
+      "explication": "Les heures précises s'utilisent avec la préposition 'at'."
+    },
+    {
+      "id": "a2021_q20",
+      "text": "The class is ____ Tuesdays and Thursdays.",
+      "choices": {
+        "a": "in",
+        "b": "on",
+        "c": "at"
+      },
+      "correct": "b",
+      "explication": "Les jours de la semaine s'utilisent avec la préposition 'on'."
+    }
+  ]
+}

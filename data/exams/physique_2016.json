@@ -1,0 +1,244 @@
+{
+  "questions": [
+    {
+      "id": "p2016_q1",
+      "text": "Calculer le potentiel dû à une charge électrique $q=4.10^{-9}C$ à une distance $r=6\\,cm$ de celle-ci. ($1/4\\pi\\varepsilon_0=9.10^9\\,SI$)",
+      "choices": {
+        "a": "$100\\,V$",
+        "b": "$600\\,V$",
+        "c": "$3600\\,V$",
+        "d": "$2400\\,V$"
+      },
+      "correct": "b",
+      "explication": "$V=kq/r=9.10^9\\times4.10^{-9}/0{,}06=600\\,V$."
+    },
+    {
+      "id": "p2016_q2",
+      "text": "Quelle est en picofarad (pF) la capacité d'un condensateur plan placé dans le vide, constitué de deux armatures métalliques identiques de surface $100\\,cm^2$, distantes de $2.10^{-3}\\,m$ ?",
+      "choices": {
+        "a": "$22$",
+        "b": "$88$",
+        "c": "$44$",
+        "d": "$66$"
+      },
+      "correct": "c",
+      "explication": "$C=\\varepsilon_0S/d=8{,}85.10^{-12}\\times0{,}01/2.10^{-3}\\approx44\\,pF$."
+    },
+    {
+      "id": "p2016_q3",
+      "text": "Un circuit comporte deux générateurs en série (12V, 0,2Ω et 6V, 0,1Ω, de même polarité) et deux conducteurs ohmiques (2,3Ω et 1,4Ω). Quelle est en ampères l'intensité du courant ?",
+      "choices": {
+        "a": "$0{,}6$",
+        "b": "$1{,}5$",
+        "c": "$4{,}5$",
+        "d": "$2$"
+      },
+      "correct": "c",
+      "explication": "Les deux générateurs s'ajoutent : $E=12+6=18\\,V$ pour une résistance totale $0{,}2+0{,}1+2{,}3+1{,}4=4\\,\\Omega$ : $I=18/4=4{,}5\\,A$."
+    },
+    {
+      "id": "p2016_q4",
+      "text": "Quel est en mètre le rayon minimum de la trajectoire d'une particule de rapport charge sur masse $q/m=4{,}8.10^7\\,C.kg^{-1}$, qui est accélérée dans un cyclotron de tension entre les « D » égale à $24\\,MV$ et placée dans un champ d'induction magnétique de $1$ tesla ?",
+      "choices": {
+        "a": "$1$",
+        "b": "$0{,}5$",
+        "c": "$2$",
+        "d": "$1{,}5$"
+      },
+      "correct": "a",
+      "explication": "$v=\\sqrt{2(q/m)U}=\\sqrt{2\\times4{,}8.10^7\\times24.10^6}=4{,}8.10^7\\,m/s$ ; $r=v/((q/m)B)=1\\,m$."
+    },
+    {
+      "id": "p2016_q5",
+      "text": "En $0{,}5\\,s$ un coureur de $100\\,m$ passe de la vitesse $0$ à la vitesse $10\\,m.s^{-1}$ qui reste constante jusqu'à la fin de la course. Quel a été le temps de son $100\\,m$ ?",
+      "choices": {
+        "a": "$10{,}25$",
+        "b": "$10{,}5$",
+        "c": "$9{,}95$",
+        "d": "$10{,}35$"
+      },
+      "correct": "a",
+      "explication": "Distance parcourue en accélération : $\\frac{0+10}{2}\\times0{,}5=2{,}5\\,m$ ; distance restante $97{,}5\\,m$ à $10\\,m/s$ : $9{,}75\\,s$. Total $10{,}25\\,s$."
+    },
+    {
+      "id": "p2016_q6",
+      "text": "Sur une trajectoire rectiligne, un véhicule atteint une vitesse de $60\\,km/h$, $15\\,s$ après son départ. Quelle est, dans le système international, l'accélération que l'on suppose constante pendant ces $15\\,s$ ?",
+      "choices": {
+        "a": "$4$",
+        "b": "$2{,}2$",
+        "c": "$0{,}2$",
+        "d": "$1{,}1$"
+      },
+      "correct": "d",
+      "explication": "$v=60\\,km/h\\approx16{,}67\\,m/s$ ; $a=v/t=16{,}67/15\\approx1{,}1\\,m.s^{-2}$."
+    },
+    {
+      "id": "p2016_q7",
+      "text": "Le temps mis en secondes par le véhicule pour atteindre $120\\,km/h$ avec la même accélération ?",
+      "choices": {
+        "a": "$20$",
+        "b": "$40$",
+        "c": "$22{,}5$",
+        "d": "$30$"
+      },
+      "correct": "d",
+      "explication": "$v=120\\,km/h\\approx33{,}33\\,m/s$ ; $t=v/a=33{,}33/1{,}1\\approx30\\,s$."
+    },
+    {
+      "id": "p2016_q8",
+      "text": "La distance en mètre parcourue par le véhicule pour passer de $60\\,km/h$ à $120\\,km/h$ ?",
+      "choices": {
+        "a": "$90$",
+        "b": "$375$",
+        "c": "$180$",
+        "d": "$215$"
+      },
+      "correct": "b",
+      "explication": "$d=\\dfrac{v_2^2-v_1^2}{2a}=\\dfrac{33{,}33^2-16{,}67^2}{2{,}2}\\approx375\\,m$."
+    },
+    {
+      "id": "p2016_q9",
+      "text": "Soient deux forces $\\vec F_1$ et $\\vec F_2$, telles que l'angle entre elles vaut $60°$ et que les modules soient respectivement $3N$ et $4N$. Calculer en Newton le module de la résultante de ces deux forces.",
+      "choices": {
+        "a": "$7$",
+        "b": "$6{,}08$",
+        "c": "$12{,}16$",
+        "d": "$3{,}5$"
+      },
+      "correct": "b",
+      "explication": "$R=\\sqrt{F_1^2+F_2^2+2F_1F_2\\cos60°}=\\sqrt{9+16+12}=\\sqrt{37}\\approx6{,}08\\,N$."
+    },
+    {
+      "id": "p2016_q10",
+      "text": "Un ascenseur de $300\\,kg$ démarre avec une accélération de $2\\,m/s^2$. Quelle est en Newton la tension du câble qui le soutient lorsque l'ascenseur commence à descendre ? ($g=9{,}8\\,m.s^{-2}$)",
+      "choices": {
+        "a": "$3540$",
+        "b": "$2340$",
+        "c": "$840$",
+        "d": "$1120$"
+      },
+      "correct": "b",
+      "explication": "En descente accélérée, $T=m(g-a)=300\\times(9{,}8-2)=2340\\,N$."
+    },
+    {
+      "id": "p2016_q11",
+      "text": "Quelle est en Newton la tension de ce même câble lorsque l'ascenseur commence à monter ?",
+      "choices": {
+        "a": "$3540$",
+        "b": "$2340$",
+        "c": "$840$",
+        "d": "$1120$"
+      },
+      "correct": "a",
+      "explication": "En montée accélérée, $T=m(g+a)=300\\times(9{,}8+2)=3540\\,N$."
+    },
+    {
+      "id": "p2016_q12",
+      "text": "Sachant que la période du pendule simple est $T=2\\pi\\sqrt{l/g}$, quelle est la variation relative $\\Delta T/T$ de la période quand $g=9{,}83\\,m/s^2$ varie de $\\Delta g=0{,}05\\,m/s^2$ et que $l=1\\,m$ varie de $\\Delta l=2\\,mm$ ?",
+      "choices": {
+        "a": "$1{,}5.10^{-2}$",
+        "b": "$3.10^{-4}$",
+        "c": "$4{,}5.10^{-3}$",
+        "d": "$3{,}5.10^{-3}$"
+      },
+      "correct": "d",
+      "explication": "$\\left|\\dfrac{\\Delta T}{T}\\right|\\leq\\frac12\\dfrac{\\Delta l}{l}+\\frac12\\dfrac{\\Delta g}{g}=\\frac12(0{,}002)+\\frac12(0{,}05/9{,}83)\\approx3{,}5.10^{-3}$ (majoration usuelle des incertitudes, qui s'additionnent)."
+    },
+    {
+      "id": "p2016_q13",
+      "text": "Quelle est en m/s la vitesse d'un véhicule se déplaçant à $72\\,km/h$ ?",
+      "choices": {
+        "a": "$72$",
+        "b": "$20$",
+        "c": "$4$",
+        "d": "$24$"
+      },
+      "correct": "b",
+      "explication": "$72/3{,}6=20\\,m/s$."
+    },
+    {
+      "id": "p2016_q14",
+      "text": "Le travail d'une force s'exprime en :",
+      "choices": {
+        "a": "Newton",
+        "b": "Hertz",
+        "c": "Joule",
+        "d": "Pascal"
+      },
+      "correct": "c",
+      "explication": "Le travail d'une force est une énergie : il s'exprime en joules."
+    },
+    {
+      "id": "p2016_q15",
+      "text": "Quel est en degré l'angle de tir d'un canon pour que l'obus émis avec une vitesse de $100\\,m/s$ atteigne une cible placée à $500\\,m$ à la même altitude ? ($g=9{,}8\\,m.s^{-2}$)",
+      "choices": {
+        "a": "$30°$",
+        "b": "$15°$",
+        "c": "$45°$",
+        "d": "$60°$"
+      },
+      "correct": "b",
+      "explication": "$\\sin(2\\theta)=dg/v^2=500\\times9{,}8/10000=0{,}49\\Rightarrow2\\theta\\approx29{,}3°\\Rightarrow\\theta\\approx15°$."
+    },
+    {
+      "id": "p2016_q16",
+      "text": "Un bloc de bois de masse $M=995\\,g$ est suspendu à l'extrémité d'un fil. Une balle de carabine de masse $m=5\\,g$ frappe ce bloc avec une vitesse horizontale $v=400\\,m/s$ et reste dans le bloc. Quelle est en m/s la vitesse du bloc tout de suite après le choc ?",
+      "choices": {
+        "a": "$2{,}5$",
+        "b": "$2$",
+        "c": "$3$",
+        "d": "$1{,}5$"
+      },
+      "correct": "b",
+      "explication": "Conservation de la quantité de mouvement : $V=\\dfrac{mv}{M+m}=\\dfrac{0{,}005\\times400}{1}=2\\,m/s$."
+    },
+    {
+      "id": "p2016_q17",
+      "text": "Après le choc, à quelle hauteur en mètre s'élève le bloc au-dessus de sa position d'équilibre ?",
+      "choices": {
+        "a": "$0{,}6$",
+        "b": "$0{,}7$",
+        "c": "$0{,}2$",
+        "d": "$0{,}4$"
+      },
+      "correct": "c",
+      "explication": "$h=V^2/(2g)=4/19{,}62\\approx0{,}2\\,m$."
+    },
+    {
+      "id": "p2016_q18",
+      "text": "Quelle fraction de noyaux d'une substance radioactive, dont la période est $71{,}3$ jours, se désintègre au bout d'un mois ?",
+      "choices": {
+        "a": "$\\dfrac37$",
+        "b": "$\\dfrac14$",
+        "c": "$\\dfrac13$",
+        "d": "$\\dfrac18$"
+      },
+      "correct": "b",
+      "explication": "Fraction restante $=(1/2)^{30/71{,}3}\\approx0{,}75$ : environ $1/4$ des noyaux se sont désintégrés."
+    },
+    {
+      "id": "p2016_q19",
+      "text": "Quel angle critique correspond au passage de la lumière du verre (indice $1{,}56$) à l'air (indice $1$) ?",
+      "choices": {
+        "a": "$40°$",
+        "b": "$45°$",
+        "c": "$50°$",
+        "d": "$30°$"
+      },
+      "correct": "a",
+      "explication": "$\\sin(\\theta_c)=1/1{,}56\\approx0{,}641\\Rightarrow\\theta_c\\approx40°$."
+    },
+    {
+      "id": "p2016_q20",
+      "text": "Quelle est en µm la longueur d'onde de la lumière utilisée au cours d'une expérience avec des fentes de Young écartées de $0{,}8\\,mm$, qui donnent un interfrange $i=0{,}3\\,mm$ sur un écran placé à $0{,}5\\,m$ des fentes ?",
+      "choices": {
+        "a": "$0{,}3$",
+        "b": "$0{,}12$",
+        "c": "$2{,}08$",
+        "d": "$0{,}48$"
+      },
+      "correct": "d",
+      "explication": "$\\lambda=ia/D=0{,}3\\times0{,}8/500\\approx0{,}48\\,\\mu m$."
+    }
+  ]
+}

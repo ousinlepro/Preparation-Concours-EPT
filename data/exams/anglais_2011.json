@@ -1,0 +1,244 @@
+{
+  "questions": [
+    {
+      "id": "a2011_q1",
+      "text": "You ________ if you don't want to miss the bus.",
+      "choices": {
+        "a": "had to better hurry",
+        "b": "had better hurry",
+        "c": "had better to hurry",
+        "d": "better to hurry"
+      },
+      "correct": "b",
+      "explication": "« Had better + base verbale » (sans « to »)."
+    },
+    {
+      "id": "a2011_q2",
+      "text": "I wouldn't mind ________ outside.",
+      "choices": {
+        "a": "waiting",
+        "b": "to wait",
+        "c": "waited",
+        "d": "wait"
+      },
+      "correct": "a",
+      "explication": "« Mind + gérondif »."
+    },
+    {
+      "id": "a2011_q3",
+      "text": "We would have bought a new car if we ________ enough money.",
+      "choices": {
+        "a": "had have",
+        "b": "have had",
+        "c": "had had",
+        "d": "would have"
+      },
+      "correct": "c",
+      "explication": "Troisième conditionnel : « if + plus-que-parfait » (« had had »)."
+    },
+    {
+      "id": "a2011_q4",
+      "text": "She has studied English ________.",
+      "choices": {
+        "a": "since five years",
+        "b": "for five years",
+        "c": "five years ago",
+        "d": "during five years"
+      },
+      "correct": "b",
+      "explication": "« For » + une durée avec le present perfect (« since » s'utilise avec un point de départ précis)."
+    },
+    {
+      "id": "a2011_q5",
+      "text": "Is your book ________?",
+      "choices": {
+        "a": "the same to mine",
+        "b": "the same than mine",
+        "c": "the same as mine",
+        "d": "the same that mine"
+      },
+      "correct": "c",
+      "explication": "« The same as » est la structure comparative correcte."
+    },
+    {
+      "id": "a2011_q6",
+      "text": "Abdou isn't ________ to be a soldier.",
+      "choices": {
+        "a": "enough to old",
+        "b": "enough old",
+        "c": "older enough",
+        "d": "old enough"
+      },
+      "correct": "d",
+      "explication": "L'ordre correct est « adjectif + enough »."
+    },
+    {
+      "id": "a2011_q7",
+      "text": "Aziz is only 16. He wishes he ________ ten years older.",
+      "choices": {
+        "a": "were",
+        "b": "had been",
+        "c": "would be",
+        "d": "would have been"
+      },
+      "correct": "a",
+      "explication": "« Wish + prétérit modal (were) » pour un souhait irréel présent."
+    },
+    {
+      "id": "a2011_q8",
+      "text": "She made her daughter ________ her homework before going to bed.",
+      "choices": {
+        "a": "do",
+        "b": "doing",
+        "c": "done",
+        "d": "to do"
+      },
+      "correct": "a",
+      "explication": "« Make someone + base verbale » (causatif « make », sans « to »)."
+    },
+    {
+      "id": "a2011_q9",
+      "text": "Dad had the T.V. set ________, so we can watch our favourite film today.",
+      "choices": {
+        "a": "reparing",
+        "b": "repaired",
+        "c": "to repair",
+        "d": "be repairing"
+      },
+      "correct": "b",
+      "explication": "« Have something done » (causatif, participe passé)."
+    },
+    {
+      "id": "a2011_q10",
+      "text": "Let's forget our troubles, ________?",
+      "choices": {
+        "a": "wouldn't you?",
+        "b": "would you?",
+        "c": "shall we?",
+        "d": "should we?"
+      },
+      "correct": "c",
+      "explication": "Le tag standard après « Let's » est « shall we? »."
+    },
+    {
+      "id": "a2011_q11",
+      "text": "I will never get used to his ________ out every night.",
+      "choices": {
+        "a": "go",
+        "b": "gone",
+        "c": "going",
+        "d": "goes"
+      },
+      "correct": "c",
+      "explication": "« Be/get used to + gérondif »."
+    },
+    {
+      "id": "a2011_q12",
+      "text": "Don't let her ________ all these horror films.",
+      "choices": {
+        "a": "watching",
+        "b": "to watch",
+        "c": "watches",
+        "d": "watch"
+      },
+      "correct": "d",
+      "explication": "« Let someone + base verbale » (causatif « let »)."
+    },
+    {
+      "id": "a2011_q13",
+      "text": "That school was too far for ________ to arrive on time.",
+      "choices": {
+        "a": "mine",
+        "b": "my",
+        "c": "me",
+        "d": "I"
+      },
+      "correct": "c",
+      "explication": "« For + pronom complément + infinitif » : « me »."
+    },
+    {
+      "id": "a2011_q14",
+      "text": "Your hair needs ________.",
+      "choices": {
+        "a": "cut",
+        "b": "to cut",
+        "c": "cutting",
+        "d": "been cut"
+      },
+      "correct": "c",
+      "explication": "« Need + gérondif » a un sens passif (« needs cutting » = a besoin d'être coupé)."
+    },
+    {
+      "id": "a2011_q15",
+      "text": "She'd rather he ________ another one, but it's too late now.",
+      "choices": {
+        "a": "chooses",
+        "b": "had chosen",
+        "c": "chosen",
+        "d": "chose"
+      },
+      "correct": "b",
+      "explication": "« Would rather + sujet + plus-que-parfait » pour exprimer un regret sur le passé (« it's too late now »)."
+    },
+    {
+      "id": "a2011_q16",
+      "text": "I must not forget ________ my wheel!",
+      "choices": {
+        "a": "to changing",
+        "b": "changing",
+        "c": "change",
+        "d": "to change"
+      },
+      "correct": "d",
+      "explication": "« Forget + to + infinitif » (oublier de faire quelque chose)."
+    },
+    {
+      "id": "a2011_q17",
+      "text": "Don't worry, there's enough ________ for all our guests.",
+      "choices": {
+        "a": "to eat",
+        "b": "eat",
+        "c": "eating",
+        "d": "eaten"
+      },
+      "correct": "a",
+      "explication": "« Enough + to + infinitif » (« there's enough to eat »)."
+    },
+    {
+      "id": "a2011_q18",
+      "text": "He wanted the letter ________ immediately.",
+      "choices": {
+        "a": "to read",
+        "b": "to reading",
+        "c": "be read",
+        "d": "to be read"
+      },
+      "correct": "d",
+      "explication": "« Want something to be done » (infinitif passif)."
+    },
+    {
+      "id": "a2011_q19",
+      "text": "A person who takes pictures is ________.",
+      "choices": {
+        "a": "nurse",
+        "b": "actor",
+        "c": "photographer",
+        "d": "singer"
+      },
+      "correct": "c",
+      "explication": "Une personne qui prend des photos est un(e) « photographer »."
+    },
+    {
+      "id": "a2011_q20",
+      "text": "The thing you type on on a computer is ________.",
+      "choices": {
+        "a": "mouse",
+        "b": "keyboard",
+        "c": "screen",
+        "d": "newspaper"
+      },
+      "correct": "b",
+      "explication": "On tape (« type ») sur un « keyboard » (clavier)."
+    }
+  ]
+}

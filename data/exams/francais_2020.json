@@ -1,0 +1,244 @@
+{
+  "questions": [
+    {
+      "id": "f2020_q1",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Les deux sentinelles se sont appelé et se sont données des consignes",
+        "b": "Les deux sentinelles se sont appelés et se sont donnés des consignes",
+        "c": "Les deux sentinelles se sont appelées et se sont donné des consignes",
+        "d": "Les deux sentinelles se sont appelé et se sont donné des consignes"
+      },
+      "correct": "c",
+      "explication": "« S'appeler quelqu'un » est direct : « se » = COD, accord (« appelées », sentinelle est féminin). « Donner quelque chose à quelqu'un » : le COD « des consignes » suit le verbe, donc « se » (COI) ne provoque pas d'accord (« donné »)."
+    },
+    {
+      "id": "f2020_q2",
+      "text": "Quelle est la fonction du mot souligné dans la phrase suivante ? « Cette pandémie, nous la trouvons dangereuse »",
+      "choices": {
+        "a": "Épithète",
+        "b": "Attribut du COD",
+        "c": "Complément circonstanciel de manière",
+        "d": "Complément d'objet second"
+      },
+      "correct": "b",
+      "explication": "« Dangereuse » qualifie le COD « la » (= cette pandémie) via le verbe « trouver » : c'est un attribut du COD."
+    },
+    {
+      "id": "f2020_q3",
+      "text": "Que signifie l'expression « Dormir sur ses lauriers » ?",
+      "choices": {
+        "a": "Rêver d'un avenir radieux",
+        "b": "Avoir des insomnies",
+        "c": "Échouer lamentablement",
+        "d": "Ne pas poursuivre après un succès"
+      },
+      "correct": "d",
+      "explication": "« Dormir sur ses lauriers » signifie se contenter d'un succès passé sans chercher à aller plus loin."
+    },
+    {
+      "id": "f2020_q4",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Ces malfaiteurs, nous les aurons quelles que soient leurs astuces",
+        "b": "Ces malfaiteurs, nous les aurons quelques soient leurs astuces",
+        "c": "Ces malfaiteurs, nous les aurons quelque soit leurs astuces",
+        "d": "Ces malfaiteurs, nous les aurons quels que soient leurs astuces"
+      },
+      "correct": "a",
+      "explication": "« Quel que » s'accorde avec le sujet qui suit : « leurs astuces » est féminin pluriel, d'où « quelles que soient »."
+    },
+    {
+      "id": "f2020_q5",
+      "text": "Quelle est la fonction de la proposition soulignée dans la phrase suivante ? « Comme il sortait, il rencontra son ami »",
+      "choices": {
+        "a": "Complément circonstanciel de cause",
+        "b": "Complément circonstanciel de temps",
+        "c": "Complément circonstanciel de manière",
+        "d": "Complément circonstanciel de conséquence"
+      },
+      "correct": "b",
+      "explication": "« Comme » + imparfait exprime ici la simultanéité de deux actions : c'est un complément circonstanciel de temps."
+    },
+    {
+      "id": "f2020_q6",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Les statues que les municipalités ont faits ériger sont inclinés",
+        "b": "Les statues que les municipalités ont fait ériger sont inclinées",
+        "c": "Les statues que les municipalités ont faites ériger sont inclinées",
+        "d": "Les statues que les municipalités ont faits érigés sont inclinés"
+      },
+      "correct": "b",
+      "explication": "« Faire » causatif suivi d'un infinitif est toujours invariable (« fait ériger »). « Inclinées » s'accorde avec « statues », sujet de « sont »."
+    },
+    {
+      "id": "f2020_q7",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Les fêtes qu'ils ont passées ensemble les ont enrichis",
+        "b": "Les fêtes qu'ils ont passés ensemble les ont enrichies",
+        "c": "Les fêtes qu'ils ont passé ensemble les ont enrichi",
+        "d": "Les fêtes qu'ils ont passés ensembles les ont enrichis"
+      },
+      "correct": "a",
+      "explication": "« Passer une fête » est transitif direct : le COD « que » (les fêtes, féminin pluriel) placé avant entraîne l'accord (« passées »)."
+    },
+    {
+      "id": "f2020_q8",
+      "text": "Comment appelle-t-on ces types de vers ? « Elle alla crier famine / Chez la fourmi sa voisine »",
+      "choices": {
+        "a": "Ennéasyllabes",
+        "b": "Octosyllabes",
+        "c": "Heptasyllabes",
+        "d": "Hexasyllabes"
+      },
+      "correct": "c",
+      "explication": "Ces vers de « La Cigale et la Fourmi » de La Fontaine comptent sept syllabes chacun (le « e » final de « famine » ne se prononce pas) : ce sont des heptasyllabes."
+    },
+    {
+      "id": "f2020_q9",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Ces poules, nous les avons aperçu picorer dans le jardin",
+        "b": "Ces poules, nous les avons aperçus picorer dans le jardin",
+        "c": "Ces poules, nous les avons aperçu picorées dans le jardin",
+        "d": "Ces poules, nous les avons aperçues picorer dans le jardin"
+      },
+      "correct": "d",
+      "explication": "Le COD « les » (= les poules) placé avant le participe est le sujet réel de l'infinitif « picorer » : le participe s'accorde (« aperçues », féminin pluriel)."
+    },
+    {
+      "id": "f2020_q10",
+      "text": "Quelle figure de style avons-nous dans la phrase suivante ? « Pour qui sont ces serpents qui sifflent sur vos têtes »",
+      "choices": {
+        "a": "Une assonance",
+        "b": "Une métaphore",
+        "c": "Un oxymore",
+        "d": "Une allitération"
+      },
+      "correct": "d",
+      "explication": "Ce vers célèbre de Racine (Andromaque) répète le son « s » : c'est une allitération."
+    },
+    {
+      "id": "f2020_q11",
+      "text": "Lequel de ces écrivains est un romancier ?",
+      "choices": {
+        "a": "Léopold Sédar Senghor",
+        "b": "Aimé Césaire",
+        "c": "Albert Camus",
+        "d": "David Diop"
+      },
+      "correct": "c",
+      "explication": "Albert Camus est romancier (« L'Étranger », « La Peste ») ; les autres sont surtout poètes/dramaturges."
+    },
+    {
+      "id": "f2020_q12",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Les peines que ces suspects ont endurées sont lourdes",
+        "b": "Les peines que ces suspects ont enduré sont lourdes",
+        "c": "Les peines que ces suspects ont endurés sont lourdes",
+        "d": "Les peines que ces suspects ont endurées sont lourds"
+      },
+      "correct": "a",
+      "explication": "« Endurer » est transitif direct : le COD « que » (les peines, féminin pluriel) placé avant entraîne l'accord (« endurées »), tout comme « lourdes » avec le sujet « peines »."
+    },
+    {
+      "id": "f2020_q13",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Les deux stars se sont congratulés et se sont étreintes",
+        "b": "Les deux stars se sont congratulé et se sont étreint",
+        "c": "Les deux stars se sont congratulées et se sont étreintes",
+        "d": "Les deux stars se sont congratulé et se sont étreints"
+      },
+      "correct": "c",
+      "explication": "« Congratuler quelqu'un » et « étreindre quelqu'un » sont directs : « se » = COD, accord au féminin pluriel (stars)."
+    },
+    {
+      "id": "f2020_q14",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Les corrections qu'ils ont reçues les ont amendés",
+        "b": "Les corrections qu'ils ont reçus les ont amendés",
+        "c": "Les corrections qu'ils ont reçu les ont amendé",
+        "d": "Les corrections qu'ils ont reçus les ont amendées"
+      },
+      "correct": "a",
+      "explication": "« Recevoir » : COD « que » (les corrections, féminin pluriel) placé avant → « reçues ». « Amender » : « les » (masculin pluriel, eux) placé avant → « amendés »."
+    },
+    {
+      "id": "f2020_q15",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Elles se seraient comprises si elles s'étaient adressées la parole",
+        "b": "Elles se seraient compris si elles s'étaient adressé la parole",
+        "c": "Elles se seraient compris si elles s'étaient adressés la parole",
+        "d": "Elles se seraient comprises si elles s'étaient adressé la parole"
+      },
+      "correct": "d",
+      "explication": "« Comprendre quelqu'un » est direct : « se » = COD, accord (« comprises »). « Adresser la parole à quelqu'un » : « se » est COI et le COD « la parole » suit le verbe → « adressé » invariable."
+    },
+    {
+      "id": "f2020_q16",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Les quatre vingt dindes que nous avons élevés sont bien dodus",
+        "b": "Les quatre vingts dindes que nous avons élevées sont bien dodues",
+        "c": "Les quatre vingts dindes que nous avons élevés sont bien dodues",
+        "d": "Les quatre vingt dindes que nous avons élevées sont bien dodues"
+      },
+      "correct": "b",
+      "explication": "« Vingt » prend un s dans « quatre-vingts » quand il n'est suivi d'aucun autre nombre. « Élevées » et « dodues » s'accordent avec « dindes » (féminin pluriel)."
+    },
+    {
+      "id": "f2020_q17",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Les robes et les pagnes choisies sont verts clairs",
+        "b": "Les robes et les pagnes choisies sont vertes claires",
+        "c": "Les robes et les pagnes choisis sont vert clair",
+        "d": "Les robes et les pagnes choisi sont vert claires"
+      },
+      "correct": "c",
+      "explication": "Un sujet composé de genres différents (robes fém. + pagnes masc.) s'accorde au masculin pluriel (« choisis »). « Vert clair » est un adjectif de couleur composé, invariable."
+    },
+    {
+      "id": "f2020_q18",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Les laissez-passer délivrés par les gendarmes sont truqués",
+        "b": "Les laisser-passer délivrés par les gendarmes sont truqués",
+        "c": "Les laisser-passez délivrés par les gendarmes sont truqués",
+        "d": "Les laissers-passers délivrés par les gendarmes sont truqués"
+      },
+      "correct": "a",
+      "explication": "« Laissez-passer » (impératif + infinitif) est un nom composé invariable : pas de « s » au pluriel."
+    },
+    {
+      "id": "f2020_q19",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Les deux amies se sont plu après qu'elles se soient entrevues",
+        "b": "Les deux amies se sont plus après qu'elles se soient entrevues",
+        "c": "Les deux amies se sont plues après qu'elles se sont entrevues",
+        "d": "Les deux amies se sont plu après qu'elles se sont entrevues"
+      },
+      "correct": "d",
+      "explication": "Le participe de « plaire » est toujours invariable (« plu »). « Après que » se construit normalement avec l'indicatif (« se sont entrevues »), pas le subjonctif."
+    },
+    {
+      "id": "f2020_q20",
+      "text": "Quelle est la phrase correcte ?",
+      "choices": {
+        "a": "Les appréhensions que les médecins ont eus ne sont pas fondés",
+        "b": "Les appréhensions que les médecins ont eues ne sont pas fondées",
+        "c": "Les appréhensions que les médecins ont eut ne sont pas fondés",
+        "d": "Les appréhensions que les médecins ont eu ne sont pas fondées"
+      },
+      "correct": "b",
+      "explication": "Le COD « que » (les appréhensions, féminin pluriel) placé avant « avoir » entraîne l'accord (« eues »), de même que « fondées » avec le sujet."
+    }
+  ]
+}

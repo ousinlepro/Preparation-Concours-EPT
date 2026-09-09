@@ -1,0 +1,244 @@
+{
+  "questions": [
+    {
+      "id": "p2020_q1",
+      "text": "La désintégration radioactive de l'uranium $^{238}_{92}U$ donne un noyau fils et une particule $\\alpha$ :",
+      "choices": {
+        "a": "$^{238}_{92}U \\to \\,^{236}_{88}Th + \\,^{4}_{2}He$",
+        "b": "$^{238}_{92}U \\to \\,^{236}_{90}Th + \\,^{2}_{2}He$",
+        "c": "$^{238}_{92}U \\to \\,^{234}_{90}Th + \\,^{4}_{2}He$",
+        "d": "$^{238}_{92}U \\to \\,^{236}_{90}Th + \\,^{4}_{2}He$"
+      },
+      "correct": "c",
+      "explication": "Conservation du nombre de masse ($238=A+4 \\Rightarrow A=234$) et du numéro atomique ($92=Z+2 \\Rightarrow Z=90$, le thorium)."
+    },
+    {
+      "id": "p2020_q2",
+      "text": "L'énergie d'un atome est :",
+      "choices": {
+        "a": "continue",
+        "b": "discontinue",
+        "c": "nulle",
+        "d": "constante"
+      },
+      "correct": "b",
+      "explication": "Les niveaux d'énergie atomiques sont quantifiés (discontinus)."
+    },
+    {
+      "id": "p2020_q3",
+      "text": "Quelle est la capacité d'un condensateur plan constitué de deux plaques métalliques de surface $S=100\\,cm^2$ séparées par une épaisseur $e=1\\,mm$ ? On donne $\\varepsilon_0=\\dfrac{1}{36\\pi\\times10^9}$",
+      "choices": {
+        "a": "$C=88.10^{-6}\\,\\mu F$",
+        "b": "$C=8{,}8.10^{-6}\\,\\mu F$",
+        "c": "$C=88.10^{-6}\\,F$",
+        "d": "$C=88.10^{-6}\\,nF$"
+      },
+      "correct": "a",
+      "explication": "$C=\\varepsilon_0 S/e \\approx 88.4\\times10^{-12}\\,F = 88.4\\times10^{-6}\\,\\mu F$."
+    },
+    {
+      "id": "p2020_q4",
+      "text": "Le mouvement d'un satellite autour de la terre est :",
+      "choices": {
+        "a": "rectiligne uniforme",
+        "b": "sinusoïdal",
+        "c": "circulaire uniforme",
+        "d": "parabolique"
+      },
+      "correct": "c",
+      "explication": "Pour une orbite circulaire, le mouvement est circulaire uniforme."
+    },
+    {
+      "id": "p2020_q5",
+      "text": "Un satellite géostationnaire évolue dans le plan de l'équateur :",
+      "choices": {
+        "a": "d'Est en Ouest",
+        "b": "d'Ouest en Est",
+        "c": "du pôle Nord au pôle Sud",
+        "d": "du pôle Sud au pôle Nord"
+      },
+      "correct": "b",
+      "explication": "Il tourne dans le même sens que la Terre, donc d'Ouest en Est."
+    },
+    {
+      "id": "p2020_q6",
+      "text": "Quelle est l'énergie cinétique d'une particule $\\alpha$ expulsée avec une vitesse $v=20000\\,km/s$ ? $m(He)=4{,}0026\\,U$ ; $1U=1{,}67.10^{-27}\\,kg$ ; $1MeV=1{,}6.10^{-13}\\,J$",
+      "choices": {
+        "a": "$1{,}33.10^{-12}\\,J$ ; $8{,}3\\,MeV$",
+        "b": "$0{,}133.10^{-12}\\,J$ ; $0{,}83\\,MeV$",
+        "c": "$13{,}3.10^{-12}\\,J$ ; $0{,}083\\,MeV$",
+        "d": "$133.10^{-12}\\,J$ ; $3{,}8\\,MeV$"
+      },
+      "correct": "a",
+      "explication": "$E_c=\\frac12 m v^2 \\approx 1{,}34\\times10^{-12}\\,J \\approx 8{,}4\\,MeV$."
+    },
+    {
+      "id": "p2020_q7",
+      "text": "Un fil d'aluminium de section circulaire possède une résistance électrique de $1\\,\\Omega$. Quelle est son diamètre ? (longueur $l=196\\,m$)",
+      "choices": {
+        "a": "$d=25.10^{-3}\\,m$",
+        "b": "$d=2{,}5.10^{-3}\\,cm$",
+        "c": "$d=2{,}5.10^{-3}\\,mm$",
+        "d": "$d=2{,}5\\,mm$"
+      },
+      "correct": "d",
+      "explication": "Avec $R=\\rho l/A$ et la résistivité de l'aluminium, on obtient un diamètre d'environ 2,5 mm — cohérent avec un fil conducteur usuel."
+    },
+    {
+      "id": "p2020_q8",
+      "text": "L'expression algébrique de la f.é.m. induite est :",
+      "choices": {
+        "a": "$e=-\\dfrac{d^2\\varphi}{dt^2}$",
+        "b": "$e=\\dfrac{d\\varphi}{dt}$",
+        "c": "$e=-\\dfrac{d\\varphi}{dt}$",
+        "d": "$e=\\dfrac{d\\varphi}{dt}\\times dt$"
+      },
+      "correct": "c",
+      "explication": "Loi de Faraday : $e=-\\dfrac{d\\varphi}{dt}$."
+    },
+    {
+      "id": "p2020_q9",
+      "text": "Quelle est l'énergie d'un photon de longueur d'onde dans le vide $\\lambda=450\\,nm$ ? $h=6{,}62.10^{-34}\\,J.s$ ; $c=3.10^8\\,m/s$",
+      "choices": {
+        "a": "$4{,}4.10^{-18}\\,J$",
+        "b": "$4{,}4.10^{-19}\\,J$",
+        "c": "$0{,}2.10^{19}\\,J$",
+        "d": "$0{,}2.10^{-19}\\,J$"
+      },
+      "correct": "b",
+      "explication": "$E=\\dfrac{hc}{\\lambda}\\approx4{,}4\\times10^{-19}\\,J$."
+    },
+    {
+      "id": "p2020_q10",
+      "text": "On appelle période radioactive ou demi-vie d'un radionucléide la durée nécessaire à la désintégration :",
+      "choices": {
+        "a": "de la totalité de ses noyaux",
+        "b": "du quart de ses noyaux",
+        "c": "de la moitié de ses noyaux",
+        "d": "du tiers de ses noyaux"
+      },
+      "correct": "c",
+      "explication": "C'est la définition de la demi-vie."
+    },
+    {
+      "id": "p2020_q11",
+      "text": "Dans l'atome d'hydrogène, l'électron décrit une orbite circulaire de rayon $r_0=0{,}53.10^{-10}\\,m$. L'intensité des forces d'interaction électrostatiques entre le proton et l'électron vaut : (K=9.10^9 SI)",
+      "choices": {
+        "a": "$2{,}8.10^{-8}\\,N$",
+        "b": "$82.10^{-8}\\,N$",
+        "c": "$0{,}82.10^{-8}\\,N$",
+        "d": "$8{,}2.10^{-8}\\,N$"
+      },
+      "correct": "d",
+      "explication": "$F=K\\dfrac{e^2}{r_0^2}\\approx8{,}2\\times10^{-8}\\,N$."
+    },
+    {
+      "id": "p2020_q12",
+      "text": "Une bobine de $N=16000$ spires est assimilée à un solénoïde de longueur $1{,}0\\,m$. Quelle est la valeur du champ magnétique créé par un courant $I=1{,}0.10^3\\,A$ ? $\\mu_0=4\\pi.10^{-7}$",
+      "choices": {
+        "a": "$20\\,T$",
+        "b": "$0{,}20\\,T$",
+        "c": "$0{,}020\\,T$",
+        "d": "$2{,}20\\,T$"
+      },
+      "correct": "a",
+      "explication": "$B=\\mu_0 N I/l \\approx 20\\,T$."
+    },
+    {
+      "id": "p2020_q13",
+      "text": "La puissance moyenne reçue par un circuit (RLC) apparaît sous forme thermique dans :",
+      "choices": {
+        "a": "la bobine pure",
+        "b": "le condensateur",
+        "c": "la résistance",
+        "d": "le condensateur et la résistance"
+      },
+      "correct": "c",
+      "explication": "Seule la résistance dissipe de l'énergie par effet Joule ; la bobine et le condensateur idéaux n'en dissipent pas."
+    },
+    {
+      "id": "p2020_q14",
+      "text": "Quelle est l'intensité des forces d'interaction gravitationnelle entre l'électron et le proton dans l'atome d'hydrogène ? $G=6{,}67.10^{-11}$ ; $m_p=1{,}67.10^{-27}\\,kg$ ; $m_e=9{,}10.10^{-31}\\,kg$",
+      "choices": {
+        "a": "$3{,}7.10^{-47}\\,N$",
+        "b": "$3{,}7.10^{-27}\\,N$",
+        "c": "$37.10^{-47}\\,N$",
+        "d": "$37.10^{-27}\\,N$"
+      },
+      "correct": "a",
+      "explication": "$F=G\\dfrac{m_p m_e}{r_0^2}\\approx3{,}6\\times10^{-47}\\,N$."
+    },
+    {
+      "id": "p2020_q15",
+      "text": "Une masse marquée $1\\,kg$ est maintenue immobile à $3\\,m$ au-dessus du sol. Calculer l'énergie mécanique du système ($E_p$ au sol nulle, $g=10\\,SI$).",
+      "choices": {
+        "a": "$30\\,J$",
+        "b": "$30\\,kJ$",
+        "c": "$0{,}30\\,J$",
+        "d": "$0{,}30\\,kJ$"
+      },
+      "correct": "a",
+      "explication": "$E_m=E_p=mgh=1\\times10\\times3=30\\,J$ (la masse étant immobile, $E_c=0$)."
+    },
+    {
+      "id": "p2020_q16",
+      "text": "Une pierre est lâchée sans vitesse initiale du haut d'une falaise. L'observateur entend le choc $4{,}6\\,s$ après le lâcher. Vitesse du son $=340\\,m/s$, $g=10\\,SI$. Quelle est la hauteur de la falaise ?",
+      "choices": {
+        "a": "$935\\,m$",
+        "b": "$9{,}35\\,m$",
+        "c": "$93{,}5\\,m$",
+        "d": "$93{,}5\\,km$"
+      },
+      "correct": "c",
+      "explication": "En résolvant $\\sqrt{2h/g}+h/340=4{,}6$, on trouve $h\\approx93{,}5\\,m$."
+    },
+    {
+      "id": "p2020_q17",
+      "text": "La période des oscillations d'un circuit (LC) d'inductance $L=0{,}10\\,H$ et de capacité $C=0{,}10\\,\\mu F$ est :",
+      "choices": {
+        "a": "$1{,}0.10^{-4}\\,s$",
+        "b": "$6{,}3.10^{-3}\\,s$",
+        "c": "$6{,}3.10^{-4}\\,s$",
+        "d": "$3{,}6.10^{-3}\\,s$"
+      },
+      "correct": "c",
+      "explication": "$T=2\\pi\\sqrt{LC}\\approx6{,}3\\times10^{-4}\\,s$."
+    },
+    {
+      "id": "p2020_q18",
+      "text": "Une radiation monochromatique a pour longueur d'onde dans le vide $\\lambda=0{,}5.10^{-6}\\,m$. Quelle est sa fréquence ?",
+      "choices": {
+        "a": "$6.10^{14}\\,Hz$",
+        "b": "$6.10^{10}\\,Hz$",
+        "c": "$6.10^{12}\\,Hz$",
+        "d": "$6.10^{8}\\,Hz$"
+      },
+      "correct": "a",
+      "explication": "$f=c/\\lambda=6\\times10^{14}\\,Hz$."
+    },
+    {
+      "id": "p2020_q19",
+      "text": "L'impédance d'un dipôle (RLC) est égale à :",
+      "choices": {
+        "a": "$\\dfrac{I_m}{U_m}$",
+        "b": "$\\dfrac{I_m^2}{U_m}$",
+        "c": "$I_m\\times U_m$",
+        "d": "$\\dfrac{U_m}{I_m}$"
+      },
+      "correct": "d",
+      "explication": "Par définition, $Z=U_m/I_m$."
+    },
+    {
+      "id": "p2020_q20",
+      "text": "Une corde de $30\\,g$ possède une longueur de $60\\,cm$. Quelle est la vitesse de propagation des ondes transversales si sa tension est de $1{,}8\\,N$ ?",
+      "choices": {
+        "a": "$6\\,m/s$",
+        "b": "$0{,}6\\,m/s$",
+        "c": "$60\\,m/s$",
+        "d": "$0{,}06\\,m/s$"
+      },
+      "correct": "a",
+      "explication": "$v=\\sqrt{T/\\mu}$ avec $\\mu=m/l=0{,}05\\,kg/m$, donc $v=\\sqrt{1{,}8/0{,}05}=6\\,m/s$."
+    }
+  ]
+}

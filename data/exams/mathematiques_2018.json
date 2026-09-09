@@ -1,0 +1,244 @@
+{
+  "questions": [
+    {
+      "id": "m2018_q1",
+      "text": "On considère les fonctions suivantes : $f(x)=\\sqrt[3]{x-2}$, $g(x)=|3x-2|$, $h(x)=|9x^2-4|$. Laquelle des affirmations suivantes est vraie ?",
+      "choices": {
+        "a": "$f$ n'est pas dérivable en $x=2/3$",
+        "b": "$g$ est dérivable en $x=2/3$",
+        "c": "$h$ est dérivable en $x=2/3$",
+        "d": "$g$ et $h$ ne sont pas dérivables en $x=2/3$"
+      },
+      "correct": "d",
+      "explication": "$f$ n'a de problème qu'en $x=2$ (pas en $2/3$). En $x=2/3$, $3x-2$ et $9x^2-4=(3x-2)(3x+2)$ s'annulent en changeant de signe de façon simple : $g$ et $h$ y présentent chacune un point anguleux, donc ne sont pas dérivables."
+    },
+    {
+      "id": "m2018_q2",
+      "text": "Pour quelles valeurs de $m$ et $b$ la fonction définie par $f(x)=4-x^2$ si $x\\geq1$, $f(x)=mx+b$ si $x<1$, est-elle dérivable sur $\\mathbb{R}$ ?",
+      "choices": {
+        "a": "$m=2$ et $b=1$",
+        "b": "$m=-2$ et $b=5$",
+        "c": "$m=-2$ et $b=-5$",
+        "d": "$m=2$ et $b=-1$"
+      },
+      "correct": "b",
+      "explication": "La continuité en $1$ donne $m+b=3$ ; l'égalité des dérivées ($f'(1^-)=m$, $f'(1^+)=-2$) donne $m=-2$, d'où $b=5$."
+    },
+    {
+      "id": "m2018_q3",
+      "text": "Pour tout $b\\in\\mathbb{R}$, $\\displaystyle\\int_0^b|2x|\\,dx$ est égale à :",
+      "choices": {
+        "a": "$b^2$",
+        "b": "$-b^2$",
+        "c": "$-b|b|$",
+        "d": "$b|b|$"
+      },
+      "correct": "d",
+      "explication": "Pour $b\\geq0$ l'intégrale vaut $b^2$, pour $b<0$ elle vaut $-b^2$ : les deux cas se résument par $b|b|$."
+    },
+    {
+      "id": "m2018_q4",
+      "text": "On pose $I=\\displaystyle\\int_0^1\\dfrac{x}{x^2+1}\\,dx$. Alors :",
+      "choices": {
+        "a": "$I=\\dfrac{\\pi}{4}$",
+        "b": "$I=\\ln\\sqrt2$",
+        "c": "$I=\\ln2$",
+        "d": "$I=-\\dfrac{\\pi}{4}$"
+      },
+      "correct": "b",
+      "explication": "$I=\\left[\\frac12\\ln(x^2+1)\\right]_0^1=\\frac12\\ln2=\\ln\\sqrt2$."
+    },
+    {
+      "id": "m2018_q5",
+      "text": "On pose $J=\\displaystyle\\lim_{x\\to0}\\dfrac{\\tan x}{x^2+\\sin x+\\cos x-1}$. Alors :",
+      "choices": {
+        "a": "$J=1$",
+        "b": "$J=+\\infty$",
+        "c": "$J=-\\infty$",
+        "d": "$J=-1$"
+      },
+      "correct": "a",
+      "explication": "Au voisinage de $0$ : $\\tan x\\approx x$ et $\\cos x-1\\approx-x^2/2$, donc le dénominateur $\\approx x$ : $J\\to1$."
+    },
+    {
+      "id": "m2018_q6",
+      "text": "Soit $f$ continue sur $[0,4]$ et dérivable sur $]0,4[$, dont le graphe de $f'$ part d'environ $3$ en $x=0$, s'annule vers $x=2$, descend jusqu'à environ $-1$ puis remonte vers $0$ en $x=4$. Laquelle des inégalités suivantes est vraie ?",
+      "choices": {
+        "a": "$f(0)<f(2)<f(4)$",
+        "b": "$f(0)>f(2)=f(4)$",
+        "c": "$f(0)<f(4)<f(2)$",
+        "d": "$f(4)<f(0)<f(2)$"
+      },
+      "correct": "c",
+      "explication": "$f'>0$ sur $]0,2[$ donc $f$ croît fortement ($f(0)<f(2)$) ; $f'<0$ sur $]2,4[$ mais avec une amplitude moindre, donc $f$ décroît un peu moins qu'elle n'avait crû : $f(0)<f(4)<f(2)$."
+    },
+    {
+      "id": "m2018_q7",
+      "text": "Si $f$ est dérivable sur $\\mathbb{R}$, $f(1)=-1$ et $f'(x)\\geq-1$ pour tout $x\\in\\mathbb{R}$, alors la plus grande valeur possible de $f(0)$ est :",
+      "choices": {
+        "a": "$0$",
+        "b": "$-1$",
+        "c": "$1$",
+        "d": "$2$"
+      },
+      "correct": "a",
+      "explication": "Par l'égalité des accroissements finis entre $0$ et $1$ : $f(1)-f(0)\\geq-1$, donc $f(0)\\leq f(1)+1=0$."
+    },
+    {
+      "id": "m2018_q8",
+      "text": "Si $f'(x)=-f(x)$ et $f(1)=1$ alors $f(x)$ est donnée par :",
+      "choices": {
+        "a": "$e^{-x}$",
+        "b": "$e^{x-1}$",
+        "c": "$e^{1-x}$",
+        "d": "$e^{-x-1}$"
+      },
+      "correct": "c",
+      "explication": "La solution générale est $f(x)=Ce^{-x}$ ; $f(1)=1\\Rightarrow C=e$, donc $f(x)=e^{1-x}$."
+    },
+    {
+      "id": "m2018_q9",
+      "text": "Si $f(x)=2x$ pour $|x|<1$ et $f(x)=2\\times\\text{sign}(x)$ pour $|x|\\geq1$, alors $\\displaystyle\\int_{-2}^{2}f(x)\\,dx$ est égale à :",
+      "choices": {
+        "a": "$-2$",
+        "b": "$0$",
+        "c": "$1$",
+        "d": "$2$"
+      },
+      "correct": "b",
+      "explication": "$\\int_{-2}^{-1}(-2)dx=-2$, $\\int_{-1}^{1}2x\\,dx=0$, $\\int_{1}^{2}2\\,dx=2$ ; la somme fait $0$."
+    },
+    {
+      "id": "m2018_q10",
+      "text": "Si $f(x)=\\dfrac{1}{x+1}$ et $g(x)=2x$, quel est l'ensemble des solutions de l'équation $(g\\circ f)(x)=(f\\circ g)(x)$ ?",
+      "choices": {
+        "a": "$\\{-\\frac13\\}$",
+        "b": "$\\{-\\frac13,\\frac13\\}$",
+        "c": "$\\{\\frac13\\}$",
+        "d": "$\\{-\\frac13,0\\}$"
+      },
+      "correct": "a",
+      "explication": "$\\dfrac{2}{x+1}=\\dfrac{1}{2x+1}\\Rightarrow2(2x+1)=x+1\\Rightarrow3x=-1\\Rightarrow x=-\\frac13$ (valeur compatible avec le domaine)."
+    },
+    {
+      "id": "m2018_q11",
+      "text": "Soit $f(x)=3x-1$ si $x<0$, $f(0)=0$, $f(x)=2x+5$ si $x>0$. On pose $l=\\displaystyle\\lim_{h\\to0^+}\\dfrac{f(h)-f(0^+)}{h}$. Alors :",
+      "choices": {
+        "a": "$l=3$",
+        "b": "$l=2$",
+        "c": "$l=1$",
+        "d": "$l=+\\infty$"
+      },
+      "correct": "b",
+      "explication": "Pour $h>0$, $f(h)=2h+5$ et $f(0^+)=5$, donc $l=\\lim\\dfrac{2h}{h}=2$."
+    },
+    {
+      "id": "m2018_q12",
+      "text": "Soit $f$ la fonction de la question précédente. On pose $l=\\displaystyle\\lim_{h\\to0^-}\\dfrac{f(h)-f(0^-)}{h}$. Alors :",
+      "choices": {
+        "a": "$l=1$",
+        "b": "$l=2$",
+        "c": "$l=3$",
+        "d": "$l=-\\infty$"
+      },
+      "correct": "c",
+      "explication": "Pour $h<0$, $f(h)=3h-1$ et $f(0^-)=-1$, donc $l=\\lim\\dfrac{3h}{h}=3$."
+    },
+    {
+      "id": "m2018_q13",
+      "text": "On pose $g(x)=e^{-x}\\sin x$ et $l=\\displaystyle\\lim_{x\\to+\\infty}g(x)$.",
+      "choices": {
+        "a": "$l=+\\infty$",
+        "b": "$l=0$",
+        "c": "$l=-\\infty$",
+        "d": "$l$ n'existe pas"
+      },
+      "correct": "b",
+      "explication": "$\\sin x$ est bornée et $e^{-x}\\to0$ : par encadrement, $g(x)\\to0$."
+    },
+    {
+      "id": "m2018_q14",
+      "text": "On pose $U_n=\\dfrac{1}{1+n}+\\dfrac{1}{2+n}+\\cdots+\\dfrac{1}{n+n}$ et $l=\\displaystyle\\lim_{n\\to+\\infty}U_n$.",
+      "choices": {
+        "a": "$0<l<1$",
+        "b": "$l>1$",
+        "c": "$l=0$",
+        "d": "$l=1$"
+      },
+      "correct": "a",
+      "explication": "C'est une somme de Riemann : $U_n\\to\\int_0^1\\frac{1}{1+x}dx=\\ln2\\approx0{,}69$, qui vérifie $0<\\ln2<1$."
+    },
+    {
+      "id": "m2018_q15",
+      "text": "On considère la suite $(u_n)$ définie par $u_{n+1}=\\sqrt{u_n+1}$, $u_1=1$, et on pose $l=\\displaystyle\\lim_{n\\to+\\infty}u_n$.",
+      "choices": {
+        "a": "$l=\\frac12(1+\\sqrt3)$",
+        "b": "$l=\\frac12(1+\\sqrt5)$",
+        "c": "$l=\\frac12(1+\\sqrt2)$",
+        "d": "$l=1+\\sqrt5$"
+      },
+      "correct": "b",
+      "explication": "À la limite, $l=\\sqrt{l+1}\\Rightarrow l^2-l-1=0$, soit $l=\\frac{1+\\sqrt5}{2}$ (racine positive)."
+    },
+    {
+      "id": "m2018_q16",
+      "text": "L'équation de la tangente à la courbe $y=x^2$ au point $x=\\frac13$ est :",
+      "choices": {
+        "a": "$y=\\frac13x+\\frac19$",
+        "b": "$y=\\frac23x+\\frac13$",
+        "c": "$y=\\frac23x-\\frac19$",
+        "d": "$y=\\frac23x+\\frac19$"
+      },
+      "correct": "c",
+      "explication": "Pente $=2\\times\\frac13=\\frac23$ ; au point $(\\frac13,\\frac19)$ : $y=\\frac23(x-\\frac13)+\\frac19=\\frac23x-\\frac19$."
+    },
+    {
+      "id": "m2018_q17",
+      "text": "On pose $l=\\displaystyle\\lim_{x\\to0}\\dfrac{e^{2x}-1}{x}$.",
+      "choices": {
+        "a": "$l=1$",
+        "b": "$l=+\\infty$",
+        "c": "$l=0$",
+        "d": "$l=2$"
+      },
+      "correct": "d",
+      "explication": "Limite usuelle $\\dfrac{e^{kx}-1}{x}\\to k$, ici $k=2$."
+    },
+    {
+      "id": "m2018_q18",
+      "text": "On pose $l=\\displaystyle\\lim_{x\\to+\\infty}\\dfrac{3x^2-x+5}{5x^2+6x-3}$.",
+      "choices": {
+        "a": "$l=\\frac35$",
+        "b": "$l=\\frac25$",
+        "c": "$l=\\frac45$",
+        "d": "$l=\\frac15$"
+      },
+      "correct": "a",
+      "explication": "Au voisinage de $+\\infty$, seuls les termes de plus haut degré comptent : $l=3/5$."
+    },
+    {
+      "id": "m2018_q19",
+      "text": "On pose $l=\\displaystyle\\lim_{x\\to+\\infty}x^2e^{-x}$.",
+      "choices": {
+        "a": "$l=+\\infty$",
+        "b": "$l=0$",
+        "c": "$l=1$",
+        "d": "$l=\\frac12$"
+      },
+      "correct": "b",
+      "explication": "L'exponentielle décroissante l'emporte toujours sur toute puissance de $x$."
+    },
+    {
+      "id": "m2018_q20",
+      "text": "On pose $l=\\displaystyle\\lim_{x\\to0^+}x^2\\ln x$.",
+      "choices": {
+        "a": "$l=1$",
+        "b": "$l=-\\infty$",
+        "c": "$l=0$",
+        "d": "$l=+\\infty$"
+      },
+      "correct": "c",
+      "explication": "Croissances comparées : $x^n\\ln x\\to0$ quand $x\\to0^+$ pour tout $n>0$."
+    }
+  ]
+}

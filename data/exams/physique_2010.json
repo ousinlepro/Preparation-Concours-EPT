@@ -1,0 +1,244 @@
+{
+  "questions": [
+    {
+      "id": "p2010_q1",
+      "text": "Un ascenseur de $300\\,kg$ démarre avec une accélération de $2\\,m.s^{-2}$. On donne $g=9{,}8\\,m.s^{-2}$. Quelle est la tension du câble qui le soutient quand l'ascenseur commence à monter ?",
+      "choices": {
+        "a": "$2940$",
+        "b": "$3540$",
+        "c": "$2340$",
+        "d": "$600$"
+      },
+      "correct": "b",
+      "explication": "$T=m(g+a)=300\\times(9{,}8+2)=3540\\,N$."
+    },
+    {
+      "id": "p2010_q2",
+      "text": "Un projectile est lancé ($g=10\\,m.s^{-2}$) avec une vitesse $v_0=5\\,m/s$ d'un point O au sol. Pour atteindre un point A au sol à une distance $d=1{,}25\\,m$, l'angle de tir doit être égal à :",
+      "choices": {
+        "a": "$30°$",
+        "b": "$45°$",
+        "c": "$60°$",
+        "d": "$15°$"
+      },
+      "correct": "d",
+      "explication": "$d=\\dfrac{v_0^2\\sin(2\\theta)}{g}\\Rightarrow\\sin(2\\theta)=\\dfrac{1{,}25\\times10}{25}=0{,}5\\Rightarrow2\\theta=30°\\Rightarrow\\theta=15°$."
+    },
+    {
+      "id": "p2010_q3",
+      "text": "Quel est en newtons le module de la force nécessaire pour arrêter sur $50\\,m$ un véhicule de $800\\,kg$ qui se déplace à $72\\,km/h$ sur une route horizontale ?",
+      "choices": {
+        "a": "$800$",
+        "b": "$3200$",
+        "c": "$57600$",
+        "d": "$1600$"
+      },
+      "correct": "b",
+      "explication": "$v=20\\,m/s$ ; $a=v^2/(2d)=400/100=4\\,m.s^{-2}$ ; $F=ma=800\\times4=3200\\,N$."
+    },
+    {
+      "id": "p2010_q4",
+      "text": "Quelle est en newtons la force exercée sur le sol d'un ascenseur par un homme de $75\\,kg$ ($g=9{,}8\\,m.s^{-2}$) lorsque l'ascenseur est au repos ?",
+      "choices": {
+        "a": "$0$",
+        "b": "$75$",
+        "c": "$735$",
+        "d": "$720$"
+      },
+      "correct": "c",
+      "explication": "À l'arrêt, la force normale égale le poids : $N=mg=75\\times9{,}8=735\\,N$."
+    },
+    {
+      "id": "p2010_q5",
+      "text": "Même situation (homme de $75\\,kg$, $g=9{,}8\\,m.s^{-2}$) : l'ascenseur monte à vitesse constante de $2\\,m.s^{-1}$.",
+      "choices": {
+        "a": "$735$",
+        "b": "$0$",
+        "c": "$980$",
+        "d": "$712$"
+      },
+      "correct": "a",
+      "explication": "Vitesse constante $\\Rightarrow$ accélération nulle $\\Rightarrow N=mg=735\\,N$, comme au repos."
+    },
+    {
+      "id": "p2010_q6",
+      "text": "Même situation : l'ascenseur descend à vitesse constante de $3\\,m.s^{-1}$.",
+      "choices": {
+        "a": "$735$",
+        "b": "$750$",
+        "c": "$0$",
+        "d": "$712$"
+      },
+      "correct": "a",
+      "explication": "Vitesse constante (même en descente) $\\Rightarrow$ accélération nulle $\\Rightarrow N=mg=735\\,N$."
+    },
+    {
+      "id": "p2010_q7",
+      "text": "Même situation : l'ascenseur monte avec une accélération constante de $1{,}5\\,m.s^{-2}$.",
+      "choices": {
+        "a": "$900$",
+        "b": "$735$",
+        "c": "$847{,}5$",
+        "d": "$622{,}5$"
+      },
+      "correct": "c",
+      "explication": "$N=m(g+a)=75\\times(9{,}8+1{,}5)=847{,}5\\,N$."
+    },
+    {
+      "id": "p2010_q8",
+      "text": "Même situation : l'ascenseur descend avec une accélération constante de $1{,}5\\,m.s^{-2}$.",
+      "choices": {
+        "a": "$750$",
+        "b": "$800$",
+        "c": "$847{,}5$",
+        "d": "$622{,}5$"
+      },
+      "correct": "d",
+      "explication": "En descente accélérée, l'accélération pointe vers le bas : $N=m(g-a)=75\\times(9{,}8-1{,}5)=622{,}5\\,N$."
+    },
+    {
+      "id": "p2010_q9",
+      "text": "Donner la bonne réponse concernant la vitesse d'une vibration sinusoïdale d'équation $x=A\\sin(\\omega t+\\varphi)$ :",
+      "choices": {
+        "a": "$0$",
+        "b": "$A\\omega\\cos(\\omega t+\\varphi)$",
+        "c": "$-A\\omega\\cos(\\omega t+\\varphi)$",
+        "d": "$A\\omega$"
+      },
+      "correct": "b",
+      "explication": "$v=dx/dt=A\\omega\\cos(\\omega t+\\varphi)$."
+    },
+    {
+      "id": "p2010_q10",
+      "text": "Quelle est en µm la longueur d'onde de la lumière utilisée avec des fentes d'Young écartées de $0{,}8\\,mm$, qui donnent un interfrange $i=0{,}304\\,mm$ sur un écran placé à $0{,}5\\,m$ des fentes ?",
+      "choices": {
+        "a": "$0{,}486$",
+        "b": "$0{,}304$",
+        "c": "$0{,}203$",
+        "d": "$0{,}605$"
+      },
+      "correct": "a",
+      "explication": "$\\lambda=\\dfrac{i\\,a}{D}=\\dfrac{0{,}304\\times0{,}8}{500}\\approx0{,}486\\,\\mu m$."
+    },
+    {
+      "id": "p2010_q11",
+      "text": "Quelle est en nF la capacité équivalente de trois condensateurs $C_1=2nF$, $C_2=4nF$, $C_3=8nF$ montés en série ?",
+      "choices": {
+        "a": "$14$",
+        "b": "$64$",
+        "c": "$1{,}14$",
+        "d": "$0{,}875$"
+      },
+      "correct": "c",
+      "explication": "$\\dfrac1{C_{eq}}=\\dfrac12+\\dfrac14+\\dfrac18=\\dfrac78\\Rightarrow C_{eq}=\\dfrac87\\approx1{,}14\\,nF$."
+    },
+    {
+      "id": "p2010_q12",
+      "text": "Quelle est en nF la capacité équivalente des mêmes condensateurs montés en parallèle ?",
+      "choices": {
+        "a": "$14$",
+        "b": "$64$",
+        "c": "$1{,}14$",
+        "d": "$0{,}875$"
+      },
+      "correct": "a",
+      "explication": "En parallèle, les capacités s'additionnent : $2+4+8=14\\,nF$."
+    },
+    {
+      "id": "p2010_q13",
+      "text": "Quelle est l'unité internationale d'une différence de potentiel électrique ?",
+      "choices": {
+        "a": "Ohm $\\Omega$",
+        "b": "Ampère A",
+        "c": "Volt V",
+        "d": "Watt W"
+      },
+      "correct": "c",
+      "explication": "La différence de potentiel (tension) s'exprime en volts."
+    },
+    {
+      "id": "p2010_q14",
+      "text": "Quelle est l'unité internationale d'une force électromotrice ?",
+      "choices": {
+        "a": "Ohm $\\Omega$",
+        "b": "Ampère A",
+        "c": "Volt V",
+        "d": "Watt W"
+      },
+      "correct": "c",
+      "explication": "La force électromotrice s'exprime aussi en volts."
+    },
+    {
+      "id": "p2010_q15",
+      "text": "Quelle est l'unité internationale de l'énergie électrique ?",
+      "choices": {
+        "a": "Watt W",
+        "b": "Watt-heure Wh",
+        "c": "Kilowatt-heure kWh",
+        "d": "Joule J"
+      },
+      "correct": "d",
+      "explication": "L'unité SI de l'énergie est le joule (Wh et kWh sont des unités pratiques, hors SI)."
+    },
+    {
+      "id": "p2010_q16",
+      "text": "Quelle est l'unité internationale de la quantité d'électricité ?",
+      "choices": {
+        "a": "Watt W",
+        "b": "Coulomb C",
+        "c": "Ampère A",
+        "d": "Kilowatt-heure kWh"
+      },
+      "correct": "b",
+      "explication": "La charge électrique s'exprime en coulombs."
+    },
+    {
+      "id": "p2010_q17",
+      "text": "Quelle est en mètres par seconde la vitesse d'un électron soumis à une différence de potentiel de $4550\\,V$ ? (masse de l'électron $=9{,}1.10^{-28}\\,g$, charge $=1{,}6.10^{-19}\\,C$)",
+      "choices": {
+        "a": "$2.10^{7}\\,m.s^{-1}$",
+        "b": "$0$",
+        "c": "$16.10^{14}\\,m.s^{-1}$",
+        "d": "$4.10^{7}\\,m.s^{-1}$"
+      },
+      "correct": "d",
+      "explication": "$v=\\sqrt{2eU/m}=\\sqrt{2\\times1{,}6.10^{-19}\\times4550/9{,}1.10^{-31}}\\approx4.10^{7}\\,m.s^{-1}$."
+    },
+    {
+      "id": "p2010_q18",
+      "text": "L'impédance complexe d'un circuit RL série est ($j^2=-1$) :",
+      "choices": {
+        "a": "$jRL$",
+        "b": "$R+jL$",
+        "c": "$R+jL\\omega$",
+        "d": "$jL\\omega$"
+      },
+      "correct": "c",
+      "explication": "L'impédance complexe d'un circuit RL série est $\\underline Z=R+jL\\omega$."
+    },
+    {
+      "id": "p2010_q19",
+      "text": "La période T d'un pendule composé (masse m, moment d'inertie I, b étant la distance entre le centre de gravité et l'axe de rotation) est :",
+      "choices": {
+        "a": "$2\\pi\\sqrt{\\dfrac{mgb}{I}}$",
+        "b": "$2\\pi\\sqrt{\\dfrac{I}{mgb}}$",
+        "c": "$2\\pi\\sqrt{\\dfrac{b}{I}}$",
+        "d": "$2\\pi\\sqrt{\\dfrac{b}{g}}$"
+      },
+      "correct": "b",
+      "explication": "Formule du pendule composé (pesant) : $T=2\\pi\\sqrt{I/(mgb)}$."
+    },
+    {
+      "id": "p2010_q20",
+      "text": "Quel angle critique correspond au passage de la lumière du verre (indice $1{,}54$) à l'eau (indice $1{,}33$) ?",
+      "choices": {
+        "a": "$60°$",
+        "b": "$45°$",
+        "c": "$30°$",
+        "d": "$15°$"
+      },
+      "correct": "a",
+      "explication": "$\\sin(\\theta_c)=\\dfrac{n_2}{n_1}=\\dfrac{1{,}33}{1{,}54}\\approx0{,}864\\Rightarrow\\theta_c\\approx60°$."
+    }
+  ]
+}
